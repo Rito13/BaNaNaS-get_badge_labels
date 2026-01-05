@@ -22,6 +22,7 @@
 | [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion |
 | [power_source](#power_source) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  |
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region |
+| [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 |  |
 | [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role |
 | [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone |
 
@@ -1741,6 +1742,10 @@
 | region/oceania/melanesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Melanesia |
 | region/oceania/micronesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Micronesia |
 | region/oceania/polynesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Polynesia |
+
+# roadtype_flag_no_houses
+| Label | Introduced by | When | Comment |
+| --- | --- | --- | --- |
 
 # role
 | Label | Introduced by | When | Comment |
