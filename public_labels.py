@@ -8,3 +8,4 @@ PUBLIC_LABELS = {
 	"power/electric/dc": [-1, 2025, 2, 27, "Electric (DC)"],
 	"power/diesel/diesel-hydraulic": [-1, 2025, 2, 27, "Diesel (Diesel-hydraulic)"],
 }
+

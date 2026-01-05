@@ -1,3 +1,8 @@
+import os
+from public_labels import PUBLIC_LABELS
+from datetime import date as Date
+
+
 def decode_dword(dword):
 	"""Uses little-endian byte order."""
 	return dword[0] + (dword[1] << 8) + (dword[2] << 16) + (dword[3] << 24)
@@ -65,6 +70,16 @@ def read_grf_file(file, debug=False):
 
 
 if __name__ == "__main__":
-	FILE = "Polish_Stations.grf"
-	DEBUG = True
-	read_grf_file(FILE, DEBUG)
+	DEBUG = False
+
+	for file in os.listdir("grfs"):
+		if not file.endswith(".grf"):
+			continue
+		public, private, hidden = read_grf_file("grfs/" + file, DEBUG)
+		for label in public:
+			if label not in PUBLIC_LABELS:
+				date = Date.today()
+				PUBLIC_LABELS[label] = [file, date.year, date.month, date.day, ""]
+
+	with open("public_labels.py", "w") as public_labels:
+		public_labels.write("PUBLIC_LABELS = " + PUBLIC_LABELS.__str__())
