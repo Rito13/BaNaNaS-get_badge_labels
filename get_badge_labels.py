@@ -14,6 +14,7 @@ def read_grf_file(file, debug=False):
 	out = []
 	private_out = []
 	hidden_out = []
+	grf_id = 0
 	with open(file, "rb") as f:
 		data = f.read()
 		sprites_start = decode_dword(data[10:14])
@@ -64,22 +65,50 @@ def read_grf_file(file, debug=False):
 								print("invalid prop:", prop)  # Corruption or newer grf version.
 								j += 1  # Skip one byte per badge.
 						j += 1
+				elif data[i] == 0x08:  # Maybe it is an action 0x08 instead.
+					grf_id = decode_dword(data[i + 5 : i + 1 : -1])  # Read grf id.
+					if debug:
+						print("GRF ID:", hex(grf_id))
 			i = i + size
 			size = decode_dword(data[i : i + 4])
-	return out, private_out, hidden_out
+	return out, private_out, hidden_out, grf_id
+
+
+def find_grf_date(id, debug=False):
+	"""Read last upload-date from BaNaNaS metadata."""
+	dir = "bananas/newgrf/" + hex(id)[2:] + "/versions"
+	if not os.path.isdir(dir):
+		if debug:
+			print("No data for:", hex(id))
+		return Date.today()
+	for file in os.listdir(dir):
+		with open(dir + "/" + file, "r") as f:
+			s = f.read()
+			if s.find('availability: "savegames-only"') == -1 and s.find('availability: "new-games"') != -1:
+				UD = "upload-date: "
+				i = s.find(UD) + len(UD)
+				date = Date.fromisoformat(s[i : i + 10])
+				if debug:
+					print("Date for", hex(id), "is", date.year, date.month, date.day)
+				return date
 
 
 if __name__ == "__main__":
-	DEBUG = False
+	DEBUG = True
 
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
 			continue
-		public, private, hidden = read_grf_file("grfs/" + file, DEBUG)
+		public, private, hidden, id = read_grf_file("grfs/" + file, DEBUG)
+
+		date = None
 		for label in public:
 			if label not in PUBLIC_LABELS:
-				date = Date.today()
-				PUBLIC_LABELS[label] = [file, date.year, date.month, date.day, ""]
+				date = date if date else find_grf_date(id, DEBUG)
+				PUBLIC_LABELS[label] = [id, date.year, date.month, date.day, ""]
+		uses = sorted(public + private + hidden)
+		with open("uses/" + hex(id)[2:] + ".py", "w") as uses_x:
+			uses_x.write("USES = " + uses.__str__())
 
 	with open("public_labels.py", "w") as public_labels:
 		public_labels.write("PUBLIC_LABELS = " + PUBLIC_LABELS.__str__())
