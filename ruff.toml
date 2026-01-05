@@ -1,0 +1,7 @@
+# Has to be ruff.toml and not pyproject.toml in order to vim see it.
+line-length = 320
+
+[format]
+indent-style = "tab"
+docstring-code-format = true
+skip-magic-trailing-comma = true
