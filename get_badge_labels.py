@@ -27,6 +27,7 @@ def read_grf_file(file, debug=False):
 						for c in data[i : i + size]:
 							print(hex(c), end=" ")
 						print()
+					# Just a test comment.
 					props = data[i + 2]  # How many properties are changed by this action 0x00.
 					badges = data[i + 3]  # How many badges are changed by this action 0x00.
 					j = i + 6 + badges  # Skip to the property number.
