@@ -116,6 +116,8 @@ def generate_markdown_page(labels, page_name, debug=False):
 			hierarchy[label] = []
 		else:  # It is a normall badge
 			if label[:first_slash] not in labels:
+				if debug:
+					print("Invalid badge:", label)
 				continue  # Skip badges that class for them was not introduced yet (they are invalid).
 			hierarchy[label[:first_slash]].append(label)
 	with open("gen_docs/" + page_name + ".md", "w") as md_file:
