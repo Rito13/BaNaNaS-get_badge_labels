@@ -109,7 +109,7 @@ def find_grf_name(id, debug=False):
 
 def generate_markdown_page(labels, page_name, debug=False):
 	labels = dict(labels)
-	hierarchy = {}
+	hierarchy = {-1: None}
 	for label in sorted(labels.keys()):
 		first_slash = label.find("/")
 		if first_slash == -1:  # It is a class.
@@ -119,20 +119,28 @@ def generate_markdown_page(labels, page_name, debug=False):
 				continue  # Skip badges that class for them was not introduced yet (they are invalid).
 			hierarchy[label[:first_slash]].append(label)
 	with open("gen_docs/" + page_name + ".md", "w") as md_file:
-		md_file.write("# Classes\n")
-		md_file.write("| Label | Introduced by | When | Comment |\n")
-		md_file.write("| --- | --- | --- | --- |\n")
+		hierarchy[-1] = list(hierarchy.keys())
+		hierarchy[-1].remove(-1)
 		for c in hierarchy.keys():
-			label = "[{0}](#{0})".format(c)  # Link to a table for this class.
-			grf_id = labels[c][0]
-			if grf_id == -1:  # It comes from default badges by Peter Nelson.
-				grf_id = "[OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655)"
-			elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
-				grf_id = "[Community](https://www.tt-forums.net)"
-			else:  # Introduced by grf from BaNaNaS.
-				grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
-			when = "{0}-{1:02d}-{2:02d}".format(labels[c][1], labels[c][2], labels[c][3])  # Introduction date.
-			md_file.write("| {0} | {1} | {2} | {3} |\n".format(label, grf_id, when, labels[c][4]))
+			if c == -1:  # It is a classes table.
+				md_file.write("# Classes\n")
+			else:  # It is a table for specific class.
+				md_file.write("\n# {}\n".format(c))
+			md_file.write("| Label | Introduced by | When | Comment |\n")
+			md_file.write("| --- | --- | --- | --- |\n")
+			for b in hierarchy[c]:
+				label = b
+				if c == -1:  # It is a classes table.
+					label = "[{0}](#{0})".format(b)  # Link to a table for this class.
+				grf_id = labels[b][0]
+				if grf_id == -1:  # It comes from default badges by Peter Nelson.
+					grf_id = "[OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655)"
+				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
+					grf_id = "[Community](https://www.tt-forums.net)"
+				else:  # Introduced by grf from BaNaNaS.
+					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
+				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
+				md_file.write("| {0} | {1} | {2} | {3} |\n".format(label, grf_id, when, labels[b][4]))
 
 
 if __name__ == "__main__":
