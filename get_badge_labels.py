@@ -132,7 +132,7 @@ def generate_markdown_page(labels, page_name, debug=False):
 			else:  # Introduced by grf from BaNaNaS.
 				grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 			when = "{0}-{1}-{2}".format(labels[c][1], labels[c][2], labels[c][3])  # Introduction date.
-			md_file.write("| {0} | {1} | {2} | {3} |\n".format(label, grf_id, when, labels[c][0]))  # New row.
+			md_file.write("| {0} | {1} | {2} | {3} |\n".format(label, grf_id, when, labels[c][4]))
 
 
 if __name__ == "__main__":
