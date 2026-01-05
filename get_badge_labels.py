@@ -3,6 +3,11 @@ def decode_dword(dword):
 	return dword[0] + (dword[1] << 8) + (dword[2] << 16) + (dword[3] << 24)
 
 def read_grf_file(file, debug = False):
+	''' Parses prowided .grf file and returns 3 arrays of labels: public, private and hidden. '''
+	# Outputs
+	out = []
+	private_out = []
+	hidden_out = []
 	with open(file, 'rb') as f:
 		data = f.read()
 		sprites_start = decode_dword(data[10:14])
@@ -36,18 +41,26 @@ def read_grf_file(file, debug = False):
 									label += chr(data[j])
 									j += 1
 								first_slash = label.find('/')
-								# Print badge label unless it is hidden (print also hidden if in debug mode).
-								if debug or (label[0:2] != "__" and label[first_slash + 1 : first_slash + 3] != "__"):
+								if debug:
 									if first_slash == -1: # A class badge.
 										print("class_label:", label)
 									else:
 										print("label:", label)
+								# Add badge label to corresponding output.
+								if label[0] == "_" or label[first_slash + 1] == "_": # Badge is private or hidden.
+									if label[0:2] == "__" or label[first_slash + 1 : first_slash + 3] == "__":
+										hidden_out.append(label)
+									else: # Badge is private.
+										private_out.append(label)
+								else: # Badge is public.
+									out.append(label)
 							else:
 								print("invalid prop:", prop) # Corruption or newer grf version.
 								j += 1 # Skip one byte per badge.
 						j += 1
 			i = i + size
 			size = decode_dword(data[i:i+4])
+	return out, private_out, hidden_out
 
 if __name__ == "__main__":
 	FILE = "Polish_Stations.grf"
