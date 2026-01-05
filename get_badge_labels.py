@@ -93,6 +93,48 @@ def find_grf_date(id, debug=False):
 				return date
 
 
+def find_grf_name(id, debug=False):
+	"""Read grf name from BaNaNaS metadata."""
+	path = "bananas/newgrf/" + hex(id)[2:] + "/global.yaml"
+	if not os.path.exists(path):
+		if debug:
+			print("No data for:", hex(id))
+		return hex(id)[2:]
+	with open(path, "r") as f:
+		s = f.read()
+		start = s.find('name: "') + 7
+		end = s.find('"', start)
+		return s[start:end]
+
+
+def generate_markdown_page(labels, page_name, debug=False):
+	labels = dict(labels)
+	hierarchy = {}
+	for label in sorted(labels.keys()):
+		first_slash = label.find("/")
+		if first_slash == -1:  # It is a class.
+			hierarchy[label] = []
+		else:  # It is a normall badge
+			if label[:first_slash] not in labels:
+				continue  # Skip badges that class for them was not introduced yet (they are invalid).
+			hierarchy[label[:first_slash]].append(label)
+	with open("gen_docs/" + page_name + ".md", "w") as md_file:
+		md_file.write("# Classes")
+		md_file.write("| Label | Introduced by | When | Comment |")
+		md_file.write("| --- | --- | --- | --- |")
+		for c in hierarchy.keys():
+			label = "[{0}](#{0})".format(c)  # Link to a table for this class.
+			grf_id = labels[c][0]
+			if grf_id == -1:  # It comes from default badges by Peter Nelson.
+				grf_id = "[OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655)"
+			elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
+				grf_id = "[Community](https://www.tt-forums.net)"
+			else:  # Introduced by grf from BaNaNaS.
+				grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
+			when = "{0}-{1}-{2}".format(labels[c][1], labels[c][2], labels[c][3])  # Introduction date.
+			md_file.write("| {0} | {1} | {2} | {3} |".format(label, grf_id, when, labels[c][0]))  # New row.
+
+
 if __name__ == "__main__":
 	DEBUG = True
 
@@ -109,6 +151,8 @@ if __name__ == "__main__":
 		uses = sorted(public + private + hidden)
 		with open("uses/" + hex(id)[2:] + ".py", "w") as uses_x:
 			uses_x.write("USES = " + uses.__str__())
+
+	generate_markdown_page(PUBLIC_LABELS, "public_labels", DEBUG)
 
 	with open("public_labels.py", "w") as public_labels:
 		public_labels.write("PUBLIC_LABELS = " + PUBLIC_LABELS.__str__())
