@@ -9,8 +9,8 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: actions/first-interaction@v3
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Thank you for your response, we will investigate the issue."
-        pr-message: "Thank you for your first contribution. Be patient review might take few months."
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        issue_message: "Thank you for your first response, we will investigate the issue."
+        pr_message: "Thank you for your first contribution. Be patient review might take few months."
