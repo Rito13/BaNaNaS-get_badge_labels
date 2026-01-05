@@ -51,5 +51,5 @@ def read_grf_file(file, debug = False):
 
 if __name__ == "__main__":
 	FILE = "Polish_Stations.grf"
-	DEBUG = False
+	DEBUG = True
 	read_grf_file(FILE, DEBUG)
