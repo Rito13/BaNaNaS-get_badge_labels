@@ -130,7 +130,7 @@ def generate_markdown_page(labels, page_name, debug=False):
 				md_file.write("# Classes\n")
 			else:  # It is a table for specific class.
 				md_file.write("\n# {}\n".format(c))
-			md_file.write("| Label | Introduced by | When | Comment | Occurrences |\n")
+			md_file.write("| Label | Introduced by | When | Comment | O. |\n")
 			md_file.write("| --- | --- | --- | --- | --- |\n")
 			for b in hierarchy[c]:
 				label = b
@@ -169,7 +169,7 @@ def add_uses_to_labels(labels, debug=False):
 			labels[label].append("0")
 		else:
 			li = labels[label][start_size]  # Just so the next line is shorter.
-			labels[label][start_size] = '[{0}](https://bananas.openttd.org "{1}")'.format(len(li), ", ".join(li))
+			labels[label][start_size] = '[{0}](https://bananas.openttd.org/package/newgrf/{2} "{1}")'.format(len(li), ", ".join(li), "/".join(li))
 
 
 if __name__ == "__main__":
