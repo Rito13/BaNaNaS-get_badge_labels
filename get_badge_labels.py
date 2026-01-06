@@ -1,6 +1,7 @@
 import os
 from public_labels import PUBLIC_LABELS
 from datetime import date as Date
+from sys import path as sys_path
 
 
 def decode_dword(dword):
@@ -119,7 +120,7 @@ def generate_markdown_page(labels, page_name, debug=False):
 				if debug:
 					print("No class for badge:", label)
 				hierarchy[label[:first_slash]] = []
-				labels[label[:first_slash]] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS"]
+				labels[label[:first_slash]] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", "0"]
 			hierarchy[label[:first_slash]].append(label)
 	with open("gen_docs/" + page_name + ".md", "w") as md_file:
 		hierarchy[-1] = list(hierarchy.keys())
@@ -129,8 +130,8 @@ def generate_markdown_page(labels, page_name, debug=False):
 				md_file.write("# Classes\n")
 			else:  # It is a table for specific class.
 				md_file.write("\n# {}\n".format(c))
-			md_file.write("| Label | Introduced by | When | Comment |\n")
-			md_file.write("| --- | --- | --- | --- |\n")
+			md_file.write("| Label | Introduced by | When | Comment | Occurrences |\n")
+			md_file.write("| --- | --- | --- | --- | --- |\n")
 			for b in hierarchy[c]:
 				label = b
 				if c == -1:  # It is a classes table.
@@ -143,7 +144,32 @@ def generate_markdown_page(labels, page_name, debug=False):
 				else:  # Introduced by grf from BaNaNaS.
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
-				md_file.write("| {0} | {1} | {2} | {3} |\n".format(label, grf_id, when, labels[b][4]))
+				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, labels[b][4], labels[b][5]))
+
+
+def add_uses_to_labels(labels, debug=False):
+	start_size = len(labels["flag"])  # Can be any label, `flag` used as it is added by OpenTTD default badges.
+	if not os.path.isdir("uses"):
+		return
+	sys_path.append("./uses")
+	for file in os.listdir("uses"):
+		if file[-3:] != ".py":
+			continue  # Someone has put invalid file into this directory.
+		grf_id = file[:-3]
+		module = __import__(grf_id)
+		for label in module.USES:
+			if label not in labels:
+				continue  # Lable from another scope.
+			if len(labels[label]) == start_size:
+				labels[label].append([grf_id])
+			else:
+				labels[label][start_size].append(grf_id)
+	for label in labels.keys():
+		if len(labels[label]) == start_size:
+			labels[label].append("0")
+		else:
+			li = labels[label][start_size]  # Just so the next line is shorter.
+			labels[label][start_size] = "[{0}]({1})".format(len(li), ", ".join(li))
 
 
 if __name__ == "__main__":
@@ -163,7 +189,8 @@ if __name__ == "__main__":
 		with open("uses/" + hex(id)[2:] + ".py", "w") as uses_x:
 			uses_x.write("USES = " + uses.__str__())
 
-	generate_markdown_page(PUBLIC_LABELS, "public_labels", DEBUG)
-
 	with open("public_labels.py", "w") as public_labels:
 		public_labels.write("PUBLIC_LABELS = " + PUBLIC_LABELS.__str__())
+
+	add_uses_to_labels(PUBLIC_LABELS, DEBUG)  # WARNING: PUBLIC_LABELS is passed by reference.
+	generate_markdown_page(PUBLIC_LABELS, "public_labels", DEBUG)
