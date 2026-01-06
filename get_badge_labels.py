@@ -169,7 +169,7 @@ def add_uses_to_labels(labels, debug=False):
 			labels[label].append("0")
 		else:
 			li = labels[label][start_size]  # Just so the next line is shorter.
-			labels[label][start_size] = "[{0}]({1})".format(len(li), ", ".join(li))
+			labels[label][start_size] = '[{0}](https://bananas.openttd.org "{1}")'.format(len(li), ", ".join(li))
 
 
 if __name__ == "__main__":
