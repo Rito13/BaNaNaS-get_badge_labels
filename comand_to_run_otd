@@ -1,0 +1,1 @@
+./openttd -D localhost:0000 < cmds.txt
