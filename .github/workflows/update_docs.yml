@@ -71,7 +71,8 @@ jobs:
 
         echo "::group::Build"
         echo "Running on $(nproc) cores"
-        cmake --build . -j $(nproc)
+        echo "Using max $(($(nproc) * 4)) jobs"
+        cmake --build . -j $(($(nproc) * 4))
         echo "::endgroup::"
 
         cd ../../
