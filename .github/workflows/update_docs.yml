@@ -44,16 +44,12 @@ jobs:
           libopusfile-dev \
           zlib1g-dev \
           # EOF
+        echo "::endgroup::"
 
         echo "::group::Install vcpkg dependencies"
-
-        # Disable vcpkg integration, as we mostly use system libraries.
-        mv vcpkg.json vcpkg-disabled.json
-
         # We only use breakpad from vcpkg, as its CMake files
         # are a bit special. So the Ubuntu's variant doesn't work.
         ${{ steps.vcpkg.outputs.vcpkg }} install breakpad
-
         echo "::endgroup::"
       env:
         DEBIAN_FRONTEND: noninteractive
