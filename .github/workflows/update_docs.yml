@@ -79,7 +79,7 @@ jobs:
 
     - name: Download grf updates
       run: |
-        mkdir ~/.local/share/openttd/content_download
+        mkdir -p ~/.local/share/openttd/content_download
         cp -r grf_tars ~/.local/share/openttd/content_download/newgrf
         python3 generate_cmds.py
         ./OpenTTD/build/openttd -D localhost:0000 < cmds.txt
