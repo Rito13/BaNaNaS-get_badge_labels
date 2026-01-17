@@ -1,0 +1,84 @@
+name: Update Docs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-docs:
+    name: Update Docs
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v6
+
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v6
+      with:
+        python-version: 3.x
+
+    - name: Download BaNaNaS
+      run: git clone https://github.com/OpenTTD/BaNaNaS.git bananas
+
+    - name: Setup vcpkg
+      id: vcpkg
+      uses: OpenTTD/actions/setup-vcpkg@v6
+
+    - name: Install dependencies
+      run: |
+        echo "::group::Update apt"
+        sudo apt-get update
+        echo "::endgroup::"
+
+        echo "::group::Install dependencies"
+        sudo apt-get install -y --no-install-recommends \
+          liballegro4-dev \
+          libcurl4-openssl-dev \
+          libfontconfig-dev \
+          libharfbuzz-dev \
+          libicu-dev \
+          liblzma-dev \
+          liblzo2-dev \
+          libogg-dev \
+          libopus-dev \
+          libopusfile-dev \
+          zlib1g-dev \
+          # EOF
+
+        echo "::group::Install vcpkg dependencies"
+
+        # Disable vcpkg integration, as we mostly use system libraries.
+        mv vcpkg.json vcpkg-disabled.json
+
+        # We only use breakpad from vcpkg, as its CMake files
+        # are a bit special. So the Ubuntu's variant doesn't work.
+        ${{ steps.vcpkg.outputs.vcpkg }} install breakpad
+
+        echo "::endgroup::"
+      env:
+        DEBIAN_FRONTEND: noninteractive
+
+    - name: Install GCC problem matcher
+      uses: ammaraskar/gcc-problem-matcher@master
+
+    - name: Build
+      run: |
+
+    - name: Build OpenTTD
+      run: |
+        git https://github.com/OpenTTD/OpenTTD.git OpenTTD
+        cd OpenTTD
+
+        mkdir build
+        cd build
+
+        echo "::group::CMake"
+        cmake .. -DCMAKE_TOOLCHAIN_FILE=${{ runner.temp }}/vcpkg/scripts/buildsystems/vcpkg.cmake
+        echo "::endgroup::"
+
+        echo "::group::Build"
+        echo "Running on $(nproc) cores"
+        cmake --build . -j $(nproc)
+        echo "::endgroup::"
+
+
