@@ -57,12 +57,9 @@ jobs:
     - name: Install GCC problem matcher
       uses: ammaraskar/gcc-problem-matcher@master
 
-    - name: Build
-      run: |
-
     - name: Build OpenTTD
       run: |
-        git https://github.com/OpenTTD/OpenTTD.git OpenTTD
+        git clone https://github.com/OpenTTD/OpenTTD.git OpenTTD
         cd OpenTTD
 
         mkdir build
@@ -77,4 +74,11 @@ jobs:
         cmake --build . -j $(nproc)
         echo "::endgroup::"
 
+        cd ../../
+
+    - name: Download grf updates
+      run: |
+        cp -r grf_tars ~/.local/share/openttd/content_download/newgrf
+        python3 generate_cmds.py
+        ./OpenTTD/build/openttd -D localhost:0000 < cmds.txt
 
