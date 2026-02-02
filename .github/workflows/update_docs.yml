@@ -99,6 +99,7 @@ jobs:
         python3 generate_cmds.py
         ./OpenTTD/build/openttd -D localhost:0000 < cmds.txt
 
+        mkdir grfs
         cd grf_tars
         for file in *; do
           rm $file
@@ -108,9 +109,29 @@ jobs:
             | sed -n "1p" \
           `
           cp ~/.local/share/openttd/content_download/newgrf/$file $file
+          mkdir tmp
+          tar -xC tmp -f $file
+          cp tmp/*/*.grf ../grfs/${file}.grf
+          rm -r tmp
         done
 
         echo ""
         ls
         cd ..
+    - name: Update docs
+      run: |
+        python3 get_badge_labels.py
 
+    - name: Commit changes
+      run: |
+        date=$(date +'%Y-%m-%d_%H-%M')
+        git add -u
+        git add grf_tars/*
+        git config --global user.email "kapitan.cypek@gmail.com"
+        git config --global user.name "Librarian (bot)"
+        git commit -m "Update: With the state of BaNaNaS at $date."
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v8
+      with:
+        branch: $date
