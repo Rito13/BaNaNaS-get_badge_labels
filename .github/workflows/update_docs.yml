@@ -1,6 +1,9 @@
 name: Update Docs
 
 on:
+  schedule:
+    - cron: "20 12 * * 1"
+    - cron: "47 2 * * 5"
   workflow_dispatch:
 
 jobs:
