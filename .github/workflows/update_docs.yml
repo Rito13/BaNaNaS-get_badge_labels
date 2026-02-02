@@ -103,7 +103,6 @@ jobs:
         cd grf_tars
         for file in *; do
           rm $file
-          echo $file
           file=`ls -t ~/.local/share/openttd/content_download/newgrf \
             | grep "${file:0:8}.*" \
             | sed -n "1p" \
@@ -114,10 +113,8 @@ jobs:
           cp tmp/*/*.grf ../grfs/${file}.grf
           rm -r tmp
         done
-
-        echo ""
-        ls
         cd ..
+        rm -r OpenTTD
     - name: Update docs
       run: |
         python3 get_badge_labels.py
