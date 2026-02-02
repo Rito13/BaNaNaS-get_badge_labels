@@ -1,3 +1,8 @@
+# Directories and files used by project but not stored in repository.
+bananas/
+grfs/
+cmds.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
