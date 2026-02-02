@@ -131,4 +131,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v8
       with:
-        branch: $date
+        branch: update-docs
+        branch-suffix: timestamp
+        author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
+        committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
