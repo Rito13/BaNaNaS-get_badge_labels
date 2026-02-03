@@ -130,8 +130,7 @@ jobs:
     - name: Commit changes
       run: |
         date=$(date +'%Y-%m-%d_%H-%M')
-        git add -u
-        git add grf_tars/*
+        git add --all
         git config --global user.email "kapitan.cypek@gmail.com"
         git config --global user.name "Librarian (bot)"
         git commit -m "Update: With the state of BaNaNaS at $date."
