@@ -54,6 +54,10 @@ jobs:
         # are a bit special. So the Ubuntu's variant doesn't work.
         ${{ steps.vcpkg.outputs.vcpkg }} install breakpad
         echo "::endgroup::"
+
+        echo "::group::Install ruff"
+        curl -LsSf https://astral.sh/ruff/install.sh | sh
+        echo "::endgroup::"
       env:
         DEBIAN_FRONTEND: noninteractive
 
@@ -121,6 +125,7 @@ jobs:
     - name: Update docs
       run: |
         python3 get_badge_labels.py
+        ruff format
 
     - name: Commit changes
       run: |
