@@ -11,8 +11,8 @@ USES = [
 	"polish_stations_platform_colour",
 	"polish_stations_platform_colour/gravel",
 	"polish_stations_platform_colour/grey",
-	"polish_stations_platform_colour/grey/hred",
-	"polish_stations_platform_colour/grey/tiled",
-	"polish_stations_platform_colour/grey/whitel",
+	"polish_stations_platform_colour/hred",
 	"polish_stations_platform_colour/red",
+	"polish_stations_platform_colour/tiled",
+	"polish_stations_platform_colour/whitel",
 ]
