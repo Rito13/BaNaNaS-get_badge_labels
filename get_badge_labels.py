@@ -1,7 +1,12 @@
 import os
-from public_labels import PUBLIC_LABELS
+from badge_labels import BADGE_LABELS
 from datetime import date as Date
 from sys import path as sys_path
+
+
+class LabelFlags:
+	AgingBadly = 0
+	Private = 1
 
 
 def decode_dword(dword):
@@ -108,20 +113,29 @@ def find_grf_name(id, debug=False):
 		return s[start:end]
 
 
-def generate_markdown_page(labels, page_name, debug=False):
+def generate_markdown_page(labels, page_name, required_flags: dict, debug=False):
+	flags_mask = 0
+	flags_values = 0
+	for flag in required_flags:
+		flags_mask |= 1 << flag
+		flags_values |= required_flags[flag] << flag
 	labels = dict(labels)
 	hierarchy = {-1: None}
 	for label in sorted(labels.keys()):
+		if labels[label][5] & flags_mask != flags_values:
+			continue
 		first_slash = label.find("/")
 		if first_slash == -1:  # It is a class.
 			hierarchy[label] = []
 		else:  # It is a normall badge
-			if label[:first_slash] not in labels:
-				if debug:
-					print("No class for badge:", label)
-				hierarchy[label[:first_slash]] = []
-				labels[label[:first_slash]] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", "0"]
-			hierarchy[label[:first_slash]].append(label)
+			class_label = label[:first_slash]
+			if class_label not in hierarchy:
+				if class_label not in labels:
+					if debug:
+						print("No class for badge:", label)
+					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", "0"]
+				hierarchy[class_label] = []
+			hierarchy[class_label].append(label)
 	with open("gen_docs/" + page_name + ".md", "w") as md_file:
 		hierarchy[-1] = list(hierarchy.keys())
 		hierarchy[-1].remove(-1)
@@ -144,7 +158,7 @@ def generate_markdown_page(labels, page_name, debug=False):
 				else:  # Introduced by grf from BaNaNaS.
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
-				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, labels[b][4], labels[b][5]))
+				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, labels[b][4], labels[b][-1]))
 
 
 def add_uses_to_labels(labels, debug=False):
@@ -167,6 +181,10 @@ def add_uses_to_labels(labels, debug=False):
 	for label in labels.keys():
 		if len(labels[label]) == start_size:
 			labels[label].append("0")
+			if labels[label][0] >= 0:
+				if debug:
+					print(label, "is aging badly.")
+				labels[label][5] |= 1 << LabelFlags.AgingBadly
 		else:
 			li = labels[label][start_size]  # Just so the next line is shorter.
 			labels[label][start_size] = '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
@@ -180,17 +198,22 @@ if __name__ == "__main__":
 			continue
 		public, private, hidden, id = read_grf_file("grfs/" + file, DEBUG)
 
-		date = None
+		date = find_grf_date(id, DEBUG)
 		for label in public:
-			if label not in PUBLIC_LABELS:
-				date = date if date else find_grf_date(id, DEBUG)
-				PUBLIC_LABELS[label] = [id, date.year, date.month, date.day, ""]
+			if label not in BADGE_LABELS:
+				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", 0]
+		for label in private:
+			if label not in BADGE_LABELS:
+				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private)]
+
 		uses = sorted(public + private + hidden)
 		with open("uses/" + hex(id)[2:] + ".py", "w") as uses_x:
 			uses_x.write("USES = " + uses.__str__())
 
-	with open("public_labels.py", "w") as public_labels:
-		public_labels.write("PUBLIC_LABELS = " + PUBLIC_LABELS.__str__())
+	with open("badge_labels.py", "w") as public_labels:
+		public_labels.write("BADGE_LABELS = " + BADGE_LABELS.__str__())
 
-	add_uses_to_labels(PUBLIC_LABELS, DEBUG)  # WARNING: PUBLIC_LABELS is passed by reference.
-	generate_markdown_page(PUBLIC_LABELS, "public_labels", DEBUG)
+	add_uses_to_labels(BADGE_LABELS, DEBUG)  # WARNING: BADGE_LABELS is passed by reference.
+	generate_markdown_page(BADGE_LABELS, "public_labels", {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
+	generate_markdown_page(BADGE_LABELS, "private_labels", {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
+	generate_markdown_page(BADGE_LABELS, "aging_badly_labels", {LabelFlags.AgingBadly: 1}, DEBUG)
