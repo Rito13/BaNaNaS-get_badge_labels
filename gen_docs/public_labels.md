@@ -288,7 +288,7 @@
 | --- | --- | --- | --- | --- |
 | ih_behaviour/caboose | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | ih_behaviour/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/lgv_capable | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 |  | [2](https://bananas.openttd.org/?message=GRFs:+55464951,+43411223 "55464951, 43411223") |
+| ih_behaviour/lgv_capable | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 |  | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+55464951 "43411223, 55464951") |
 | ih_behaviour/provides_easter_egg_haulage_speed_bonus | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | ih_behaviour/random_reverse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | ih_behaviour/randomised_wagon | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
