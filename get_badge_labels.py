@@ -186,7 +186,7 @@ def add_uses_to_labels(labels, debug=False):
 					print(label, "is aging badly.")
 				labels[label][5] |= 1 << LabelFlags.AgingBadly
 		else:
-			li = labels[label][start_size]  # Just so the next line is shorter.
+			li = sorted(labels[label][start_size])
 			labels[label][start_size] = '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
 
 
