@@ -4,7 +4,9 @@
 | [ih_formation_ruleset](#ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_tech_tree](#ih_tech_tree) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
-| [polish_stations_platform_colour](#polish_stations_platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [polish_stations_benches](#polish_stations_benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| [polish_stations_lanterns](#polish_stations_lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| [polish_stations_platform_colour](#polish_stations_platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
 
 # ih_formation_ruleset
 | Label | Introduced by | When | Comment | O. |
@@ -40,9 +42,30 @@
 | ih_vehicle_family/kaolin_hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 | ih_vehicle_family/zipper | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 
+# polish_stations_benches
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| polish_stations_benches/birch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+
+# polish_stations_lanterns
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| polish_stations_lanterns/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_lanterns/old | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_lanterns/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+
 # polish_stations_platform_colour
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
+| polish_stations_platform_colour/gravel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_platform_colour/grey | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
 | polish_stations_platform_colour/grey/hred | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
 | polish_stations_platform_colour/grey/tiled | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
 | polish_stations_platform_colour/grey/whitel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_platform_colour/hred | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-01-17 |  | 0 |
+| polish_stations_platform_colour/red | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | 0 |
+| polish_stations_platform_colour/tiled | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-01-17 |  | 0 |
+| polish_stations_platform_colour/whitel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-01-17 |  | 0 |

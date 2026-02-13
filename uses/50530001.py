@@ -1,18 +1,1 @@
-USES = [
-	"polish_stations_benches",
-	"polish_stations_benches/birch",
-	"polish_stations_benches/dutch",
-	"polish_stations_benches/modern",
-	"polish_stations_benches/oak",
-	"polish_stations_lanterns",
-	"polish_stations_lanterns/black",
-	"polish_stations_lanterns/old",
-	"polish_stations_lanterns/white",
-	"polish_stations_platform_colour",
-	"polish_stations_platform_colour/gravel",
-	"polish_stations_platform_colour/grey",
-	"polish_stations_platform_colour/hred",
-	"polish_stations_platform_colour/red",
-	"polish_stations_platform_colour/tiled",
-	"polish_stations_platform_colour/whitel",
-]
+USES = ["benches", "benches/birch", "benches/dutch", "benches/modern", "benches/oak", "lanterns", "lanterns/black", "lanterns/old", "lanterns/white", "platform_colour", "platform_colour/gravel", "platform_colour/grey", "platform_colour/hred", "platform_colour/red", "platform_colour/tiled", "platform_colour/whitel"]
