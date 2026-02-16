@@ -24,6 +24,9 @@
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | 0 |
 | [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 |  | [1](https://bananas.openttd.org/?message=GRFs:+55464950 "55464950") |
 | [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | 0 |
 
 # benches
@@ -1776,6 +1779,30 @@
 | role/universal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/utility | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Utility | 0 |
 | role/very_high_speed | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+
+# roof
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| roof/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/glass | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/metal | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/rusty | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/slate | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+
+# screen
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| screen/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| screen/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| screen/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+
+# shelter
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| shelter/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/sextant | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # zone
 | Label | Introduced by | When | Comment | O. |
