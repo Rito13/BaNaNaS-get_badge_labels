@@ -1755,4 +1755,6 @@ BADGE_LABELS = {
 	"roof/glass": [1347616769, 2026, 2, 14, "", 0],
 	"roof/metal": [1347616769, 2026, 2, 14, "", 0],
 	"roof/slate": [1347616769, 2026, 2, 14, "", 0],
+	"ih_formation_ruleset/vehicle_reports_as/magnum_vario": [1128337955, 2026, 3, 2, "", 0],
+	"ih_vehicle_family/magnum_vario": [1128337955, 2026, 3, 2, "", 0],
 }

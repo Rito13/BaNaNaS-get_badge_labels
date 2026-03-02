@@ -18,6 +18,7 @@
 | ih_formation_ruleset/vehicle_reports_as/express_intermodal_car_pony_gen_5B | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 | ih_formation_ruleset/vehicle_reports_as/express_intermodal_car_pony_gen_5C | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 | ih_formation_ruleset/vehicle_reports_as/kaolin_hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
+| ih_formation_ruleset/vehicle_reports_as/magnum_90 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 | ih_formation_ruleset/vehicle_reports_as/zipper | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 
 # ih_tech_tree
@@ -40,6 +41,7 @@
 | --- | --- | --- | --- | --- |
 | ih_vehicle_family/cargo_sprinter | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 | ih_vehicle_family/kaolin_hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
+| ih_vehicle_family/magnum_90 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 | ih_vehicle_family/zipper | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | 0 |
 
 # polish_stations_benches
