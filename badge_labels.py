@@ -1757,4 +1757,10 @@ BADGE_LABELS = {
 	"roof/slate": [1347616769, 2026, 2, 14, "", 0],
 	"ih_formation_ruleset/vehicle_reports_as/magnum_vario": [1128337955, 2026, 3, 2, "", 0],
 	"ih_vehicle_family/magnum_vario": [1128337955, 2026, 3, 2, "", 0],
+	"ih_formation_ruleset/alt_var_41_predicate/borealis": [1128337955, 2026, 3, 7, "", 0],
+	"ih_formation_ruleset/vehicle_reports_as/borealis": [1128337955, 2026, 3, 7, "", 0],
+	"ih_pantograph_display/is_cab/borealis": [1128337955, 2026, 3, 7, "", 0],
+	"ih_pantograph_display/requires_cab_present/borealis_express_railcar_passenger_trailer_car_pony_gen_6U": [1128337955, 2026, 3, 7, "", 0],
+	"ih_tech_tree/intro_year/2013": [1128337955, 2026, 3, 7, "", 0],
+	"ih_vehicle_family/borealis": [1128337955, 2026, 3, 7, "", 0],
 }
