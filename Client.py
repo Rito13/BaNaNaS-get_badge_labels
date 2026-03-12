@@ -1,0 +1,177 @@
+import socket
+from threading import Thread, RLock
+from os import _exit
+from queue import Queue
+from sys import argv
+# from Library import decode_error
+
+lock = RLock()
+GRF_IDS = {}
+grf_file = ""
+
+
+class Found(TypeError):
+	pass
+
+
+class bcolors:
+	HEADER = "\033[46m"
+	INFO = "\033[96m"
+	FAIL2 = "\033[95m"
+	OKBLUE = "\033[94m"
+	OKCYAN = "\033[36m"
+	OKGREEN = "\033[92m"
+	WARNING = "\033[93m"
+	FAIL = "\033[91m"
+	ENDC = "\033[0m"
+	BOLD = "\033[1m"
+	UNDERLINE = "\033[4m"
+
+
+def decode_error(s: str):
+	a = s.find("type=")
+	b = len("type=") + a
+	c = s.find(" ", b)
+	type = s[b:c]
+	s2 = s[:a] + s[c:]
+	return type, s2
+
+
+def int_from_bytes(bytes):
+	out = 0
+	i = 1
+	for b in bytes:
+		out += b * i
+		i *= 256
+	return out
+
+
+def bytes_from_int(num, size=0):
+	out = []
+	while num:
+		out.append(num % 256)
+		num = num // 256
+	while size and size > len(out):
+		out.append(0)
+	return out
+
+
+def read_string(start, grf_info):
+	out = []
+	for b in grf_info[start:]:
+		if b == 0:
+			break
+		out.append(chr(b))
+	return "".join(out)
+
+
+def decode_grf_info(grf_info):
+	if grf_info[3] != 2:
+		print("Got not grf.")
+		return
+	content_id = int_from_bytes(grf_info[4:8])
+	filesize = int_from_bytes(grf_info[8:12])
+	i = 12
+	data = {}
+	for key in ["name", "version", "url", "description"]:
+		data[key] = read_string(i, grf_info)
+		i += len(data[key]) + 1
+	unique_id = hex(int_from_bytes(grf_info[i : i + 4]))
+	md5 = int_from_bytes(grf_info[i + 4 : i + 20])
+	print(content_id, filesize, data["name"], data["version"], unique_id, md5)
+	lock.acquire()
+	GRF_IDS[unique_id] = content_id
+	lock.release()
+
+
+def save_grf(grf_data):
+	global grf_file
+	lock.acquire()
+	if grf_file == "":
+		lock.release()
+		if grf_data[3] != 2:
+			print("Got not grf.")
+			return
+		content_id = int_from_bytes(grf_data[4:8])
+		filesize = int_from_bytes(grf_data[8:12])
+		file_name = read_string(12, grf_data)
+		print(content_id, filesize, file_name)
+		lock.acquire()
+		grf_file = file_name + ".tar"
+		open(grf_file, "bw")  # Clear old content.
+		lock.release()
+		return
+	if len(grf_data) == 3:
+		grf_file = ""
+		lock.release()
+		print("Download completed!")
+		return
+	with open(grf_file, "ba") as f:
+		lock.release()
+		f.write(bytes(grf_data[3:]))
+
+
+def decoder(soc):
+	open("out.txt", "w")  # reset file
+	try:
+		length = 0
+		packet = []
+		while True:
+			data = soc.recv(16000)
+			with open("out.txt", "a") as f:
+				for b in data:
+					if length == -1:
+						length = b * 256 + packet[-1] - 1
+						packet = [packet[-1]]
+					f.write(str(b) + ",")
+					packet.append(b)
+					length -= 1
+					if length == 0:
+						if len(packet) > 2:
+							match packet[2]:
+								case 4:
+									decode_grf_info(packet)
+								case 6:
+									save_grf(packet)
+								case _:
+									print(f"Unknown packet type {packet[2]}")
+						f.write("\n")
+	except Found:
+		soc.close()
+		_exit(0)
+
+
+def client_program():
+	host = "content.openttd.org"
+	port = 3978  # socket server port number
+	client_socket = socket.socket()  # instantiate
+	client_socket.connect((host, port))
+	t1 = Thread(target=decoder, args=(client_socket,))
+	t1.start()
+	message = input(" -> ")  # take input
+	while True:
+		match message.lower().strip():
+			case "get_info":
+				versions = ["vanilla", "100.0", "jgrpp", "100.0"]  # Big number version to prevent updating it with each new release.
+				version_bytes = bytes([0]).join([s.encode() for s in versions + [""]])
+				client_socket.send(bytes([*bytes_from_int(9 + len(version_bytes), 2), 0, 2, 255, 255, 255, 255, len(versions) // 2]) + version_bytes)
+			case "download":
+				user_input = input("What? -> ")
+				what = []
+				for s in user_input.split(","):
+					what += bytes_from_int(int(s), 4)
+				print(*what)
+				client_socket.send(bytes([*bytes_from_int(5 + len(what), 2), 5, *bytes_from_int(len(what) // 4, 2), *what]))
+			case "get_pls":
+				lock.acquire()
+				print(GRF_IDS["0x50530001"])
+				lock.release()
+			case "exit":
+				break
+		message = input(" -> ")  # again take input
+	client_socket.close()  # close the connection
+	_exit(0)
+
+
+if __name__ == "__main__":
+	client_program()
