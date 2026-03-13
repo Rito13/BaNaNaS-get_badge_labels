@@ -103,13 +103,12 @@
 | flag/DO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dominican Republic | 0 |
 | flag/DZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Algeria | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/EC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ecuador | 0 |
-| flag/EE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Estonia | 0 |
+| flag/EE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Estonia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/EG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Egypt | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/EH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Sahara | 0 |
 | flag/ER | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eritrea | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/ES | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Spain | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/ET | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ethiopia | 0 |
-| flag/EU | [38424253](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 | European Union | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/FI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Finland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/FJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Fiji | 0 |
 | flag/FK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Falkland Islands | 0 |
@@ -119,7 +118,7 @@
 | flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | 0 |
 | flag/GB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Kingdom | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/GD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Grenada | 0 |
-| flag/GE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Georgia | 0 |
+| flag/GE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Georgia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/GF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Guiana | 0 |
 | flag/GG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guernsey | 0 |
 | flag/GH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ghana | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
@@ -291,7 +290,7 @@
 | flag/ZM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zambia | 0 |
 | flag/ZW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zimbabwe | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/east_germany | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | East Germany | 0 |
-| flag/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe | 0 |
+| flag/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/soviet_union | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | USSR | 0 |
 | flag/yugoslavia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yugoslavia | 0 |
 
