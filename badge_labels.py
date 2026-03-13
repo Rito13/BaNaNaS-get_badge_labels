@@ -256,7 +256,7 @@ BADGE_LABELS = {
 	"flag/ZM": [-1, 2025, 2, 27, "Zambia", 0],
 	"flag/ZW": [-1, 2025, 2, 27, "Zimbabwe", 0],
 	"flag/east_germany": [-1, 2025, 2, 27, "East Germany", 0],
-	"flag/europe": [-1, 2025, 2, 27, "Europe", 0],
+	"flag/europe": [-1, 2025, 2, 27, "Europe (Mostly used as European Union)", 0],
 	"flag/soviet_union": [-1, 2025, 2, 27, "USSR", 0],
 	"flag/yugoslavia": [-1, 2025, 2, 27, "Yugoslavia", 0],
 	"livery/2cc": [-1, 2025, 2, 27, "Dual company colour (2CC)", 0],
