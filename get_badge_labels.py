@@ -2,6 +2,7 @@ import os
 from badge_labels import BADGE_LABELS
 from datetime import date as Date
 from sys import path as sys_path
+import yaml
 
 
 class LabelFlags:

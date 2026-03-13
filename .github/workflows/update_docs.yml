@@ -28,6 +28,10 @@ jobs:
         echo "::group::Install ruff"
         curl -LsSf https://astral.sh/ruff/install.sh | sh
         echo "::endgroup::"
+
+        echo "::group::Install PyYAML"
+        python3 -m pip install PyYAML
+        echo "::endgroup::"
       env:
         DEBIAN_FRONTEND: noninteractive
 
