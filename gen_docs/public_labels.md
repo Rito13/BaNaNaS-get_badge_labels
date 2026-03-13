@@ -109,7 +109,7 @@
 | flag/ER | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eritrea | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/ES | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Spain | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/ET | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ethiopia | 0 |
-| flag/EU | [8-bit Badge Set](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 |  | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
+| flag/EU | [38424253](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 | European Union | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/FI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Finland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/FJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Fiji | 0 |
 | flag/FK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Falkland Islands | 0 |

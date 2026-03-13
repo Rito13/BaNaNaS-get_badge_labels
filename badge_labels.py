@@ -1763,5 +1763,5 @@ BADGE_LABELS = {
 	"ih_pantograph_display/requires_cab_present/borealis_express_railcar_passenger_trailer_car_pony_gen_6U": [1128337955, 2026, 3, 7, "", 0],
 	"ih_tech_tree/intro_year/2013": [1128337955, 2026, 3, 7, "", 0],
 	"ih_vehicle_family/borealis": [1128337955, 2026, 3, 7, "", 0],
-	"flag/EU": [943866451, 2026, 3, 13, "", 0],
+	"flag/EU": [943866451, 2026, 3, 13, "European Union", 0],
 }
