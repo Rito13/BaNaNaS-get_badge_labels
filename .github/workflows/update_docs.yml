@@ -29,103 +29,42 @@ jobs:
 
     - name: Install dependencies
       run: |
-        echo "::group::Update apt"
-        sudo apt-get update
-        echo "::endgroup::"
-
-        echo "::group::Install dependencies"
-        sudo apt-get install -y --no-install-recommends \
-          liballegro4-dev \
-          libcurl4-openssl-dev \
-          libfontconfig-dev \
-          libharfbuzz-dev \
-          libicu-dev \
-          liblzma-dev \
-          liblzo2-dev \
-          libogg-dev \
-          libopus-dev \
-          libopusfile-dev \
-          zlib1g-dev \
-          # EOF
-        echo "::endgroup::"
-
-        echo "::group::Install vcpkg dependencies"
-        # We only use breakpad from vcpkg, as its CMake files
-        # are a bit special. So the Ubuntu's variant doesn't work.
-        ${{ steps.vcpkg.outputs.vcpkg }} install breakpad
-        echo "::endgroup::"
-
         echo "::group::Install ruff"
         curl -LsSf https://astral.sh/ruff/install.sh | sh
         echo "::endgroup::"
       env:
         DEBIAN_FRONTEND: noninteractive
 
-    - name: Install GCC problem matcher
-      uses: ammaraskar/gcc-problem-matcher@master
-
-    - name: Get OpenGFX
-      run: |
-        mkdir -p ~/.local/share/openttd/baseset
-        cd ~/.local/share/openttd/baseset
-
-        echo "::group::Download OpenGFX"
-        curl -L https://cdn.openttd.org/opengfx-releases/0.6.0/opengfx-0.6.0-all.zip -o opengfx-all.zip
-        echo "::endgroup::"
-
-        echo "::group::Unpack OpenGFX"
-        unzip opengfx-all.zip
-        echo "::endgroup::"
-
-        rm -f opengfx-all.zip
-
-    - name: Build OpenTTD
-      run: |
-        git clone https://github.com/OpenTTD/OpenTTD.git OpenTTD
-        cd OpenTTD
-
-        mkdir build
-        cd build
-
-        echo "::group::CMake"
-        cmake ..
-        echo "::endgroup::"
-
-        echo "::group::Build"
-        echo "Running on $(nproc) cores"
-        echo "Using max $(($(nproc) * 4)) jobs"
-        cmake --build . -j $(($(nproc) * 4))
-        echo "::endgroup::"
-
-        cd ../../
-
     - name: Download grf updates
       run: |
-        mkdir -p ~/.local/share/openttd/content_download
-        cp -r grf_tars ~/.local/share/openttd/content_download/newgrf
-        python3 generate_cmds.py
-        ./OpenTTD/build/openttd -D localhost:0000 < cmds.txt
+        cd bananas
+        git diff --name-only --diff-filter=A $(cat ../last_bananas_commit) HEAD newgrf/ | cut -d / -f 2 | uniq > ../grfs_to_download
+        cd ..
+
+        mkdir grf_tars
+        ipython3 Client.py $(cat grfs_to_download)
+        rm grfs_to_download
 
         mkdir grfs
         cd grf_tars
         for file in *; do
-          rm $file
-          file=`ls -t ~/.local/share/openttd/content_download/newgrf \
-            | grep "${file:0:8}.*" \
-            | sed -n "1p" \
-          `
-          cp ~/.local/share/openttd/content_download/newgrf/$file $file
           mkdir tmp
           tar -xC tmp -f $file
           cp tmp/*/*.grf ../grfs/${file}.grf
           rm -r tmp
         done
         cd ..
-        rm -r OpenTTD
+
     - name: Update docs
       run: |
         python3 get_badge_labels.py
         ruff format
+
+    - name: Update BaNaNaS commit hash
+      run: |
+        cd bananas
+        git rev-parse HEAD > ../last_bananas_commit
+        cd ..
 
     - name: Commit changes
       run: |

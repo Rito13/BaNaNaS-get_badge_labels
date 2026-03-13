@@ -1,6 +1,7 @@
 # Directories and files used by project but not stored in repository.
 bananas/
 grfs/
+grf_tars/
 cmds.txt
 
 # Byte-compiled / optimized / DLL files
