@@ -42,7 +42,7 @@ jobs:
         cd ..
 
         mkdir grf_tars
-        ipython3 Client.py $(cat grfs_to_download)
+        python3 Client.py $(cat grfs_to_download)
         rm grfs_to_download
 
         mkdir grfs
