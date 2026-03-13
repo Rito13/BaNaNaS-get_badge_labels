@@ -3,6 +3,7 @@ bananas/
 grfs/
 grf_tars/
 cmds.txt
+out.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
