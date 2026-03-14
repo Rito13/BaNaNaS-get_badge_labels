@@ -71,7 +71,7 @@ jobs:
         git add --all
         git config --global user.email "kapitan.cypek@gmail.com"
         git config --global user.name "Librarian (bot)"
-        git commit -m "Update: With the state of BaNaNaS at $date."
+        git commit -m "Update: with the state of BaNaNaS at $date."
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v8
