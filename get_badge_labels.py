@@ -1,5 +1,4 @@
 import os
-from badge_labels import BADGE_LABELS
 from datetime import date as Date
 from sys import path as sys_path
 import yaml
@@ -166,13 +165,12 @@ def add_uses_to_labels(labels, debug=False):
 	start_size = len(labels["flag"])  # Can be any label, `flag` used as it is added by OpenTTD default badges.
 	if not os.path.isdir("uses"):
 		return
-	sys_path.append("./uses")
 	for file in os.listdir("uses"):
-		if file[-3:] != ".py":
+		if file[-5:] != ".yaml":
 			continue  # Someone has put invalid file into this directory.
-		grf_id = file[:-3]
-		module = __import__(grf_id)
-		for label in module.USES:
+		grf_id = file[:-5]
+		module = yaml.safe_load(open(os.path.join("uses", file), "r"))
+		for label in module:
 			if label not in labels:
 				continue  # Lable from another scope.
 			if len(labels[label]) == start_size:
@@ -193,6 +191,7 @@ def add_uses_to_labels(labels, debug=False):
 
 if __name__ == "__main__":
 	DEBUG = True
+	BADGE_LABELS = yaml.safe_load(open("badge_labels.yaml", "r"))
 
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
@@ -208,11 +207,11 @@ if __name__ == "__main__":
 				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private)]
 
 		uses = sorted(public + private + hidden)
-		with open("uses/" + hex(id)[2:] + ".py", "w") as uses_x:
-			uses_x.write("USES = " + uses.__str__())
+		with open("uses/" + hex(id)[2:] + ".yaml", "w") as uses_x:
+			yaml.dump(uses, uses_x)
 
-	with open("badge_labels.py", "w") as public_labels:
-		public_labels.write("BADGE_LABELS = " + BADGE_LABELS.__str__())
+	with open("badge_labels.yaml", "w") as public_labels:
+		yaml.dump(BADGE_LABELS, public_labels)
 
 	add_uses_to_labels(BADGE_LABELS, DEBUG)  # WARNING: BADGE_LABELS is passed by reference.
 	generate_markdown_page(BADGE_LABELS, "public_labels", {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
