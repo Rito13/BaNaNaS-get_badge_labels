@@ -167,7 +167,8 @@ def add_uses_to_labels(labels, debug=False):
 		if file[-5:] != ".yaml":
 			continue  # Someone has put invalid file into this directory.
 		grf_id = file[:-5]
-		module = yaml.safe_load(open(os.path.join("uses", file), "r"))
+		with open(os.path.join("uses", file), "r") as f:
+			module = yaml.safe_load(f)
 		for label in module:
 			if label not in labels:
 				continue  # Lable from another scope.
@@ -189,7 +190,8 @@ def add_uses_to_labels(labels, debug=False):
 
 if __name__ == "__main__":
 	DEBUG = True
-	BADGE_LABELS = yaml.safe_load(open("badge_labels.yaml", "r"))
+	with open("badge_labels.yaml", "r") as f:
+		BADGE_LABELS = yaml.safe_load(f)
 
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):

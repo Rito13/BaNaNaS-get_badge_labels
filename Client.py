@@ -71,7 +71,7 @@ def save_grf(grf_data, report_queue):
 		print(content_id, filesize, file_name)
 		lock.acquire()
 		grf_file = os_path.join("grf_tars", f"{file_name}.tar")
-		open(grf_file, "bw")  # Clear old content.
+		open(grf_file, "bw").close()  # Clear old content.
 		lock.release()
 		return
 	if len(grf_data) == 3:
@@ -86,7 +86,7 @@ def save_grf(grf_data, report_queue):
 
 
 def decoder(soc, report_queue):
-	open("out.txt", "w")  # reset file
+	open("out.txt", "w").close()  # Clear old content.
 	length = 0
 	packet = []
 	while True:
