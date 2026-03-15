@@ -95,6 +95,9 @@ def find_grf_date(id, debug=False):
 				if debug:
 					print("Date for", hex(id), "is", date.year, date.month, date.day)
 				return date
+	if debug:
+		print(hex(id), "is no longer available for new games.")
+	return Date.today()  # But somehow we have downloaded it.
 
 
 def find_grf_name(id, debug=False):
