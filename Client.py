@@ -1,6 +1,6 @@
 import socket
 from threading import Thread, RLock
-from os import _exit
+from os import _exit, path as os_path
 from queue import Queue
 from sys import argv
 from time import sleep
@@ -98,7 +98,7 @@ def save_grf(grf_data, report_queue):
 		file_name = read_string(12, grf_data)
 		print(content_id, filesize, file_name)
 		lock.acquire()
-		grf_file = f"grf_tars/{file_name}.tar"
+		grf_file = os_path.join("grf_tars", f"{file_name}.tar")
 		open(grf_file, "bw")  # Clear old content.
 		lock.release()
 		return

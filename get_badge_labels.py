@@ -82,7 +82,7 @@ def read_grf_file(file, debug=False):
 
 def find_grf_date(id, debug=False):
 	"""Read last upload-date from BaNaNaS metadata."""
-	dir = "bananas/newgrf/" + hex(id)[2:] + "/versions"
+	dir = os.path.join("bananas", "newgrf", hex(id)[2:], "versions")
 	if not os.path.isdir(dir):
 		if debug:
 			print("No data for:", hex(id))
@@ -99,7 +99,7 @@ def find_grf_date(id, debug=False):
 
 def find_grf_name(id, debug=False):
 	"""Read grf name from BaNaNaS metadata."""
-	path = "bananas/newgrf/" + hex(id)[2:] + "/global.yaml"
+	path = os.path.join("bananas", "newgrf", hex(id)[2:], "global.yaml")
 	if not os.path.exists(path):
 		if debug:
 			print("No data for:", hex(id))
@@ -132,7 +132,7 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False)
 					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", "0"]
 				hierarchy[class_label] = []
 			hierarchy[class_label].append(label)
-	with open("gen_docs/" + page_name + ".md", "w") as md_file:
+	with open(os.path.join("gen_docs", f"{page_name}.md"), "w") as md_file:
 		hierarchy[-1] = list(hierarchy.keys())
 		hierarchy[-1].remove(-1)
 		for c in hierarchy.keys():
@@ -192,7 +192,7 @@ if __name__ == "__main__":
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
 			continue
-		public, private, hidden, id = read_grf_file("grfs/" + file, DEBUG)
+		public, private, hidden, id = read_grf_file(os.path.join("grfs", file), DEBUG)
 
 		date = find_grf_date(id, DEBUG)
 		for label in public:
@@ -203,7 +203,7 @@ if __name__ == "__main__":
 				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private)]
 
 		uses = sorted(public + private + hidden)
-		with open("uses/" + hex(id)[2:] + ".yaml", "w") as uses_x:
+		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
 	with open("badge_labels.yaml", "w") as public_labels:
