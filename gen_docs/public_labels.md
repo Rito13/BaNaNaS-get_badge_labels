@@ -1,12 +1,12 @@
 # Classes
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Behaviour | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_distributed_power](#ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
 | [ih_formation_ruleset](#ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [ih_gen](#ih_gen) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| [ih_gen](#ih_gen) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gen | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_livery_def](#ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
 | [ih_pantograph_display](#ih_pantograph_display) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
 | [ih_railtype](#ih_railtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -14,28 +14,28 @@
 | [ih_tech_tree](#ih_tech_tree) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
 | [ih_wagon_subtype](#ih_wagon_subtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [lanterns](#lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [lanterns](#lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Lanterns | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [livery](#livery) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Livery | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | 0 |
-| [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
-| [power_source](#power_source) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| [power_source](#power_source) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Power Source | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | 0 |
-| [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 |  | [1](https://bananas.openttd.org/?message=GRFs:+55464950 "55464950") |
+| [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 | no houses | [1](https://bananas.openttd.org/?message=GRFs:+55464950 "55464950") |
 | [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Roof | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Screen | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Shelter | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | 0 |
 
 # benches
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| benches/birch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| benches/birch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Birch | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Dutch | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Modern | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Oak | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # flag
 | Label | Introduced by | When | Comment | O. |
@@ -297,15 +297,15 @@
 # ih_behaviour
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| ih_behaviour/caboose | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/lgv_capable | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 |  | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+55464951 "43411223, 55464951") |
+| ih_behaviour/caboose | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | No gameplay effect | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_behaviour/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Driving Cab - attach to front or rear of train, with at least one other engine | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_behaviour/lgv_capable | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | High speed capable | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+55464951 "43411223, 55464951") |
 | ih_behaviour/provides_easter_egg_haulage_speed_bonus | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | ih_behaviour/random_reverse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/randomised_wagon | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/receives_easter_egg_haulage_speed_bonus | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/restaurant_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_behaviour/tilt | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_behaviour/randomised_wagon | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Randomised choice of wagon | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_behaviour/receives_easter_egg_haulage_speed_bonus | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express haulable | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_behaviour/restaurant_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Eliminates running costs for all Passenger Coaches and High Speed Coaches in the train | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_behaviour/tilt | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Tilts for faster cornering | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 
 # ih_distributed_power
 | Label | Introduced by | When | Comment | O. |
@@ -758,12 +758,12 @@
 # ih_gen
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| ih_gen/1 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_gen/2 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_gen/3 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_gen/4 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_gen/5 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| ih_gen/6 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_gen/1 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | 1 | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_gen/2 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | 2 | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_gen/3 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | 3 | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_gen/4 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | 4 | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_gen/5 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | 5 | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| ih_gen/6 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | 6 | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 
 # ih_livery_def
 | Label | Introduced by | When | Comment | O. |
@@ -1617,56 +1617,56 @@
 # lanterns
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| lanterns/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| lanterns/old | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| lanterns/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| lanterns/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Black | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| lanterns/old | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Old | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| lanterns/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | White | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # livery
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | livery/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dual company colour (2CC) | 0 |
-| livery/iron_horse/banger_blue | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/classic_lines | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/complement_company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/conventional_wisdom | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/freight_black | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/freight_industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/freight_red | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/fruit_ripple | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/grey_horse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/inversions | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/lower_lines | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/mail_by_rail | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/marginal_gains | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/metroland | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/rain_or_shine | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_bumblebee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_clover_ochre_silver_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_clover_ochre_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_complement_company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_grey_rust_nightshade | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_ochre_sand | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_oil_black_obsidian_nightshade | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_oxide_rust | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_silver_grey_pewter | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_silver_pewter | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_sulphur_ochre | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_teal_ocean_teal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_teal_pewter_silver | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_variety_gemstone | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_variety_limewash | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/random_liveries_violet_teal_ocean_teal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/ridewell | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/show_pony | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/stock_standard | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/supergraphic | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/sure_pace | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/vanilla | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/vapid_voyager | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/vinyl_vector | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/workhorse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/banger_blue | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Basic Banger | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/classic_lines | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Classic Lines | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Company Colour | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/complement_company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Company Colour Adjacent | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/conventional_wisdom | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Conventional Wisdom | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/freight_black | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Dark Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/freight_industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 | Industrial Yellow | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/freight_red | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Flame Red | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/fruit_ripple | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Fruit Ripple | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/grey_horse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Grey Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Hazard Yellow | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/inversions | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Inversions | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/lower_lines | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Lower Lines | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/mail_by_rail | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Mail by Rail | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/marginal_gains | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 | Marginal Gains | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/metroland | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Metroland | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/rain_or_shine | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 | Rain or Shine | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_bumblebee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Bumblebee | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_clover_ochre_silver_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Clover Fields | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_clover_ochre_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Pineapple | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_complement_company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Company Colour Mix | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_grey_rust_nightshade | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Rustbelt | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_ochre_sand | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Desert Sand | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_oil_black_obsidian_nightshade | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Night Black | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_oxide_rust | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Oxide | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_silver_grey_pewter | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Silver Smoke | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_silver_pewter | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Platinum | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_sulphur_ochre | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Sulphur Mix | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_teal_ocean_teal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Ocean Teal | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_teal_pewter_silver | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Ocean Silver | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_variety_gemstone | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gemstone | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_variety_limewash | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Limewash | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/random_liveries_violet_teal_ocean_teal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Soap Bubbles | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/ridewell | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Ridewell | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/show_pony | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Specials | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/stock_standard | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Stock Standard | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/supergraphic | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Supergraphic | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/sure_pace | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Sure Pace | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/vanilla | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | VANILLA | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/vapid_voyager | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vapid Voyager | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/vinyl_vector | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vinyl Vector | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/workhorse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Work Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/random/1cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on first company colour | 0 |
 | livery/random/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on second company colour | 0 |
 
@@ -1682,12 +1682,12 @@
 # platform_colour
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| platform_colour/gravel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| platform_colour/grey | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| platform_colour/hred | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| platform_colour/red | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| platform_colour/tiled | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| platform_colour/whitel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| platform_colour/gravel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Brown Gravel | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| platform_colour/grey | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Grey | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| platform_colour/hred | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Red-Striped Grey | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| platform_colour/red | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Red | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| platform_colour/tiled | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Tiled Grey | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| platform_colour/whitel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | White-Lined Grey | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # power
 | Label | Introduced by | When | Comment | O. |
@@ -1706,22 +1706,22 @@
 | power/electric/dc/3kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 3kV) | 0 |
 | power/electric/dc/600v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 600V) | 0 |
 | power/electric/dc/750v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 750V) | 0 |
-| power/electrified | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 |  | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
-| power/electrified_third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 |  | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
+| power/electrified | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | electrified | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
+| power/electrified_third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | electrified and third rail | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
 | power/steam | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Steam | 0 |
-| power/third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 |  | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
+| power/third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | third rail | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
 | power/turbine | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gas Turbine | 0 |
 
 # power_source
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| power_source/battery_hybrid | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power_source/diesel | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| power_source/battery_hybrid | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Battery Hybrid | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| power_source/diesel | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Diesel | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power_source/dual_voltage | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power_source/electro_diesel | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power_source/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power_source/ohle | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power_source/steam | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| power_source/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Metro | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| power_source/ohle | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Electric | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| power_source/steam | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Steam | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 
 # region
 | Label | Introduced by | When | Comment | O. |
@@ -1762,53 +1762,53 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | role/banking | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Banking | 0 |
-| role/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/express | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Driving Cab | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/express | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/express_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express freight | 0 |
 | role/express_passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express passenger | 0 |
 | role/freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/gronk | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/gronk | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gronk! | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/heavy_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heavy freight | 0 |
-| role/high_power_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/high_power_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/light_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Light freight | 0 |
-| role/lolz | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/lolz | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Lolz | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/mail | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mail | 0 |
-| role/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/metro_freight | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Very High Capacity Urban | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/metro_freight | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Urban Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | 0 |
 | role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | 0 |
 | role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | 0 |
 | role/restaurant_car | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Restaurant car | 0 |
 | role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | 0 |
 | role/snowplough | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Snowplough | 0 |
-| role/suburban_or_universal_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/universal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/suburban_or_universal_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | High Capacity | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/universal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | General Purpose | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/utility | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Utility | 0 |
-| role/very_high_speed | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/very_high_speed | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | InterCity Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 
 # roof
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| roof/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| roof/glass | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| roof/metal | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| roof/rusty | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| roof/slate | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/glass | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Glass | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/metal | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Metal | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/rusty | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Rusty | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| roof/slate | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Slate | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # screen
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| screen/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| screen/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| screen/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| screen/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Black | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| screen/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| screen/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | White | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # shelter
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| shelter/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| shelter/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| shelter/sextant | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| shelter/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 |  | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Black | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/sextant | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Sextant | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| shelter/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | White | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # zone
 | Label | Introduced by | When | Comment | O. |

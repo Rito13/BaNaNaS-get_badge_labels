@@ -1,7 +1,7 @@
 import os
 from datetime import date as Date
 import yaml
-from decode import int_from_bytes
+from decode import int_from_bytes, is_extended_byte_a_word, int_from_extended_byte, read_string
 
 
 class LabelFlags:
@@ -15,9 +15,11 @@ def read_grf_file(file, debug=False):
 	out = []
 	private_out = []
 	hidden_out = []
+	strings = {}
 	grf_id = 0
 	with open(file, "rb") as f:
 		data = f.read()
+		badges = {}
 		_sprites_start = int_from_bytes(data[10:14])  # Remove leading `_` if used.
 		i = 15  # i short for iterator. 15 skips file header of grf format 2.
 		size = int_from_bytes(data[i : i + 4])  # Read size of first sprite.
@@ -35,41 +37,63 @@ def read_grf_file(file, debug=False):
 							print(hex(c), end=" ")
 						print()
 					props = data[i + 2]  # How many properties are changed by this action 0x00.
-					badges = data[i + 3]  # How many badges are changed by this action 0x00.
-					j = i + 6 + badges  # Skip to the property number.
+					num_of_badges = data[i + 3]  # How many badges are changed by this action 0x00.
+					first_badge = int_from_extended_byte(data[i + 4 : i + 7])
+					j = i + 4 + (3 if is_extended_byte_a_word(data[i + 4]) else 1)  # Skip to the property number.
 					for __p__ in range(props):
 						prop = data[j]  # Read what property is set.
-						for __b__ in range(badges):
-							if prop == 0x09:  # Prop is badge flags.
-								j += 4
-							elif prop == 0x08:  # Prop is badge label.
+						if prop == 0x09:  # Prop is badge flags.
+							j += 4
+						elif prop == 0x08:  # Prop is badge label.
+							j += 1
+							label = ""
+							while data[j] != 0x00:  # Byte 0x00 terminates the string.
+								label += chr(data[j])
 								j += 1
-								label = ""
-								while data[j] != 0x00:  # Byte 0x00 terminates the string.
-									label += chr(data[j])
-									j += 1
-								first_slash = label.find("/")
-								if debug:
-									if first_slash == -1:  # A class badge.
-										print("class_label:", label)
-									else:
-										print("label:", label)
-								# Add badge label to corresponding output.
-								if label[0] == "_" or label[first_slash + 1] == "_":  # Badge is private or hidden.
-									if label[0:2] == "__" or label[first_slash + 1 : first_slash + 3] == "__":
-										hidden_out.append(label)
-									else:  # Badge is private.
-										private_out.append(label)
-								else:  # Badge is public.
-									out.append(label)
-							else:
-								print("invalid prop:", prop)  # Corruption or newer grf version.
-								j += 1  # Skip one byte per badge.
+							first_slash = label.find("/")
+							if debug:
+								if first_slash == -1:  # A class badge.
+									print("class_label:", label)
+								else:
+									print("label:", label)
+							# Add badge label to corresponding output.
+							if label[0] == "_" or label[first_slash + 1] == "_":  # Badge is private or hidden.
+								if label[0:2] == "__" or label[first_slash + 1 : first_slash + 3] == "__":
+									hidden_out.append(label)
+								else:  # Badge is private.
+									private_out.append(label)
+							else:  # Badge is public.
+								out.append(label)
+							for b in range(num_of_badges):
+								badges[first_badge + b] = label
+						else:
+							print("invalid prop:", prop)  # Corruption or newer grf version.
+							break  # We don't know how long this property is, therefore we can't read any more properties :(
 						j += 1
 				elif data[i] == 0x08:  # Maybe it is an action 0x08 instead.
 					grf_id = int_from_bytes(data[i + 5 : i + 1 : -1])  # Read grf id.
 					if debug:
 						print("GRF ID:", hex(grf_id))
+				elif data[i] == 0x04 and data[i + 1] == 0x15:  # Might also be text string for badges.
+					number_of_strings = data[i + 3]
+					if data[i + 2] & 0x7F == 0x7F:  # Read only default language.
+						if debug:  # If debug print all bits for that sprite.
+							print(size, " * ", end=" ")
+							for c in data[i : i + size]:
+								print(hex(c), end=" ")
+							print()
+						offset = int_from_extended_byte(data[i + 4 : i + 7])
+						j = i + 4 + (3 if is_extended_byte_a_word(data[i + 4]) else 1)  # Skip to the text.
+						if data[i + 2] & 0x80:  # Offset is a word, not an extended byte.
+							offset = int_from_bytes(data[i + 4 : i + 6])
+							j = i + 6
+						for badge in range(offset, offset + number_of_strings):
+							string = read_string(j, data)
+							if badge in badges:
+								strings[badges[badge]] = string
+								if debug:
+									print(badges[badge], "\t\t", string)
+							j += len(string) + 1  # Text is followed by 0x00 byte.
 			i = i + size
 			size = int_from_bytes(data[i : i + 4])
 	return out, private_out, hidden_out, grf_id, strings
@@ -152,7 +176,8 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False)
 				else:  # Introduced by grf from BaNaNaS.
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
-				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, labels[b][4], labels[b][-1]))
+				comment = labels[b][4] if labels[b][4] else labels[b][6]  # Use string from grf if no comment provided.
+				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, comment, labels[b][-1]))
 
 
 def add_uses_to_labels(labels, debug=False):
@@ -177,7 +202,7 @@ def add_uses_to_labels(labels, debug=False):
 			labels[label].append("0")
 			if labels[label][0] >= 0:
 				if debug:
-					print(label, "is aging badly.")
+					pass  # print(label, "is aging badly.")
 				labels[label][5] |= 1 << LabelFlags.AgingBadly
 		else:
 			li = sorted(labels[label][start_size])
@@ -192,15 +217,18 @@ if __name__ == "__main__":
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
 			continue
-		public, private, hidden, id = read_grf_file(os.path.join("grfs", file), DEBUG)
+		public, private, hidden, id, strings = read_grf_file(os.path.join("grfs", file), DEBUG)
 
 		date = find_grf_date(id, DEBUG)
 		for label in public:
 			if label not in BADGE_LABELS:
-				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", 0]
+				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", 0, ""]
 		for label in private:
 			if label not in BADGE_LABELS:
-				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private)]
+				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private), ""]
+		for label in strings.keys():
+			if BADGE_LABELS[label][6] == "" or BADGE_LABELS[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
+				BADGE_LABELS[label][6] = strings[label]
 
 		uses = sorted(public + private + hidden)
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:

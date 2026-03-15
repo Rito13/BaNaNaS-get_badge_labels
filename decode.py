@@ -27,3 +27,13 @@ def read_string(start, bytes):
 			break
 		out.append(chr(b))
 	return "".join(out)
+
+
+def is_extended_byte_a_word(byte):
+	return byte == 0xFF
+
+
+def int_from_extended_byte(bytes):
+	if is_extended_byte_a_word(bytes[0]):
+		return int_from_bytes(bytes[1:])
+	return bytes[0]
