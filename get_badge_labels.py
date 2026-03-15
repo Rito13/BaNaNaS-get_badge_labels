@@ -1,16 +1,12 @@
 import os
 from datetime import date as Date
 import yaml
+from decode import int_from_bytes
 
 
 class LabelFlags:
 	AgingBadly = 0
 	Private = 1
-
-
-def decode_dword(dword):
-	"""Uses little-endian byte order."""
-	return dword[0] + (dword[1] << 8) + (dword[2] << 16) + (dword[3] << 24)
 
 
 def read_grf_file(file, debug=False):
@@ -22,9 +18,9 @@ def read_grf_file(file, debug=False):
 	grf_id = 0
 	with open(file, "rb") as f:
 		data = f.read()
-		_sprites_start = decode_dword(data[10:14])  # Remove leading _ if used.
+		_sprites_start = int_from_bytes(data[10:14])  # Remove leading `_` if used.
 		i = 15  # i short for iterator. 15 skips file header of grf format 2.
-		size = decode_dword(data[i : i + 4])  # Read size of first sprite.
+		size = int_from_bytes(data[i : i + 4])  # Read size of first sprite.
 		while size != 0:  # Size == 0 marks end of data section.
 			i = i + 5  # Skip size dword and info byte.
 			if data[i - 1] != 0xFF:  # Check if info byte is not a pseudo sprite.
@@ -71,12 +67,12 @@ def read_grf_file(file, debug=False):
 								j += 1  # Skip one byte per badge.
 						j += 1
 				elif data[i] == 0x08:  # Maybe it is an action 0x08 instead.
-					grf_id = decode_dword(data[i + 5 : i + 1 : -1])  # Read grf id.
+					grf_id = int_from_bytes(data[i + 5 : i + 1 : -1])  # Read grf id.
 					if debug:
 						print("GRF ID:", hex(grf_id))
 			i = i + size
-			size = decode_dword(data[i : i + 4])
-	return out, private_out, hidden_out, grf_id
+			size = int_from_bytes(data[i : i + 4])
+	return out, private_out, hidden_out, grf_id, strings
 
 
 def find_grf_date(id, debug=False):
