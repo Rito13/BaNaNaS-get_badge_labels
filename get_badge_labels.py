@@ -88,12 +88,10 @@ def find_grf_date(id, debug=False):
 			print("No data for:", hex(id))
 		return Date.today()
 	for file in os.listdir(dir):
-		with open(dir + "/" + file, "r") as f:
-			s = f.read()
-			if s.find('availability: "savegames-only"') == -1 and s.find('availability: "new-games"') != -1:
-				UD = "upload-date: "
-				i = s.find(UD) + len(UD)
-				date = Date.fromisoformat(s[i : i + 10])
+		with open(os.path.join(dir, file), "r") as f:
+			version_data = yaml.safe_load(f)
+			if version_data["availability"] == "new-games":
+				date = version_data["upload-date"]
 				if debug:
 					print("Date for", hex(id), "is", date.year, date.month, date.day)
 				return date
@@ -107,10 +105,8 @@ def find_grf_name(id, debug=False):
 			print("No data for:", hex(id))
 		return hex(id)[2:]
 	with open(path, "r") as f:
-		s = f.read()
-		start = s.find('name: "') + 7
-		end = s.find('"', start)
-		return s[start:end]
+		global_data = yaml.safe_load(f)
+		return global_data["name"]
 
 
 def generate_markdown_page(labels, page_name, required_flags: dict, debug=False):
