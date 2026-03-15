@@ -4,38 +4,10 @@ from os import _exit, path as os_path
 from queue import Queue
 from sys import argv
 from time import sleep
-# from Library import decode_error
 
 lock = RLock()
 GRF_IDS = {}
 grf_file = ""
-
-
-class Found(TypeError):
-	pass
-
-
-class bcolors:
-	HEADER = "\033[46m"
-	INFO = "\033[96m"
-	FAIL2 = "\033[95m"
-	OKBLUE = "\033[94m"
-	OKCYAN = "\033[36m"
-	OKGREEN = "\033[92m"
-	WARNING = "\033[93m"
-	FAIL = "\033[91m"
-	ENDC = "\033[0m"
-	BOLD = "\033[1m"
-	UNDERLINE = "\033[4m"
-
-
-def decode_error(s: str):
-	a = s.find("type=")
-	b = len("type=") + a
-	c = s.find(" ", b)
-	type = s[b:c]
-	s2 = s[:a] + s[c:]
-	return type, s2
 
 
 def int_from_bytes(bytes):
@@ -115,32 +87,28 @@ def save_grf(grf_data, report_queue):
 
 def decoder(soc, report_queue):
 	open("out.txt", "w")  # reset file
-	try:
-		length = 0
-		packet = []
-		while True:
-			data = soc.recv(16000)
-			with open("out.txt", "a") as f:
-				for b in data:
-					if length == -1:
-						length = b * 256 + packet[-1] - 1
-						packet = [packet[-1]]
-					f.write(str(b) + ",")
-					packet.append(b)
-					length -= 1
-					if length == 0:
-						if len(packet) > 2:
-							match packet[2]:
-								case 4:
-									decode_grf_info(packet)
-								case 6:
-									save_grf(packet, report_queue)
-								case _:
-									print(f"Unknown packet type {packet[2]}")
-						f.write("\n")
-	except Found:
-		soc.close()
-		_exit(0)
+	length = 0
+	packet = []
+	while True:
+		data = soc.recv(16000)
+		with open("out.txt", "a") as f:
+			for b in data:
+				if length == -1:
+					length = b * 256 + packet[-1] - 1
+					packet = [packet[-1]]
+				f.write(str(b) + ",")
+				packet.append(b)
+				length -= 1
+				if length == 0:
+					if len(packet) > 2:
+						match packet[2]:
+							case 4:
+								decode_grf_info(packet)
+							case 6:
+								save_grf(packet, report_queue)
+							case _:
+								print(f"Unknown packet type {packet[2]}")
+					f.write("\n")
 
 
 def client_program():

@@ -1,6 +1,5 @@
 import os
 from datetime import date as Date
-from sys import path as sys_path
 import yaml
 
 
@@ -23,7 +22,7 @@ def read_grf_file(file, debug=False):
 	grf_id = 0
 	with open(file, "rb") as f:
 		data = f.read()
-		sprites_start = decode_dword(data[10:14])
+		_sprites_start = decode_dword(data[10:14])  # Remove leading _ if used.
 		i = 15  # i short for iterator. 15 skips file header of grf format 2.
 		size = decode_dword(data[i : i + 4])  # Read size of first sprite.
 		while size != 0:  # Size == 0 marks end of data section.
