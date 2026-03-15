@@ -7,10 +7,11 @@ from time import sleep
 
 lock = RLock()
 GRF_IDS = {}
-grf_file = ""
+now_downloaded_file = ""
 
 
 def int_from_bytes(bytes):
+	"""Converts bytes in little endian to int."""
 	out = 0
 	i = 1
 	for b in bytes:
@@ -20,6 +21,7 @@ def int_from_bytes(bytes):
 
 
 def bytes_from_int(num, size=0):
+	"""Converts int to bytes in little endian."""
 	out = []
 	while num:
 		out.append(num % 256)
@@ -30,6 +32,7 @@ def bytes_from_int(num, size=0):
 
 
 def read_string(start, grf_info):
+	"""Reads string from bytes until 0x00 encountered. OTTD uses 0x00 to terminate strings."""
 	out = []
 	for b in grf_info[start:]:
 		if b == 0:
@@ -46,42 +49,45 @@ def decode_grf_info(grf_info):
 	filesize = int_from_bytes(grf_info[8:12])
 	i = 12
 	data = {}
-	for key in ["name", "version", "url", "description"]:
+	for key in ["name", "version", "url", "description"]:  # We don't access some of this but we need to read them in order to get unique_id.
 		data[key] = read_string(i, grf_info)
 		i += len(data[key]) + 1
 	unique_id = hex(int_from_bytes(grf_info[i : i + 4]))
 	md5 = int_from_bytes(grf_info[i + 4 : i + 20])
 	print(content_id, filesize, data["name"], data["version"], unique_id, md5)
+
 	lock.acquire()
 	GRF_IDS[unique_id] = content_id
 	lock.release()
 
 
 def save_grf(grf_data, report_queue):
-	global grf_file
-	lock.acquire()
-	if grf_file == "":
-		lock.release()
+	global now_downloaded_file
+	lock.acquire()  # WARNING: Has to be released before any return statement.
+	if now_downloaded_file == "":
+		lock.release()  # NOTE: We might return if we got not grf, so release lock first.
 		if grf_data[3] != 2:
 			print("Got not grf.")
 			return
 		content_id = int_from_bytes(grf_data[4:8])
-		filesize = int_from_bytes(grf_data[8:12])
+		filesize = int_from_bytes(grf_data[8:12])  # Unused, because not sure what unit it is in.
 		file_name = read_string(12, grf_data)
 		print(content_id, filesize, file_name)
+
 		lock.acquire()
-		grf_file = os_path.join("grf_tars", f"{file_name}.tar")
-		open(grf_file, "bw").close()  # Clear old content.
+		now_downloaded_file = os_path.join("grf_tars", f"{file_name}.tar")
+		open(now_downloaded_file, "bw").close()  # Clear old content.
 		lock.release()
+
 		return
 	if len(grf_data) == 3:
-		grf_file = ""
-		lock.release()
+		now_downloaded_file = ""
+		lock.release()  # NOTE: Lock acquired at the top.
 		print("Download completed!")
-		report_queue.put(True)
+		report_queue.put(True)  # Notify client_program() that we have successfully downloaded a grf.
 		return
-	with open(grf_file, "ba") as f:
-		lock.release()
+	with open(now_downloaded_file, "ba") as f:
+		lock.release()  # NOTE: Lock acquired at the top.
 		f.write(bytes(grf_data[3:]))
 
 
@@ -94,9 +100,9 @@ def decoder(soc, report_queue):
 		with open("out.txt", "a") as f:
 			for b in data:
 				if length == -1:
-					length = b * 256 + packet[-1] - 1
+					length += int_from_bytes([packet[-1], b])
 					packet = [packet[-1]]
-				f.write(str(b) + ",")
+				f.write(str(b) + ",")  # Use comma (instead of space) because then vim does not wrap lines and file is easier to read. Also can copy paste to python list.
 				packet.append(b)
 				length -= 1
 				if length == 0:
@@ -129,8 +135,8 @@ def client_program():
 	contents = []
 	ATTEMPTS = 5  # Do only 5 attempts.
 
-	for unique_id in argv[1:]:
-		if unique_id[1] != "x":
+	for unique_id in argv[1:]:  # Get content id for each grf provided with command arguments. NOTE: content id can vary between connections.
+		if unique_id[1] != "x":  # Only supports hexadecimal numbers.
 			unique_id = f"0x{unique_id}"
 		for i in range(ATTEMPTS):
 			lock.acquire()
@@ -139,6 +145,8 @@ def client_program():
 				lock.release()
 				break
 			lock.release()
+
+			# The info about this grf did not came back from the server yet. Attempt to get it's content id later.
 			if i == ATTEMPTS - 1:
 				print(f"Could not find {unique_id} in databse.")
 				break
@@ -151,7 +159,7 @@ def client_program():
 	client_socket.send(bytes([*bytes_from_int(5 + len(what), 2), 5, *bytes_from_int(len(what) // 4, 2), *what]))
 
 	while len(contents) > 0:
-		report_queue.get()
+		report_queue.get()  # Wait for files to download.
 		contents = contents[1:]
 
 	sleep(1)  # Give decoder some time, to clean.
