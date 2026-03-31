@@ -5333,7 +5333,7 @@ flag/BY:
 - 27
 - Belarus
 - 0
-- ''
+- Belarus
 flag/BZ:
 - -1
 - 2025
@@ -6029,7 +6029,7 @@ flag/KR:
 - 27
 - South Korea
 - 0
-- ''
+- South Korea
 flag/KW:
 - -1
 - 2025
@@ -6117,7 +6117,7 @@ flag/LT:
 - 27
 - Lithuania
 - 0
-- ''
+- Lithuania
 flag/LU:
 - -1
 - 2025
@@ -6189,7 +6189,7 @@ flag/MG:
 - 27
 - Madagascar
 - 0
-- ''
+- Madagascar
 flag/MH:
 - -1
 - 2025
@@ -6221,7 +6221,7 @@ flag/MM:
 - 27
 - Myanmar
 - 0
-- ''
+- Myanmar
 flag/MN:
 - -1
 - 2025
@@ -18415,6 +18415,198 @@ power_source/steam:
 - ''
 - 0
 - Steam
+railgauge:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- Track Gauge
+railgauge/broad:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- Broad
+railgauge/broad/brunel:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Brunel \x96(2,140mm)"
+railgauge/broad/dutch:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Dutch \x96(1,945mm)"
+railgauge/broad/iberian:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Iberian \x8F(1,668mm)"
+railgauge/broad/indian:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Indian\x8F (1,676mm)"
+railgauge/broad/irish:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Irish \x91(1,600mm)"
+railgauge/broad/russian:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Russian \x8D(1,520mm)"
+railgauge/narrow:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- 'Narrow '
+railgauge/narrow/2ft:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "2 ft \x92(610mm)"
+railgauge/narrow/2ft3in:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "2 ft 3 in \x92(686mm)"
+railgauge/narrow/2ft6in:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "2 ft 6 in \x90(762mm)"
+railgauge/narrow/3ft:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "3 ft \x93(914mm)"
+railgauge/narrow/4ft:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "4 ft \x95(1,219mm)"
+railgauge/narrow/4ft6in:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "4 ft 6 in \x95(1,372mm)"
+railgauge/narrow/600mm:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "600 mm \x92(600mm)"
+railgauge/narrow/750mm:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "750 mm \x90(750mm)"
+railgauge/narrow/900mm:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "900 mm \x93(900mm)"
+railgauge/narrow/bosnian:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Bosnian \x90(760mm)"
+railgauge/narrow/cape:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Cape \x8C(1,067mm)"
+railgauge/narrow/italian_metre:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Italian metre \x93(950mm)"
+railgauge/narrow/metre:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Metre \x97(1,000mm)"
+railgauge/narrow/swedish_3ft:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Swedish 3ft \x93(891mm)"
+railgauge/standard:
+- 1414398209
+- 2026
+- 3
+- 30
+- ''
+- 0
+- "Standard \x88(1,435mm)"
 region:
 - -1
 - 2025
