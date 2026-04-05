@@ -565,6 +565,7 @@
 | _ih_livery_def/internal_livery_name/vanilla | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/vapid_voyager | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/vinyl_vector | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| _ih_livery_def/internal_livery_name/worker_bee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/workhorse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/use_weathering/False | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/use_weathering/True | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |

@@ -545,6 +545,7 @@
 - _ih_livery_def/internal_livery_name/vanilla
 - _ih_livery_def/internal_livery_name/vapid_voyager
 - _ih_livery_def/internal_livery_name/vinyl_vector
+- _ih_livery_def/internal_livery_name/worker_bee
 - _ih_livery_def/internal_livery_name/workhorse
 - _ih_livery_def/use_weathering/False
 - _ih_livery_def/use_weathering/True
@@ -1343,12 +1344,14 @@
 - livery/iron_horse/vanilla
 - livery/iron_horse/vapid_voyager
 - livery/iron_horse/vinyl_vector
+- livery/iron_horse/worker_bee
 - livery/iron_horse/workhorse
 - newgrf/43411223
 - power
 - power/battery_hybrid
 - power/diesel
 - power/dual_voltage
+- power/electric
 - power/electro_diesel
 - power/metro
 - power/ohle

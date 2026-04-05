@@ -4374,6 +4374,14 @@ _ih_livery_def/internal_livery_name/vinyl_vector:
 - ''
 - 2
 - ''
+_ih_livery_def/internal_livery_name/worker_bee:
+- 1128337955
+- 2026
+- 4
+- 4
+- ''
+- 2
+- ''
 _ih_livery_def/internal_livery_name/workhorse:
 - 1128337955
 - 2026
@@ -17903,6 +17911,14 @@ livery/iron_horse/vinyl_vector:
 - ''
 - 0
 - Vinyl Vector
+livery/iron_horse/worker_bee:
+- 1128337955
+- 2026
+- 4
+- 4
+- ''
+- 0
+- Worker Bee
 livery/iron_horse/workhorse:
 - 1128337955
 - 2026
