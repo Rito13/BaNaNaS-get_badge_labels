@@ -1034,6 +1034,7 @@
 | livery/iron_horse/vanilla | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | VANILLA | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/vapid_voyager | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vapid Voyager | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/vinyl_vector | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vinyl Vector | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/worker_bee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-04 | Worker Bee | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/workhorse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Work Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/random/1cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on first company colour | 0 |
 | livery/random/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on second company colour | 0 |
@@ -1066,7 +1067,7 @@
 | power/diesel/diesel-electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-electric) | 0 |
 | power/diesel/diesel-hydraulic | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-hydraulic) | 0 |
 | power/dual_voltage | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | 0 |
+| power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/electric/ac | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC) | 0 |
 | power/electric/ac/15kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 15kV) | 0 |
 | power/electric/ac/25kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 25kV) | 0 |
