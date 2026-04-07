@@ -180,7 +180,7 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False)
 				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, comment, labels[b][-1]))
 
 
-def add_uses_to_labels(labels, debug=False):
+def add_uses_to_labels(labels, key, debug=False):
 	start_size = len(labels["flag"])  # Can be any label, `flag` used as it is added by OpenTTD default badges.
 	if not os.path.isdir("uses"):
 		return
@@ -190,7 +190,7 @@ def add_uses_to_labels(labels, debug=False):
 		grf_id = file[:-5]
 		with open(os.path.join("uses", file), "r") as f:
 			module = yaml.safe_load(f)
-		for label in module:
+		for label in module[key] if isinstance(module, dict) else module:
 			if label not in labels:
 				continue  # Lable from another scope.
 			if len(labels[label]) == start_size:
@@ -211,6 +211,7 @@ def add_uses_to_labels(labels, debug=False):
 
 if __name__ == "__main__":
 	DEBUG = True
+	BADGES_KEY = "badges"
 	with open("badge_labels.yaml", "r") as f:
 		BADGE_LABELS = yaml.safe_load(f)
 
@@ -230,14 +231,14 @@ if __name__ == "__main__":
 			if BADGE_LABELS[label][6] == "" or BADGE_LABELS[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
 				BADGE_LABELS[label][6] = strings[label]
 
-		uses = sorted(public + private + hidden)
+		uses = {BADGES_KEY: sorted(public + private + hidden)}
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
 	with open("badge_labels.yaml", "w") as public_labels:
 		yaml.dump(BADGE_LABELS, public_labels)
 
-	add_uses_to_labels(BADGE_LABELS, DEBUG)  # WARNING: BADGE_LABELS is passed by reference.
+	add_uses_to_labels(BADGE_LABELS, BADGES_KEY, DEBUG)  # WARNING: BADGE_LABELS is passed by reference.
 	generate_markdown_page(BADGE_LABELS, "public_labels", {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
 	generate_markdown_page(BADGE_LABELS, "private_labels", {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
 	generate_markdown_page(BADGE_LABELS, "aging_badly_labels", {LabelFlags.AgingBadly: 1}, DEBUG)
