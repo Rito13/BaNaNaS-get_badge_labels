@@ -17,6 +17,7 @@ def read_grf_file(file, debug=False):
 	hidden_out = []
 	strings = {}
 	grf_id = 0
+	cargos = []
 	with open(file, "rb") as f:
 		data = f.read()
 		badges = {}
@@ -96,7 +97,7 @@ def read_grf_file(file, debug=False):
 							j += len(string) + 1  # Text is followed by 0x00 byte.
 			i = i + size
 			size = int_from_bytes(data[i : i + 4])
-	return out, private_out, hidden_out, grf_id, strings
+	return out, private_out, hidden_out, grf_id, strings, cargos
 
 
 def find_grf_date(id, debug=False):
@@ -131,19 +132,21 @@ def find_grf_name(id, debug=False):
 		return global_data["name"]
 
 
-def generate_markdown_page(labels, page_name, required_flags: dict, debug=False):
+def generate_markdown_page(labels, page_name, required_flags: dict, debug=False, has_classes=True):
 	flags_mask = 0
 	flags_values = 0
 	for flag in required_flags:
 		flags_mask |= 1 << flag
 		flags_values |= required_flags[flag] << flag
 	labels = dict(labels)
-	hierarchy = {-1: None}
+	hierarchy = {-1: None} if has_classes else {"Labels": []}
 	for label in sorted(labels.keys()):
 		if labels[label][5] & flags_mask != flags_values:
 			continue
 		first_slash = label.find("/")
-		if first_slash == -1:  # It is a class.
+		if not has_classes:
+			hierarchy["Labels"].append(label)
+		elif first_slash == -1:  # It is a class.
 			hierarchy[label] = []
 		else:  # It is a normall badge
 			class_label = label[:first_slash]
@@ -155,8 +158,9 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False)
 				hierarchy[class_label] = []
 			hierarchy[class_label].append(label)
 	with open(os.path.join("gen_docs", f"{page_name}.md"), "w") as md_file:
-		hierarchy[-1] = list(hierarchy.keys())
-		hierarchy[-1].remove(-1)
+		if has_classes:
+			hierarchy[-1] = list(hierarchy.keys())
+			hierarchy[-1].remove(-1)
 		for c in hierarchy.keys():
 			if c == -1:  # It is a classes table.
 				md_file.write("# Classes\n")
@@ -173,6 +177,8 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False)
 					grf_id = "[OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655)"
 				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
 					grf_id = "[Community](https://www.tt-forums.net)"
+				elif grf_id == -3:  # Introduced by Chris Sawyer in TTD.
+					grf_id = "[TTD](https://www.tt-wiki.net/wiki/Main_Page)"
 				else:  # Introduced by grf from BaNaNaS.
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
@@ -181,7 +187,7 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False)
 
 
 def add_uses_to_labels(labels, key, debug=False):
-	start_size = len(labels["flag"])  # Can be any label, `flag` used as it is added by OpenTTD default badges.
+	start_size = len(labels[next(iter(labels))])
 	if not os.path.isdir("uses"):
 		return
 	for file in os.listdir("uses"):
@@ -212,13 +218,16 @@ def add_uses_to_labels(labels, key, debug=False):
 if __name__ == "__main__":
 	DEBUG = True
 	BADGES_KEY = "badges"
-	with open("badge_labels.yaml", "r") as f:
-		badge_labels = yaml.safe_load(f)
+	CARGOS_KEY = "cargos"
+	with open("labels.yaml", "r") as f:
+		labels = yaml.safe_load(f)
+		badge_labels = labels[BADGES_KEY]
+		cargo_labels = labels[CARGOS_KEY]
 
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
 			continue
-		public, private, hidden, id, strings = read_grf_file(os.path.join("grfs", file), DEBUG)
+		public, private, hidden, id, strings, cargos = read_grf_file(os.path.join("grfs", file), DEBUG)
 
 		date = find_grf_date(id, DEBUG)
 		for label in public:
@@ -227,18 +236,25 @@ if __name__ == "__main__":
 		for label in private:
 			if label not in badge_labels:
 				badge_labels[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private), ""]
+		for label in cargos:
+			if label not in cargo_labels:
+				cargo_labels[label] = [id, date.year, date.month, date.day, "", 0, ""]
 		for label in strings.keys():
 			if badge_labels[label][6] == "" or badge_labels[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
 				badge_labels[label][6] = strings[label]
 
-		uses = {BADGES_KEY: sorted(public + private + hidden)}
+		uses = {BADGES_KEY: sorted(public + private + hidden), CARGOS_KEY: cargos}
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
-	with open("badge_labels.yaml", "w") as public_labels:
-		yaml.dump(badge_labels, public_labels)
+	with open("labels.yaml", "w") as f:
+		yaml.dump({BADGES_KEY: badge_labels, CARGOS_KEY: cargo_labels}, f)
 
 	add_uses_to_labels(badge_labels, BADGES_KEY, DEBUG)  # WARNING: badge_labels is passed by reference.
-	generate_markdown_page(badge_labels, "public_labels", {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
-	generate_markdown_page(badge_labels, "private_labels", {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
-	generate_markdown_page(badge_labels, "aging_badly_labels", {LabelFlags.AgingBadly: 1}, DEBUG)
+	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "public_labels"), {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
+	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "private_labels"), {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
+	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG)
+
+	add_uses_to_labels(cargo_labels, CARGOS_KEY, DEBUG)  # WARNING: cargo_labels is passed by reference.
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False)
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False)
