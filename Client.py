@@ -97,9 +97,9 @@ def client_program():
 	t1 = Thread(target=decoder, args=(client_socket, report_queue))
 	t1.start()
 
-	versions = ["vanilla", "100.0", "jgrpp", "100.0"]  # Big version numbers to prevent updating it with each new release.
-	version_bytes = bytes([0]).join([s.encode() for s in versions + [""]])
-	client_socket.send(bytes([*bytes_from_int(9 + len(version_bytes), 2), 0, 2, 255, 255, 255, 255, len(versions) // 2]) + version_bytes)
+	for versions in [["vanilla", "100.0", "jgrpp", "100.0"], ["vanilla", "0.0.1"]]:  # Big version numbers to prevent updating it with each new release.
+		version_bytes = bytes([0]).join([s.encode() for s in versions + [""]])
+		client_socket.send(bytes([*bytes_from_int(9 + len(version_bytes), 2), 0, 2, 255, 255, 255, 255, len(versions) // 2]) + version_bytes)
 	sleep(1)  # Wait for info to be received.
 
 	contents = []
