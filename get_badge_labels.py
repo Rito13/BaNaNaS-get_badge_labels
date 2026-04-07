@@ -9,6 +9,8 @@ class LabelFlags:
 	Private = 1
 
 
+FORMAT_2_HEADER = [0x00, 0x00, 0x47, 0x52, 0x46, 0x82, 0x0D, 0x0A, 0x1A, 0x0A]
+
 PROPS = {
 	0x15: {  # Badges
 		0x09: 4  # Badge flags
@@ -64,15 +66,50 @@ def read_grf_file(file, debug=False):
 		data = f.read()
 		badges = {}
 		cargos = {}
-		_sprites_start = int_from_bytes(data[10:14])  # Remove leading `_` if used.
-		i = 15  # i short for iterator. 15 skips file header of grf format 2.
-		size = int_from_bytes(data[i : i + 4])  # Read size of first sprite.
+		format = 2 if FORMAT_2_HEADER == list(data[0 : len(FORMAT_2_HEADER)]) else 1
+		if debug:
+			print("Format", format)
+		if format == 2:
+			_sprites_start = int_from_bytes(data[10:14])  # Remove leading `_` if used.
+			_compression = data[14]  # Remove leading `_` if used.
+			i = 15  # i short for iterator. 15 skips file header of grf format 2.
+			size = int_from_bytes(data[i : i + 4])  # Read size of first sprite. Format 2 used dword sizes.
+		else:
+			i = 0  # Format 1 does not have file header.
+			_compression = 0  # Format 1 is not compressed.
+			size = int_from_bytes(data[i : i + 2])  # Format 1 uses word sizes.
 		while size != 0:  # Size == 0 marks end of data section.
-			i = i + 5  # Skip size dword and info byte.
+			i = i + (5 if format == 2 else 3)  # Skip size and info byte.
 			if data[i - 1] != 0xFF:  # Check if info byte is not a pseudo sprite.
-				if data[i - 1] != 0xFD:  # Check if info byte is not a reference to sprite section.
+				if format == 2 and data[i - 1] != 0xFD:  # Check if info byte is not a reference to sprite section.
 					print("invalid info byte:", hex(data[i - 1]))
-					break  # Corruption or format 1 encountered.
+					break  # Corruption.
+				elif format == 1:
+					if data[i - 1] == 0xFD:
+						print("invalid info byte:", hex(data[i - 1]))
+						break  # Corruption.
+					if not data[i - 1] & 2:  # Image is compressed, but the size is of uncompressed version.
+						if debug:
+							print("info byte:", hex(data[i - 1]), "(bit 2 is not set)")
+						size -= 8  # Substract the image header.
+						i += 7  # Skip the image header.
+						while size > 0:
+							j = data[i]
+							i += 1  # Skip the j byte.
+							if j & 0x80:  # j is backward pointer.
+								j = -(int.from_bytes(bytes([j]), signed=True) >> 3)  # Strip the size part from the j.
+								i += 1  # Next byte is also part of the pointer. Skip it.
+							else:  # j is the chunk size.
+								j = 0x80 if j == 0 else j  # Chunk size can't be 0.
+								if j > size:
+									print("invalid size in compressed image")
+									break  # The chunk can't fit into the sprite.
+								i += j  # Skip the chunk.
+							size -= j  # Substract "decompressed" pixels from image size.
+						if size:
+							break  # Corruption.
+					else:
+						size -= 1  # In format 1 size counts the info byte.
 			else:  # Info byte is a pseudo sprite.
 				feature = data[i + 1]
 				if data[i] == 0x00 and feature in PROPS:  # Check if it is action 0x00 and if we handle that feature.
@@ -165,7 +202,10 @@ def read_grf_file(file, debug=False):
 								pass  # match_string(item, cargos.pop(item), strings[feature], cargo_strings, debug)
 							j += len(string) + 1  # Text is followed by 0x00 byte.
 			i = i + size
-			size = int_from_bytes(data[i : i + 4])
+			if i >= len(data):
+				print("reached outside the file")
+				break  # Corruption.
+			size = int_from_bytes(data[i : i + (4 if format == 2 else 2)])
 	return out, private_out, hidden_out, grf_id, badge_strings, cargos_out, cargo_strings
 
 
