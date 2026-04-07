@@ -2,35 +2,85 @@
 # Labels
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| BATT | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Batteries | 0 |
+| AORE | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Bauxite | [9](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+4d656f91,+4d656f94,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 4d656f91, 4d656f94, f1250005, f1250006") |
+| BATT | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Batteries | [1](https://bananas.openttd.org/?message=GRFs:+56420303 "56420303") |
+| BDMT | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Building Materials | [11](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f9f,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f9f, 56420303, f1250005, f1250006") |
+| BEAN | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Beans | [3](https://bananas.openttd.org/?message=GRFs:+47470104,+f1250005,+f1250006 "47470104, f1250005, f1250006") |
+| BEER | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Alcohol | [8](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, f1250005, f1250006") |
+| BRCK | [ECS Construction Vector](https://bananas.openttd.org/package/newgrf/4d656f96) | 2010-12-30 | ÃBricks | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f96 "4d656f91, 4d656f96") |
 | BUBL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Bubbles | 0 |
-| COAL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Coal | 0 |
+| CASS | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Cassava | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| CERA | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 |  | [1](https://bananas.openttd.org/?message=GRFs:+4d656f91 "4d656f91") |
+| CERE | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 | ÃCereals | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f97 "4d656f91, 4d656f97") |
+| CLAY | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Clay | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 56420303, f1250005, f1250006") |
+| CMNT | [ECS Construction Vector](https://bananas.openttd.org/package/newgrf/4d656f96) | 2010-12-30 | ÃCement | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f96 "4d656f91, 4d656f96") |
+| COAL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Coal | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f92,+4d656f9f,+4f472b33,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f92, 4d656f9f, 4f472b33, f1250005, f1250006") |
 | COLA | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Cola | 0 |
-| CORE | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Copper Ore | 0 |
+| COPR | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Copper | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| CORE | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Copper Ore | [4](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4f472b33,+f1250005,+f1250006 "4d656f91, 4f472b33, f1250005, f1250006") |
 | CTCD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Cotton Candy (Candyfloss) | 0 |
-| DIAM | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Diamonds | 0 |
-| FOOD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Food | 0 |
-| FRUT | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Fruit | 0 |
+| DIAM | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Diamonds | [4](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4f472b33,+f1250005,+f1250006 "4d656f91, 4f472b33, f1250005, f1250006") |
+| DYES | [ECS Chemical vector II](https://bananas.openttd.org/package/newgrf/4d656f9c) | 2016-01-10 | ÃDyes | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f9c "4d656f91, 4d656f9c") |
+| ENSP | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Engineering Supplies | [4](https://bananas.openttd.org/?message=GRFs:+31ff0505,+47470105,+f1250005,+f1250006 "31ff0505, 47470105, f1250005, f1250006") |
+| EOIL | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Edible Oil | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| FERT | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 | ÃFertiliser | [3](https://bananas.openttd.org/?message=GRFs:+47470105,+4d656f91,+4d656f97 "47470105, 4d656f91, 4d656f97") |
+| FICR | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Plant Fibres | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f97,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f97, f1250005, f1250006") |
+| FISH | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Fish | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f97,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f97, f1250005, f1250006") |
+| FMSP | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Farm Supplies | [5](https://bananas.openttd.org/?message=GRFs:+31ff0505,+47470104,+47470105,+f1250005,+f1250006 "31ff0505, 47470104, 47470105, f1250005, f1250006") |
+| FOOD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Food | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f97,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f97, 4f472b33, 56420303, f1250005, f1250006") |
+| FRUT | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Fruit | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f97,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f97, 4f472b33, 56420303, f1250005, f1250006") |
+| FRVG | [Z. Austailian Industry V3](https://bananas.openttd.org/package/newgrf/47470105) | 2016-06-22 | Vegetables | [1](https://bananas.openttd.org/?message=GRFs:+47470105 "47470105") |
 | FZDR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Fizzy Drinks | 0 |
 | GEAR | [Community](https://www.tt-forums.net) | 1995-11-01 | Locomotive regearing - Special cargo used for livery refit tricks. | 0 |
-| GOLD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Gold | 0 |
-| GOOD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Goods | 0 |
-| GRAI | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Grain | 0 |
-| IORE | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Iron Ore | 0 |
-| LVST | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Livestock | 0 |
-| MAIL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Mail | 0 |
-| MAIZ | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Maize | 0 |
-| OIL_ | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Oil | 0 |
-| PAPR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Paper | 0 |
-| PASS | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Passengers | 0 |
-| PLST | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Plastic | 0 |
-| RUBR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Rubber | 0 |
-| STEL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Steel | 0 |
-| SUGR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Sugar | 0 |
+| GLAS | [ECS Basic vector](https://bananas.openttd.org/package/newgrf/4d656f92) | 2009-11-27 | ÃGlass | [3](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f92,+4d656f9f "4d656f91, 4d656f92, 4d656f9f") |
+| GOLD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Gold | [3](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f92,+4f472b33 "4d656f91, 4d656f92, 4f472b33") |
+| GOOD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Goods | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4f472b33,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4f472b33, f1250005, f1250006") |
+| GRAI | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Grain | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4f472b33, 56420303, f1250005, f1250006") |
+| GRVL | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Stone | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 56420303, f1250005, f1250006") |
+| IORE | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Iron Ore | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f94,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f94, 4f472b33, 56420303, f1250005, f1250006") |
+| JAVA | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Coffee | [3](https://bananas.openttd.org/?message=GRFs:+47470104,+f1250005,+f1250006 "47470104, f1250005, f1250006") |
+| LIME | [ECS Construction Vector](https://bananas.openttd.org/package/newgrf/4d656f96) | 2010-12-30 | ÃLimestone | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f96 "4d656f91, 4d656f96") |
+| LVST | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Livestock | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f97,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f97, 4f472b33, 56420303, f1250005, f1250006") |
+| MAIL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Mail | [9](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, f1250005, f1250006") |
+| MAIZ | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Maize | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| MILK | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Milk | [8](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, f1250005, f1250006") |
+| MNO2 | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Manganese | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| MNSP | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Manufacturing Supplies | [8](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, f1250005, f1250006") |
+| NITR | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Nitrates | [2](https://bananas.openttd.org/?message=GRFs:+f1250005,+f1250006 "f1250005, f1250006") |
+| NUTS | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Nuts | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| OIL_ | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Oil | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f9c,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f9c, 4f472b33, 56420303, f1250005, f1250006") |
+| OLSD | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 | ÃOil seeds | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f97 "4d656f91, 4d656f97") |
+| PAPR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Paper | [9](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+4d656f91,+4d656f95,+4f472b33,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 4d656f91, 4d656f95, 4f472b33, f1250005, f1250006") |
+| PASS | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Passengers | [9](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, f1250005, f1250006") |
+| PCL_ | [Z. Australian Industries](https://bananas.openttd.org/package/newgrf/47470104) | 2015-09-20 | Parcels | [1](https://bananas.openttd.org/?message=GRFs:+47470104 "47470104") |
+| PETR | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Petrol | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+47470104,+47470105,+4d656f91,+4d656f9c,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 47470104, 47470105, 4d656f91, 4d656f9c, 56420303, f1250005, f1250006") |
+| PHOS | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Phosphate | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| PLST | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Plastic | [1](https://bananas.openttd.org/?message=GRFs:+4d656f91 "4d656f91") |
+| PORE | [FIRS Industries 2](https://bananas.openttd.org/package/newgrf/f1250006) | 2016-10-21 | Pyrite Ore | [1](https://bananas.openttd.org/?message=GRFs:+f1250006 "f1250006") |
+| POTA | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 |  | [1](https://bananas.openttd.org/?message=GRFs:+4d656f91 "4d656f91") |
+| RCYC | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Recyclables | [6](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, f1250005, f1250006") |
+| RFPR | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Chemicals | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f9c,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f9c, f1250005, f1250006") |
+| RUBR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Rubber | [4](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4f472b33,+f1250005,+f1250006 "4d656f91, 4f472b33, f1250005, f1250006") |
+| SAND | [ECS Basic vector](https://bananas.openttd.org/package/newgrf/4d656f92) | 2009-11-27 | ÃSand | [11](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f92,+4d656f9f,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f92, 4d656f9f, f1250005, f1250006") |
+| SCMT | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Scrap Metal | [7](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, f1250005, f1250006") |
+| SGBT | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Sugar Beet | [2](https://bananas.openttd.org/?message=GRFs:+f1250005,+f1250006 "f1250005, f1250006") |
+| SGCN | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Sugarcane | [3](https://bananas.openttd.org/?message=GRFs:+47470104,+47470105,+f1250005 "47470104, 47470105, f1250005") |
+| STEL | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Steel | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f94,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f94, 4f472b33, 56420303, f1250005, f1250006") |
+| SUGR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Sugar | [2](https://bananas.openttd.org/?message=GRFs:+47470104,+f1250005 "47470104, f1250005") |
+| SULP | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 |  | [1](https://bananas.openttd.org/?message=GRFs:+4d656f91 "4d656f91") |
 | SWET | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Sweets (Candy) | 0 |
 | TOFF | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Toffee | 0 |
+| TOUR | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 | ÃTourists | [1](https://bananas.openttd.org/?message=GRFs:+4d656f91 "4d656f91") |
 | TOYS | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Toys | 0 |
-| VALU | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Valuables | 0 |
-| WATR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Water | 0 |
+| TXTL | [SPI 1.3](https://bananas.openttd.org/package/newgrf/31ff0505) | 2016-09-07 | Textiles | [2](https://bananas.openttd.org/?message=GRFs:+31ff0504,+31ff0505 "31ff0504, 31ff0505") |
+| URAN | [YETI Extended Towns & Industrie](https://bananas.openttd.org/package/newgrf/56420303) | 2016-11-25 | Uranium | [1](https://bananas.openttd.org/?message=GRFs:+56420303 "56420303") |
+| VALU | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Valuables | [2](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4f472b33 "4d656f91, 4f472b33") |
+| VEHI | [ECS Town vector](https://bananas.openttd.org/package/newgrf/4d656f91) | 2016-01-10 | ÃVehicles | [4](https://bananas.openttd.org/?message=GRFs:+4d656f91,+4d656f94,+56420303,+f1250006 "4d656f91, 4d656f94, 56420303, f1250006") |
+| VPTS | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Vehicle Parts | [2](https://bananas.openttd.org/?message=GRFs:+f1250005,+f1250006 "f1250005, f1250006") |
+| WATR | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Water | [3](https://bananas.openttd.org/?message=GRFs:+47470105,+4d656f91,+4f472b33 "47470105, 4d656f91, 4f472b33") |
+| WDPR | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Timber | [10](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f95,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f95, f1250005, f1250006") |
 | WHEA | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Wheat | 0 |
-| WOOD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Wood | 0 |
+| WOOD | [TTD](https://www.tt-wiki.net/wiki/Main_Page) | 1995-11-01 | Wood | [12](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+31ff0504,+31ff0505,+47470104,+47470105,+4d656f91,+4d656f95,+4f472b33,+56420303,+f1250005,+f1250006 "31ff0502, 31ff0503, 31ff0504, 31ff0505, 47470104, 47470105, 4d656f91, 4d656f95, 4f472b33, 56420303, f1250005, f1250006") |
+| WOOL | [FIRS Industries 1](https://bananas.openttd.org/package/newgrf/f1250005) | 2015-09-30 | Wool | [8](https://bananas.openttd.org/?message=GRFs:+31ff0502,+31ff0503,+47470104,+47470105,+4d656f91,+4d656f97,+f1250005,+f1250006 "31ff0502, 31ff0503, 47470104, 47470105, 4d656f91, 4d656f97, f1250005, f1250006") |
+| YETI | [YETI Extended Towns & Industrie](https://bananas.openttd.org/package/newgrf/56420303) | 2016-11-25 | YETI dudes | [1](https://bananas.openttd.org/?message=GRFs:+56420303 "56420303") |
+| YETY | [YETI Extended Towns & Industrie](https://bananas.openttd.org/package/newgrf/56420303) | 2016-11-25 | Tired YETI | [1](https://bananas.openttd.org/?message=GRFs:+56420303 "56420303") |
