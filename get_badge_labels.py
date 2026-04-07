@@ -213,7 +213,7 @@ if __name__ == "__main__":
 	DEBUG = True
 	BADGES_KEY = "badges"
 	with open("badge_labels.yaml", "r") as f:
-		BADGE_LABELS = yaml.safe_load(f)
+		badge_labels = yaml.safe_load(f)
 
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
@@ -222,23 +222,23 @@ if __name__ == "__main__":
 
 		date = find_grf_date(id, DEBUG)
 		for label in public:
-			if label not in BADGE_LABELS:
-				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", 0, ""]
+			if label not in badge_labels:
+				badge_labels[label] = [id, date.year, date.month, date.day, "", 0, ""]
 		for label in private:
-			if label not in BADGE_LABELS:
-				BADGE_LABELS[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private), ""]
+			if label not in badge_labels:
+				badge_labels[label] = [id, date.year, date.month, date.day, "", (1 << LabelFlags.Private), ""]
 		for label in strings.keys():
-			if BADGE_LABELS[label][6] == "" or BADGE_LABELS[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
-				BADGE_LABELS[label][6] = strings[label]
+			if badge_labels[label][6] == "" or badge_labels[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
+				badge_labels[label][6] = strings[label]
 
 		uses = {BADGES_KEY: sorted(public + private + hidden)}
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
 	with open("badge_labels.yaml", "w") as public_labels:
-		yaml.dump(BADGE_LABELS, public_labels)
+		yaml.dump(badge_labels, public_labels)
 
-	add_uses_to_labels(BADGE_LABELS, BADGES_KEY, DEBUG)  # WARNING: BADGE_LABELS is passed by reference.
-	generate_markdown_page(BADGE_LABELS, "public_labels", {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
-	generate_markdown_page(BADGE_LABELS, "private_labels", {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
-	generate_markdown_page(BADGE_LABELS, "aging_badly_labels", {LabelFlags.AgingBadly: 1}, DEBUG)
+	add_uses_to_labels(badge_labels, BADGES_KEY, DEBUG)  # WARNING: badge_labels is passed by reference.
+	generate_markdown_page(badge_labels, "public_labels", {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
+	generate_markdown_page(badge_labels, "private_labels", {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
+	generate_markdown_page(badge_labels, "aging_badly_labels", {LabelFlags.AgingBadly: 1}, DEBUG)
