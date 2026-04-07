@@ -9,18 +9,61 @@ class LabelFlags:
 	Private = 1
 
 
+PROPS = {
+	0x15: {  # Badges
+		0x09: 4  # Badge flags
+	},
+	0x0B: {  # Cargos
+		0x08: 1,  # Cargo bit
+		0x0A: 2,  # Singular name
+		0x0B: 2,  # One of
+		0x0C: 2,  # Multiple of
+		0x0D: 2,  # Abbreviation
+		0x0E: 2,  # Icon
+		0x0F: 1,  # Weight
+		0x10: 1,  # Penalty times
+		0x11: 1,  # --""--
+		0x12: 4,  # Base price
+		0x13: 1,  # Station colour
+		0x14: 1,  # Payment colour
+		0x15: 1,  # Freight status
+		0x16: 2,  # Cargo classes
+		0x18: 1,  # Substitute type
+		0x19: 2,  # Multiplier
+		0x1A: 1,  # Flags
+		0x1B: 2,  # Unit short
+		0x1C: 2,  # Unit long
+		0x1D: 2,  # Capacity
+		0x1E: 1,  # Production effect
+		0x1F: 2,  # Production multiplier
+	},
+}
+
+
+def match_string(item, label, strings, out, debug=False):
+	if item not in strings:
+		return False
+	out[label] = strings[item]
+	if debug:
+		print(label, "\t\t", strings[item])
+	return True
+
+
 def read_grf_file(file, debug=False):
 	"""Parses prowided .grf file and returns 3 arrays of labels: public, private and hidden."""
 	# Outputs
 	out = []
 	private_out = []
 	hidden_out = []
-	strings = {}
+	strings = {key: {} for key in PROPS}
+	badge_strings = {}
+	cargo_strings = {}
 	grf_id = 0
-	cargos = []
+	cargos_out = []
 	with open(file, "rb") as f:
 		data = f.read()
 		badges = {}
+		cargos = {}
 		_sprites_start = int_from_bytes(data[10:14])  # Remove leading `_` if used.
 		i = 15  # i short for iterator. 15 skips file header of grf format 2.
 		size = int_from_bytes(data[i : i + 4])  # Read size of first sprite.
@@ -31,42 +74,67 @@ def read_grf_file(file, debug=False):
 					print("invalid info byte:", hex(data[i - 1]))
 					break  # Corruption or format 1 encountered.
 			else:  # Info byte is a pseudo sprite.
-				if data[i] == 0x00 and data[i + 1] == 0x15:  # Check if it is action 0x00 feature 0x15.
+				feature = data[i + 1]
+				if data[i] == 0x00 and feature in PROPS:  # Check if it is action 0x00 and if we handle that feature.
 					if debug:  # If debug print all bits for that sprite.
 						print(size, " * ", end=" ")
 						for c in data[i : i + size]:
 							print(hex(c), end=" ")
 						print()
 					props = data[i + 2]  # How many properties are changed by this action 0x00.
-					num_of_badges = data[i + 3]  # How many badges are changed by this action 0x00.
-					first_badge = int_from_extended_byte(data[i + 4 : i + 7])
+					num_of = data[i + 3]  # How many items are changed by this action 0x00.
+					first = int_from_extended_byte(data[i + 4 : i + 7])
 					j = i + 4 + (3 if is_extended_byte_a_word(data[i + 4]) else 1)  # Skip to the property number.
 					for __p__ in range(props):
 						prop = data[j]  # Read what property is set.
-						if prop == 0x09:  # Prop is badge flags.
-							j += 4
-						elif prop == 0x08:  # Prop is badge label.
-							j += 1
-							label = ""
-							while data[j] != 0x00:  # Byte 0x00 terminates the string.
-								label += chr(data[j])
+						if prop in PROPS[feature]:
+							for _ in range(num_of):
+								j += PROPS[feature][prop]
+						elif feature == 0x15 and prop == 0x08:  # Prop is badge label.
+							for b in range(num_of):
 								j += 1
-							first_slash = label.find("/")
-							if debug:
-								if first_slash == -1:  # A class badge.
-									print("class_label:", label)
+								label = ""
+								while data[j] != 0x00:  # Byte 0x00 terminates the string.
+									label += chr(data[j])
+									j += 1
+								first_slash = label.find("/")
+								if debug:
+									if first_slash == -1:  # A class badge.
+										print("class_label:", label)
+									else:
+										print("label:", label)
+								# Add badge label to corresponding output.
+								if label[0] == "_" or label[first_slash + 1] == "_":  # Badge is private or hidden.
+									if label[0:2] == "__" or label[first_slash + 1 : first_slash + 3] == "__":
+										hidden_out.append(label)
+									else:  # Badge is private.
+										private_out.append(label)
+								else:  # Badge is public.
+									out.append(label)
+								match_string(first + b, label, strings[feature], badge_strings, debug)
+								badges[first + b] = label
+						elif feature == 0x0B and prop == 0x17:  # Prop is cargo label.
+							for c in range(num_of):
+								label = chr(data[j + 1]) + chr(data[j + 2]) + chr(data[j + 3]) + chr(data[j + 4])  # Cargo label is always 4 chars.
+								j += 4
+								if debug:
+									print("cargo_label:", label)
+								if label != "\00\00\00\00":
+									cargos_out.append(label)
+									if first + c in cargos:
+										match_string(cargos.pop(first + c), label, strings[feature], cargo_strings, debug)
+										# cargos[cargos.pop(first + c)] = label
+									else:
+										cargos[first + c] = label
+						elif feature == 0x0B and prop == 0x09:  # Prop is cargo name.
+							for c in range(num_of):
+								id = int_from_bytes(data[j + 1 : j + 3])
+								if first + c in cargos:
+									match_string(id, cargos.pop(first + c), strings[feature], cargo_strings, debug)
+									# cargos[id] = cargos.pop(first + c)
 								else:
-									print("label:", label)
-							# Add badge label to corresponding output.
-							if label[0] == "_" or label[first_slash + 1] == "_":  # Badge is private or hidden.
-								if label[0:2] == "__" or label[first_slash + 1 : first_slash + 3] == "__":
-									hidden_out.append(label)
-								else:  # Badge is private.
-									private_out.append(label)
-							else:  # Badge is public.
-								out.append(label)
-							for b in range(num_of_badges):
-								badges[first_badge + b] = label
+									cargos[first + c] = id
+								j += 2
 						else:
 							print("invalid prop:", prop)  # Corruption or newer grf version.
 							break  # We don't know how long this property is, therefore we can't read any more properties :(
@@ -75,7 +143,7 @@ def read_grf_file(file, debug=False):
 					grf_id = int_from_bytes(data[i + 5 : i + 1 : -1])  # Read grf id.
 					if debug:
 						print("GRF ID:", hex(grf_id))
-				elif data[i] == 0x04 and data[i + 1] == 0x15:  # Might also be text string for badges.
+				elif data[i] == 0x04 and feature in PROPS:  # Might also be text string.
 					number_of_strings = data[i + 3]
 					if data[i + 2] & 0x7F == 0x7F:  # Read only default language.
 						if debug:  # If debug print all bits for that sprite.
@@ -88,16 +156,17 @@ def read_grf_file(file, debug=False):
 						if data[i + 2] & 0x80:  # Offset is a word, not an extended byte.
 							offset = int_from_bytes(data[i + 4 : i + 6])
 							j = i + 6
-						for badge in range(offset, offset + number_of_strings):
+						for item in range(offset, offset + number_of_strings):
 							string = read_string(j, data)
-							if badge in badges:
-								strings[badges[badge]] = string
-								if debug:
-									print(badges[badge], "\t\t", string)
+							strings[feature][item] = string
+							if feature == 0x15 and item in badges:
+								match_string(item, badges.pop(item), strings[feature], badge_strings, debug)
+							elif feature == 0x0B and item in cargos:
+								pass  # match_string(item, cargos.pop(item), strings[feature], cargo_strings, debug)
 							j += len(string) + 1  # Text is followed by 0x00 byte.
 			i = i + size
 			size = int_from_bytes(data[i : i + 4])
-	return out, private_out, hidden_out, grf_id, strings, cargos
+	return out, private_out, hidden_out, grf_id, badge_strings, cargos_out, cargo_strings
 
 
 def find_grf_date(id, debug=False):
@@ -227,7 +296,7 @@ if __name__ == "__main__":
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
 			continue
-		public, private, hidden, id, strings, cargos = read_grf_file(os.path.join("grfs", file), DEBUG)
+		public, private, hidden, id, strings, cargos, cargo_strings = read_grf_file(os.path.join("grfs", file), DEBUG)
 
 		date = find_grf_date(id, DEBUG)
 		for label in public:
@@ -242,8 +311,11 @@ if __name__ == "__main__":
 		for label in strings.keys():
 			if badge_labels[label][6] == "" or badge_labels[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
 				badge_labels[label][6] = strings[label]
+		for label in cargo_strings.keys():
+			if cargo_labels[label][6] == "" or cargo_labels[label][0] == id:  # GRF can comment on cargo labels without comment and ones that it had introduced.
+				cargo_labels[label][6] = cargo_strings[label]
 
-		uses = {BADGES_KEY: sorted(public + private + hidden), CARGOS_KEY: cargos}
+		uses = {BADGES_KEY: sorted(set(public + private + hidden)), CARGOS_KEY: sorted(set(cargos))}
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
