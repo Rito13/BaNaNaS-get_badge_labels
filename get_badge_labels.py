@@ -2,6 +2,7 @@ import os
 from datetime import date as Date
 import yaml
 from decode import int_from_bytes, is_extended_byte_a_word, int_from_extended_byte, read_string
+from functools import cmp_to_key
 
 
 class LabelFlags:
@@ -368,8 +369,14 @@ def add_uses_to_labels(labels, key, debug=False):
 		else:
 			labels[label][-1] = link_with_grf_ids(sorted(labels[label][-1]))
 			if has_countable_data:
-				s = "<br>".join(labels[label][-2].keys()) + " | "
-				s += "<br>".join([link_with_grf_ids(v) + (OPENTTD_IMAGE if "OpenTTD" in v else "") for v in labels[label][-2].values()])
+				ordered = list(labels[label][-2].items())
+
+				def compare(a, b):
+					return len(b[1]) - len(a[1])
+
+				ordered = sorted(ordered, key=cmp_to_key(compare))
+				s = "<br>".join([e[0] for e in ordered]) + " | "
+				s += "<br>".join([link_with_grf_ids(e[1]) + (OPENTTD_IMAGE if "OpenTTD" in e[1] else "") for e in ordered])
 				labels[label][-2] = s
 
 
