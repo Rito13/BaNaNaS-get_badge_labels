@@ -40,7 +40,12 @@ PROPS = {
 	},
 }
 
-RED_ZERO = r"$\textcolor{red}{\textsf{0}}$"
+
+def colour_text(text, colour):
+	return r"$\textcolor{" + colour + r"}{\textsf{" + text + "}}$"
+
+
+RED_ZERO = colour_text("0", "red")
 
 
 def match_string(item, label, strings, out, debug=False):
@@ -362,7 +367,10 @@ def add_uses_to_labels(labels, key, debug=False):
 		else:
 			labels[label][-1] = link_with_grf_ids(sorted(labels[label][-1]))
 			if has_countable_data:
-				labels[label][-2] = "<br>".join(labels[label][-2].keys()) + " | " + "<br>".join([link_with_grf_ids(v) for v in labels[label][-2].values()])
+				s = "<br>".join([colour_text(k, "green") if "OpenTTD" in labels[label][-2][k] else k for k in labels[label][-2].keys()])
+				s += " | "
+				s += "<br>".join([link_with_grf_ids(v) for v in labels[label][-2].values()])
+				labels[label][-2] = s
 
 
 if __name__ == "__main__":
