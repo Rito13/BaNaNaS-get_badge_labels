@@ -11,6 +11,7 @@ class LabelFlags:
 
 
 FORMAT_2_HEADER = [0x00, 0x00, 0x47, 0x52, 0x46, 0x82, 0x0D, 0x0A, 0x1A, 0x0A]
+FRAX = ["Passengers", "Mail", "Express", "Armoured", "OpenBulk", "PieceGoods", "LiquidBulk", "Refrigerated", "GasBulk", "CoveredBulk", "Flatbed", "PowderBulk", "Weird", "Potable", "Non-Potable", "Special"]
 
 PROPS = {
 	0x15: {  # Badges
@@ -332,6 +333,15 @@ def link_with_grf_ids(li):
 	return '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
 
 
+def FRAX_from_binary(binary):
+	ids = int(binary, 2)
+	out = []
+	for i in range(len(FRAX)):
+		if ids & (1 << i):
+			out.append(FRAX[i])
+	return "Empty" if len(out) == 0 else ("[" + ", ".join(out) + "]")
+
+
 def add_uses_to_labels(labels, key, debug=False):
 	start_size = len(labels[next(iter(labels))])
 	if not os.path.isdir("uses"):
@@ -360,7 +370,7 @@ def add_uses_to_labels(labels, key, debug=False):
 	for label in labels.keys():
 		if len(labels[label]) == start_size:
 			if has_countable_data:
-				labels[label].append(" | ")
+				labels[label].append("")
 			labels[label].append(RED_ZERO)
 			if labels[label][0] >= 0:
 				if debug:
@@ -375,9 +385,7 @@ def add_uses_to_labels(labels, key, debug=False):
 					return len(b[1]) - len(a[1])
 
 				ordered = sorted(ordered, key=cmp_to_key(compare))
-				s = "<br>".join([e[0] for e in ordered]) + " | "
-				s += "<br>".join([link_with_grf_ids(e[1]) + (OPENTTD_IMAGE if "OpenTTD" in e[1] else "") for e in ordered])
-				labels[label][-2] = s
+				labels[label][-2] = "<br>".join([link_with_grf_ids(e[1]) + (OPENTTD_IMAGE if "OpenTTD" in e[1] else "") + ": " + FRAX_from_binary(e[0]) for e in ordered])
 
 
 if __name__ == "__main__":
@@ -424,5 +432,5 @@ if __name__ == "__main__":
 	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG)
 
 	add_uses_to_labels(cargo_labels, CARGOS_KEY, DEBUG)  # WARNING: cargo_labels is passed by reference.
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False, ["Classes", "Cls. O."])
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False, ["Classes", "Cls. O."])
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False, ["Classes"])
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False, ["Classes"])

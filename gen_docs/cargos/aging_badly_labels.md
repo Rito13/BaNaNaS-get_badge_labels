@@ -1,4 +1,4 @@
 
 # Labels
-| Label | Introduced by | When | Comment | Classes | Cls. O.| O. |
-| --- | --- | --- | --- | --- | ---| --- |
+| Label | Introduced by | When | Comment | Classes| O. |
+| --- | --- | --- | --- | ---| --- |
