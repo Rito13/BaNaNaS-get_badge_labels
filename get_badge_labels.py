@@ -314,7 +314,7 @@ def add_uses_to_labels(labels, key, debug=False):
 				labels[label][start_size].append(grf_id)
 	for label in labels.keys():
 		if len(labels[label]) == start_size:
-			labels[label].append("0")
+			labels[label].append(r"$\textcolor{red}{\textsf{0}}$")
 			if labels[label][0] >= 0:
 				if debug:
 					pass  # print(label, "is aging badly.")

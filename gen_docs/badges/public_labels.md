@@ -11,17 +11,17 @@
 | [lanterns](#lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Lanterns | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [livery](#livery) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Livery | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
-| [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | 0 |
+| [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | $\textcolor{red}{\textsf{0}}$ |
 | [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+55464951 "43411223, 55464951") |
 | [railgauge](#railgauge) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-03-30 | Track Gauge | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
-| [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | 0 |
+| [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | $\textcolor{red}{\textsf{0}}$ |
 | [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 | no houses | [1](https://bananas.openttd.org/?message=GRFs:+55464950 "55464950") |
 | [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Roof | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Screen | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Shelter | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | 0 |
+| [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | $\textcolor{red}{\textsf{0}}$ |
 
 # benches
 | Label | Introduced by | When | Comment | O. |
@@ -34,259 +34,259 @@
 # flag
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| flag/AD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | 0 |
-| flag/AE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Arab Emirates | 0 |
-| flag/AF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Afghanistan | 0 |
-| flag/AG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Antigua and Barbuda | 0 |
-| flag/AI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Anguilla | 0 |
+| flag/AD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | $\textcolor{red}{\textsf{0}}$ |
+| flag/AE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Arab Emirates | $\textcolor{red}{\textsf{0}}$ |
+| flag/AF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Afghanistan | $\textcolor{red}{\textsf{0}}$ |
+| flag/AG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Antigua and Barbuda | $\textcolor{red}{\textsf{0}}$ |
+| flag/AI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Anguilla | $\textcolor{red}{\textsf{0}}$ |
 | flag/AL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Albania | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/AM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Armenia | 0 |
+| flag/AM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Armenia | $\textcolor{red}{\textsf{0}}$ |
 | flag/AO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Angola | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/AQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Antarctica | 0 |
+| flag/AQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Antarctica | $\textcolor{red}{\textsf{0}}$ |
 | flag/AR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Argentina | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/AS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | American Samoa | 0 |
+| flag/AS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | American Samoa | $\textcolor{red}{\textsf{0}}$ |
 | flag/AT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Austria | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/AU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Australia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/AW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Aruba | 0 |
-| flag/AX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Åland | 0 |
-| flag/AZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Azerbaijan | 0 |
-| flag/BA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bosnia and Herzegovina | 0 |
+| flag/AW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Aruba | $\textcolor{red}{\textsf{0}}$ |
+| flag/AX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Åland | $\textcolor{red}{\textsf{0}}$ |
+| flag/AZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Azerbaijan | $\textcolor{red}{\textsf{0}}$ |
+| flag/BA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bosnia and Herzegovina | $\textcolor{red}{\textsf{0}}$ |
 | flag/BB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Barbados | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/BD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bangladesh | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/BE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Belgium | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/BF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Burkina Faso | 0 |
+| flag/BF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Burkina Faso | $\textcolor{red}{\textsf{0}}$ |
 | flag/BG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bulgaria | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/BH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bahrain | 0 |
-| flag/BI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Burundi | 0 |
-| flag/BJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Benin | 0 |
-| flag/BL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Barthélemy | 0 |
-| flag/BM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bermuda | 0 |
-| flag/BN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Brunei | 0 |
-| flag/BO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bolivia | 0 |
-| flag/BQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Caribbean Netherlands | 0 |
+| flag/BH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bahrain | $\textcolor{red}{\textsf{0}}$ |
+| flag/BI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Burundi | $\textcolor{red}{\textsf{0}}$ |
+| flag/BJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Benin | $\textcolor{red}{\textsf{0}}$ |
+| flag/BL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Barthélemy | $\textcolor{red}{\textsf{0}}$ |
+| flag/BM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bermuda | $\textcolor{red}{\textsf{0}}$ |
+| flag/BN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Brunei | $\textcolor{red}{\textsf{0}}$ |
+| flag/BO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bolivia | $\textcolor{red}{\textsf{0}}$ |
+| flag/BQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Caribbean Netherlands | $\textcolor{red}{\textsf{0}}$ |
 | flag/BR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Brazil | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/BS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bahamas | 0 |
-| flag/BT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bhutan | 0 |
-| flag/BV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bouvet Island | 0 |
-| flag/BW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Botswana | 0 |
+| flag/BS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bahamas | $\textcolor{red}{\textsf{0}}$ |
+| flag/BT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bhutan | $\textcolor{red}{\textsf{0}}$ |
+| flag/BV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Bouvet Island | $\textcolor{red}{\textsf{0}}$ |
+| flag/BW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Botswana | $\textcolor{red}{\textsf{0}}$ |
 | flag/BY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Belarus | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/BZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Belize | 0 |
+| flag/BZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Belize | $\textcolor{red}{\textsf{0}}$ |
 | flag/CA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Canada | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/CC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cocos Islands | 0 |
-| flag/CD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Democratic Republic of the Congo | 0 |
-| flag/CF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Central African Republic | 0 |
-| flag/CG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Republic of the Congo | 0 |
+| flag/CC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cocos Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/CD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Democratic Republic of the Congo | $\textcolor{red}{\textsf{0}}$ |
+| flag/CF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Central African Republic | $\textcolor{red}{\textsf{0}}$ |
+| flag/CG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Republic of the Congo | $\textcolor{red}{\textsf{0}}$ |
 | flag/CH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Switzerland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/CI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ivory Coast | 0 |
-| flag/CK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cook Islands | 0 |
+| flag/CI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ivory Coast | $\textcolor{red}{\textsf{0}}$ |
+| flag/CK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cook Islands | $\textcolor{red}{\textsf{0}}$ |
 | flag/CL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Chile | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/CM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cameroon | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/CN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | China | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/CO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Colombia | 0 |
-| flag/CR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Costa Rica | 0 |
-| flag/CU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cuba | 0 |
-| flag/CV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cape Verde | 0 |
-| flag/CW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Curaçao | 0 |
-| flag/CX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Christmas Island | 0 |
-| flag/CY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cyprus | 0 |
+| flag/CO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Colombia | $\textcolor{red}{\textsf{0}}$ |
+| flag/CR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Costa Rica | $\textcolor{red}{\textsf{0}}$ |
+| flag/CU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cuba | $\textcolor{red}{\textsf{0}}$ |
+| flag/CV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cape Verde | $\textcolor{red}{\textsf{0}}$ |
+| flag/CW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Curaçao | $\textcolor{red}{\textsf{0}}$ |
+| flag/CX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Christmas Island | $\textcolor{red}{\textsf{0}}$ |
+| flag/CY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cyprus | $\textcolor{red}{\textsf{0}}$ |
 | flag/CZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Czech Republic | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/DE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Germany | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/DJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Djibouti | 0 |
+| flag/DJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Djibouti | $\textcolor{red}{\textsf{0}}$ |
 | flag/DK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Denmark | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/DM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dominica | 0 |
-| flag/DO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dominican Republic | 0 |
+| flag/DM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dominica | $\textcolor{red}{\textsf{0}}$ |
+| flag/DO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dominican Republic | $\textcolor{red}{\textsf{0}}$ |
 | flag/DZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Algeria | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/EC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ecuador | 0 |
+| flag/EC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ecuador | $\textcolor{red}{\textsf{0}}$ |
 | flag/EE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Estonia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/EG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Egypt | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/EH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Sahara | 0 |
+| flag/EH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Sahara | $\textcolor{red}{\textsf{0}}$ |
 | flag/ER | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eritrea | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/ES | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Spain | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/ET | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ethiopia | 0 |
+| flag/ET | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ethiopia | $\textcolor{red}{\textsf{0}}$ |
 | flag/FI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Finland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/FJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Fiji | 0 |
-| flag/FK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Falkland Islands | 0 |
-| flag/FM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Micronesia | 0 |
-| flag/FO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Faroe Islands | 0 |
+| flag/FJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Fiji | $\textcolor{red}{\textsf{0}}$ |
+| flag/FK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Falkland Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/FM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Micronesia | $\textcolor{red}{\textsf{0}}$ |
+| flag/FO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Faroe Islands | $\textcolor{red}{\textsf{0}}$ |
 | flag/FR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | France | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | 0 |
+| flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | $\textcolor{red}{\textsf{0}}$ |
 | flag/GB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Kingdom | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/GD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Grenada | 0 |
+| flag/GD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Grenada | $\textcolor{red}{\textsf{0}}$ |
 | flag/GE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Georgia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/GF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Guiana | 0 |
-| flag/GG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guernsey | 0 |
+| flag/GF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Guiana | $\textcolor{red}{\textsf{0}}$ |
+| flag/GG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guernsey | $\textcolor{red}{\textsf{0}}$ |
 | flag/GH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ghana | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/GI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gibraltar | 0 |
-| flag/GL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Greenland | 0 |
-| flag/GM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gambia | 0 |
-| flag/GN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guinea | 0 |
-| flag/GP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guadeloupe | 0 |
-| flag/GQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Equatorial Guinea | 0 |
+| flag/GI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gibraltar | $\textcolor{red}{\textsf{0}}$ |
+| flag/GL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Greenland | $\textcolor{red}{\textsf{0}}$ |
+| flag/GM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gambia | $\textcolor{red}{\textsf{0}}$ |
+| flag/GN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guinea | $\textcolor{red}{\textsf{0}}$ |
+| flag/GP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guadeloupe | $\textcolor{red}{\textsf{0}}$ |
+| flag/GQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Equatorial Guinea | $\textcolor{red}{\textsf{0}}$ |
 | flag/GR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Greece | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/GS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Georgia and the South Sandwich Islands | 0 |
-| flag/GT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gautemala | 0 |
-| flag/GU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guam | 0 |
-| flag/GW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guinea-Bissau | 0 |
-| flag/GY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guyana | 0 |
-| flag/HK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Hong Kong | 0 |
-| flag/HM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heard Island and McDonald Islands | 0 |
-| flag/HN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Honduras | 0 |
+| flag/GS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Georgia and the South Sandwich Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/GT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gautemala | $\textcolor{red}{\textsf{0}}$ |
+| flag/GU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guam | $\textcolor{red}{\textsf{0}}$ |
+| flag/GW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guinea-Bissau | $\textcolor{red}{\textsf{0}}$ |
+| flag/GY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guyana | $\textcolor{red}{\textsf{0}}$ |
+| flag/HK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Hong Kong | $\textcolor{red}{\textsf{0}}$ |
+| flag/HM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heard Island and McDonald Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/HN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Honduras | $\textcolor{red}{\textsf{0}}$ |
 | flag/HR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Croatia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/HT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Haiti | 0 |
+| flag/HT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Haiti | $\textcolor{red}{\textsf{0}}$ |
 | flag/HU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Hungary | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/ID | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Indonesia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/IE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ireland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/IL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Israel | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/IM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Isle of Man | 0 |
+| flag/IM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Isle of Man | $\textcolor{red}{\textsf{0}}$ |
 | flag/IN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | India | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/IO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | British Indian Ocean Territory | 0 |
+| flag/IO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | British Indian Ocean Territory | $\textcolor{red}{\textsf{0}}$ |
 | flag/IQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Iraq | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/IR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Iran | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/IS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Iceland | 0 |
+| flag/IS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Iceland | $\textcolor{red}{\textsf{0}}$ |
 | flag/IT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Italy | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/JE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Jersey | 0 |
-| flag/JM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Jamaica | 0 |
-| flag/JO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Jordan | 0 |
+| flag/JE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Jersey | $\textcolor{red}{\textsf{0}}$ |
+| flag/JM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Jamaica | $\textcolor{red}{\textsf{0}}$ |
+| flag/JO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Jordan | $\textcolor{red}{\textsf{0}}$ |
 | flag/JP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Japan | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/KE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kenya | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/KG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kyrgyzstan | 0 |
+| flag/KG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kyrgyzstan | $\textcolor{red}{\textsf{0}}$ |
 | flag/KH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cambodia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/KI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kiribati | 0 |
-| flag/KM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Comoros | 0 |
-| flag/KN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Kitts and Nevis | 0 |
+| flag/KI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kiribati | $\textcolor{red}{\textsf{0}}$ |
+| flag/KM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Comoros | $\textcolor{red}{\textsf{0}}$ |
+| flag/KN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Kitts and Nevis | $\textcolor{red}{\textsf{0}}$ |
 | flag/KP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | North Korea | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/KR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Korea | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/KW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kuwait | 0 |
-| flag/KY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cayman Islands | 0 |
+| flag/KW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kuwait | $\textcolor{red}{\textsf{0}}$ |
+| flag/KY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Cayman Islands | $\textcolor{red}{\textsf{0}}$ |
 | flag/KZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Kazakhstan | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/LA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lao | 0 |
-| flag/LB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lebanon | 0 |
-| flag/LC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Lucia | 0 |
-| flag/LI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Liechtenstein | 0 |
+| flag/LA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lao | $\textcolor{red}{\textsf{0}}$ |
+| flag/LB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lebanon | $\textcolor{red}{\textsf{0}}$ |
+| flag/LC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Lucia | $\textcolor{red}{\textsf{0}}$ |
+| flag/LI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Liechtenstein | $\textcolor{red}{\textsf{0}}$ |
 | flag/LK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sri Lanka | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/LR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Liberia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/LS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lesotho | 0 |
+| flag/LS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lesotho | $\textcolor{red}{\textsf{0}}$ |
 | flag/LT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lithuania | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/LU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Luxembourg | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/LV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lativa | 0 |
-| flag/LY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Libya | 0 |
+| flag/LV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Lativa | $\textcolor{red}{\textsf{0}}$ |
+| flag/LY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Libya | $\textcolor{red}{\textsf{0}}$ |
 | flag/MA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Morocco | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/MC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Monaco | 0 |
-| flag/MD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Moldova | 0 |
-| flag/ME | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Montenegro | 0 |
-| flag/MF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Martin | 0 |
+| flag/MC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Monaco | $\textcolor{red}{\textsf{0}}$ |
+| flag/MD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Moldova | $\textcolor{red}{\textsf{0}}$ |
+| flag/ME | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Montenegro | $\textcolor{red}{\textsf{0}}$ |
+| flag/MF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Martin | $\textcolor{red}{\textsf{0}}$ |
 | flag/MG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Madagascar | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/MH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Marshall Islands | 0 |
+| flag/MH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Marshall Islands | $\textcolor{red}{\textsf{0}}$ |
 | flag/MK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | North Macedonia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/ML | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mali | 0 |
+| flag/ML | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mali | $\textcolor{red}{\textsf{0}}$ |
 | flag/MM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Myanmar | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/MN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mongolia | 0 |
-| flag/MO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Macao | 0 |
-| flag/MP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Mariana Islands | 0 |
-| flag/MQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Martinique | 0 |
-| flag/MR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mauritania | 0 |
-| flag/MS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Montserrat | 0 |
-| flag/MT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Malta | 0 |
-| flag/MU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mauritius | 0 |
-| flag/MV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Maldives | 0 |
-| flag/MW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Malawi | 0 |
+| flag/MN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mongolia | $\textcolor{red}{\textsf{0}}$ |
+| flag/MO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Macao | $\textcolor{red}{\textsf{0}}$ |
+| flag/MP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Mariana Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/MQ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Martinique | $\textcolor{red}{\textsf{0}}$ |
+| flag/MR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mauritania | $\textcolor{red}{\textsf{0}}$ |
+| flag/MS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Montserrat | $\textcolor{red}{\textsf{0}}$ |
+| flag/MT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Malta | $\textcolor{red}{\textsf{0}}$ |
+| flag/MU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mauritius | $\textcolor{red}{\textsf{0}}$ |
+| flag/MV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Maldives | $\textcolor{red}{\textsf{0}}$ |
+| flag/MW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Malawi | $\textcolor{red}{\textsf{0}}$ |
 | flag/MX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mexico | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/MY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Malaysia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/MZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mozambique | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/NA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Namibia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/NC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | New Caledonia | 0 |
-| flag/NE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Niger | 0 |
-| flag/NF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Norfolk Island | 0 |
-| flag/NG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nigeria | 0 |
-| flag/NI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nicaragua | 0 |
+| flag/NC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | New Caledonia | $\textcolor{red}{\textsf{0}}$ |
+| flag/NE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Niger | $\textcolor{red}{\textsf{0}}$ |
+| flag/NF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Norfolk Island | $\textcolor{red}{\textsf{0}}$ |
+| flag/NG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nigeria | $\textcolor{red}{\textsf{0}}$ |
+| flag/NI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nicaragua | $\textcolor{red}{\textsf{0}}$ |
 | flag/NL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Netherlands | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/NO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Norway | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/NP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nepal | 0 |
-| flag/NR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nauru | 0 |
-| flag/NU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Niue | 0 |
+| flag/NP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nepal | $\textcolor{red}{\textsf{0}}$ |
+| flag/NR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nauru | $\textcolor{red}{\textsf{0}}$ |
+| flag/NU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Niue | $\textcolor{red}{\textsf{0}}$ |
 | flag/NZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | New Zealand | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/OM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Oman | 0 |
+| flag/OM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Oman | $\textcolor{red}{\textsf{0}}$ |
 | flag/PA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Panama | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/PE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Peru | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/PF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Polynesia | 0 |
-| flag/PG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Papua New Guinea | 0 |
-| flag/PH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Philippines | 0 |
-| flag/PK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Pakistan | 0 |
+| flag/PF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Polynesia | $\textcolor{red}{\textsf{0}}$ |
+| flag/PG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Papua New Guinea | $\textcolor{red}{\textsf{0}}$ |
+| flag/PH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Philippines | $\textcolor{red}{\textsf{0}}$ |
+| flag/PK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Pakistan | $\textcolor{red}{\textsf{0}}$ |
 | flag/PL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Poland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/PM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Pierre and Miquelon | 0 |
-| flag/PN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Pitcairn | 0 |
-| flag/PR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Puerto Rico | 0 |
-| flag/PS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Palestine | 0 |
+| flag/PM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Pierre and Miquelon | $\textcolor{red}{\textsf{0}}$ |
+| flag/PN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Pitcairn | $\textcolor{red}{\textsf{0}}$ |
+| flag/PR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Puerto Rico | $\textcolor{red}{\textsf{0}}$ |
+| flag/PS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Palestine | $\textcolor{red}{\textsf{0}}$ |
 | flag/PT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Portugal | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/PW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Palau | 0 |
-| flag/PY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Paraguay | 0 |
-| flag/QA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Qatar | 0 |
-| flag/RE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Réunion | 0 |
+| flag/PW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Palau | $\textcolor{red}{\textsf{0}}$ |
+| flag/PY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Paraguay | $\textcolor{red}{\textsf{0}}$ |
+| flag/QA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Qatar | $\textcolor{red}{\textsf{0}}$ |
+| flag/RE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Réunion | $\textcolor{red}{\textsf{0}}$ |
 | flag/RO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Romania | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/RS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Serbia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/RU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Russia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/RW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Rwanda | 0 |
+| flag/RW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Rwanda | $\textcolor{red}{\textsf{0}}$ |
 | flag/SA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saudi Arabia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/SB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Solomon Islands | 0 |
-| flag/SC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Seychelles | 0 |
-| flag/SD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sudan | 0 |
+| flag/SB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Solomon Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/SC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Seychelles | $\textcolor{red}{\textsf{0}}$ |
+| flag/SD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sudan | $\textcolor{red}{\textsf{0}}$ |
 | flag/SE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sweden | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/SG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Singapore | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/SH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Helena, Ascension and Tristan da Cunha | 0 |
-| flag/SI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Slovenia | 0 |
-| flag/SJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Svalbard and Jan Mayen | 0 |
+| flag/SH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Helena, Ascension and Tristan da Cunha | $\textcolor{red}{\textsf{0}}$ |
+| flag/SI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Slovenia | $\textcolor{red}{\textsf{0}}$ |
+| flag/SJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Svalbard and Jan Mayen | $\textcolor{red}{\textsf{0}}$ |
 | flag/SK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Slovakia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/SL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sierra Leone | 0 |
+| flag/SL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sierra Leone | $\textcolor{red}{\textsf{0}}$ |
 | flag/SM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | San Marino | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/SN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Senegal | 0 |
-| flag/SO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Somalia | 0 |
-| flag/SR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Suriname | 0 |
-| flag/SS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Sudan | 0 |
-| flag/ST | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sao Tome and Principe | 0 |
-| flag/SV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | El Salvador | 0 |
-| flag/SX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sint Maarten | 0 |
-| flag/SY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Syrian Arab Republic | 0 |
-| flag/SZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eswatini | 0 |
-| flag/TC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Turks and Caicos Islands | 0 |
-| flag/TD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Chad | 0 |
-| flag/TF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Southern Territories | 0 |
-| flag/TG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Togo | 0 |
-| flag/TH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Thailand | 0 |
-| flag/TJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tajikistan | 0 |
-| flag/TK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tokelau | 0 |
-| flag/TL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Timor-Leste | 0 |
-| flag/TM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Turkmenistan | 0 |
+| flag/SN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Senegal | $\textcolor{red}{\textsf{0}}$ |
+| flag/SO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Somalia | $\textcolor{red}{\textsf{0}}$ |
+| flag/SR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Suriname | $\textcolor{red}{\textsf{0}}$ |
+| flag/SS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Sudan | $\textcolor{red}{\textsf{0}}$ |
+| flag/ST | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sao Tome and Principe | $\textcolor{red}{\textsf{0}}$ |
+| flag/SV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | El Salvador | $\textcolor{red}{\textsf{0}}$ |
+| flag/SX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sint Maarten | $\textcolor{red}{\textsf{0}}$ |
+| flag/SY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Syrian Arab Republic | $\textcolor{red}{\textsf{0}}$ |
+| flag/SZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eswatini | $\textcolor{red}{\textsf{0}}$ |
+| flag/TC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Turks and Caicos Islands | $\textcolor{red}{\textsf{0}}$ |
+| flag/TD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Chad | $\textcolor{red}{\textsf{0}}$ |
+| flag/TF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Southern Territories | $\textcolor{red}{\textsf{0}}$ |
+| flag/TG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Togo | $\textcolor{red}{\textsf{0}}$ |
+| flag/TH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Thailand | $\textcolor{red}{\textsf{0}}$ |
+| flag/TJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tajikistan | $\textcolor{red}{\textsf{0}}$ |
+| flag/TK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tokelau | $\textcolor{red}{\textsf{0}}$ |
+| flag/TL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Timor-Leste | $\textcolor{red}{\textsf{0}}$ |
+| flag/TM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Turkmenistan | $\textcolor{red}{\textsf{0}}$ |
 | flag/TN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tunisia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/TO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tonga | 0 |
+| flag/TO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tonga | $\textcolor{red}{\textsf{0}}$ |
 | flag/TR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Türkiye | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/TT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Trinidad and Tobago | 0 |
-| flag/TV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tuvalu | 0 |
+| flag/TT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Trinidad and Tobago | $\textcolor{red}{\textsf{0}}$ |
+| flag/TV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tuvalu | $\textcolor{red}{\textsf{0}}$ |
 | flag/TW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Taiwan | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/TZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tanzania | 0 |
+| flag/TZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Tanzania | $\textcolor{red}{\textsf{0}}$ |
 | flag/UA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ukraine | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/UG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Uganda | 0 |
-| flag/UM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United States Minor Outlying Islands | 0 |
+| flag/UG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Uganda | $\textcolor{red}{\textsf{0}}$ |
+| flag/UM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United States Minor Outlying Islands | $\textcolor{red}{\textsf{0}}$ |
 | flag/US | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United States | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/UY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Uruguay | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/UZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Uzbekistan | 0 |
-| flag/VA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Holy See | 0 |
-| flag/VC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Vincent and the Grenadines | 0 |
-| flag/VE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Venezuela | 0 |
-| flag/VG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Virgin Islands (British) | 0 |
-| flag/VI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Virgin Islands (U.S.) | 0 |
-| flag/VN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Vietnam | 0 |
-| flag/VU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Vanuatu | 0 |
-| flag/WF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Wallis and Futuna | 0 |
-| flag/WS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Samoa | 0 |
-| flag/YE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yemen | 0 |
-| flag/YT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mayotte | 0 |
+| flag/UZ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Uzbekistan | $\textcolor{red}{\textsf{0}}$ |
+| flag/VA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Holy See | $\textcolor{red}{\textsf{0}}$ |
+| flag/VC | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Vincent and the Grenadines | $\textcolor{red}{\textsf{0}}$ |
+| flag/VE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Venezuela | $\textcolor{red}{\textsf{0}}$ |
+| flag/VG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Virgin Islands (British) | $\textcolor{red}{\textsf{0}}$ |
+| flag/VI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Virgin Islands (U.S.) | $\textcolor{red}{\textsf{0}}$ |
+| flag/VN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Vietnam | $\textcolor{red}{\textsf{0}}$ |
+| flag/VU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Vanuatu | $\textcolor{red}{\textsf{0}}$ |
+| flag/WF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Wallis and Futuna | $\textcolor{red}{\textsf{0}}$ |
+| flag/WS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Samoa | $\textcolor{red}{\textsf{0}}$ |
+| flag/YE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yemen | $\textcolor{red}{\textsf{0}}$ |
+| flag/YT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mayotte | $\textcolor{red}{\textsf{0}}$ |
 | flag/ZA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Africa | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/ZM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zambia | 0 |
+| flag/ZM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zambia | $\textcolor{red}{\textsf{0}}$ |
 | flag/ZW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zimbabwe | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/east_germany | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | East Germany | 0 |
+| flag/east_germany | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | East Germany | $\textcolor{red}{\textsf{0}}$ |
 | flag/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe (Mostly used as European Union) | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/soviet_union | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | USSR | 0 |
-| flag/yugoslavia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yugoslavia | 0 |
+| flag/soviet_union | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | USSR | $\textcolor{red}{\textsf{0}}$ |
+| flag/yugoslavia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yugoslavia | $\textcolor{red}{\textsf{0}}$ |
 
 # ih_behaviour
 | Label | Introduced by | When | Comment | O. |
@@ -992,7 +992,7 @@
 # livery
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| livery/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dual company colour (2CC) | 0 |
+| livery/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Dual company colour (2CC) | $\textcolor{red}{\textsf{0}}$ |
 | livery/iron_horse/banger_blue | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Basic Banger | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/classic_lines | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Classic Lines | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Company Colour | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -1036,8 +1036,8 @@
 | livery/iron_horse/vinyl_vector | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vinyl Vector | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/worker_bee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-04 | Worker Bee | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/workhorse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Work Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/random/1cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on first company colour | 0 |
-| livery/random/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on second company colour | 0 |
+| livery/random/1cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on first company colour | $\textcolor{red}{\textsf{0}}$ |
+| livery/random/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on second company colour | $\textcolor{red}{\textsf{0}}$ |
 
 # newgrf
 | Label | Introduced by | When | Comment | O. |
@@ -1061,22 +1061,22 @@
 # power
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| power/battery | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Battery | 0 |
+| power/battery | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Battery | $\textcolor{red}{\textsf{0}}$ |
 | power/battery_hybrid | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Battery Hybrid | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/diesel | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/diesel/diesel-electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-electric) | 0 |
-| power/diesel/diesel-hydraulic | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-hydraulic) | 0 |
+| power/diesel/diesel-electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-electric) | $\textcolor{red}{\textsf{0}}$ |
+| power/diesel/diesel-hydraulic | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-hydraulic) | $\textcolor{red}{\textsf{0}}$ |
 | power/dual_voltage | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/electric/ac | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC) | 0 |
-| power/electric/ac/15kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 15kV) | 0 |
-| power/electric/ac/25kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 25kV) | 0 |
-| power/electric/dc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC) | 0 |
-| power/electric/dc/1200v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 1200V) | 0 |
-| power/electric/dc/1500v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 1500V) | 0 |
-| power/electric/dc/3kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 3kV) | 0 |
-| power/electric/dc/600v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 600V) | 0 |
-| power/electric/dc/750v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 750V) | 0 |
+| power/electric/ac | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/ac/15kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 15kV) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/ac/25kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 25kV) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/dc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/dc/1200v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 1200V) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/dc/1500v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 1500V) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/dc/3kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 3kV) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/dc/600v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 600V) | $\textcolor{red}{\textsf{0}}$ |
+| power/electric/dc/750v | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (DC 750V) | $\textcolor{red}{\textsf{0}}$ |
 | power/electrified | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | electrified | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
 | power/electrified_third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | electrified and third rail | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
 | power/electro_diesel | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -1084,7 +1084,7 @@
 | power/ohle | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Electric | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/steam | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Steam | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | third rail | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
-| power/turbine | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gas Turbine | 0 |
+| power/turbine | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gas Turbine | $\textcolor{red}{\textsf{0}}$ |
 
 # railgauge
 | Label | Introduced by | When | Comment | O. |
@@ -1116,33 +1116,33 @@
 # region
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| region/africa | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Africa | 0 |
-| region/africa/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Africa | 0 |
-| region/africa/middle | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Middle Africa | 0 |
-| region/africa/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Africa | 0 |
-| region/africa/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Africa | 0 |
-| region/africa/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Africa | 0 |
-| region/america | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Americas | 0 |
-| region/america/caribbean | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Caribbean | 0 |
-| region/america/central | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Central America | 0 |
-| region/america/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern America | 0 |
-| region/america/south | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South America | 0 |
-| region/asia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Asia | 0 |
-| region/asia/central | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Central Asia | 0 |
-| region/asia/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Asia | 0 |
-| region/asia/southeastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South-eastern Asia | 0 |
-| region/asia/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Asia | 0 |
-| region/asia/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Asia | 0 |
-| region/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe | 0 |
-| region/europe/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Europe | 0 |
-| region/europe/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Europe | 0 |
-| region/europe/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Europe | 0 |
-| region/europe/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Europe | 0 |
-| region/oceania | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Oceania | 0 |
-| region/oceania/australia_and_new_zealand | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Australia and New Zealand | 0 |
-| region/oceania/melanesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Melanesia | 0 |
-| region/oceania/micronesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Micronesia | 0 |
-| region/oceania/polynesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Polynesia | 0 |
+| region/africa | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Africa | $\textcolor{red}{\textsf{0}}$ |
+| region/africa/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Africa | $\textcolor{red}{\textsf{0}}$ |
+| region/africa/middle | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Middle Africa | $\textcolor{red}{\textsf{0}}$ |
+| region/africa/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Africa | $\textcolor{red}{\textsf{0}}$ |
+| region/africa/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Africa | $\textcolor{red}{\textsf{0}}$ |
+| region/africa/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Africa | $\textcolor{red}{\textsf{0}}$ |
+| region/america | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Americas | $\textcolor{red}{\textsf{0}}$ |
+| region/america/caribbean | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Caribbean | $\textcolor{red}{\textsf{0}}$ |
+| region/america/central | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Central America | $\textcolor{red}{\textsf{0}}$ |
+| region/america/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern America | $\textcolor{red}{\textsf{0}}$ |
+| region/america/south | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South America | $\textcolor{red}{\textsf{0}}$ |
+| region/asia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Asia | $\textcolor{red}{\textsf{0}}$ |
+| region/asia/central | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Central Asia | $\textcolor{red}{\textsf{0}}$ |
+| region/asia/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Asia | $\textcolor{red}{\textsf{0}}$ |
+| region/asia/southeastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South-eastern Asia | $\textcolor{red}{\textsf{0}}$ |
+| region/asia/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Asia | $\textcolor{red}{\textsf{0}}$ |
+| region/asia/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Asia | $\textcolor{red}{\textsf{0}}$ |
+| region/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe | $\textcolor{red}{\textsf{0}}$ |
+| region/europe/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Europe | $\textcolor{red}{\textsf{0}}$ |
+| region/europe/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Europe | $\textcolor{red}{\textsf{0}}$ |
+| region/europe/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Europe | $\textcolor{red}{\textsf{0}}$ |
+| region/europe/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Europe | $\textcolor{red}{\textsf{0}}$ |
+| region/oceania | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Oceania | $\textcolor{red}{\textsf{0}}$ |
+| region/oceania/australia_and_new_zealand | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Australia and New Zealand | $\textcolor{red}{\textsf{0}}$ |
+| region/oceania/melanesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Melanesia | $\textcolor{red}{\textsf{0}}$ |
+| region/oceania/micronesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Micronesia | $\textcolor{red}{\textsf{0}}$ |
+| region/oceania/polynesia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Polynesia | $\textcolor{red}{\textsf{0}}$ |
 
 # roadtype_flag_no_houses
 | Label | Introduced by | When | Comment | O. |
@@ -1151,29 +1151,29 @@
 # role
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| role/banking | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Banking | 0 |
+| role/banking | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Banking | $\textcolor{red}{\textsf{0}}$ |
 | role/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Driving Cab | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/express | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/express_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express freight | 0 |
-| role/express_passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express passenger | 0 |
+| role/express_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express freight | $\textcolor{red}{\textsf{0}}$ |
+| role/express_passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express passenger | $\textcolor{red}{\textsf{0}}$ |
 | role/freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/gronk | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gronk! | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/heavy_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heavy freight | 0 |
+| role/heavy_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heavy freight | $\textcolor{red}{\textsf{0}}$ |
 | role/high_power_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/light_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Light freight | 0 |
+| role/light_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Light freight | $\textcolor{red}{\textsf{0}}$ |
 | role/lolz | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Lolz | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/mail | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mail | 0 |
+| role/mail | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mail | $\textcolor{red}{\textsf{0}}$ |
 | role/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Very High Capacity Urban | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/metro_freight | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Urban Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | 0 |
-| role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | 0 |
-| role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | 0 |
-| role/restaurant_car | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Restaurant car | 0 |
-| role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | 0 |
-| role/snowplough | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Snowplough | 0 |
+| role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | $\textcolor{red}{\textsf{0}}$ |
+| role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | $\textcolor{red}{\textsf{0}}$ |
+| role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | $\textcolor{red}{\textsf{0}}$ |
+| role/restaurant_car | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Restaurant car | $\textcolor{red}{\textsf{0}}$ |
+| role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | $\textcolor{red}{\textsf{0}}$ |
+| role/snowplough | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Snowplough | $\textcolor{red}{\textsf{0}}$ |
 | role/suburban_or_universal_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | High Capacity | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/universal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | General Purpose | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/utility | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Utility | 0 |
+| role/utility | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Utility | $\textcolor{red}{\textsf{0}}$ |
 | role/very_high_speed | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | InterCity Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 
 # roof
@@ -1203,26 +1203,26 @@
 # zone
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| zone/agricultural | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Agricultural | 0 |
-| zone/com | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Commercial | 0 |
-| zone/com/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density commercial | 0 |
-| zone/com/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density commercial | 0 |
-| zone/com/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density commercial | 0 |
-| zone/forestry | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Forestry | 0 |
-| zone/general | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | General | 0 |
-| zone/ind | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Industrial | 0 |
-| zone/ind/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density industrial | 0 |
-| zone/ind/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density industrial | 0 |
-| zone/ind/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density industrial | 0 |
-| zone/leisure | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Leisure | 0 |
-| zone/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Commercial & residential | 0 |
-| zone/mixed/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density commercial & residential | 0 |
-| zone/mixed/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density commercial & residential | 0 |
-| zone/mixed/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density commercial & residential | 0 |
-| zone/other | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Other | 0 |
-| zone/public | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Public | 0 |
-| zone/res | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Residential | 0 |
-| zone/res/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density residential | 0 |
-| zone/res/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density residential | 0 |
-| zone/res/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density residential | 0 |
-| zone/transport | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Transport | 0 |
+| zone/agricultural | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Agricultural | $\textcolor{red}{\textsf{0}}$ |
+| zone/com | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Commercial | $\textcolor{red}{\textsf{0}}$ |
+| zone/com/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density commercial | $\textcolor{red}{\textsf{0}}$ |
+| zone/com/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density commercial | $\textcolor{red}{\textsf{0}}$ |
+| zone/com/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density commercial | $\textcolor{red}{\textsf{0}}$ |
+| zone/forestry | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Forestry | $\textcolor{red}{\textsf{0}}$ |
+| zone/general | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | General | $\textcolor{red}{\textsf{0}}$ |
+| zone/ind | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Industrial | $\textcolor{red}{\textsf{0}}$ |
+| zone/ind/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density industrial | $\textcolor{red}{\textsf{0}}$ |
+| zone/ind/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density industrial | $\textcolor{red}{\textsf{0}}$ |
+| zone/ind/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density industrial | $\textcolor{red}{\textsf{0}}$ |
+| zone/leisure | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Leisure | $\textcolor{red}{\textsf{0}}$ |
+| zone/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Commercial & residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/mixed/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density commercial & residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/mixed/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density commercial & residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/mixed/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density commercial & residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/other | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Other | $\textcolor{red}{\textsf{0}}$ |
+| zone/public | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Public | $\textcolor{red}{\textsf{0}}$ |
+| zone/res | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/res/high | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | High density residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/res/low | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Low density residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/res/medium | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Medium density residential | $\textcolor{red}{\textsf{0}}$ |
+| zone/transport | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Transport | $\textcolor{red}{\textsf{0}}$ |
