@@ -41,6 +41,8 @@ PROPS = {
 	},
 }
 
+RED_ZERO = r"$\textcolor{red}{\textsf{0}}$"
+
 
 def match_string(item, label, strings, out, debug=False):
 	if item not in strings:
@@ -263,7 +265,7 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 				if class_label not in labels:
 					if debug:
 						print("No class for badge:", label)
-					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", "0"]
+					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", RED_ZERO]
 				hierarchy[class_label] = []
 			hierarchy[class_label].append(label)
 	with open(os.path.join("gen_docs", f"{page_name}.md"), "w") as md_file:
@@ -314,7 +316,7 @@ def add_uses_to_labels(labels, key, debug=False):
 				labels[label][start_size].append(grf_id)
 	for label in labels.keys():
 		if len(labels[label]) == start_size:
-			labels[label].append(r"$\textcolor{red}{\textsf{0}}$")
+			labels[label].append(RED_ZERO)
 			if labels[label][0] >= 0:
 				if debug:
 					pass  # print(label, "is aging badly.")

@@ -7,10 +7,10 @@
 | [ih_gen](#ih_gen) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gen | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_railtype](#ih_railtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_tech_tree](#ih_tech_tree) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
+| [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [lanterns](#lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Lanterns | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [livery](#livery) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Livery | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
+| [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | $\textcolor{red}{\textsf{0}}$ |
 | [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+55464951 "43411223, 55464951") |

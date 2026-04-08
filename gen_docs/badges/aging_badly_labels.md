@@ -2,13 +2,13 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| [ih_distributed_power](#ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
+| [ih_distributed_power](#ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [ih_formation_ruleset](#ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
-| [ih_livery_def](#ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
-| [ih_pantograph_display](#ih_pantograph_display) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
-| [ih_randomised_wagon](#ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
+| [ih_livery_def](#ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
+| [ih_pantograph_display](#ih_pantograph_display) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
+| [ih_randomised_wagon](#ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [ih_tech_tree](#ih_tech_tree) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | 0 |
+| [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [ih_wagon_subtype](#ih_wagon_subtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | [polish_stations_benches](#polish_stations_benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | $\textcolor{red}{\textsf{0}}$ |
 | [polish_stations_lanterns](#polish_stations_lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | $\textcolor{red}{\textsf{0}}$ |

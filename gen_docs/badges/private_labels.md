@@ -1,11 +1,11 @@
 # Classes
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| [_ih_distributed_power](#_ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | 0 |
+| [_ih_distributed_power](#_ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [_ih_formation_ruleset](#_ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| [_ih_livery_def](#_ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | 0 |
-| [_ih_pantograph_display](#_ih_pantograph_display) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | 0 |
-| [_ih_randomised_wagon](#_ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | 0 |
+| [_ih_livery_def](#_ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
+| [_ih_pantograph_display](#_ih_pantograph_display) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
+| [_ih_randomised_wagon](#_ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [_ih_wagon_subtype](#_ih_wagon_subtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 
 # _ih_distributed_power
