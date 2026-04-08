@@ -49,14 +49,18 @@ def colour_text(text, colour):
 
 RED_ZERO = colour_text("0", "red")
 OPENTTD_IMAGE = "![OpenTTD](https://github.com/OpenTTD/OpenTTD/blob/master/media/openttd.16.png?raw=true)"
+INVALID_SUB_STRINGS = [chr(n) for n in range(0x88, 0x99)] + ["\xc3\x9e"]
 
 
 def match_string(item, label, strings, out, debug=False):
 	if item not in strings:
 		return False
-	out[label] = strings[item]
+	string = strings[item]
+	for s in INVALID_SUB_STRINGS:
+		string = string.replace(s, "")
+	out[label] = string
 	if debug:
-		print(label, "\t\t", strings[item])
+		print(label, "\t\t", string)
 	return True
 
 

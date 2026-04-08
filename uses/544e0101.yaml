@@ -1,3 +1,4 @@
+badges:
 - railgauge
 - railgauge/broad
 - railgauge/broad/brunel
@@ -22,3 +23,4 @@
 - railgauge/narrow/metre
 - railgauge/narrow/swedish_3ft
 - railgauge/standard
+cargos: {}

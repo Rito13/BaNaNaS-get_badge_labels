@@ -7110,7 +7110,7 @@ badges:
   - 4
   - ''
   - 0
-  - "Driving Cab\x98 - attach to front or rear of train, with at least one other engine"
+  - Driving Cab - attach to front or rear of train, with at least one other engine
   ih_behaviour/lgv_capable:
   - 1430669649
   - 2026
@@ -18455,7 +18455,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Brunel \x96(2,140mm)"
+  - Brunel (2,140mm)
   railgauge/broad/dutch:
   - 1414398209
   - 2026
@@ -18463,7 +18463,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Dutch \x96(1,945mm)"
+  - Dutch (1,945mm)
   railgauge/broad/iberian:
   - 1414398209
   - 2026
@@ -18471,7 +18471,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Iberian \x8F(1,668mm)"
+  - Iberian (1,668mm)
   railgauge/broad/indian:
   - 1414398209
   - 2026
@@ -18479,7 +18479,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Indian\x8F (1,676mm)"
+  - Indian (1,676mm)
   railgauge/broad/irish:
   - 1414398209
   - 2026
@@ -18487,7 +18487,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Irish \x91(1,600mm)"
+  - Irish (1,600mm)
   railgauge/broad/russian:
   - 1414398209
   - 2026
@@ -18495,7 +18495,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Russian \x8D(1,520mm)"
+  - Russian (1,520mm)
   railgauge/narrow:
   - 1414398209
   - 2026
@@ -18511,7 +18511,7 @@ badges:
   - 30
   - ''
   - 0
-  - "2 ft \x92(610mm)"
+  - 2 ft (610mm)
   railgauge/narrow/2ft3in:
   - 1414398209
   - 2026
@@ -18519,7 +18519,7 @@ badges:
   - 30
   - ''
   - 0
-  - "2 ft 3 in \x92(686mm)"
+  - 2 ft 3 in (686mm)
   railgauge/narrow/2ft6in:
   - 1414398209
   - 2026
@@ -18527,7 +18527,7 @@ badges:
   - 30
   - ''
   - 0
-  - "2 ft 6 in \x90(762mm)"
+  - 2 ft 6 in (762mm)
   railgauge/narrow/3ft:
   - 1414398209
   - 2026
@@ -18535,7 +18535,7 @@ badges:
   - 30
   - ''
   - 0
-  - "3 ft \x93(914mm)"
+  - 3 ft (914mm)
   railgauge/narrow/4ft:
   - 1414398209
   - 2026
@@ -18543,7 +18543,7 @@ badges:
   - 30
   - ''
   - 0
-  - "4 ft \x95(1,219mm)"
+  - 4 ft (1,219mm)
   railgauge/narrow/4ft6in:
   - 1414398209
   - 2026
@@ -18551,7 +18551,7 @@ badges:
   - 30
   - ''
   - 0
-  - "4 ft 6 in \x95(1,372mm)"
+  - 4 ft 6 in (1,372mm)
   railgauge/narrow/600mm:
   - 1414398209
   - 2026
@@ -18559,7 +18559,7 @@ badges:
   - 30
   - ''
   - 0
-  - "600 mm \x92(600mm)"
+  - 600 mm (600mm)
   railgauge/narrow/750mm:
   - 1414398209
   - 2026
@@ -18567,7 +18567,7 @@ badges:
   - 30
   - ''
   - 0
-  - "750 mm \x90(750mm)"
+  - 750 mm (750mm)
   railgauge/narrow/900mm:
   - 1414398209
   - 2026
@@ -18575,7 +18575,7 @@ badges:
   - 30
   - ''
   - 0
-  - "900 mm \x93(900mm)"
+  - 900 mm (900mm)
   railgauge/narrow/bosnian:
   - 1414398209
   - 2026
@@ -18583,7 +18583,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Bosnian \x90(760mm)"
+  - Bosnian (760mm)
   railgauge/narrow/cape:
   - 1414398209
   - 2026
@@ -18591,7 +18591,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Cape \x8C(1,067mm)"
+  - Cape (1,067mm)
   railgauge/narrow/italian_metre:
   - 1414398209
   - 2026
@@ -18599,7 +18599,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Italian metre \x93(950mm)"
+  - Italian metre (950mm)
   railgauge/narrow/metre:
   - 1414398209
   - 2026
@@ -18607,7 +18607,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Metre \x97(1,000mm)"
+  - Metre (1,000mm)
   railgauge/narrow/swedish_3ft:
   - 1414398209
   - 2026
@@ -18615,7 +18615,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Swedish 3ft \x93(891mm)"
+  - Swedish 3ft (891mm)
   railgauge/standard:
   - 1414398209
   - 2026
@@ -18623,7 +18623,7 @@ badges:
   - 30
   - ''
   - 0
-  - "Standard \x88(1,435mm)"
+  - Standard (1,435mm)
   region:
   - -1
   - 2025
@@ -19488,7 +19488,7 @@ cargos:
   - 30
   - ''
   - 0
-  - "\xC3\x9EBricks"
+  - Bricks
   BUBL:
   - -3
   - 1995
@@ -19616,7 +19616,7 @@ cargos:
   - 30
   - ''
   - 0
-  - "\xC3\x9ECement"
+  - Cement
   COAL:
   - -3
   - 1995
@@ -19744,7 +19744,7 @@ cargos:
   - 10
   - ''
   - 0
-  - "\xC3\x9EDyes"
+  - Dyes
   ELEC:
   - 1162745089
   - 2019
@@ -19928,7 +19928,7 @@ cargos:
   - 27
   - ''
   - 0
-  - "\xC3\x9EGlass"
+  - Glass
   GOLD:
   - -3
   - 1995
@@ -20072,7 +20072,7 @@ cargos:
   - 30
   - ''
   - 0
-  - "\xC3\x9ELimestone"
+  - Limestone
   LMBR:
   - 1699086593
   - 2025
@@ -20632,7 +20632,7 @@ cargos:
   - 27
   - ''
   - 0
-  - "\xC3\x9ESand"
+  - Sand
   SASH:
   - 4045733895
   - 2019
@@ -20944,7 +20944,7 @@ cargos:
   - 10
   - ''
   - 0
-  - "\xC3\x9ETourists"
+  - Tourists
   TOYS:
   - -3
   - 1995

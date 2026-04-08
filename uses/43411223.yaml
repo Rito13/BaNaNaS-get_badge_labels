@@ -1,3 +1,4 @@
+badges:
 - _ih_distributed_power/is_power_cab/alize_cab
 - _ih_distributed_power/is_power_cab/brash_cab
 - _ih_distributed_power/is_power_cab/brenner_cab
@@ -1368,3 +1369,4 @@
 - role/suburban_or_universal_railcar
 - role/universal
 - role/very_high_speed
+cargos: {}
