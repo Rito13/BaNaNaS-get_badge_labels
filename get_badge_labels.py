@@ -46,6 +46,7 @@ def colour_text(text, colour):
 
 
 RED_ZERO = colour_text("0", "red")
+OPENTTD_IMAGE = "![OpenTTD](https://github.com/OpenTTD/OpenTTD/blob/master/media/openttd.16.png?raw=true)"
 
 
 def match_string(item, label, strings, out, debug=False):
@@ -367,9 +368,8 @@ def add_uses_to_labels(labels, key, debug=False):
 		else:
 			labels[label][-1] = link_with_grf_ids(sorted(labels[label][-1]))
 			if has_countable_data:
-				s = "<br>".join([colour_text(k, "green") if "OpenTTD" in labels[label][-2][k] else k for k in labels[label][-2].keys()])
-				s += " | "
-				s += "<br>".join([link_with_grf_ids(v) for v in labels[label][-2].values()])
+				s = "<br>".join(labels[label][-2].keys()) + " | "
+				s += "<br>".join([link_with_grf_ids(v) + (OPENTTD_IMAGE if "OpenTTD" in v else "") for v in labels[label][-2].values()])
 				labels[label][-2] = s
 
 
@@ -417,5 +417,5 @@ if __name__ == "__main__":
 	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG)
 
 	add_uses_to_labels(cargo_labels, CARGOS_KEY, DEBUG)  # WARNING: cargo_labels is passed by reference.
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False, ["Classes", "C. O."])
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False, ["Classes", "C. O."])
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False, ["Classes", "Cls. O."])
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False, ["Classes", "Cls. O."])
