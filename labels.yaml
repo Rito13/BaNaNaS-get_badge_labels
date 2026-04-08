@@ -19558,7 +19558,7 @@ cargos:
   - 2016
   - 1
   - 10
-  - ''
+  - Cereals
   - 0
   - "\xC3\x9ECereals"
   CHAM:
@@ -19822,7 +19822,7 @@ cargos:
   - 2016
   - 1
   - 10
-  - ''
+  - Fertiliser
   - 0
   - "\xC3\x9EFertiliser"
   FICR:
@@ -20334,7 +20334,7 @@ cargos:
   - 2016
   - 1
   - 10
-  - ''
+  - Oil seeds
   - 0
   - "\xC3\x9EOil seeds"
   OTI1:
@@ -21038,7 +21038,7 @@ cargos:
   - 2016
   - 1
   - 10
-  - ''
+  - Vehicles
   - 0
   - "\xC3\x9EVehicles"
   VENG:
