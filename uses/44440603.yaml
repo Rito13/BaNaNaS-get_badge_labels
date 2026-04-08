@@ -1,4 +1,4 @@
 badges: []
 cargos:
-- CLAY
-- GRVL
+  CLAY: '0b0000001000010000'
+  GRVL: '0b0000000000010000'

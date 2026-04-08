@@ -29,7 +29,6 @@ PROPS = {
 		0x13: 1,  # Station colour
 		0x14: 1,  # Payment colour
 		0x15: 1,  # Freight status
-		0x16: 2,  # Cargo classes
 		0x18: 1,  # Substitute type
 		0x19: 2,  # Multiplier
 		0x1A: 1,  # Flags
@@ -53,6 +52,13 @@ def match_string(item, label, strings, out, debug=False):
 	return True
 
 
+def find_key_for_value(dictionary, value):
+	for key in dictionary.keys():
+		if dictionary[key] == value:
+			return key
+	return None
+
+
 def read_grf_file(file, debug=False):
 	"""Parses prowided .grf file and returns 3 arrays of labels: public, private and hidden."""
 	# Outputs
@@ -63,7 +69,7 @@ def read_grf_file(file, debug=False):
 	badge_strings = {}
 	cargo_strings = {}
 	grf_id = 0
-	cargos_out = []
+	cargos_out = {}
 	with open(file, "rb") as f:
 		data = f.read()
 		badges = {}
@@ -159,7 +165,7 @@ def read_grf_file(file, debug=False):
 								if debug:
 									print("cargo_label:", label)
 								if label != "\00\00\00\00":
-									cargos_out.append(label)
+									cargos_out[label] = cargos_out.pop(first + c) if first + c in cargos_out else -(first + c) - 1  # Store cargo index as negative number to distinguish it from cargo classes.
 									if first + c in cargos:
 										match_string(cargos.pop(first + c), label, strings[feature], cargo_strings, debug)
 										# cargos[cargos.pop(first + c)] = label
@@ -173,6 +179,15 @@ def read_grf_file(file, debug=False):
 									# cargos[id] = cargos.pop(first + c)
 								else:
 									cargos[first + c] = id
+								j += 2
+						elif feature == 0x0B and prop == 0x16:  # Prop is cargo classes.
+							for c in range(num_of):
+								classes = int_from_bytes(data[j + 1 : j + 3])
+								label = find_key_for_value(cargos_out, -(first + c) - 1)  # Find related label without cargo classes set.
+								if label:
+									cargos_out[label] = classes
+								else:  # Prop 0x17 hasn't been provided yet.
+									cargos_out[first + c] = classes
 								j += 2
 						else:
 							print("invalid prop:", prop)  # Corruption or newer grf version.
@@ -208,6 +223,13 @@ def read_grf_file(file, debug=False):
 				print("reached outside the file")
 				break  # Corruption.
 			size = int_from_bytes(data[i : i + (4 if format == 2 else 2)])
+	for key, value in list(cargos_out.items()):  # Clone dict as we want to delete elements from it inside the loop.
+		if isinstance(key, int):
+			cargos_out.pop(key)  # Key is a cargo id and not label.
+		elif value < 0:
+			cargos_out[key] = None
+		else:
+			cargos_out[key] = f"0b{value:016b}"
 	return out, private_out, hidden_out, grf_id, badge_strings, cargos_out, cargo_strings
 
 
@@ -243,7 +265,7 @@ def find_grf_name(id, debug=False):
 		return global_data["name"]
 
 
-def generate_markdown_page(labels, page_name, required_flags: dict, debug=False, has_classes=True):
+def generate_markdown_page(labels, page_name, required_flags: dict, debug=False, has_classes=True, countable_data=None):
 	flags_mask = 0
 	flags_values = 0
 	for flag in required_flags:
@@ -277,8 +299,10 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 				md_file.write("# Classes\n")
 			else:  # It is a table for specific class.
 				md_file.write("\n# {}\n".format(c))
-			md_file.write("| Label | Introduced by | When | Comment | O. |\n")
-			md_file.write("| --- | --- | --- | --- | --- |\n")
+			cd_title = "| " + " | ".join(countable_data) if countable_data else ""
+			md_file.write(f"| Label | Introduced by | When | Comment {cd_title}| O. |\n")
+			cd_line = "| " + " | ".join(["---" for _ in countable_data]) if countable_data else ""
+			md_file.write(f"| --- | --- | --- | --- {cd_line}| --- |\n")
 			for b in hierarchy[c]:
 				label = b
 				if c == -1:  # It is a classes table.
@@ -294,36 +318,51 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
 				comment = labels[b][4] if labels[b][4] else labels[b][6]  # Use string from grf if no comment provided.
-				md_file.write("| {0} | {1} | {2} | {3} | {4} |\n".format(label, grf_id, when, comment, labels[b][-1]))
+				md_file.write("| {0} | {1} | {2} | {3} {5}| {4} |\n".format(label, grf_id, when, comment, labels[b][-1], f"| {labels[b][-2]} " if countable_data else ""))
+
+
+def link_with_grf_ids(li):
+	return '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
 
 
 def add_uses_to_labels(labels, key, debug=False):
 	start_size = len(labels[next(iter(labels))])
 	if not os.path.isdir("uses"):
 		return
+	has_countable_data = False
 	for file in os.listdir("uses"):
 		if file[-5:] != ".yaml":
 			continue  # Someone has put invalid file into this directory.
 		grf_id = file[:-5]
 		with open(os.path.join("uses", file), "r") as f:
 			module = yaml.safe_load(f)
-		for label in module[key] if isinstance(module, dict) else module:
+			module = module[key] if isinstance(module, dict) else module
+			if isinstance(module, dict):
+				has_countable_data = True
+		for label in module:
 			if label not in labels:
 				continue  # Lable from another scope.
 			if len(labels[label]) == start_size:
+				if isinstance(module, dict):
+					labels[label].append({module[label]: [grf_id]} if module[label] else {})
 				labels[label].append([grf_id])
 			else:
-				labels[label][start_size].append(grf_id)
+				labels[label][-1].append(grf_id)
+				if isinstance(module, dict) and module[label]:
+					labels[label][-2][module[label]] = labels[label][-2].get(module[label], []) + [grf_id]
 	for label in labels.keys():
 		if len(labels[label]) == start_size:
+			if has_countable_data:
+				labels[label].append(" | ")
 			labels[label].append(RED_ZERO)
 			if labels[label][0] >= 0:
 				if debug:
 					pass  # print(label, "is aging badly.")
 				labels[label][5] |= 1 << LabelFlags.AgingBadly
 		else:
-			li = sorted(labels[label][start_size])
-			labels[label][start_size] = '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
+			labels[label][-1] = link_with_grf_ids(sorted(labels[label][-1]))
+			if has_countable_data:
+				labels[label][-2] = "<br>".join(labels[label][-2].keys()) + " | " + "<br>".join([link_with_grf_ids(v) for v in labels[label][-2].values()])
 
 
 if __name__ == "__main__":
@@ -357,7 +396,7 @@ if __name__ == "__main__":
 			if cargo_labels[label][6] == "" or cargo_labels[label][0] == id:  # GRF can comment on cargo labels without comment and ones that it had introduced.
 				cargo_labels[label][6] = cargo_strings[label]
 
-		uses = {BADGES_KEY: sorted(set(public + private + hidden)), CARGOS_KEY: sorted(set(cargos))}
+		uses = {BADGES_KEY: sorted(set(public + private + hidden)), CARGOS_KEY: cargos}
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
@@ -370,5 +409,5 @@ if __name__ == "__main__":
 	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG)
 
 	add_uses_to_labels(cargo_labels, CARGOS_KEY, DEBUG)  # WARNING: cargo_labels is passed by reference.
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False)
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False)
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False, ["Classes", "C. O."])
+	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False, ["Classes", "C. O."])
