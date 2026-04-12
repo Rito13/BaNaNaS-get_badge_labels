@@ -337,7 +337,6 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 
 
 def link_with_grf_ids(li):
-	li = sorted(li)
 	return '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
 
 
@@ -355,7 +354,7 @@ def add_uses_to_labels(labels, key, debug=False):
 	if not os.path.isdir("uses"):
 		return
 	has_countable_data = False
-	for file in os.listdir("uses"):
+	for file in sorted(os.listdir("uses")):
 		if file[-5:] != ".yaml":
 			continue  # Someone has put invalid file into this directory.
 		grf_id = file[:-5]
