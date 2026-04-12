@@ -334,6 +334,7 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 
 
 def link_with_grf_ids(li):
+	li = sorted(li)
 	return '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
 
 
@@ -381,7 +382,7 @@ def add_uses_to_labels(labels, key, debug=False):
 					pass  # print(label, "is aging badly.")
 				labels[label][5] |= 1 << LabelFlags.AgingBadly
 		else:
-			labels[label][-1] = link_with_grf_ids(sorted(labels[label][-1]))
+			labels[label][-1] = link_with_grf_ids(labels[label][-1])
 			if has_countable_data:
 				ordered = list(labels[label][-2].items())
 
