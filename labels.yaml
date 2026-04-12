@@ -4103,6 +4103,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_livery_def/internal_livery_name/hornet:
+  - 1128337955
+  - 2026
+  - 4
+  - 11
+  - ''
+  - 2
+  - ''
   _ih_livery_def/internal_livery_name/industrial_yellow:
   - 1128337955
   - 2026
@@ -17664,6 +17672,14 @@ badges:
   - ''
   - 0
   - Grey Horse
+  livery/iron_horse/hornet:
+  - 1128337955
+  - 2026
+  - 4
+  - 11
+  - ''
+  - 0
+  - Hornet
   livery/iron_horse/industrial_yellow:
   - 1128337955
   - 2026
