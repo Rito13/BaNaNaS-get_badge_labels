@@ -91,13 +91,16 @@ def read_grf_file(file, debug=False):
 			print("Format", format)
 		if format == 2:
 			_sprites_start = int_from_bytes(data[10:14])  # Remove leading `_` if used.
-			_compression = data[14]  # Remove leading `_` if used.
+			compression = data[14]  # Compression format of the data section.
 			i = 15  # i short for iterator. 15 skips file header of grf format 2.
 			size = int_from_bytes(data[i : i + 4])  # Read size of first sprite. Format 2 used dword sizes.
 		else:
 			i = 0  # Format 1 does not have file header.
-			_compression = 0  # Format 1 is not compressed.
+			compression = 0  # Format 1 is not compressed.
 			size = int_from_bytes(data[i : i + 2])  # Format 1 uses word sizes.
+		if compression != 0:
+			print("invalid compression format:", compression)
+			size = 0  # Corruption, so skip the while loop.
 		while size != 0:  # Size == 0 marks end of data section.
 			i = i + (5 if format == 2 else 3)  # Skip size and info byte.
 			if data[i - 1] != 0xFF:  # Check if info byte is not a pseudo sprite.
