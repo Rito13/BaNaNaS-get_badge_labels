@@ -999,10 +999,10 @@
 | livery/iron_horse/complement_company_colour | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Company Colour Adjacent | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/conventional_wisdom | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Conventional Wisdom | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/freight_black | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Dark Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/freight_industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 | Industrial Yellow | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/freight_red | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Flame Red | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/fruit_ripple | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Fruit Ripple | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/grey_horse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Grey Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| livery/iron_horse/hornet | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-11 | Hornet | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Hazard Yellow | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/inversions | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Inversions | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/lower_lines | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Lower Lines | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -1034,7 +1034,6 @@
 | livery/iron_horse/vanilla | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | VANILLA | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/vapid_voyager | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vapid Voyager | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/vinyl_vector | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Vinyl Vector | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| livery/iron_horse/worker_bee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-04 | Worker Bee | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/iron_horse/workhorse | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Work Horse | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | livery/random/1cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on first company colour | $\textcolor{red}{\textsf{0}}$ |
 | livery/random/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on second company colour | $\textcolor{red}{\textsf{0}}$ |
