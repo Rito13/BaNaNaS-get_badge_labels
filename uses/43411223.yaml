@@ -1,3 +1,4 @@
+badges:
 - _ih_distributed_power/is_power_cab/alize_cab
 - _ih_distributed_power/is_power_cab/brash_cab
 - _ih_distributed_power/is_power_cab/brenner_cab
@@ -501,16 +502,15 @@
 - _ih_livery_def/internal_livery_name/company_colour
 - _ih_livery_def/internal_livery_name/complement_company_colour
 - _ih_livery_def/internal_livery_name/conventional_wisdom
-- _ih_livery_def/internal_livery_name/dutch
 - _ih_livery_def/internal_livery_name/farmflow
 - _ih_livery_def/internal_livery_name/freight_black
 - _ih_livery_def/internal_livery_name/freight_bonus_teal
-- _ih_livery_def/internal_livery_name/freight_industrial_yellow
 - _ih_livery_def/internal_livery_name/freight_mist
 - _ih_livery_def/internal_livery_name/freight_red
 - _ih_livery_def/internal_livery_name/freightliner_gbrf
 - _ih_livery_def/internal_livery_name/fruit_ripple
 - _ih_livery_def/internal_livery_name/grey_horse
+- _ih_livery_def/internal_livery_name/hornet
 - _ih_livery_def/internal_livery_name/industrial_yellow
 - _ih_livery_def/internal_livery_name/inversions
 - _ih_livery_def/internal_livery_name/lower_lines
@@ -545,7 +545,6 @@
 - _ih_livery_def/internal_livery_name/vanilla
 - _ih_livery_def/internal_livery_name/vapid_voyager
 - _ih_livery_def/internal_livery_name/vinyl_vector
-- _ih_livery_def/internal_livery_name/worker_bee
 - _ih_livery_def/internal_livery_name/workhorse
 - _ih_livery_def/use_weathering/False
 - _ih_livery_def/use_weathering/True
@@ -1309,10 +1308,10 @@
 - livery/iron_horse/complement_company_colour
 - livery/iron_horse/conventional_wisdom
 - livery/iron_horse/freight_black
-- livery/iron_horse/freight_industrial_yellow
 - livery/iron_horse/freight_red
 - livery/iron_horse/fruit_ripple
 - livery/iron_horse/grey_horse
+- livery/iron_horse/hornet
 - livery/iron_horse/industrial_yellow
 - livery/iron_horse/inversions
 - livery/iron_horse/lower_lines
@@ -1344,7 +1343,6 @@
 - livery/iron_horse/vanilla
 - livery/iron_horse/vapid_voyager
 - livery/iron_horse/vinyl_vector
-- livery/iron_horse/worker_bee
 - livery/iron_horse/workhorse
 - newgrf/43411223
 - power
@@ -1368,3 +1366,4 @@
 - role/suburban_or_universal_railcar
 - role/universal
 - role/very_high_speed
+cargos: []
