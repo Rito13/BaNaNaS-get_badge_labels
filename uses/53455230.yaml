@@ -1,0 +1,18 @@
+badges: []
+cargos: {}
+rail_types:
+- E040
+- E080
+- EHIG
+- ELOW
+- ELRL
+- EMED
+- HSTR
+- RAIL
+- RHIG
+- RLOW
+- RMED
+- _040
+- _080
+road_types: []
+tram_types: []

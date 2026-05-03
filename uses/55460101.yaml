@@ -1,0 +1,16 @@
+badges: []
+cargos: {}
+rail_types:
+- EHIG
+- ELR1
+- ELRL
+- ELUR
+- EMED
+- MGLV
+- MONO
+- RAIL
+- RHIG
+- RLOW
+- RMED
+road_types: []
+tram_types: []

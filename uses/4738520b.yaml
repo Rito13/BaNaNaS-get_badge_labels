@@ -1,0 +1,25 @@
+badges: []
+cargos: {}
+rail_types:
+- BAAN
+- ELRL
+- LIHT
+- LTRL
+- NAAE
+- NAAN
+- NABE
+- NG60
+- NG6E
+- RAIL
+- WGWY
+- WWAY
+- dU1E
+- dU1N
+- dU2E
+- dU2N
+- dU3E
+- dU3N
+- dU4E
+- dU4N
+road_types: []
+tram_types: []

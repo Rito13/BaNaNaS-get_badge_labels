@@ -1,0 +1,9 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- GSLP
+- PIPE
+- ROAD
+- TRD_
+tram_types: []

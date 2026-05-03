@@ -1,0 +1,16 @@
+badges: []
+cargos: {}
+rail_types:
+- 3RDC
+- 3RDR
+- ELRL
+- NAAN
+- NABE
+- RAIL
+- SAA3
+- SAA4
+- SAAX
+- SAAZ
+- SBAX
+road_types: []
+tram_types: []

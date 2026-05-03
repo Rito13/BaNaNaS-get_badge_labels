@@ -1,0 +1,25 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- CBRD
+- CBRE
+- ELHL
+- ELRD
+- HAUL
+- ISRD
+- ISRE
+- PVRD
+- PVRE
+- ROAD
+- YDRD
+tram_types:
+- CBTE
+- CBTR
+- ELRL
+- ISTE
+- ISTR
+- PVTE
+- PVTR
+- RAIL
+- YDTR

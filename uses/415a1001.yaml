@@ -1,0 +1,22 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- ASP0
+- ASP1
+- ASP2
+- DIRT
+- ELA0
+- ELA1
+- ELA2
+- ELRD
+- ELSP
+- HWAY
+- OLD_
+- ROAD
+- SETT
+tram_types:
+- ELRL
+- RAIL
+- SAAE
+- SAAN

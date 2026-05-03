@@ -1,0 +1,16 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- A_RD
+- B_RD
+- CONC
+- DIRT
+- ELR2
+- ELRD
+- MWAY
+- ROAD
+- TOWN
+tram_types:
+- ELRL
+- RAIL

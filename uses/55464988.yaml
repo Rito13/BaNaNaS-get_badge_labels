@@ -1,0 +1,25 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- AER3
+- ARD0
+- ARD3
+- ARD4
+- DRD0
+- DRD1
+- DRD2
+- DRD5
+- ELRD
+- ORD3
+- ROAD
+- SRD0
+- SRD1
+- UER1
+- URD1
+- WRD0
+tram_types:
+- DEL0
+- DRL0
+- ELRL
+- RAIL

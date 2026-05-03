@@ -1,1 +1,13 @@
-[]
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- NAAN
+- PTWY
+- RAIL
+- SAA3
+- SAA4
+- SAAY
+- SAAZ
+road_types: []
+tram_types: []

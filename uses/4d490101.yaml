@@ -1,1 +1,24 @@
-[]
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- ELRD
+- ROAD
+- RT01
+- RT02
+- RT03
+- RT04
+- RT05
+- RT06
+- RT07
+- RT08
+- RT09
+- RT10
+- RT11
+- RT12
+- RT13
+- RT14
+- RT15
+- RT16
+- RT17
+tram_types: []

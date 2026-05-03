@@ -1,0 +1,12 @@
+badges: []
+cargos: {}
+rail_types:
+- LBAS
+- LCAI
+- MGLV
+- TBAI
+- TBAS
+- TCAI
+- TCAS
+road_types: []
+tram_types: []

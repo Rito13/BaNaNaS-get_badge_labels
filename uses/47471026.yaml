@@ -1,0 +1,15 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- NSWE
+- NSWR
+- RAIL
+- SAAE
+- SAAN
+- SCAE
+- SCAN
+- SDAE
+- SDAN
+road_types: []
+tram_types: []

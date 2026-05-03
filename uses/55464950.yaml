@@ -1,1 +1,42 @@
+badges:
 - roadtype_flag_no_houses
+cargos: {}
+rail_types: []
+road_types:
+- ARD0
+- ARD1
+- ARD2
+- DRD0
+- DRD1
+- DRD2
+- DRD3
+- DRD4
+- DRD5
+- DRD6
+- ELRD
+- ERD0
+- ERD1
+- ERD2
+- ERD3
+- ORD0
+- ORD1
+- ORD2
+- ORD3
+- ROAD
+- SRD0
+- SRD1
+- SRD2
+- SRD3
+- URD0
+- URD1
+- WRD0
+tram_types:
+- ELRL
+- LT0_
+- LT1_
+- LT2_
+- RAIL
+- TEL0
+- TEL1
+- TEL2
+- TRL0

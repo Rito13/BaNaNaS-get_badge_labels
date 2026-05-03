@@ -1,0 +1,20 @@
+badges: []
+cargos: {}
+rail_types:
+- DABE
+- DABN
+- DACE
+- ELRL
+- NAAN
+- NABE
+- NABN
+- NACE
+- NUBE
+- RAIL
+- SAAN
+- SACE
+- SAEE
+- SBEE
+- SUBE
+road_types: []
+tram_types: []

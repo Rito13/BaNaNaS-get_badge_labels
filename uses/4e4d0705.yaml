@@ -1,0 +1,21 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- MGLV
+- MONO
+- RAIL
+- SAAE
+- SAAN
+- SBA3
+- SBAZ
+- SCA3
+- SCAE
+- SCAN
+- SCAZ
+- SDAE
+- SDAN
+- SEAE
+- SEAN
+road_types: []
+tram_types: []

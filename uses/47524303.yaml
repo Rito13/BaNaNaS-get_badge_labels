@@ -1,0 +1,8 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- FORD
+- FRZN
+- ROAD
+tram_types: []

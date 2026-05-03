@@ -1,0 +1,12 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- RAIL
+- SAA3
+- SADD
+- SAEA
+- SBCA
+- SBEE
+road_types: []
+tram_types: []

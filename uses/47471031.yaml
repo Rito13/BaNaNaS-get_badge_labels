@@ -1,0 +1,18 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- ELSA
+- ELSC
+- ELSD
+- ELSE
+- ELYD
+- NSWE
+- NSWR
+- PRIV
+- RAIL
+- SAAN
+- SCAN
+- YARD
+road_types: []
+tram_types: []

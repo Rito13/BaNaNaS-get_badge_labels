@@ -1,0 +1,7 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- EGRV
+- RAAE
+tram_types: []

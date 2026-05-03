@@ -1,0 +1,15 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- MGLV
+- MONO
+- RAIL
+- SAA3
+- SAAZ
+- SADD
+- SAEA
+- SSAZ
+- SUAZ
+road_types: []
+tram_types: []

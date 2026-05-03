@@ -1,5 +1,30 @@
+badges:
 - ih_behaviour/lgv_capable
 - power
 - power/electrified
 - power/electrified_third_rail
 - power/third_rail
+cargos: {}
+rail_types:
+- ELRL
+- MGLV
+- MONO
+- NAA3
+- NAAE
+- NAAN
+- NEL1
+- NRL0
+- NRL1
+- RAIL
+- SAA3
+- SAAZ
+- SEL1
+- SEL2
+- SEL3
+- SRL0
+- SRL1
+- SRL2
+- dAAN
+- dBAE
+road_types: []
+tram_types: []

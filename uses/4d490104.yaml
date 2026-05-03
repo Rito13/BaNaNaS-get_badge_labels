@@ -1,1 +1,28 @@
-[]
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- ER01
+- ER02
+- ER03
+- ER04
+- ER05
+- ER06
+- ER07
+- ER08
+- RA01
+- RA02
+- RA03
+- RA04
+- RA05
+- RA06
+- RA07
+- RA08
+- RA09
+- RA10
+- RA11
+- RA12
+- RA13
+- RAIL
+road_types: []
+tram_types: []

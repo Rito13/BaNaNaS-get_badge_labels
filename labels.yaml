@@ -21250,6 +21250,350 @@ cargos:
   - 0
   - Zinc
 rail_types:
+  3RDC:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (Dual Voltaage) construction.
+  3RDR:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (750v 3rd Rail) construction.
+  B3A3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FThird rail\x9A  railroad (right)"
+  BAA3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FThird rail\x9A  railroad (left)"
+  BAAE:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  BAAN:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Ultra-Broad Gauge Rail Construction
+  BBA3:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Broad Gauge Third Rail
+  BBAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC Broad Gauge Electrified Railroad
+  BBAD:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 3kV DC Broad Gauge Electrified Railroad
+  BBAN:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Broad Gauge Railroad
+  BBAZ:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC / Third Rail Broad Gauge Railroad
+  BCAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC Broad Gauge Electrified Trunk Railroad
+  BCAD:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 3kV DC Broad Gauge Electrified Trunk Railroad
+  BCAE:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC / 3kV DC Broad Gauge Electrified Railroad
+  BCAN:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Broad Gauge Trunk Railroad
+  BDAD:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 3kV DC Broad Gauge Electrified High-Speed Railroad
+  BDAN:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Broad Gauge High-Speed Railroad
+  BEAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC Broad Gauge Electrified High-Speed Railroad
+  BEAD:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 3kV DC Broad Gauge Electrified High-Speed Railroad
+  BFAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC Broad Gauge Electrified Unlimited-Speed Railroad
+  BLS2:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Empty track ballast construction.
+  BLS3:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Empty track ballast construction.
+  BLST:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Empty track ballast construction.
+  DABE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Dual-gauge electrified railway construction
+  DABN:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Dual-gauge railway construction
+  DACE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Dual-gauge electrified modern railway construction
+  DBAE:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Standard-Broad Dual Gauge AC/DC Electrified Railroad
+  DBAN:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Standard-Broad Dual Gauge Railroad
+  DBHE:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  DBHS:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  DBNE:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  DIRT:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  DIS3:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (EXCEPTED) Disused (3RD RAIL)
+  DISE:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (EXCEPTED) Disused (EL.RAIL)
+  DISN:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (EXCEPTED) Disused (RAIL)
+  DISZ:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (EXCEPTED) Disused (DUAL SYSTEM)
+  DPRK:
+  - 1162753793
+  - 2021
+  - 3
+  - 4
+  - ''
+  - 0
+  - North Korean Urban Ground (Trackless)
+  E040:
+  - 1397051952
+  - 2013
+  - 12
+  - 6
+  - ''
+  - 0
+  - ''
+  E080:
+  - 1397051952
+  - 2013
+  - 12
+  - 6
+  - ''
+  - 0
+  - ''
+  EHIG:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
+  - ''
+  - 0
+  - High speed Lines (electrified)
+  ELNG:
+  - 1313297491
+  - 2011
+  - 11
+  - 22
+  - ''
+  - 0
+  - Narrow gauge electrified construction
+  ELOW:
+  - 1397051952
+  - 2013
+  - 12
+  - 6
+  - ''
+  - 0
+  - ''
+  ELR1:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
+  - ''
+  - 0
+  - Very High speed Lines (electrified)
   ELRL:
   - -3
   - 1995
@@ -21258,6 +21602,726 @@ rail_types:
   - Electrified rail
   - 0
   - "\x9A\x1FRailway (electrified)\x9A \x9A\x1F"
+  ELSA:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Electrified 1 Gantry with Wire Fence
+  ELSC:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Electrified with Sound Proof Fence
+  ELSD:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Electrified 2 Gantry (NO pylons or fences)
+  ELSE:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Electrified Subway (Invisible Catenary)
+  ELUR:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
+  - ''
+  - 0
+  - Urban Lines (electrified)
+  ELYD:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Electrified Rail 4 (Yard/Station)
+  EMED:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
+  - ''
+  - 0
+  - Modern Main Lines (electrified)
+  ER01:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' (EL) Wood ( - ) - MECH - '
+  ER02:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' (EL) Concrete ( - ) - SSSR - '
+  ER03:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " (EL) Concrete (R)  - SSSR/A\xC5\xBDD - "
+  ER04:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' (EL) Wood ( - ) - SSSR - '
+  ER05:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " (EL) Concrete ( - ) - A\xC5\xBDD - "
+  ER06:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " (EL) Concrete ( - ) - A\xC5\xBDD - "
+  ER07:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " (EL) Concrete ( - ) - A\xC5\xBDD - "
+  ER08:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' (EL) Concrete ( - ) - MECH/SSSR - '
+  ER2D:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC 1500V\x9A  / \x9A\x1F3kV\x9A  electrified railroad"
+  ER2S:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Electrified AC/DC railroad
+  ER2s:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - AC 25kV / DC 1500V electrified railroad
+  ER3D:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Electrified AC 25kV / DC 1500V / 3kV railroad
+  ER3a:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Electrified AC 15 / 25kV / DC 1500V railroad
+  ER4S:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Electrified AC 15 / 25kV / DC 1500V / 3kV railroad
+  ERA0:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC\x9A  electrified railroad"
+  ERA1:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC\x9A  electrified railroad"
+  ERA2:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC\x9A  electrified railroad"
+  ERA3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC\x9A  electrified railroad"
+  ERA4:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC\x9A  electrified railroad"
+  ERD0:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC\x9A  electrified railroad"
+  ERD1:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC\x9A  electrified railroad"
+  ERD2:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC\x9A  electrified railroad"
+  ERD3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC\x9A  electrified railroad"
+  ERa0:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  ERa1:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  ERa2:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  ERa3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  ERa4:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  ERd0:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  ERd1:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  ERd2:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  ERd3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  ES2D:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Electrified DC 1.5/3kV railroad
+  ES2S:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Electrified AC 25kV/DC 3kV railroad
+  ES2s:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Electrified AC 25kV/DC 1.5kV railroad
+  ES3D:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Electrified AC 25kV/DC 1.5/3kV railroad
+  ES3a:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Electrified AC 15/25kV/DC 1.5kV railroad
+  FILL:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Grass Fill Construction
+  HSTR:
+  - 1397051952
+  - 2013
+  - 12
+  - 6
+  - ''
+  - 0
+  - ''
+  IHAA:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  IHA_:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  IHBA:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  IHB_:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  IHC_:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  IHD_:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  IHE_:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  INVS:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Invisible track construction.
+  ISR1:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Industrial Stations Renewal Ground (Trackless)
+  ISR2:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - CHIPS Dirt Ground (Trackless)
+  ISR3:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - CHIPS Asphalt Ground (Trackless)
+  ISR4:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - CHIPS Cobblestone Ground (Trackless)
+  JEC0:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - Invisible Track
+  JEC2:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - JP+ Ballast Ground
+  JEC3:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - JP+ Urban Ground
+  JEC4:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - JP+ High-Speed Ballast Ground
+  JEC5:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - CHIPS Concrete Ground
+  JEC6:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - CHIPS Cobblestone Ground
+  JEC7:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - CHIPS Dirt Ground
+  JEC8:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - ISR Ground
+  JEC9:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - Light Concrete
+  JPU1:
+  - 1162753793
+  - 2021
+  - 3
+  - 4
+  - ''
+  - 0
+  - Japanese Urban Ground (Trackless)
+  KDSU:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Standard Speed Track Construction (Urban, Electrified)
+  KDS_:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Standard Speed Track Construction
+  KFIL:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Korean Concrete Fill Construction
+  KHS_:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - High Speed Track Construction
+  KL3L:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Light Rail (Third Rail) Track Construction
+  KLAG:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Light Rail (Automated Guideway) Track Construction
+  KLMN:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Light Rail (Monorail) Track Construction
+  KLSE:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Low Speed Track Construction (Electrified)
+  KLSU:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Low Speed Track Construction (Urban, Electrified)
+  KMTR:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Metro Track Construction
+  KRBD:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Railbed Construction
+  KRNR:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - 762mm Narrow Gauge Track Construction
+  KSSU:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Semi High Speed Track Construction
+  KSUB:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Subway Track Construction
+  KSUP:
+  - 1263808561
+  - 2025
+  - 9
+  - 2
+  - ''
+  - 0
+  - Subway (With Park) Construction
+  LAA3:
+  - 1145721857
+  - 2019
+  - 10
+  - 17
+  - ''
+  - 0
+  - Maglev line construction
+  LBAS:
+  - 1380599067
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - M-Bahn
+  LCAI:
+  - 1380599067
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - SC-Maglev
+  LFTD:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Lifted Track Construction
+  LIHT:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  LTRL:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Prototype Railway Construction
+  MGL2:
+  - 1145721857
+  - 2019
+  - 10
+  - 17
+  - ''
+  - 0
+  - Accelerated narrow-gauge line construction
   MGLV:
   - -3
   - 1995
@@ -21266,6 +22330,14 @@ rail_types:
   - Maglev tracks
   - 0
   - Maglev
+  MON2:
+  - 1145721857
+  - 2019
+  - 10
+  - 17
+  - ''
+  - 0
+  - Electric accelerated narrow-gauge line construction
   MONO:
   - -3
   - 1995
@@ -21274,6 +22346,790 @@ rail_types:
   - Monorail tracks
   - 0
   - Monorail
+  MTRO:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Standard Gauge Metro (3rd Rail Electrified)
+  NAA3:
+  - 1430669712
+  - 2023
+  - 3
+  - 2
+  - ''
+  - 0
+  - 'Narrow-gauge railway (3rd rail powered) '
+  NAAA:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC)\x9A  (Wooden Ties)"
+  NAAD:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(DC)\x9A  (Wooden Ties)"
+  NAAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (Wooden Ties)"
+  NAAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Branch
+  NAAZ:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  NAAa:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (15kv AC Overhead) construction.
+  NAAd:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (1.5kv DC Overhead) construction.
+  NABE:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Branch (Electrified)
+  NABN:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Narrow gauge railroad
+  NACE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Highspeed line
+  NBA3:
+  - 1430669712
+  - 2023
+  - 3
+  - 2
+  - ''
+  - 0
+  - 'Modern narrow-gauge railway (3rd rail powered) '
+  NBAA:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC)\x9A  (Concrete Ties)"
+  NBAD:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(DC)\x9A  (Concrete Ties)"
+  NBAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (Concrete Ties)"
+  NBAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Trunk
+  NBAZ:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  NBAa:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (15kv AC Overhead) construction.
+  NBAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Trunk (Electrified)
+  NCAA:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC)\x9A  (Slabs)"
+  NCAD:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(DC)\x9A  (Slabs)"
+  NCAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (Slabs)"
+  NCAN:
+  - 1380599066
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - Narrow Gauge Modern
+  NCAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Modern (Electrified)
+  NDAE:
+  - 1430669712
+  - 2023
+  - 3
+  - 2
+  - ''
+  - 0
+  - 'High-speed narrow-gauge railway (electrified) '
+  NDAN:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - Narrow Gauge Track (Slabs)
+  NEAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FCHIPS Concrete\x9A )"
+  NEAN:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track (\x9A\x1FCHIPS Concrete\x9A )"
+  NEL1:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FNarrow gauge railway (level 1) (electrified)\x9A \x9A\x1F"
+  NFAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FCHIPS Cobblestone\x9A )"
+  NFAN:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track (\x9A\x1FCHIPS Cobblestone\x9A )"
+  NG60:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  NG6E:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  NGAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FCHIPS Dirt\x9A )"
+  NGAN:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track (\x9A\x1FCHIPS Dirt\x9A )"
+  NGRL:
+  - 1313297491
+  - 2011
+  - 11
+  - 22
+  - ''
+  - 0
+  - Narrow gauge construction
+  NHAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FISR\x9A )"
+  NHAN:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Narrow Gauge Track (\x9A\x1FISR\x9A )"
+  NRAE:
+  - 1296499201
+  - 2020
+  - 10
+  - 4
+  - ''
+  - 0
+  - Electrified Narrow Gauge Rack Railway Track Construction
+  NRAN:
+  - 1296499201
+  - 2020
+  - 10
+  - 4
+  - ''
+  - 0
+  - Narrow Gauge Rack Only Railway Track Construction
+  NRHE:
+  - 1296499201
+  - 2020
+  - 10
+  - 4
+  - ''
+  - 0
+  - Electrified Narrow Gauge Rack Railway Track Construction
+  NRHN:
+  - 1296499201
+  - 2020
+  - 10
+  - 4
+  - ''
+  - 0
+  - Narrow Gauge Rack Only Railway Track Construction
+  NRL0:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FOvergrown narrow gauge railway\x9A \x9A\x1F"
+  NRL1:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FNarrow gauge railway (level 1)\x9A \x9A\x1F"
+  NSWE:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Unelectrified 2 (Wire Mesh Fence)
+  NSWR:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Unelectrified 3 (High Woodpanel Fence)
+  NU1E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge ISR (Electrified)
+  NU1N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge ISR
+  NU2E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge Cobblestone (Electrified)
+  NU2N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge Cobblestone
+  NU3E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge Dirt (Electrified)
+  NU3N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge Dirt
+  NU4E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge Asphalt (Electrified)
+  NU4N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Narrow Gauge Asphalt
+  NUAE:
+  - 1430669712
+  - 2023
+  - 3
+  - 2
+  - ''
+  - 0
+  - 'Urban narrow-gauge railway (electrified) '
+  NUAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Urban
+  NUAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Narrow Gauge Urban (Electrified)
+  NUBE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Urban line (3rd rail powered)
+  NY23:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  NY2A:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv AC Overhead) construction.
+  NY2D:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (3kv DC Overhead) construction.
+  NY2N:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge construction.
+  NY2Z:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  NY2a:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (15kv AC Overhead) construction.
+  NY2d:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (1.5kv DC Overhead) construction.
+  NY33:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (750v DC 3rd Rail) construction.
+  NY3A:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv AC Overhead) construction.
+  NY3D:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (3kv DC Overhead) construction.
+  NY3N:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge construction.
+  NY3Z:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  NY3a:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (15kv AC Overhead) construction.
+  NY3d:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (1.5kv DC Overhead) construction.
+  NY43:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (750v DC 3rd Rail) construction.
+  NY4A:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv AC Overhead) construction.
+  NY4D:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (3kv DC Overhead) construction.
+  NY4N:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge construction.
+  NY4Z:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  NY4a:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (15kv AC Overhead) construction.
+  NY4d:
+  - 1111641684
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Narrow Gauge (1.5kv DC Overhead) construction.
+  OMNE:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - Omni-Gauge Electrified Rail Construction
+  OMNI:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - Omni-Gauge Rail Construction
+  PLAN:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Planning Track Construction
+  PRIV:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Unelectrified Private 6 (UnFenced)
+  PTWY:
+  - 1415005702
+  - 2026
+  - 3
+  - 9
+  - ''
+  - 0
+  - Plateway Construction
+  RA01:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Wood (R)  - MECH - '
+  RA02:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Wood ( - ) - MECH - '
+  RA03:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Wood ( - ) - MECH - '
+  RA04:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Wood ( - ) - MECH - '
+  RA05:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Concrete ( - ) - SSSR - '
+  RA06:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " ( -- ) Concrete (R)  - SSSR/A\xC5\xBDD - "
+  RA07:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Wood ( - ) - SSSR - '
+  RA08:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Wood ( - ) - SSSR - '
+  RA09:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " ( -- ) Wood (R)  - SSSR/A\xC5\xBDD - "
+  RA10:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " ( -- ) Concrete ( - ) - A\xC5\xBDD - "
+  RA11:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Concrete ( - ) - MECH/SSSR - '
+  RA12:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' ( -- ) Concrete (R) - SSSR - '
+  RA13:
+  - 1296630020
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - " ( -- ) Concrete - A\xC5\xBDD - "
   RAIL:
   - -3
   - 1995
@@ -21281,8 +23137,2937 @@ rail_types:
   - 1
   - Normal rail
   - 0
+  - Standard Gauge construction.
+  RHIG:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
   - ''
+  - 0
+  - High speed Lines
+  RLA0:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Railroad
+  RLA1:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Railroad
+  RLA2:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Railroad
+  RLA3:
+  - 1298493361
+  - 2024
+  - 2
+  - 29
+  - ''
+  - 0
+  - Railroad
+  RLOW:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
+  - ''
+  - 0
+  - Main Lines
+  RMED:
+  - 1430651137
+  - 2019
+  - 1
+  - 10
+  - ''
+  - 0
+  - Modern Main Lines
+  SAA$:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv AC Overhead) construction.
+  SAA':
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/3kv AC/DC Overhead) construction.
+  SAA(:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/1.5kv AC/DC Overhead) construction.
+  SAA):
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/3kv AC/DC Overhead) construction.
+  SAA,:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv/3kv/1.5kv AC/DC Overhead) construction.
+  SAA3:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  SAA4:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (630v 4th Rail) construction.
+  SAA=:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv/1.5kv DC Overhead) construction.
+  SAAA:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv AC Overhead) construction.
+  SAAD:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv DC Overhead) construction.
+  SAAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SAAI:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Standard Gauge Track \x9A\x1F(Linear Motor)\x9A  (Concrete Ties)"
+  SAAN:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SAAX:
+  - 1431323732
+  - 2023
+  - 5
+  - 9
+  - ''
+  - 0
+  - Developer Track construction
+  SAAY:
+  - 1415005702
+  - 2026
+  - 3
+  - 9
+  - ''
+  - 0
+  - Dual Power Metro (25kV AC/630V DC) Electrified Railway Construction
+  SAAZ:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  SAA[:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv/1.5kv AC/DC Overhead) construction.
+  SAA]:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv/3kv AC/DC Overhead) construction.
+  SAA^:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/1.5kv AC/DC Overhead) construction.
+  SAA_:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/3kv/1.5kv AC/DC Overhead) construction.
+  SAAa:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv AC Overhead) construction.
+  SAAd:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (1.5kv DC Overhead) construction.
+  SAB3:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Railroad (3rd rail powered)
+  SABN:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Branch line
+  SAC3:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Railroad (3rd rail powered)
+  SACE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Modern line (electrified)
+  SACZ:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Railroad (dual electrified)
+  SADD:
+  - 4227532545
+  - 2014
+  - 9
+  - 26
+  - ''
+  - 0
+  - Standard Rail [1500V DC]
+  SADE:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Highspeed line (electrified)
+  SADN:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Highspeed line
+  SAE3:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Metro track, 3rd rail
+  SAEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Low-speed branch line/siding, gravel/crushed stone ballast, wood/concrete ties,
+    electrified
+  SAEE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Modern highspeed line (electrified)
+  SAEN:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Low-speed branch line/siding, gravel/crushed stone ballast, wood/concrete ties
+  SBA3:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  SBA4:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (630v 4th Rail) construction.
+  SBAA:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv AC Overhead) construction.
+  SBAD:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv DC Overhead) construction.
+  SBAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SBAI:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Standard Gauge Track \x9A\x1F(Linear Motor)\x9A  (Slabs)"
+  SBAN:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SBAX:
+  - 1431323732
+  - 2023
+  - 5
+  - 9
+  - ''
+  - 0
+  - Developer Track construction
+  SBAY:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - 25kV AC / Fourth Rail
+  SBAZ:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  SBAa:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv AC Overhead) construction.
+  SBAd:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (1.5kv DC Overhead) construction.
+  SBCA:
+  - 4227532545
+  - 2014
+  - 9
+  - 26
+  - ''
+  - 0
+  - HSL [25kV AC]
+  SBCE:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Modern line (electrified)
+  SBCN:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Modern main line
+  SBEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Low-speed branch line, gravel ballast, wood ties, electrified
+  SBEE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Modern highspeed line (electrified)
+  SBEN:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Low-speed branch line, gravel ballast, wood ties
+  SCA3:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  SCA4:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (630v 4th Rail) construction.
+  SCAA:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv AC Overhead) construction.
+  SCAD:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv DC Overhead) construction.
+  SCAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SCAN:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SCAZ:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (Dual Voltaage) construction.
+  SCAa:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv AC Overhead) construction.
+  SCAd:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (1.5kv DC Overhead) construction.
+  SCEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Medium-speed siding/branch line, crushed stone ballast, wood/concrete ties, electrified
+  SDA3:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (750v 3rd Rail) construction.
+  SDA4:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (630v 4th Rail) construction.
+  SDAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - High-speed Electrified AC 25kV railroad
+  SDAD:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - High-speed Electrified DC 3kV railroad
+  SDAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SDAN:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SDAZ:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (CLASS 4) Medium Speed (DUAL SYSTEM)
+  SDAa:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Trunk Electrified AC 15kV railroad
+  SDEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Medium-high-speed siding, crushed stone ballast, wood/concrete ties, electrified
+  SDEN:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Medium-speed mainline, gravel ballast, wood ties
+  SEA3:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (750v 3rd Rail) construction.
+  SEAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - High-speed Electrified AC 25kV railroad
+  SEAD:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - High-speed Electrified DC 3kV railroad
+  SEAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SEAN:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SEAZ:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (CLASS 5) Medium Speed (DUAL SYSTEM)
+  SEAa:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - High-speed Electrified AC 15kV railroad
+  SEAd:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - High-speed Electrified DC 1.5kV railroad
+  SEEN:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Medium-speed mainline, gravel/crushed stone ballast, wood/concrete ties
+  SEL1:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRailway (level 1) (electrified)\x9A \x9A\x1F"
+  SEL2:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRailway (level 2) (electrified)\x9A \x9A\x1F"
+  SEL3:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FHigh speed railway (electrified)\x9A \x9A\x1F"
+  SFA3:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (750v 3rd Rail) construction.
+  SFAA:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Unlimited-speed Electrified AC 25kV railroad
+  SFAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SFAN:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SFAZ:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (CLASS 6) Medium Speed (DUAL SYSTEM)
+  SFAa:
+  - 1600062476
+  - 2024
+  - 1
+  - 25
+  - ''
+  - 0
+  - Unlimited-speed Electrified AC 15kV railroad
+  SFEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Modern medium-speed mainline, crushed stone ballast, concrete ties, electrified
+  SFEN:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Medium-speed mainline, crushed stone ballast, wood/concrete ties
+  SGAA:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Standard High-Speed Track \x9A\x1F(AC)\x9A  (Concrete Ties)"
+  SGAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SGAN:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SGEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Modern high-speed mainline, crushed stone ballast, concrete ties, electrified
+  SHAA:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Standard High-Speed Track \x9A\x1F(AC)\x9A  (Slabs)"
+  SHAE:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SHAN:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (CLASS 8) High Speed (RAIL)
+  SHEA:
+  - 1247150593
+  - 2019
+  - 10
+  - 26
+  - ''
+  - 0
+  - Modern high-speed mainline, crushed stone ballast, concrete ties, electrified
+  SIAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Standard High-Speed Track \x9A\x1F(AC/DC)\x9A  (Slabs)"
+  SIAN:
+  - 1313671456
+  - 2020
+  - 9
+  - 17
+  - ''
+  - 0
+  - Laying (CLASS 9) High Speed (RAIL)
+  SRL0:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FOvergrown railway\x9A \x9A\x1F"
+  SRL1:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRailway (level 1)\x9A \x9A\x1F"
+  SRL2:
+  - 1430669649
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRailway (level 2)\x9A \x9A\x1F"
+  SSA3:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Underground Standard Gauge Metro (3rd Rail Electrified)
+  SSAZ:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Underground Rail Construction
+  SU1E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge ISR (Electrified)
+  SU1N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge ISR
+  SU2E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge Cobblestone (Electrified)
+  SU2N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge Cobblestone
+  SU3E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge Dirt (Electrified)
+  SU3N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge Dirt
+  SU4E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge Asphalt (Electrified)
+  SU4N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Standard Gauge Asphalt
+  SUA3:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Standard Gauge Urban Metro (3rd Rail Electrified)
+  SUAD:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Standard Gauge Urban (Electrified)
+  SUAE:
+  - 1430669712
+  - 2023
+  - 3
+  - 2
+  - ''
+  - 0
+  - 'Urban railway (electrified) '
+  SUAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Standard Gauge Urban
+  SUAZ:
+  - 1430669712
+  - 2023
+  - 3
+  - 2
+  - ''
+  - 0
+  - 'Urban metro (Dual powered electrified) '
+  SUB3:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Railroad (dual electrified)
+  SUBE:
+  - 1600062473
+  - 2023
+  - 9
+  - 21
+  - ''
+  - 0
+  - Narrow gauge railroad
+  SUC3:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Urban line (3rd rail powered)
+  SUCE:
+  - 1146105856
+  - 2016
+  - 1
+  - 30
+  - ''
+  - 0
+  - Urban line (electrified)
+  SY13:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (750v 3rd Rail) construction.
+  SY1E:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SY1N:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SY1Z:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (Dual Voltaage) construction.
+  SY23:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  SY2A:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv AC Overhead) construction.
+  SY2D:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv DC Overhead) construction.
+  SY2E:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SY2N:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SY2Z:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  SY2a:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv AC Overhead) construction.
+  SY2d:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (1.5kv DC Overhead) construction.
+  SY33:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  SY3A:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv AC Overhead) construction.
+  SY3D:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv DC Overhead) construction.
+  SY3E:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SY3N:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SY3Z:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  SY3a:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv AC Overhead) construction.
+  SY3d:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (1.5kv DC Overhead) construction.
+  SY43:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (750v DC 3rd Rail) construction.
+  SY4A:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv AC Overhead) construction.
+  SY4D:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (3kv DC Overhead) construction.
+  SY4E:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SY4N:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SY4Z:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction.
+  SY4a:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (15kv AC Overhead) construction.
+  SY4d:
+  - 1111642964
+  - 2024
+  - 4
+  - 21
+  - ''
+  - 0
+  - Standard Gauge (1.5kv DC Overhead) construction.
+  SY53:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (750v 3rd Rail) construction.
+  SY5E:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (25kv Overhead) construction.
+  SY5N:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge construction.
+  SY5Z:
+  - 1398098772
+  - 2023
+  - 5
+  - 4
+  - ''
+  - 0
+  - Standard Gauge (Dual Voltaage) construction.
+  TBAI:
+  - 1380599067
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - Urban Maglev
+  TBAS:
+  - 1380599067
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - Intercity Maglev
+  TCAI:
+  - 1380599067
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - SUMA Maglev
+  TCAS:
+  - 1380599067
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - Transrapid Maglev
+  UBMR:
+  - 1145964033
+  - 2013
+  - 1
+  - 28
+  - ''
+  - 0
+  - Urban Monorail Construction
+  UFIL:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  UNI1:
+  - 1447166466
+  - 2021
+  - 6
+  - 11
+  - ''
+  - 0
+  - CLEAN purr
+  UNI2:
+  - 1447166466
+  - 2021
+  - 6
+  - 11
+  - ''
+  - 0
+  - YELLOW purr
+  UNI3:
+  - 1447166466
+  - 2021
+  - 6
+  - 11
+  - ''
+  - 0
+  - RED purr
+  UNI4:
+  - 1447166466
+  - 2021
+  - 6
+  - 11
+  - ''
+  - 0
+  - BLUE purr
+  UNI5:
+  - 1447166466
+  - 2021
+  - 6
+  - 11
+  - ''
+  - 0
+  - GREEN purr
+  VACT:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  VOLE:
+  - 1381257987
+  - 2020
+  - 2
+  - 27
+  - ''
+  - 0
+  - Volos triple gauge electrified
+  VOLO:
+  - 1381257987
+  - 2020
+  - 2
+  - 27
+  - ''
+  - 0
+  - Volos triple gauge
+  WGWY:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - ''
+  WWAY:
+  - 1194873347
+  - 2022
+  - 8
+  - 16
+  - ''
+  - 0
+  - Wagonway Construction
+  YARD:
+  - 1195839537
+  - 2023
+  - 9
+  - 30
+  - ''
+  - 0
+  - Unelectrified Rail 7 (Yard/Station)
+  _040:
+  - 1397051952
+  - 2013
+  - 12
+  - 6
+  - ''
+  - 0
+  - ''
+  _080:
+  - 1397051952
+  - 2013
+  - 12
+  - 6
+  - ''
+  - 0
+  - ''
+  _AAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Universal Underground (\x9A\x1FGrass\x9A )"
+  _BAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Universal Underground (\x9A\x1FConcrete\x9A )"
+  dAAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Dual Gauge Track \x9A\x1F(AC/DC)\x9A  (Wooden Ties)"
+  dAAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Branch
+  dAAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Branch (Electrified)
+  dBAE:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Dual Gauge Track \x9A\x1F(AC/DC)\x9A  (Slabs)"
+  dBAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Trunk
+  dBAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Trunk (Electrified)
+  dCAN:
+  - 1380599066
+  - 2024
+  - 1
+  - 9
+  - ''
+  - 0
+  - Dual Gauge Modern
+  dCAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Modern (Electrified)
+  dU1E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge ISR (Electrified)
+  dU1N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge ISR
+  dU2E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge Cobblestone (Electrified)
+  dU2N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge Cobblestone
+  dU3E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge Dirt (Electrified)
+  dU3N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge Dirt
+  dU4E:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge Asphalt (Electrified)
+  dU4N:
+  - 1162743297
+  - 2022
+  - 7
+  - 3
+  - ''
+  - 0
+  - Dual Gauge Asphalt
+  dUAN:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Urban
+  dUAd:
+  - 1162752001
+  - 2021
+  - 11
+  - 13
+  - ''
+  - 0
+  - Dual Gauge Urban (Electrified)
+  nAAE:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  nAAN:
+  - 1263095554
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  sAAD:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Scotch Gauge Track \x9A\x1F(DC)\x9A  (Wooden Ties)"
+  sBAD:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Scotch Gauge Track \x9A\x1F(DC)\x9A  (Concrete Ties)"
+  sCAD:
+  - 1499113986
+  - 2026
+  - 4
+  - 2
+  - ''
+  - 0
+  - "Scotch Gauge Track \x9A\x1F(DC)\x9A  (Slabs)"
 road_types:
+  AAAN:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - ''
+  AABN:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - ''
+  AACN:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - ''
+  AER0:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Asphalt road
+  AER2:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Asphalt road (class C)
+  AER3:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Asphalt road (class B)
+  ARD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FAsphalt road\x9A \x9A\x1F"
+  ARD1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRoad (class B)\x9A \x9A\x1F"
+  ARD2:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRoad (class A)\x9A \x9A\x1F"
+  ARD3:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Asphalt road (class B)
+  ARD4:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Asphalt road (class A)
+  ASP0:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Basic Asphalt Road Construction
+  ASP1:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Improved Asphalt Road Construction
+  ASP2:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Modern Asphalt Road Construction
+  ASPT:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Asphalt Road Constructon
+  A_RD:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - A Road Construction
+  BEAC:
+  - 1380078105
+  - 2023
+  - 9
+  - 24
+  - ''
+  - 0
+  - Beach Road
+  BFWY:
+  - 1297481984
+  - 2024
+  - 8
+  - 1
+  - ''
+  - 0
+  - Freeway Construction
+  BHWY:
+  - 1297481984
+  - 2024
+  - 8
+  - 1
+  - ''
+  - 0
+  - Highway Construction
+  B_RD:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - B Road Construction
+  CAN0:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Seawaterway
+  CAN1:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Canal
+  CAN2:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Lakewaterway
+  CBRD:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Cobblestone Driveway Constructon
+  CBRE:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Cobblestone Electric Driveway Constructon
+  CONC:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - Concrete Road Construction
+  CTNL:
+  - 1196573445
+  - 2020
+  - 11
+  - 1
+  - ''
+  - 0
+  - Road Tunnel Construction
+  DIRT:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - Unpaved Track  Construction
+  DRD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FDirt yard road\x9A \x9A\x1F"
+  DRD1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FCobblestone road\x9A \x9A\x1F"
+  DRD2:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FPavement road\x9A \x9A\x1F"
+  DRD3:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FIndustrial road\x9A \x9A\x1F"
+  DRD4:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FCement slabs yard road\x9A \x9A\x1F"
+  DRD5:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FAsphalt concrete road\x9A \x9A\x1F"
+  DRD6:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FCement concrete road\x9A \x9A\x1F"
+  EGRV:
+  - 1196573441
+  - 2020
+  - 10
+  - 28
+  - ''
+  - 0
+  - Gravel Road with Overhead Wire Constructon
+  ELA0:
+  - 1196573445
+  - 2020
+  - 11
+  - 1
+  - ''
+  - 0
+  - Electrified Basic Asphalt Road Construction
+  ELA1:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Electrified Improved Asphalt Road Construction
+  ELA2:
+  - 1196573445
+  - 2020
+  - 11
+  - 1
+  - ''
+  - 0
+  - Electrified Modern Asphalt Road Construction
+  ELAS:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Asphalt Road with Overhead Wire Construction
+  ELHL:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - ''
+  ELR2:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - Town Road (electrified) Construction
+  ELRD:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - "\x9A\x1FBasic road (electrified)\x9A \x9A\x1F"
+  ELSP:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Electrified Sett Paved Road Construction
+  ERD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FAsphalt road (electrified)\x9A \x9A\x1F"
+  ERD1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FRoad (class B) (electrified)\x9A \x9A\x1F"
+  ERD2:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FResidential road (electrified)\x9A \x9A\x1F"
+  ERD3:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FUrban road (electrified)\x9A \x9A\x1F"
+  FORD:
+  - 1196573443
+  - 2020
+  - 7
+  - 17
+  - ''
+  - 0
+  - Ford Construction
+  FRZN:
+  - 1196573443
+  - 2020
+  - 7
+  - 17
+  - ''
+  - 0
+  - Frozen River Way Construction
+  GRAV:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Gravel Road Constructon
+  GSLP:
+  - 1194873346
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - Sett Street with Gaslamps
+  GTNL:
+  - 1196573445
+  - 2020
+  - 11
+  - 1
+  - ''
+  - 0
+  - Road Tunnel Construction
+  HAUL:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - ''
+  HWAY:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Highway Constructon
+  IAAN:
+  - 1129513219
+  - 2023
+  - 6
+  - 22
+  - ''
+  - 0
+  - Unsurfaced Dirt Road Construction
+  IABE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  IABN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  IAaN:
+  - 1129513219
+  - 2023
+  - 6
+  - 22
+  - ''
+  - 0
+  - Unsurfaced Forest Road Construction
+  IBBE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  IBBN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  ICBE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  ICBN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  ID2E:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - "CHIPS Concrete Road \x9A\x1F(catenary)\x9A "
+  IND2:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - CHIPS Concrete Road
+  IND3:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - CHIPS Cobblestone Road
+  IND4:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - ISR Concrete Road
+  IND5:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - AUZ Concrete Road
+  ISRD:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Industrial Station Driveway Constructon
+  ISRE:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Industrial Station Electric Driveway Constructon
+  JF01:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF02:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF03:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF04:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF05:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF06:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF07:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF08:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF09:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF10:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF11:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF12:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF13:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF14:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF15:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF16:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF17:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF18:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF19:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF20:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF21:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF22:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF23:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  JF24:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  MWAY:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - Motorway Construction
+  OLD_:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Old Town Road Construction
+  ORD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FField road\x9A \x9A\x1F"
+  ORD1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FDirt road\x9A \x9A\x1F"
+  ORD2:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FSand road\x9A \x9A\x1F"
+  ORD3:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FGravel road\x9A \x9A\x1F"
+  PD01:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Stone Pedestrian Street
+  PD02:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Tiled Sidewalk Pedestrian Street
+  PIPE:
+  - 1194873346
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - Pipeline
+  PVRD:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Asphalt Driveway Constructon
+  PVRE:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Asphalt Electric Driveway Constructon
+  QR00:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Sandroad
+  QR02:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Grassroad
+  QR03:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Footpath, Tile
+  QR04:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Brickroad, Tile
+  QR05:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Brickroad, Electrified
+  QR06:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Countryroad, Grass
+  QR07:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Motorway, Concrete
+  QR08:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Highway, Tarmac
+  QR09:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - ISR-Road, Tile
+  QR10:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - CHIPS-Road, Tile
+  QR11:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - GarryG-Concrete, Tile
+  QR12:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Airport-Concrete, Tile
+  QR13:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Taxiway
+  QR14:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Red Road, Tile
+  QR15:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Green Road, Tile
+  QR16:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Formula-1 Track
+  QR17:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Formula-1 Pitlane
+  QR18:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Asphaltroad, Tile
+  QR22:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Beachroad
+  QR24:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Concrete, Tile
+  QR25:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Grass, Tile
+  QR35:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Brickroad, Sidewalk
+  QR36:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Ruralroad, Grass
+  QR37:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Highway, Electrified
+  QR38:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Cityroad, Sidewalk
+  QR39:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - Cityroad, Electrified
+  RAAE:
+  - 1196573441
+  - 2020
+  - 10
+  - 28
+  - ''
+  - 0
+  - Stone Road with Overhead Wire Constructon
+  RAAN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RABE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RABN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RACN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RAaN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RBAN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RBBE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RBBN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RBCN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RBaN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RCAN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RCBE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RCBN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RD01:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Field Path
+  RD02:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Unpaved Road
+  RD04:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Stone
+  RD05:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Concrete Road
+  RD07:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Asphalt Road
+  RD08:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - "Asphalt Road \x9A\x1F(catenary)\x9A "
+  RD09:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Improved Asphalt Road
+  RDBE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  RDBN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  REBE:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  REBN:
+  - 1600061952
+  - 2023
+  - 10
+  - 11
+  - ''
+  - 0
+  - ''
+  REX1:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Expressway
+  REX2:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Expressway (Solid)
+  REX3:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Expressway (Slow)
   ROAD:
   - -3
   - 1995
@@ -21290,8 +26075,584 @@ road_types:
   - 1
   - Normal road
   - 0
+  - "\x9A\x1FBasic road\x9A \x9A\x1F"
+  RT01:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Rural dirt '
+  RT02:
+  - 1296630017
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' [ - ] Cobblestone - countryside'
+  RT03:
+  - 1296630017
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' [EL] Cobblestone - countryside'
+  RT04:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] (Trucks only) Cobblestone freight '
+  RT05:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Street paved with sidewalk  '
+  RT06:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Cobblestone highway '
+  RT07:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Asphalt 2-lane street with lighting  '
+  RT08:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Paved street  '
+  RT09:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [EL] Asphalt 2-lane street '
+  RT10:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Paved highway '
+  RT11:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Urban asphalt 2-lane with lighting '
+  RT12:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Urban asphalt 2-lane'
+  RT13:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [EL] (EL) Urban asphalt 2-lane with lighting '
+  RT14:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Intercity highway '
+  RT15:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Highway with left bump '
+  RT16:
+  - 1296105475
+  - 2021
+  - 4
+  - 6
+  - ''
+  - 0
+  - ' [ - ] Highway with right bump '
+  RT17:
+  - 1296630017
+  - 2026
+  - 1
+  - 31
+  - ''
+  - 0
+  - ' [EL] 2. class - countryside'
+  SETT:
+  - 1498939648
+  - 2023
+  - 3
+  - 12
+  - ''
+  - 0
+  - Sett Paved Road Construction
+  SMRT:
+  - 1196573444
+  - 2021
+  - 4
+  - 25
+  - ''
+  - 0
+  - Smartroad
+  SMTS:
+  - 1196573444
+  - 2021
+  - 4
+  - 25
+  - ''
+  - 0
+  - Smartstreet
+  SRD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FPaved stone road\x9A \x9A\x1F"
+  SRD1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FCement slabs road\x9A \x9A\x1F"
+  SRD2:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FConcrete road\x9A \x9A\x1F"
+  SRD3:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FConcrete slabs road\x9A \x9A\x1F"
+  ST01:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Unpaved Street
+  ST03:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Stone Street
+  ST04:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - "Stone Street \x9A\x1F(catenary)\x9A "
+  ST05:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Concrete Street
+  ST06:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - "Concrete Street \x9A\x1F(catenary)\x9A "
+  ST08:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Secondary Street
+  ST09:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Primary Street
+  ST10:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - "Primary Street \x9A\x1F(catenary)\x9A "
+  ST11:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Tiled Sidewalk Street
+  ST12:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Tall Green Tree Primary Street
+  ST13:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Sakura Tree Primary Street
+  ST14:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - 4L Street R (deco)
+  ST15:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - 4L Street L (deco)
+  ST18:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - 6L Avenue R
+  ST19:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - 6L Avenue L
+  STAM:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Asphalt Paved Street Constructon
+  STAS:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Asphalt Paved Street Constructon
+  TOWN:
+  - 1415005705
+  - 2023
+  - 12
+  - 19
+  - ''
+  - 0
+  - Town Road Construction
+  TRD0:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Town road
+  TRD_:
+  - 1194873346
+  - 2022
+  - 7
+  - 2
+  - ''
+  - 0
+  - ''
+  UER0:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Residential road
+  UER1:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Urban road
+  UER5:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - White pavement
+  URD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FResidential road\x9A \x9A\x1F"
+  URD1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FUrban road\x9A \x9A\x1F"
+  URD2:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Green road
+  URD3:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Red road
+  URD4:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Gray pavement
+  URD5:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - White pavement
+  URD6:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Pedestrian zone
+  WRD0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FHighway\x9A \x9A\x1F"
+  WRD1:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Expressway
+  YDRD:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Mud Yard Driveway Construction
+  aABN:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
+  - ''
+  aACN:
+  - 1364354305
+  - 2023
+  - 10
+  - 10
+  - ''
+  - 0
   - ''
 tram_types:
+  CBTE:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Cobblestone Electric Tramway Construction
+  CBTR:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Cobblestone Tramway Construction
+  DE11:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Slip Road Overlap R
+  DE12:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Slip Road Overlap L
+  DEC1:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Street Lights Right
+  DEC2:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Street Lights Left
+  DEC8:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Sound Barrier R
+  DEC9:
+  - 1499113989
+  - 2025
+  - 11
+  - 12
+  - ''
+  - 0
+  - Sound Barrier L
+  DEL0:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - ISR tram track
+  DRL0:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - ISR tram track
+  EFNC:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Cable Vault Tramway with Catenary Construction
+  ELML:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Pedestrian Mall Tramway Construction
+  ELOW:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Rough Electric Tramway Construction
   ELRL:
   - -24350756
   - 2007
@@ -21299,4 +26660,276 @@ tram_types:
   - 26
   - Electrified rail
   - 0
+  - "\x9A\x1FTramway (electrified)\x9A \x9A\x1F"
+  EMLR:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
   - ''
+  - 0
+  - Modern Light Railway with Catenary Construction
+  FUNC:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Cable Vault Tramway Construction
+  INVI:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Invisible Tramlanes Construction
+  ISTE:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Industrial Station Electric Tramway Construction
+  ISTR:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Industrial Station Tramway Construction
+  LT0_:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FLighting (Both)\x9A \x9A\x1F"
+  LT1_:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FLighting (Right)\x9A \x9A\x1F"
+  LT2_:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FLighting (Left)\x9A \x9A\x1F"
+  MLRL:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Modern Light Railway Construction
+  MONO:
+  - 1196573444
+  - 2021
+  - 4
+  - 25
+  - ''
+  - 0
+  - Subway and Monorail
+  MTR0:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, Rural Construction
+  MTR1:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, Urban Construction
+  MTR2:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, Urban & Concrete Construction
+  MTR3:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, Highspeed Construction
+  MTR4:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, With Grass Roof Construction
+  MTR5:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, With Concrete Roof Construction
+  MTR6:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Metro, With Fake Airport Concrete Roof Construction
+  MTRO:
+  - 1196573444
+  - 2021
+  - 4
+  - 25
+  - ''
+  - 0
+  - Metro Subway
+  PVTE:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Asphalt Electric Tramway Construction
+  PVTR:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Asphalt Tramway Construction
+  QTM0:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Highspeed Tramway Construction
+  QTM1:
+  - 1364485377
+  - 2023
+  - 5
+  - 30
+  - ''
+  - 0
+  - Highspeed Electric Tramway Construction
+  RAIL:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - "\x9A\x1FTramway\x9A \x9A\x1F"
+  RLOW:
+  - 1145374209
+  - 2021
+  - 3
+  - 2
+  - ''
+  - 0
+  - Rough Tramway Construction
+  SAAE:
+  - 1096421377
+  - 2023
+  - 5
+  - 21
+  - ''
+  - 0
+  - Concrete Electric Tramway Construction
+  SAAN:
+  - 1096421377
+  - 2023
+  - 5
+  - 21
+  - ''
+  - 0
+  - Concrete Tramway Construction
+  TEL0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FOvergrown tramway (electrified)\x9A \x9A\x1F"
+  TEL1:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FConcrete tramway (electrified)\x9A \x9A\x1F"
+  TEL2:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FUrban tramway (electrified)\x9A \x9A\x1F"
+  TRL0:
+  - 1430669648
+  - 2026
+  - 1
+  - 2
+  - ''
+  - 0
+  - "\x9A\x1FOvergrown tramway\x9A \x9A\x1F"
+  UEL0:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Urban tram track
+  UEL1:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Red tram track
+  UEL2:
+  - 1430669705
+  - 2024
+  - 2
+  - 8
+  - ''
+  - 0
+  - Green tram track
+  YDTR:
+  - 1145373697
+  - 2021
+  - 2
+  - 14
+  - ''
+  - 0
+  - Mud Yard Tramway Construction

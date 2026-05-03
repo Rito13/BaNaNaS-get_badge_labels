@@ -1,0 +1,11 @@
+badges: []
+cargos: {}
+rail_types:
+- 3RDC
+- 3RDR
+- ELRL
+- MGLV
+- MONO
+- RAIL
+road_types: []
+tram_types: []

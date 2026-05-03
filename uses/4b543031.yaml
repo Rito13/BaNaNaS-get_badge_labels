@@ -1,0 +1,21 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- KDSU
+- KDS_
+- KHS_
+- KL3L
+- KLAG
+- KLMN
+- KLSE
+- KLSU
+- KMTR
+- KRBD
+- KRNR
+- KSSU
+- KSUB
+- KSUP
+- RAIL
+road_types: []
+tram_types: []

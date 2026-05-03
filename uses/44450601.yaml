@@ -1,0 +1,24 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types:
+- ASPT
+- DIRT
+- EGRV
+- ELAS
+- ELRD
+- GRAV
+- HWAY
+- ROAD
+- STAM
+- STAS
+tram_types:
+- EFNC
+- ELML
+- ELOW
+- ELRL
+- EMLR
+- FUNC
+- MLRL
+- RAIL
+- RLOW

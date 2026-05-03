@@ -1,0 +1,11 @@
+badges: []
+cargos: {}
+rail_types:
+- NAAE
+- NAAN
+- NRAE
+- NRAN
+- NRHE
+- NRHN
+road_types: []
+tram_types: []

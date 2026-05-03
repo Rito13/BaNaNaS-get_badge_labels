@@ -514,6 +514,8 @@ if __name__ == "__main__":
 		for feature in rrtt_strings:
 			key = rrtt_feature_to_key(feature)
 			for label in rrtt_strings[feature].keys():
+				if label not in labels[key]:
+					continue
 				if labels[key][label][6] == "" or labels[key][label][0] == id:
 					labels[key][label][6] = rrtt_strings[feature][label]
 

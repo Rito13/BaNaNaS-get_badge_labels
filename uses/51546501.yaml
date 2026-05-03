@@ -1,0 +1,17 @@
+badges: []
+cargos: {}
+rail_types: []
+road_types: []
+tram_types:
+- ELRL
+- INVI
+- MTR0
+- MTR1
+- MTR2
+- MTR3
+- MTR4
+- MTR5
+- MTR6
+- QTM0
+- QTM1
+- RAIL

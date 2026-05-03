@@ -1,0 +1,20 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- RAIL
+- SAE3
+- SAEA
+- SAEN
+- SBEA
+- SBEN
+- SCEA
+- SDEA
+- SDEN
+- SEEN
+- SFEA
+- SFEN
+- SGEA
+- SHEA
+road_types: []
+tram_types: []

@@ -1,0 +1,21 @@
+badges: []
+cargos: {}
+rail_types:
+- DIRT
+- ELRL
+- LFTD
+- LTRL
+- MGLV
+- MONO
+- NG60
+- PLAN
+- RAIL
+- SAA3
+- SSA3
+- SSAZ
+- SUAZ
+- VOLE
+- VOLO
+- WWAY
+road_types: []
+tram_types: []

@@ -1,0 +1,14 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- MGLV
+- MONO
+- RAIL
+- UNI1
+- UNI2
+- UNI3
+- UNI4
+- UNI5
+road_types: []
+tram_types: []
