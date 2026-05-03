@@ -76,7 +76,7 @@ def colour_text(text, colour):
 
 RED_ZERO = colour_text("0", "red")
 OPENTTD_IMAGE = "![OpenTTD](https://github.com/OpenTTD/OpenTTD/blob/master/media/openttd.16.png?raw=true)"
-INVALID_SUB_STRINGS = [chr(n) for n in range(0x88, 0x99)] + ["\xc3\x9e"]
+INVALID_SUB_STRINGS = [chr(n) for n in range(0x88, 0x98 + 1)] + ["\xc3\x9e"] + [chr(0x9A) + chr(n) for n in range(0x00, 0x21 + 1)]
 
 
 def match_string(item, label, strings, out, debug=False):

@@ -21273,7 +21273,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FThird rail\x9A  railroad (right)"
+  - Third rail railroad (right)
   BAA3:
   - 1298493361
   - 2024
@@ -21281,7 +21281,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FThird rail\x9A  railroad (left)"
+  - Third rail railroad (left)
   BAAE:
   - 1263095554
   - 2022
@@ -21729,7 +21729,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC 1500V\x9A  / \x9A\x1F3kV\x9A  electrified railroad"
+  - DC 1500V / 3kV electrified railroad
   ER2S:
   - 1298493361
   - 2024
@@ -21777,7 +21777,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC\x9A  electrified railroad"
+  - AC electrified railroad
   ERA1:
   - 1298493361
   - 2024
@@ -21785,7 +21785,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC\x9A  electrified railroad"
+  - AC electrified railroad
   ERA2:
   - 1298493361
   - 2024
@@ -21793,7 +21793,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC\x9A  electrified railroad"
+  - AC electrified railroad
   ERA3:
   - 1298493361
   - 2024
@@ -21801,7 +21801,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC\x9A  electrified railroad"
+  - AC electrified railroad
   ERA4:
   - 1298493361
   - 2024
@@ -21809,7 +21809,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC\x9A  electrified railroad"
+  - AC electrified railroad
   ERD0:
   - 1298493361
   - 2024
@@ -21817,7 +21817,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC\x9A  electrified railroad"
+  - DC electrified railroad
   ERD1:
   - 1298493361
   - 2024
@@ -21825,7 +21825,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC\x9A  electrified railroad"
+  - DC electrified railroad
   ERD2:
   - 1298493361
   - 2024
@@ -21833,7 +21833,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC\x9A  electrified railroad"
+  - DC electrified railroad
   ERD3:
   - 1298493361
   - 2024
@@ -21841,7 +21841,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC\x9A  electrified railroad"
+  - DC electrified railroad
   ERa0:
   - 1298493361
   - 2024
@@ -21849,7 +21849,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  - AC 15kV electrified railroad
   ERa1:
   - 1298493361
   - 2024
@@ -21857,7 +21857,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  - AC 15kV electrified railroad
   ERa2:
   - 1298493361
   - 2024
@@ -21865,7 +21865,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  - AC 15kV electrified railroad
   ERa3:
   - 1298493361
   - 2024
@@ -21873,7 +21873,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  - AC 15kV electrified railroad
   ERa4:
   - 1298493361
   - 2024
@@ -21881,7 +21881,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FAC 15kV\x9A  electrified railroad"
+  - AC 15kV electrified railroad
   ERd0:
   - 1298493361
   - 2024
@@ -21889,7 +21889,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  - DC 1500V electrified railroad
   ERd1:
   - 1298493361
   - 2024
@@ -21897,7 +21897,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  - DC 1500V electrified railroad
   ERd2:
   - 1298493361
   - 2024
@@ -21905,7 +21905,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  - DC 1500V electrified railroad
   ERd3:
   - 1298493361
   - 2024
@@ -21913,7 +21913,7 @@ rail_types:
   - 29
   - ''
   - 0
-  - "\x9A\x1FDC 1500V\x9A  electrified railroad"
+  - DC 1500V electrified railroad
   ES2D:
   - 1600062476
   - 2024
@@ -22369,7 +22369,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC)\x9A  (Wooden Ties)"
+  - Narrow Gauge Track (AC) (Wooden Ties)
   NAAD:
   - 1499113986
   - 2026
@@ -22377,7 +22377,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(DC)\x9A  (Wooden Ties)"
+  - Narrow Gauge Track (DC) (Wooden Ties)
   NAAE:
   - 1499113986
   - 2026
@@ -22385,7 +22385,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (Wooden Ties)"
+  - Narrow Gauge Track (AC/DC) (Wooden Ties)
   NAAN:
   - 1162752001
   - 2021
@@ -22457,7 +22457,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC)\x9A  (Concrete Ties)"
+  - Narrow Gauge Track (AC) (Concrete Ties)
   NBAD:
   - 1499113986
   - 2026
@@ -22465,7 +22465,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(DC)\x9A  (Concrete Ties)"
+  - Narrow Gauge Track (DC) (Concrete Ties)
   NBAE:
   - 1499113986
   - 2026
@@ -22473,7 +22473,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (Concrete Ties)"
+  - Narrow Gauge Track (AC/DC) (Concrete Ties)
   NBAN:
   - 1162752001
   - 2021
@@ -22513,7 +22513,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC)\x9A  (Slabs)"
+  - Narrow Gauge Track (AC) (Slabs)
   NCAD:
   - 1499113986
   - 2026
@@ -22521,7 +22521,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(DC)\x9A  (Slabs)"
+  - Narrow Gauge Track (DC) (Slabs)
   NCAE:
   - 1499113986
   - 2026
@@ -22529,7 +22529,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (Slabs)"
+  - Narrow Gauge Track (AC/DC) (Slabs)
   NCAN:
   - 1380599066
   - 2024
@@ -22569,7 +22569,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FCHIPS Concrete\x9A )"
+  - Narrow Gauge Track (AC/DC) (CHIPS Concrete)
   NEAN:
   - 1499113986
   - 2026
@@ -22577,7 +22577,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track (\x9A\x1FCHIPS Concrete\x9A )"
+  - Narrow Gauge Track (CHIPS Concrete)
   NEL1:
   - 1430669649
   - 2026
@@ -22585,7 +22585,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FNarrow gauge railway (level 1) (electrified)\x9A \x9A\x1F"
+  - Narrow gauge railway (level 1) (electrified)
   NFAE:
   - 1499113986
   - 2026
@@ -22593,7 +22593,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FCHIPS Cobblestone\x9A )"
+  - Narrow Gauge Track (AC/DC) (CHIPS Cobblestone)
   NFAN:
   - 1499113986
   - 2026
@@ -22601,7 +22601,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track (\x9A\x1FCHIPS Cobblestone\x9A )"
+  - Narrow Gauge Track (CHIPS Cobblestone)
   NG60:
   - 1194873347
   - 2022
@@ -22625,7 +22625,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FCHIPS Dirt\x9A )"
+  - Narrow Gauge Track (AC/DC) (CHIPS Dirt)
   NGAN:
   - 1499113986
   - 2026
@@ -22633,7 +22633,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track (\x9A\x1FCHIPS Dirt\x9A )"
+  - Narrow Gauge Track (CHIPS Dirt)
   NGRL:
   - 1313297491
   - 2011
@@ -22649,7 +22649,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track \x9A\x1F(AC/DC)\x9A  (\x9A\x1FISR\x9A )"
+  - Narrow Gauge Track (AC/DC) (ISR)
   NHAN:
   - 1499113986
   - 2026
@@ -22657,7 +22657,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Narrow Gauge Track (\x9A\x1FISR\x9A )"
+  - Narrow Gauge Track (ISR)
   NRAE:
   - 1296499201
   - 2020
@@ -22697,7 +22697,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FOvergrown narrow gauge railway\x9A \x9A\x1F"
+  - Overgrown narrow gauge railway
   NRL1:
   - 1430669649
   - 2026
@@ -22705,7 +22705,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FNarrow gauge railway (level 1)\x9A \x9A\x1F"
+  - Narrow gauge railway (level 1)
   NSWE:
   - 1195839537
   - 2023
@@ -23289,7 +23289,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Standard Gauge Track \x9A\x1F(Linear Motor)\x9A  (Concrete Ties)"
+  - Standard Gauge Track (Linear Motor) (Concrete Ties)
   SAAN:
   - 1398098772
   - 2023
@@ -23514,7 +23514,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Standard Gauge Track \x9A\x1F(Linear Motor)\x9A  (Slabs)"
+  - Standard Gauge Track (Linear Motor) (Slabs)
   SBAN:
   - 1111642964
   - 2024
@@ -23850,7 +23850,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRailway (level 1) (electrified)\x9A \x9A\x1F"
+  - Railway (level 1) (electrified)
   SEL2:
   - 1430669649
   - 2026
@@ -23858,7 +23858,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRailway (level 2) (electrified)\x9A \x9A\x1F"
+  - Railway (level 2) (electrified)
   SEL3:
   - 1430669649
   - 2026
@@ -23866,7 +23866,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FHigh speed railway (electrified)\x9A \x9A\x1F"
+  - High speed railway (electrified)
   SFA3:
   - 1398098772
   - 2023
@@ -23938,7 +23938,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Standard High-Speed Track \x9A\x1F(AC)\x9A  (Concrete Ties)"
+  - Standard High-Speed Track (AC) (Concrete Ties)
   SGAE:
   - 1398098772
   - 2023
@@ -23970,7 +23970,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Standard High-Speed Track \x9A\x1F(AC)\x9A  (Slabs)"
+  - Standard High-Speed Track (AC) (Slabs)
   SHAE:
   - 1398098772
   - 2023
@@ -24002,7 +24002,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Standard High-Speed Track \x9A\x1F(AC/DC)\x9A  (Slabs)"
+  - Standard High-Speed Track (AC/DC) (Slabs)
   SIAN:
   - 1313671456
   - 2020
@@ -24018,7 +24018,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FOvergrown railway\x9A \x9A\x1F"
+  - Overgrown railway
   SRL1:
   - 1430669649
   - 2026
@@ -24026,7 +24026,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRailway (level 1)\x9A \x9A\x1F"
+  - Railway (level 1)
   SRL2:
   - 1430669649
   - 2026
@@ -24034,7 +24034,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRailway (level 2)\x9A \x9A\x1F"
+  - Railway (level 2)
   SSA3:
   - 1162752001
   - 2021
@@ -24602,7 +24602,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Universal Underground (\x9A\x1FGrass\x9A )"
+  - Universal Underground (Grass)
   _BAE:
   - 1499113986
   - 2026
@@ -24610,7 +24610,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Universal Underground (\x9A\x1FConcrete\x9A )"
+  - Universal Underground (Concrete)
   dAAE:
   - 1499113986
   - 2026
@@ -24618,7 +24618,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Dual Gauge Track \x9A\x1F(AC/DC)\x9A  (Wooden Ties)"
+  - Dual Gauge Track (AC/DC) (Wooden Ties)
   dAAN:
   - 1162752001
   - 2021
@@ -24642,7 +24642,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Dual Gauge Track \x9A\x1F(AC/DC)\x9A  (Slabs)"
+  - Dual Gauge Track (AC/DC) (Slabs)
   dBAN:
   - 1162752001
   - 2021
@@ -24778,7 +24778,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Scotch Gauge Track \x9A\x1F(DC)\x9A  (Wooden Ties)"
+  - Scotch Gauge Track (DC) (Wooden Ties)
   sBAD:
   - 1499113986
   - 2026
@@ -24786,7 +24786,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Scotch Gauge Track \x9A\x1F(DC)\x9A  (Concrete Ties)"
+  - Scotch Gauge Track (DC) (Concrete Ties)
   sCAD:
   - 1499113986
   - 2026
@@ -24794,7 +24794,7 @@ rail_types:
   - 2
   - ''
   - 0
-  - "Scotch Gauge Track \x9A\x1F(DC)\x9A  (Slabs)"
+  - Scotch Gauge Track (DC) (Slabs)
 road_types:
   AAAN:
   - 1364354305
@@ -24851,7 +24851,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FAsphalt road\x9A \x9A\x1F"
+  - Asphalt road
   ARD1:
   - 1430669648
   - 2026
@@ -24859,7 +24859,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRoad (class B)\x9A \x9A\x1F"
+  - Road (class B)
   ARD2:
   - 1430669648
   - 2026
@@ -24867,7 +24867,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRoad (class A)\x9A \x9A\x1F"
+  - Road (class A)
   ARD3:
   - 1430669705
   - 2024
@@ -25027,7 +25027,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FDirt yard road\x9A \x9A\x1F"
+  - Dirt yard road
   DRD1:
   - 1430669648
   - 2026
@@ -25035,7 +25035,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FCobblestone road\x9A \x9A\x1F"
+  - Cobblestone road
   DRD2:
   - 1430669648
   - 2026
@@ -25043,7 +25043,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FPavement road\x9A \x9A\x1F"
+  - Pavement road
   DRD3:
   - 1430669648
   - 2026
@@ -25051,7 +25051,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FIndustrial road\x9A \x9A\x1F"
+  - Industrial road
   DRD4:
   - 1430669648
   - 2026
@@ -25059,7 +25059,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FCement slabs yard road\x9A \x9A\x1F"
+  - Cement slabs yard road
   DRD5:
   - 1430669648
   - 2026
@@ -25067,7 +25067,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FAsphalt concrete road\x9A \x9A\x1F"
+  - Asphalt concrete road
   DRD6:
   - 1430669648
   - 2026
@@ -25075,7 +25075,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FCement concrete road\x9A \x9A\x1F"
+  - Cement concrete road
   EGRV:
   - 1196573441
   - 2020
@@ -25155,7 +25155,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FAsphalt road (electrified)\x9A \x9A\x1F"
+  - Asphalt road (electrified)
   ERD1:
   - 1430669648
   - 2026
@@ -25163,7 +25163,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FRoad (class B) (electrified)\x9A \x9A\x1F"
+  - Road (class B) (electrified)
   ERD2:
   - 1430669648
   - 2026
@@ -25171,7 +25171,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FResidential road (electrified)\x9A \x9A\x1F"
+  - Residential road (electrified)
   ERD3:
   - 1430669648
   - 2026
@@ -25179,7 +25179,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FUrban road (electrified)\x9A \x9A\x1F"
+  - Urban road (electrified)
   FORD:
   - 1196573443
   - 2020
@@ -25307,7 +25307,7 @@ road_types:
   - 12
   - ''
   - 0
-  - "CHIPS Concrete Road \x9A\x1F(catenary)\x9A "
+  - CHIPS Concrete Road (catenary)
   IND2:
   - 1499113989
   - 2025
@@ -25571,7 +25571,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FField road\x9A \x9A\x1F"
+  - Field road
   ORD1:
   - 1430669648
   - 2026
@@ -25579,7 +25579,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FDirt road\x9A \x9A\x1F"
+  - Dirt road
   ORD2:
   - 1430669648
   - 2026
@@ -25587,7 +25587,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FSand road\x9A \x9A\x1F"
+  - Sand road
   ORD3:
   - 1430669648
   - 2026
@@ -25595,7 +25595,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FGravel road\x9A \x9A\x1F"
+  - Gravel road
   PD01:
   - 1499113989
   - 2025
@@ -26003,7 +26003,7 @@ road_types:
   - 12
   - ''
   - 0
-  - "Asphalt Road \x9A\x1F(catenary)\x9A "
+  - Asphalt Road (catenary)
   RD09:
   - 1499113989
   - 2025
@@ -26243,7 +26243,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FPaved stone road\x9A \x9A\x1F"
+  - Paved stone road
   SRD1:
   - 1430669648
   - 2026
@@ -26251,7 +26251,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FCement slabs road\x9A \x9A\x1F"
+  - Cement slabs road
   SRD2:
   - 1430669648
   - 2026
@@ -26259,7 +26259,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FConcrete road\x9A \x9A\x1F"
+  - Concrete road
   SRD3:
   - 1430669648
   - 2026
@@ -26267,7 +26267,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FConcrete slabs road\x9A \x9A\x1F"
+  - Concrete slabs road
   ST01:
   - 1499113989
   - 2025
@@ -26291,7 +26291,7 @@ road_types:
   - 12
   - ''
   - 0
-  - "Stone Street \x9A\x1F(catenary)\x9A "
+  - Stone Street (catenary)
   ST05:
   - 1499113989
   - 2025
@@ -26307,7 +26307,7 @@ road_types:
   - 12
   - ''
   - 0
-  - "Concrete Street \x9A\x1F(catenary)\x9A "
+  - Concrete Street (catenary)
   ST08:
   - 1499113989
   - 2025
@@ -26331,7 +26331,7 @@ road_types:
   - 12
   - ''
   - 0
-  - "Primary Street \x9A\x1F(catenary)\x9A "
+  - Primary Street (catenary)
   ST11:
   - 1499113989
   - 2025
@@ -26459,7 +26459,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FResidential road\x9A \x9A\x1F"
+  - Residential road
   URD1:
   - 1430669648
   - 2026
@@ -26467,7 +26467,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FUrban road\x9A \x9A\x1F"
+  - Urban road
   URD2:
   - 1430669705
   - 2024
@@ -26515,7 +26515,7 @@ road_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FHighway\x9A \x9A\x1F"
+  - Highway
   WRD1:
   - 1430669705
   - 2024
@@ -26708,7 +26708,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FLighting (Both)\x9A \x9A\x1F"
+  - Lighting (Both)
   LT1_:
   - 1430669648
   - 2026
@@ -26716,7 +26716,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FLighting (Right)\x9A \x9A\x1F"
+  - Lighting (Right)
   LT2_:
   - 1430669648
   - 2026
@@ -26724,7 +26724,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FLighting (Left)\x9A \x9A\x1F"
+  - Lighting (Left)
   MLRL:
   - 1145374209
   - 2021
@@ -26876,7 +26876,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FOvergrown tramway (electrified)\x9A \x9A\x1F"
+  - Overgrown tramway (electrified)
   TEL1:
   - 1430669648
   - 2026
@@ -26884,7 +26884,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FConcrete tramway (electrified)\x9A \x9A\x1F"
+  - Concrete tramway (electrified)
   TEL2:
   - 1430669648
   - 2026
@@ -26892,7 +26892,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FUrban tramway (electrified)\x9A \x9A\x1F"
+  - Urban tramway (electrified)
   TRL0:
   - 1430669648
   - 2026
@@ -26900,7 +26900,7 @@ tram_types:
   - 2
   - ''
   - 0
-  - "\x9A\x1FOvergrown tramway\x9A \x9A\x1F"
+  - Overgrown tramway
   UEL0:
   - 1430669705
   - 2024
