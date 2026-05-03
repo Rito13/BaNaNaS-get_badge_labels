@@ -4,6 +4,8 @@ badges:
 - benches/dutch
 - benches/modern
 - benches/oak
+- flag/NL
+- flag/PL
 - lanterns
 - lanterns/black
 - lanterns/old
@@ -15,6 +17,8 @@ badges:
 - platform_colour/red
 - platform_colour/tiled
 - platform_colour/whitel
+- region/europe/eastern
+- role/passenger
 - roof
 - roof/blue
 - roof/glass
@@ -30,4 +34,4 @@ badges:
 - shelter/blue
 - shelter/sextant
 - shelter/white
-cargos: []
+cargos: {}
