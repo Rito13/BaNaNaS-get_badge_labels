@@ -13,6 +13,30 @@ class LabelFlags:
 FORMAT_2_HEADER = [0x00, 0x00, 0x47, 0x52, 0x46, 0x82, 0x0D, 0x0A, 0x1A, 0x0A]
 FRAX = ["Passengers", "Mail", "Express", "Armoured", "OpenBulk", "PieceGoods", "LiquidBulk", "Refrigerated", "GasBulk", "CoveredBulk", "Flatbed", "PowderBulk", "Weird", "Potable", "Non-Potable", "Special"]
 
+RAIL_TYPE_PROPS = {
+	0x0A: 2,  # Rail construction dropdown text
+	0x0B: 2,  # Build vehicle window caption
+	0x0C: 2,  # Autoreplace text
+	0x0D: 2,  # New engine text
+	0x0E: [1, 4],  # Compatible rail type list
+	0x0F: [1, 4],  # Powered rail type list
+	0x10: 1,  # Rail type flags
+	0x11: 1,  # Curve speed advantage multiplier
+	0x12: 1,  # Station (and depot) graphics
+	0x13: 2,  # Construction costs
+	0x14: 2,  # Speed limit
+	0x15: 1,  # Acceleration model
+	0x16: 1,  # Minimap colour
+	0x17: 4,  # Introduction date
+	0x18: [1, 4],  # Introduction required rail type list
+	0x19: [1, 4],  # Introduced rail type list
+	0x1A: 1,  # Sort order
+	0x1B: 2,  # Rail type name
+	0x1C: 2,  # Infrastructure maintenance cost factor
+	0x1D: [1, 4],  # Alternate rail type labels that shall be "redirected" to this rail type
+	0x1E: [2, 2],  # Badges
+}
+
 PROPS = {
 	0x15: {  # Badges
 		0x09: 4  # Badge flags
@@ -40,6 +64,9 @@ PROPS = {
 		0x1E: 1,  # Production effect
 		0x1F: 2,  # Production multiplier
 	},
+	0x10: RAIL_TYPE_PROPS,  # Rail types
+	0x12: RAIL_TYPE_PROPS,  # Road types (All road type parametes consist in rail type ones.)
+	0x13: RAIL_TYPE_PROPS,  # Tram types (Have same params as road types.)
 }
 
 
@@ -82,10 +109,13 @@ def read_grf_file(file, debug=False):
 	cargo_strings = {}
 	grf_id = 0
 	cargos_out = {}
+	rrtt_out = {0x10: [], 0x12: [], 0x13: []}  # rrtt - Rail, road, tram types
+	rrtt_strings = {key: {} for key in rrtt_out}
 	with open(file, "rb") as f:
 		data = f.read()
 		badges = {}
 		cargos = {}
+		rrtt = {key: {} for key in rrtt_out}
 		format = 2 if FORMAT_2_HEADER == list(data[0 : len(FORMAT_2_HEADER)]) else 1
 		if debug:
 			print("Format", format)
@@ -149,7 +179,12 @@ def read_grf_file(file, debug=False):
 						prop = data[j]  # Read what property is set.
 						if prop in PROPS[feature]:
 							for _ in range(num_of):
-								j += PROPS[feature][prop]
+								if isinstance(PROPS[feature][prop], (list, tuple)):
+									j += 1
+									n = int_from_bytes(data[j : j + PROPS[feature][prop][0]])
+									j += n * PROPS[feature][prop][1]
+								else:
+									j += PROPS[feature][prop]
 						elif feature == 0x15 and prop == 0x08:  # Prop is badge label.
 							for b in range(num_of):
 								j += 1
@@ -204,6 +239,25 @@ def read_grf_file(file, debug=False):
 								else:  # Prop 0x17 hasn't been provided yet.
 									cargos_out[first + c] = classes
 								j += 2
+						elif prop == 0x08 and feature in rrtt_out:  # Prop is rail, road or tram label.
+							for t in range(num_of):
+								label = chr(data[j + 1]) + chr(data[j + 2]) + chr(data[j + 3]) + chr(data[j + 4])  # RRTt label is always 4 chars.
+								j += 4
+								if debug:
+									print("rrtt_label:", label)
+								rrtt_out[feature].append(label)
+								if first + t in rrtt[feature]:
+									match_string(rrtt[feature].pop(first + t), label, strings[feature], rrtt_strings[feature], debug)
+								else:
+									rrtt[feature][first + t] = label
+						elif prop == 0x09 and feature in rrtt_out:  # Prop is rail, road or tram name.
+							for t in range(num_of):
+								id = int_from_bytes(data[j + 1 : j + 3])
+								if first + t in rrtt[feature]:
+									match_string(id, rrtt[feature].pop(first + t), strings[feature], rrtt_strings[feature], debug)
+								else:
+									rrtt[feature][first + t] = id
+								j += 2
 						else:
 							print("invalid prop:", prop)  # Corruption or newer grf version.
 							break  # We don't know how long this property is, therefore we can't read any more properties :(
@@ -245,7 +299,7 @@ def read_grf_file(file, debug=False):
 			cargos_out[key] = None
 		else:
 			cargos_out[key] = f"0b{value:016b}"
-	return out, private_out, hidden_out, grf_id, badge_strings, cargos_out, cargo_strings
+	return out, private_out, hidden_out, grf_id, badge_strings, cargos_out, cargo_strings, rrtt_out, rrtt_strings
 
 
 def find_grf_date(id, debug=False):
@@ -329,6 +383,8 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 					grf_id = "[Community](https://www.tt-forums.net)"
 				elif grf_id == -3:  # Introduced by Chris Sawyer in TTD.
 					grf_id = "[TTD](https://www.tt-wiki.net/wiki/Main_Page)"
+				elif grf_id < -3:  # Introduced by community in OTTD. GRF id is - commit hash in decimal system.
+					grf_id = f"[OTTD](https://github.com/OpenTTD/OpenTTD/commit/{-grf_id:x})"
 				else:  # Introduced by grf from BaNaNaS.
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
@@ -399,6 +455,21 @@ if __name__ == "__main__":
 	DEBUG = True
 	BADGES_KEY = "badges"
 	CARGOS_KEY = "cargos"
+	RAIL_KEY = "rail_types"
+	ROAD_KEY = "road_types"
+	TRAM_KEY = "tram_types"
+
+	def rrtt_feature_to_key(feature):
+		match feature:
+			case 0x10:
+				return RAIL_KEY
+			case 0x12:
+				return ROAD_KEY
+			case 0x13:
+				return TRAM_KEY
+			case _:
+				return None
+
 	with open("labels.yaml", "r") as f:
 		labels = yaml.safe_load(f)
 		badge_labels = labels[BADGES_KEY]
@@ -407,7 +478,7 @@ if __name__ == "__main__":
 	for file in os.listdir("grfs"):
 		if not file.endswith(".grf"):
 			continue
-		public, private, hidden, id, strings, cargos, cargo_strings = read_grf_file(os.path.join("grfs", file), DEBUG)
+		public, private, hidden, id, strings, cargos, cargo_strings, rrtt, rrtt_strings = read_grf_file(os.path.join("grfs", file), DEBUG)
 
 		date = find_grf_date(id, DEBUG)
 		for label in public:
@@ -419,19 +490,29 @@ if __name__ == "__main__":
 		for label in cargos:
 			if label not in cargo_labels:
 				cargo_labels[label] = [id, date.year, date.month, date.day, "", 0, ""]
+		for feature in rrtt:
+			key = rrtt_feature_to_key(feature)
+			for label in rrtt[feature]:
+				if label not in labels[key]:
+					labels[key][label] = [id, date.year, date.month, date.day, "", 0, ""]
 		for label in strings.keys():
 			if badge_labels[label][6] == "" or badge_labels[label][0] == id:  # GRF can comment on badges without comment and ones that it had introduced.
 				badge_labels[label][6] = strings[label]
 		for label in cargo_strings.keys():
 			if cargo_labels[label][6] == "" or cargo_labels[label][0] == id:  # GRF can comment on cargo labels without comment and ones that it had introduced.
 				cargo_labels[label][6] = cargo_strings[label]
+		for feature in rrtt_strings:
+			key = rrtt_feature_to_key(feature)
+			for label in rrtt_strings[feature].keys():
+				if labels[key][label][6] == "" or labels[key][label][0] == id:
+					labels[key][label][6] = rrtt_strings[feature][label]
 
-		uses = {BADGES_KEY: sorted(set(public + private + hidden)), CARGOS_KEY: cargos}
+		uses = {BADGES_KEY: sorted(set(public + private + hidden)), CARGOS_KEY: cargos, **{rrtt_feature_to_key(f): sorted(set(rrtt[f])) for f in rrtt}}
 		with open(os.path.join("uses", f"{hex(id)[2:]}.yaml"), "w") as uses_x:
 			yaml.dump(uses, uses_x)
 
 	with open("labels.yaml", "w") as f:
-		yaml.dump({BADGES_KEY: badge_labels, CARGOS_KEY: cargo_labels}, f)
+		yaml.dump(labels, f)
 
 	add_uses_to_labels(badge_labels, BADGES_KEY, DEBUG)  # WARNING: badge_labels is passed by reference.
 	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "public_labels"), {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)

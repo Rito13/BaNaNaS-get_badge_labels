@@ -21249,3 +21249,54 @@ cargos:
   - ''
   - 0
   - Zinc
+rail_types:
+  ELRL:
+  - -3
+  - 1995
+  - 11
+  - 1
+  - Electrified rail
+  - 0
+  - "\x9A\x1FRailway (electrified)\x9A \x9A\x1F"
+  MGLV:
+  - -3
+  - 1995
+  - 11
+  - 1
+  - Maglev tracks
+  - 0
+  - Maglev
+  MONO:
+  - -3
+  - 1995
+  - 11
+  - 1
+  - Monorail tracks
+  - 0
+  - Monorail
+  RAIL:
+  - -3
+  - 1995
+  - 11
+  - 1
+  - Normal rail
+  - 0
+  - ''
+road_types:
+  ROAD:
+  - -3
+  - 1995
+  - 11
+  - 1
+  - Normal road
+  - 0
+  - ''
+tram_types:
+  ELRL:
+  - -24350756
+  - 2007
+  - 5
+  - 26
+  - Electrified rail
+  - 0
+  - ''
