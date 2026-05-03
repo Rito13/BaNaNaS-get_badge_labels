@@ -25137,7 +25137,7 @@ road_types:
   - 2021
   - 2
   - 14
-  - ''
+  - Basic road (electrified)
   - 0
   - "\x9A\x1FBasic road (electrified)\x9A \x9A\x1F"
   ELSP:
@@ -26842,7 +26842,7 @@ tram_types:
   - 2021
   - 2
   - 14
-  - ''
+  - Tramway
   - 0
   - "\x9A\x1FTramway\x9A \x9A\x1F"
   RLOW:
