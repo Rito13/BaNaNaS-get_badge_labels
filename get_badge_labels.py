@@ -334,7 +334,7 @@ def find_grf_name(id, debug=False):
 		return global_data["name"]
 
 
-def generate_markdown_page(labels, page_name, required_flags: dict, debug=False, has_classes=True, countable_data=None):
+def create_hierarchy(labels, required_flags: dict, debug=False, has_classes=True):
 	flags_mask = 0
 	flags_values = 0
 	for flag in required_flags:
@@ -359,10 +359,19 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", RED_ZERO]
 				hierarchy[class_label] = []
 			hierarchy[class_label].append(label)
+	if has_classes:
+		hierarchy[-1] = list(hierarchy.keys())
+		hierarchy[-1].remove(-1)
+	for c in hierarchy.keys():
+		hc = hierarchy[c]
+		hierarchy[c] = {}
+		for b in hc:
+			hierarchy[c][b] = labels[b]
+	return hierarchy
+
+
+def generate_markdown_page(hierarchy, page_name, debug=False, countable_data=None):
 	with open(os.path.join("gen_docs", f"{page_name}.md"), "w") as md_file:
-		if has_classes:
-			hierarchy[-1] = list(hierarchy.keys())
-			hierarchy[-1].remove(-1)
 		for c in hierarchy.keys():
 			if c == -1:  # It is a classes table.
 				md_file.write("# Classes\n")
@@ -374,9 +383,10 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 			md_file.write(f"| --- | --- | --- | --- {cd_line}| --- |\n")
 			for b in hierarchy[c]:
 				label = b
+				data = hierarchy[c][b]
 				if c == -1:  # It is a classes table.
 					label = "[{0}](#{0})".format(b)  # Link to a table for this class.
-				grf_id = labels[b][0]
+				grf_id = data[0]
 				if grf_id == -1:  # It comes from default badges by Peter Nelson.
 					grf_id = "[OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655)"
 				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
@@ -387,9 +397,9 @@ def generate_markdown_page(labels, page_name, required_flags: dict, debug=False,
 					grf_id = f"[OTTD](https://github.com/OpenTTD/OpenTTD/commit/{-grf_id:x})"
 				else:  # Introduced by grf from BaNaNaS.
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
-				when = "{0}-{1:02d}-{2:02d}".format(labels[b][1], labels[b][2], labels[b][3])  # Introduction date.
-				comment = labels[b][4] if labels[b][4] else labels[b][6]  # Use string from grf if no comment provided.
-				md_file.write("| {0} | {1} | {2} | {3} {5}| {4} |\n".format(label, grf_id, when, comment, labels[b][-1], f"| {labels[b][-2]} " if countable_data else ""))
+				when = "{0}-{1:02d}-{2:02d}".format(data[1], data[2], data[3])  # Introduction date.
+				comment = data[4] if data[4] else data[6]  # Use string from grf if no comment provided.
+				md_file.write("| {0} | {1} | {2} | {3} {5}| {4} |\n".format(label, grf_id, when, comment, data[-1], f"| {data[-2]} " if countable_data else ""))
 
 
 def link_with_grf_ids(li):
@@ -416,7 +426,7 @@ def add_uses_to_labels(labels, key, debug=False):
 		grf_id = file[:-5]
 		with open(os.path.join("uses", file), "r") as f:
 			module = yaml.safe_load(f)
-			module = module[key] if isinstance(module, dict) else module
+			module = module if not isinstance(module, dict) else module[key] if key in module else []
 			if isinstance(module, dict):
 				has_countable_data = True
 		for label in module:
@@ -514,11 +524,26 @@ if __name__ == "__main__":
 	with open("labels.yaml", "w") as f:
 		yaml.dump(labels, f)
 
-	add_uses_to_labels(badge_labels, BADGES_KEY, DEBUG)  # WARNING: badge_labels is passed by reference.
-	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "public_labels"), {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG)
-	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "private_labels"), {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG)
-	generate_markdown_page(badge_labels, os.path.join(BADGES_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG)
+	for key in [BADGES_KEY, CARGOS_KEY, RAIL_KEY, ROAD_KEY, TRAM_KEY]:
+		add_uses_to_labels(labels[key], key, DEBUG)
 
-	add_uses_to_labels(cargo_labels, CARGOS_KEY, DEBUG)  # WARNING: cargo_labels is passed by reference.
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "public_labels"), {LabelFlags.AgingBadly: 0}, DEBUG, False, ["Classes"])
-	generate_markdown_page(cargo_labels, os.path.join(CARGOS_KEY, "aging_badly_labels"), {LabelFlags.AgingBadly: 1}, DEBUG, False, ["Classes"])
+	generate_markdown_page(create_hierarchy(badge_labels, {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG), os.path.join(BADGES_KEY, "public_labels"), DEBUG)
+	generate_markdown_page(create_hierarchy(badge_labels, {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG), os.path.join(BADGES_KEY, "private_labels"), DEBUG)
+	generate_markdown_page(create_hierarchy(badge_labels, {LabelFlags.AgingBadly: 1}, DEBUG), os.path.join(BADGES_KEY, "aging_badly_labels"), DEBUG)
+
+	generate_markdown_page(create_hierarchy(cargo_labels, {LabelFlags.AgingBadly: 0}, DEBUG, False), os.path.join(CARGOS_KEY, "public_labels"), DEBUG, ["Classes"])
+	generate_markdown_page(create_hierarchy(cargo_labels, {LabelFlags.AgingBadly: 1}, DEBUG, False), os.path.join(CARGOS_KEY, "aging_badly_labels"), DEBUG, ["Classes"])
+
+	rrtt_hierarchy = {
+		"Rail Types": create_hierarchy(labels[RAIL_KEY], {LabelFlags.AgingBadly: 0}, DEBUG, False)["Labels"],
+		"Road Types": create_hierarchy(labels[ROAD_KEY], {LabelFlags.AgingBadly: 0}, DEBUG, False)["Labels"],
+		"Tram Types": create_hierarchy(labels[TRAM_KEY], {LabelFlags.AgingBadly: 0}, DEBUG, False)["Labels"],
+	}
+	generate_markdown_page(rrtt_hierarchy, os.path.join("rail_road_tram_types", "public_labels"), DEBUG)
+
+	rrtt_hierarchy = {
+		"Rail Types": create_hierarchy(labels[RAIL_KEY], {LabelFlags.AgingBadly: 1}, DEBUG, False)["Labels"],
+		"Road Types": create_hierarchy(labels[ROAD_KEY], {LabelFlags.AgingBadly: 1}, DEBUG, False)["Labels"],
+		"Tram Types": create_hierarchy(labels[TRAM_KEY], {LabelFlags.AgingBadly: 1}, DEBUG, False)["Labels"],
+	}
+	generate_markdown_page(rrtt_hierarchy, os.path.join("rail_road_tram_types", "aging_badly_labels"), DEBUG)
