@@ -199,7 +199,7 @@
 | flag/NF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Norfolk Island | $\textcolor{red}{\textsf{0}}$ |
 | flag/NG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nigeria | $\textcolor{red}{\textsf{0}}$ |
 | flag/NI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nicaragua | $\textcolor{red}{\textsf{0}}$ |
-| flag/NL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Netherlands | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
+| flag/NL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Netherlands | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+50530001 "38424253, 50530001") |
 | flag/NO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Norway | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/NP | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nepal | $\textcolor{red}{\textsf{0}}$ |
 | flag/NR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Nauru | $\textcolor{red}{\textsf{0}}$ |
@@ -212,7 +212,7 @@
 | flag/PG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Papua New Guinea | $\textcolor{red}{\textsf{0}}$ |
 | flag/PH | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Philippines | $\textcolor{red}{\textsf{0}}$ |
 | flag/PK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Pakistan | $\textcolor{red}{\textsf{0}}$ |
-| flag/PL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Poland | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
+| flag/PL | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Poland | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+50530001 "38424253, 50530001") |
 | flag/PM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Saint Pierre and Miquelon | $\textcolor{red}{\textsf{0}}$ |
 | flag/PN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Pitcairn | $\textcolor{red}{\textsf{0}}$ |
 | flag/PR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Puerto Rico | $\textcolor{red}{\textsf{0}}$ |
@@ -1133,7 +1133,7 @@
 | region/asia/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Asia | $\textcolor{red}{\textsf{0}}$ |
 | region/asia/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Asia | $\textcolor{red}{\textsf{0}}$ |
 | region/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe | $\textcolor{red}{\textsf{0}}$ |
-| region/europe/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Europe | $\textcolor{red}{\textsf{0}}$ |
+| region/europe/eastern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eastern Europe | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | region/europe/northern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Northern Europe | $\textcolor{red}{\textsf{0}}$ |
 | region/europe/southern | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Southern Europe | $\textcolor{red}{\textsf{0}}$ |
 | region/europe/western | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Western Europe | $\textcolor{red}{\textsf{0}}$ |
@@ -1165,7 +1165,7 @@
 | role/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Very High Capacity Urban | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/metro_freight | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Urban Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | $\textcolor{red}{\textsf{0}}$ |
-| role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | $\textcolor{red}{\textsf{0}}$ |
+| role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | $\textcolor{red}{\textsf{0}}$ |
 | role/restaurant_car | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Restaurant car | $\textcolor{red}{\textsf{0}}$ |
 | role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | $\textcolor{red}{\textsf{0}}$ |
