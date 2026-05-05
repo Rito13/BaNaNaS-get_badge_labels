@@ -5294,7 +5294,7 @@ badges:
   - 27
   - Bolivia
   - 0
-  - ''
+  - Bolivia
   flag/BQ:
   - -1
   - 2025
@@ -5382,7 +5382,7 @@ badges:
   - 27
   - Democratic Republic of the Congo
   - 0
-  - ''
+  - Democratic Republic of the Congo
   flag/CF:
   - -1
   - 2025
@@ -5398,7 +5398,7 @@ badges:
   - 27
   - Republic of the Congo
   - 0
-  - ''
+  - Republic of the Congo
   flag/CH:
   - -1
   - 2025
@@ -5414,7 +5414,7 @@ badges:
   - 27
   - Ivory Coast
   - 0
-  - ''
+  - Ivory Coast
   flag/CK:
   - -1
   - 2025
@@ -5454,7 +5454,7 @@ badges:
   - 27
   - Colombia
   - 0
-  - ''
+  - Colombia
   flag/CR:
   - -1
   - 2025
@@ -5462,7 +5462,7 @@ badges:
   - 27
   - Costa Rica
   - 0
-  - ''
+  - Costa Rica
   flag/CU:
   - -1
   - 2025
@@ -5566,7 +5566,7 @@ badges:
   - 27
   - Ecuador
   - 0
-  - ''
+  - Ecuador
   flag/EE:
   - -1
   - 2025
@@ -5678,7 +5678,7 @@ badges:
   - 27
   - Andorra
   - 0
-  - ''
+  - Andorra
   flag/GB:
   - -1
   - 2025
@@ -6558,7 +6558,7 @@ badges:
   - 27
   - Paraguay
   - 0
-  - ''
+  - Paraguay
   flag/QA:
   - -1
   - 2025
@@ -6694,7 +6694,7 @@ badges:
   - 27
   - Sierra Leone
   - 0
-  - ''
+  - Sierra Leone
   flag/SM:
   - -1
   - 2025
@@ -6902,7 +6902,7 @@ badges:
   - 27
   - Tanzania
   - 0
-  - ''
+  - Tanzania
   flag/UA:
   - -1
   - 2025
@@ -18199,7 +18199,7 @@ badges:
   - 27
   - Battery
   - 0
-  - ''
+  - Battery
   power/battery_hybrid:
   - 1128337955
   - 2026
@@ -18232,6 +18232,14 @@ badges:
   - Diesel (Diesel-hydraulic)
   - 0
   - ''
+  power/dual:
+  - 1414398209
+  - 2026
+  - 5
+  - 5
+  - ''
+  - 0
+  - Dual-mode
   power/dual_voltage:
   - 1128337955
   - 2026
@@ -18247,7 +18255,7 @@ badges:
   - 27
   - Electric
   - 0
-  - ''
+  - Electric
   power/electric/ac:
   - -1
   - 2025
@@ -18255,7 +18263,7 @@ badges:
   - 27
   - Electric (AC)
   - 0
-  - ''
+  - Electric (AC)
   power/electric/ac/15kv:
   - -1
   - 2025
@@ -18279,7 +18287,7 @@ badges:
   - 27
   - Electric (DC)
   - 0
-  - ''
+  - Electric (DC)
   power/electric/dc/1200v:
   - -1
   - 2025
@@ -18344,6 +18352,22 @@ badges:
   - ''
   - 0
   - ''
+  power/gasoline:
+  - 1414398209
+  - 2026
+  - 5
+  - 5
+  - ''
+  - 0
+  - Petrol
+  power/hydrogen:
+  - 1414398209
+  - 2026
+  - 5
+  - 5
+  - ''
+  - 0
+  - Hydrogen
   power/metro:
   - 1128337955
   - 2026
@@ -18383,7 +18407,7 @@ badges:
   - 27
   - Gas Turbine
   - 0
-  - ''
+  - Gas Turbine
   power_source:
   - 1128337955
   - 2026

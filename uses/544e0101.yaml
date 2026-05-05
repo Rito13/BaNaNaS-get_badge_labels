@@ -1,4 +1,15 @@
 badges:
+- power
+- power/battery
+- power/diesel
+- power/dual
+- power/electric
+- power/electric/ac
+- power/electric/dc
+- power/gasoline
+- power/hydrogen
+- power/steam
+- power/turbine
 - railgauge
 - railgauge/broad
 - railgauge/broad/brunel
@@ -24,3 +35,6 @@ badges:
 - railgauge/narrow/swedish_3ft
 - railgauge/standard
 cargos: {}
+rail_types: []
+road_types: []
+tram_types: []
