@@ -477,8 +477,7 @@ if __name__ == "__main__":
 				return ROAD_KEY
 			case 0x13:
 				return TRAM_KEY
-			case _:
-				return None
+		return None
 
 	with open("labels.yaml", "r") as f:
 		labels = yaml.safe_load(f)
