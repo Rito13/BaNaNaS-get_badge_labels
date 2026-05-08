@@ -3,11 +3,36 @@ from datetime import date as Date
 import yaml
 from decode import int_from_bytes, is_extended_byte_a_word, int_from_extended_byte, read_string
 from functools import cmp_to_key
+from enum import IntEnum
 
 
-class LabelFlags:
+class LabelFlags(IntEnum):
 	AgingBadly = 0
 	Private = 1
+
+
+class Feature(IntEnum):
+	Trains = 0x00
+	RoadVehicles = 0x01
+	Ships = 0x02
+	Aircraft = 0x03
+	Stations = 0x04
+	Canals = 0x05
+	Bridges = 0x06
+	Houses = 0x07
+	GlobalSettings = 0x08
+	IndustryTiles = 0x09
+	Industries = 0x0A
+	Cargos = 0x0B
+	SoundEffects = 0x0C
+	Airports = 0x0D
+	Objects = 0x0F
+	RailTypes = 0x10
+	AirportTiles = 0x11
+	RoadTypes = 0x12
+	TramTypes = 0x13
+	RoadStops = 0x14
+	Badges = 0x15
 
 
 FORMAT_2_HEADER = [0x00, 0x00, 0x47, 0x52, 0x46, 0x82, 0x0D, 0x0A, 0x1A, 0x0A]
@@ -38,10 +63,10 @@ RAIL_TYPE_PROPS = {
 }
 
 PROPS = {
-	0x15: {  # Badges
+	Feature.Badges: {
 		0x09: 4  # Badge flags
 	},
-	0x0B: {  # Cargos
+	Feature.Cargos: {
 		0x08: 1,  # Cargo bit
 		0x0A: 2,  # Singular name
 		0x0B: 2,  # One of
@@ -64,9 +89,9 @@ PROPS = {
 		0x1E: 1,  # Production effect
 		0x1F: 2,  # Production multiplier
 	},
-	0x10: RAIL_TYPE_PROPS,  # Rail types
-	0x12: RAIL_TYPE_PROPS,  # Road types (All road type parametes consist in rail type ones.)
-	0x13: RAIL_TYPE_PROPS,  # Tram types (Have same params as road types.)
+	Feature.RailTypes: RAIL_TYPE_PROPS,
+	Feature.RoadTypes: RAIL_TYPE_PROPS,  # All road type parametes consist in rail type ones.
+	Feature.TramTypes: RAIL_TYPE_PROPS,  # Have same params as road types.
 }
 
 
@@ -109,7 +134,7 @@ def read_grf_file(file, debug=False):
 	cargo_strings = {}
 	grf_id = 0
 	cargos_out = {}
-	rrtt_out = {0x10: [], 0x12: [], 0x13: []}  # rrtt - Rail, road, tram types
+	rrtt_out = {Feature.RailTypes: [], Feature.RoadTypes: [], Feature.TramTypes: []}  # rrtt - Rail, road, tram types
 	rrtt_strings = {key: {} for key in rrtt_out}
 	with open(file, "rb") as f:
 		data = f.read()
@@ -185,7 +210,7 @@ def read_grf_file(file, debug=False):
 									j += n * PROPS[feature][prop][1]
 								else:
 									j += PROPS[feature][prop]
-						elif feature == 0x15 and prop == 0x08:  # Prop is badge label.
+						elif feature == Feature.Badges and prop == 0x08:  # Prop is badge label.
 							for b in range(num_of):
 								j += 1
 								label = ""
@@ -208,7 +233,7 @@ def read_grf_file(file, debug=False):
 									out.append(label)
 								match_string(first + b, label, strings[feature], badge_strings, debug)
 								badges[first + b] = label
-						elif feature == 0x0B and prop == 0x17:  # Prop is cargo label.
+						elif feature == Feature.Cargos and prop == 0x17:  # Prop is cargo label.
 							for c in range(num_of):
 								label = chr(data[j + 1]) + chr(data[j + 2]) + chr(data[j + 3]) + chr(data[j + 4])  # Cargo label is always 4 chars.
 								j += 4
@@ -221,7 +246,7 @@ def read_grf_file(file, debug=False):
 										# cargos[cargos.pop(first + c)] = label
 									else:
 										cargos[first + c] = label
-						elif feature == 0x0B and prop == 0x09:  # Prop is cargo name.
+						elif feature == Feature.Cargos and prop == 0x09:  # Prop is cargo name.
 							for c in range(num_of):
 								id = int_from_bytes(data[j + 1 : j + 3])
 								if first + c in cargos:
@@ -230,7 +255,7 @@ def read_grf_file(file, debug=False):
 								else:
 									cargos[first + c] = id
 								j += 2
-						elif feature == 0x0B and prop == 0x16:  # Prop is cargo classes.
+						elif feature == Feature.Cargos and prop == 0x16:  # Prop is cargo classes.
 							for c in range(num_of):
 								classes = int_from_bytes(data[j + 1 : j + 3])
 								label = find_key_for_value(cargos_out, -(first + c) - 1)  # Find related label without cargo classes set.
@@ -282,9 +307,9 @@ def read_grf_file(file, debug=False):
 						for item in range(offset, offset + number_of_strings):
 							string = read_string(j, data)
 							strings[feature][item] = string
-							if feature == 0x15 and item in badges:
+							if feature == Feature.Badges and item in badges:
 								match_string(item, badges.pop(item), strings[feature], badge_strings, debug)
-							elif feature == 0x0B and item in cargos:
+							elif feature == Feature.Cargos and item in cargos:
 								pass  # match_string(item, cargos.pop(item), strings[feature], cargo_strings, debug)
 							j += len(string) + 1  # Text is followed by 0x00 byte.
 			i = i + size
@@ -471,11 +496,11 @@ if __name__ == "__main__":
 
 	def rrtt_feature_to_key(feature):
 		match feature:
-			case 0x10:
+			case Feature.RailTypes:
 				return RAIL_KEY
-			case 0x12:
+			case Feature.RoadTypes:
 				return ROAD_KEY
-			case 0x13:
+			case Feature.TramTypes:
 				return TRAM_KEY
 		return None
 
