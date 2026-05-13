@@ -20,7 +20,15 @@ jobs:
         python-version: 3.x
 
     - name: Download BaNaNaS
-      run: git clone https://github.com/OpenTTD/BaNaNaS.git bananas
+      run: |
+        git clone https://github.com/OpenTTD/BaNaNaS.git bananas
+        cd bananas
+        if [ "$(git rev-parse HEAD)" = "$(cat ../last_bananas_commit)" ]; then
+          echo "The documentation is up-to-date. :)"
+          echo 'Exiting with "No data available" error code.'
+          exit 61
+        fi
+        cd ..
 
     - name: Install dependencies
       run: |
