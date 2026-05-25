@@ -1,0 +1,12 @@
+badges: []
+cargos: {}
+rail_types:
+- LGVE
+- LGVN
+- SCAE
+- SDAE
+- SDAN
+- SEAE
+- SFAE
+road_types: []
+tram_types: []

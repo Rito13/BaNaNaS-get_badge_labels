@@ -1,0 +1,24 @@
+badges:
+- flag
+- flag/gb
+- power
+- power/animal
+- power/battery
+- power/diesel
+- power/electric
+- power/petrol
+- power/steam
+- power/turbine
+- role
+- role/express_passenger
+- role/freight
+- role/heavy_freight
+- role/mail
+- role/mixed
+- role/passenger
+- role/prototype
+- role/shunting
+cargos: {}
+rail_types: []
+road_types: []
+tram_types: []

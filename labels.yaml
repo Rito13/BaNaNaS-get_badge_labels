@@ -7079,6 +7079,14 @@ badges:
   - Europe (Mostly used as European Union)
   - 0
   - European Union
+  flag/gb:
+  - 1464228103
+  - 2026
+  - 5
+  - 24
+  - ''
+  - 0
+  - United Kingdom
   flag/soviet_union:
   - -1
   - 2025
@@ -18192,6 +18200,14 @@ badges:
   - Propulsion
   - 0
   - power
+  power/animal:
+  - 1464228103
+  - 2026
+  - 5
+  - 24
+  - ''
+  - 0
+  - Animal
   power/battery:
   - -1
   - 2025
@@ -18384,6 +18400,14 @@ badges:
   - ''
   - 0
   - Electric
+  power/petrol:
+  - 1464228103
+  - 2026
+  - 5
+  - 24
+  - ''
+  - 0
+  - Petrol
   power/steam:
   - -1
   - 2025
@@ -18943,7 +18967,7 @@ badges:
   - 27
   - Express passenger
   - 0
-  - ''
+  - Express Passenger
   role/freight:
   - -1
   - 2025
@@ -18967,7 +18991,7 @@ badges:
   - 27
   - Heavy freight
   - 0
-  - ''
+  - Heavy Freight
   role/high_power_railcar:
   - 1128337955
   - 2026
@@ -18999,7 +19023,7 @@ badges:
   - 27
   - Mail
   - 0
-  - ''
+  - Mail
   role/metro:
   - 1128337955
   - 2026
@@ -19023,7 +19047,7 @@ badges:
   - 27
   - Mixed
   - 0
-  - ''
+  - Mixed Traffic
   role/passenger:
   - -1
   - 2025
@@ -19039,7 +19063,7 @@ badges:
   - 27
   - Prototype
   - 0
-  - ''
+  - Prototype
   role/restaurant_car:
   - -1
   - 2025
@@ -19055,7 +19079,7 @@ badges:
   - 27
   - Shunting
   - 0
-  - ''
+  - Shunting
   role/snowplough:
   - -1
   - 2025
@@ -22322,6 +22346,22 @@ rail_types:
   - ''
   - 0
   - Lifted Track Construction
+  LGVE:
+  - 1246244913
+  - 2026
+  - 5
+  - 24
+  - ''
+  - 0
+  - ''
+  LGVN:
+  - 1246244913
+  - 2026
+  - 5
+  - 24
+  - ''
+  - 0
+  - ''
   LIHT:
   - 1194873347
   - 2022

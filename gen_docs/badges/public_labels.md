@@ -2,7 +2,7 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
+| [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+57465907 "38424253, 57465907") |
 | [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Behaviour | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_gen](#ih_gen) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gen | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_railtype](#ih_railtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -13,11 +13,11 @@
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | $\textcolor{red}{\textsf{0}}$ |
 | [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101,+55464951 "38424253, 43411223, 544e0101, 55464951") |
+| [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [5](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101,+55464951,+57465907 "38424253, 43411223, 544e0101, 55464951, 57465907") |
 | [railgauge](#railgauge) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-03-30 | Track Gauge | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | $\textcolor{red}{\textsf{0}}$ |
 | [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 | no houses | [1](https://bananas.openttd.org/?message=GRFs:+55464950 "55464950") |
-| [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+57465907 "43411223, 57465907") |
 | [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Roof | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Screen | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Shelter | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
@@ -285,6 +285,7 @@
 | flag/ZW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zimbabwe | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/east_germany | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | East Germany | $\textcolor{red}{\textsf{0}}$ |
 | flag/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe (Mostly used as European Union) | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
+| flag/gb | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | United Kingdom | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | flag/soviet_union | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | USSR | $\textcolor{red}{\textsf{0}}$ |
 | flag/yugoslavia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yugoslavia | $\textcolor{red}{\textsf{0}}$ |
 
@@ -1060,14 +1061,15 @@
 # power
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| power/battery | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Battery | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| power/animal | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | Animal | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| power/battery | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Battery | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+57465907 "544e0101, 57465907") |
 | power/battery_hybrid | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Battery Hybrid | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/diesel | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101 "38424253, 43411223, 544e0101") |
+| power/diesel | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101,+57465907 "38424253, 43411223, 544e0101, 57465907") |
 | power/diesel/diesel-electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-electric) | $\textcolor{red}{\textsf{0}}$ |
 | power/diesel/diesel-hydraulic | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-hydraulic) | $\textcolor{red}{\textsf{0}}$ |
 | power/dual | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-05-05 | Dual-mode | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+544e0101 "38424253, 544e0101") |
 | power/dual_voltage | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101 "38424253, 43411223, 544e0101") |
+| power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101,+57465907 "38424253, 43411223, 544e0101, 57465907") |
 | power/electric/ac | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC) | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+544e0101 "38424253, 544e0101") |
 | power/electric/ac/15kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 15kV) | $\textcolor{red}{\textsf{0}}$ |
 | power/electric/ac/25kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 25kV) | $\textcolor{red}{\textsf{0}}$ |
@@ -1084,9 +1086,10 @@
 | power/hydrogen | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-05-05 | Hydrogen | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
 | power/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Metro | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/ohle | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Electric | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/steam | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Steam | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101 "38424253, 43411223, 544e0101") |
+| power/petrol | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | Petrol | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| power/steam | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Steam | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+544e0101,+57465907 "38424253, 43411223, 544e0101, 57465907") |
 | power/third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | third rail | [1](https://bananas.openttd.org/?message=GRFs:+55464951 "55464951") |
-| power/turbine | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gas Turbine | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+544e0101 "38424253, 544e0101") |
+| power/turbine | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gas Turbine | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+544e0101,+57465907 "38424253, 544e0101, 57465907") |
 
 # railgauge
 | Label | Introduced by | When | Comment | O. |
@@ -1157,21 +1160,21 @@
 | role/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Driving Cab | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/express | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/express_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express freight | $\textcolor{red}{\textsf{0}}$ |
-| role/express_passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express passenger | $\textcolor{red}{\textsf{0}}$ |
-| role/freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| role/express_passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Express passenger | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| role/freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Freight | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+57465907 "43411223, 57465907") |
 | role/gronk | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gronk! | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/heavy_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heavy freight | $\textcolor{red}{\textsf{0}}$ |
+| role/heavy_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Heavy freight | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | role/high_power_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/light_freight | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Light freight | $\textcolor{red}{\textsf{0}}$ |
 | role/lolz | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Lolz | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/mail | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mail | $\textcolor{red}{\textsf{0}}$ |
+| role/mail | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mail | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | role/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Very High Capacity Urban | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/metro_freight | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Urban Freight | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | $\textcolor{red}{\textsf{0}}$ |
-| role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
-| role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | $\textcolor{red}{\textsf{0}}$ |
+| role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+57465907 "50530001, 57465907") |
+| role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | role/restaurant_car | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Restaurant car | $\textcolor{red}{\textsf{0}}$ |
-| role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | $\textcolor{red}{\textsf{0}}$ |
+| role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | role/snowplough | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Snowplough | $\textcolor{red}{\textsf{0}}$ |
 | role/suburban_or_universal_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | High Capacity | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | role/universal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | General Purpose | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
