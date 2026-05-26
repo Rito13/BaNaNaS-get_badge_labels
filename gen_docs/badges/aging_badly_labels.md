@@ -28,6 +28,7 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | flag/EU | [8-bit Badge Set](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 | European Union | $\textcolor{red}{\textsf{0}}$ |
+| flag/gb | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | United Kingdom | $\textcolor{red}{\textsf{0}}$ |
 
 # ih_distributed_power
 | Label | Introduced by | When | Comment | O. |

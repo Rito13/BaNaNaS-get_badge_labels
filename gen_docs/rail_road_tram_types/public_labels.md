@@ -125,7 +125,7 @@
 | KLSU | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | Low Speed Track Construction (Urban, Electrified) | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |
 | KMTR | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | Metro Track Construction | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |
 | KRBD | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | Railbed Construction | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |
-| KRNR | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | 762mm Narrow Gauge Track Construction | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |
+| KRNR | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | 762mm Narrow Gauge Track Construction | [2](https://bananas.openttd.org/?message=GRFs:+4b455453,+4b543031 "4b455453, 4b543031") |
 | KSSU | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | Semi High Speed Track Construction | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |
 | KSUB | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | Subway Track Construction | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |
 | KSUP | [Korean Tracks](https://bananas.openttd.org/package/newgrf/4b543031) | 2025-09-02 | Subway (With Park) Construction | [1](https://bananas.openttd.org/?message=GRFs:+4b543031 "4b543031") |

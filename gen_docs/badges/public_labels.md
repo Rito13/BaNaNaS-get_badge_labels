@@ -110,7 +110,7 @@
 | flag/FO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Faroe Islands | $\textcolor{red}{\textsf{0}}$ |
 | flag/FR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | France | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/GB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Kingdom | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
+| flag/GB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Kingdom | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+57465907 "38424253, 57465907") |
 | flag/GD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Grenada | $\textcolor{red}{\textsf{0}}$ |
 | flag/GE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Georgia | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/GF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Guiana | $\textcolor{red}{\textsf{0}}$ |
@@ -285,7 +285,6 @@
 | flag/ZW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zimbabwe | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
 | flag/east_germany | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | East Germany | $\textcolor{red}{\textsf{0}}$ |
 | flag/europe | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Europe (Mostly used as European Union) | [1](https://bananas.openttd.org/?message=GRFs:+38424253 "38424253") |
-| flag/gb | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | United Kingdom | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | flag/soviet_union | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | USSR | $\textcolor{red}{\textsf{0}}$ |
 | flag/yugoslavia | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yugoslavia | $\textcolor{red}{\textsf{0}}$ |
 
