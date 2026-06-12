@@ -1327,11 +1327,35 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_mine_hopper_combos:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_mixed_combos:
   - 1128337955
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_quarry_box_combos:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_quarry_hopper_combos:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 2
   - ''
@@ -1452,6 +1476,22 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/coal_bulk_open_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/coal_hopper_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 2
   - ''
@@ -2791,6 +2831,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/vehicle_reports_as/ore_hopper_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/vehicle_reports_as/ox:
   - 1128337955
   - 2026
@@ -3100,6 +3148,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/sand_bulk_open_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 2
   - ''
@@ -4063,6 +4119,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_livery_def/internal_livery_name/freight_kale:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
   _ih_livery_def/internal_livery_name/freight_mist:
   - 1128337955
   - 2026
@@ -4191,6 +4255,22 @@ badges:
   - ''
   - 2
   - ''
+  _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_sand:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
+  _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_silver:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
   _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_silver_sulphur:
   - 1128337955
   - 2026
@@ -4292,6 +4372,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_livery_def/internal_livery_name/random_liveries_variety_ferrous:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 2
   - ''
@@ -4647,6 +4735,22 @@ badges:
   - ''
   - 2
   - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/coal_bulk_open_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/coal_hopper_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
   _ih_randomised_wagon/candidates/ih_vehicle_family/coil_car:
   - 1128337955
   - 2026
@@ -4791,6 +4895,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/ore_hopper_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 2
+  - ''
   _ih_randomised_wagon/candidates/ih_vehicle_family/pipe_car:
   - 1128337955
   - 2026
@@ -4836,6 +4948,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/sand_bulk_open_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 2
   - ''
@@ -5015,6 +5135,30 @@ badges:
   - ''
   - 2
   - ''
+  _ww_type:
+  - 1464228103
+  - 2026
+  - 6
+  - 10
+  - ''
+  - 2
+  - Type
+  _ww_type/locomotive:
+  - 1464228103
+  - 2026
+  - 6
+  - 10
+  - ''
+  - 2
+  - Locomotive
+  _ww_type/multiple_unit:
+  - 1464228103
+  - 2026
+  - 6
+  - 10
+  - ''
+  - 2
+  - Multiple Unit
   benches:
   - 1347616769
   - 2026
@@ -15368,11 +15512,35 @@ badges:
   - ''
   - 0
   - ''
+  ih_vehicle_family/bulk_cargo_mine_hopper_combos:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - ''
   ih_vehicle_family/bulk_cargo_mixed_combos:
   - 1128337955
   - 2026
   - 1
   - 4
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/bulk_cargo_quarry_box_combos:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/bulk_cargo_quarry_hopper_combos:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 0
   - ''
@@ -15501,6 +15669,22 @@ badges:
   - 2026
   - 1
   - 4
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/coal_bulk_open_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/coal_hopper_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 0
   - ''
@@ -16568,6 +16752,14 @@ badges:
   - ''
   - 0
   - ''
+  ih_vehicle_family/ore_hopper_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - ''
   ih_vehicle_family/ox:
   - 1128337955
   - 2026
@@ -16877,6 +17069,14 @@ badges:
   - 2026
   - 1
   - 4
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/sand_bulk_open_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
   - ''
   - 0
   - ''
@@ -17656,6 +17856,14 @@ badges:
   - ''
   - 0
   - Industrial Yellow
+  livery/iron_horse/freight_kale:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - Kale
   livery/iron_horse/freight_red:
   - 1128337955
   - 2026
@@ -17752,6 +17960,22 @@ badges:
   - ''
   - 0
   - Bumblebee
+  livery/iron_horse/random_liveries_clover_ochre_sand:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - Marsh Grass
+  livery/iron_horse/random_liveries_clover_ochre_silver:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - Clover Fields
   livery/iron_horse/random_liveries_clover_ochre_silver_sulphur:
   - 1128337955
   - 2026
@@ -17848,6 +18072,14 @@ badges:
   - ''
   - 0
   - Ocean Silver
+  livery/iron_horse/random_liveries_variety_ferrous:
+  - 1128337955
+  - 2026
+  - 6
+  - 9
+  - ''
+  - 0
+  - Ferrous
   livery/iron_horse/random_liveries_variety_gemstone:
   - 1128337955
   - 2026

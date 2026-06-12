@@ -1,7 +1,9 @@
 # Classes
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
+| [_ih_formation_ruleset](#_ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [_ih_livery_def](#_ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
+| [_ih_randomised_wagon](#_ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+57465907 "38424253, 57465907") |
 | [ih_distributed_power](#ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [ih_formation_ruleset](#ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
@@ -17,12 +19,31 @@
 | [polish_stations_platform_colour](#polish_stations_platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2025-12-13 |  | $\textcolor{red}{\textsf{0}}$ |
 | [power_source](#power_source) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Power Source | $\textcolor{red}{\textsf{0}}$ |
 
+# _ih_formation_ruleset
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_box_combos | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_hopper_combos | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_formation_ruleset/vehicle_reports_as/hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_formation_ruleset/vehicle_reports_as/hopper_car_randomised | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_formation_ruleset/vehicle_reports_as/mineral_bulk_open_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_formation_ruleset/vehicle_reports_as/mineral_bulk_open_car_low_side | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+
 # _ih_livery_def
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | _ih_livery_def/internal_livery_name/dutch | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_livery_def/internal_livery_name/freight_bonus_teal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
 | _ih_livery_def/internal_livery_name/freight_industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_silver_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
 | _ih_livery_def/internal_livery_name/worker_bee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-04 |  | $\textcolor{red}{\textsf{0}}$ |
+
+# _ih_randomised_wagon
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| _ih_randomised_wagon/candidates/ih_vehicle_family/hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_randomised_wagon/candidates/ih_vehicle_family/mineral_bulk_open_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
+| _ih_randomised_wagon/candidates/ih_vehicle_family/mineral_bulk_open_car_low_side | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
 
 # flag
 | Label | Introduced by | When | Comment | O. |
@@ -655,6 +676,7 @@
 # ih_tech_tree
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
+| ih_tech_tree/intro_year/1920 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_tech_tree/intro_year/2015 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_tech_tree/intro_year/2017 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_tech_tree/replacement/ih_vehicle_family/happy_train | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
@@ -670,9 +692,15 @@
 # ih_vehicle_family
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
+| ih_vehicle_family/bulk_cargo_box_combos | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
+| ih_vehicle_family/bulk_cargo_hopper_combos | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_vehicle_family/cargo_sprinter | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
+| ih_vehicle_family/hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
+| ih_vehicle_family/hopper_car_randomised | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_vehicle_family/kaolin_hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_vehicle_family/magnum_90 | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
+| ih_vehicle_family/mineral_bulk_open_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
+| ih_vehicle_family/mineral_bulk_open_car_low_side | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | ih_vehicle_family/zipper | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 
 # ih_wagon_subtype
@@ -692,6 +720,7 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | livery/iron_horse/freight_industrial_yellow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-02-01 | Industrial Yellow | $\textcolor{red}{\textsf{0}}$ |
+| livery/iron_horse/random_liveries_clover_ochre_silver_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Clover Fields | $\textcolor{red}{\textsf{0}}$ |
 | livery/iron_horse/worker_bee | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-04-04 | Worker Bee | $\textcolor{red}{\textsf{0}}$ |
 
 # polish_stations_benches

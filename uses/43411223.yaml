@@ -163,9 +163,10 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/brenner
 - _ih_formation_ruleset/vehicle_reports_as/brenner_middle
 - _ih_formation_ruleset/vehicle_reports_as/buffalo
-- _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_box_combos
-- _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_hopper_combos
+- _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_mine_hopper_combos
 - _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_mixed_combos
+- _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_quarry_box_combos
+- _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_quarry_hopper_combos
 - _ih_formation_ruleset/vehicle_reports_as/caboose_car
 - _ih_formation_ruleset/vehicle_reports_as/canary
 - _ih_formation_ruleset/vehicle_reports_as/cane_bin_car
@@ -181,6 +182,8 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/chronos
 - _ih_formation_ruleset/vehicle_reports_as/chuggypig
 - _ih_formation_ruleset/vehicle_reports_as/clipper
+- _ih_formation_ruleset/vehicle_reports_as/coal_bulk_open_car
+- _ih_formation_ruleset/vehicle_reports_as/coal_hopper_car
 - _ih_formation_ruleset/vehicle_reports_as/coil_buggy_car
 - _ih_formation_ruleset/vehicle_reports_as/coil_car
 - _ih_formation_ruleset/vehicle_reports_as/constance
@@ -281,8 +284,6 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/higuma
 - _ih_formation_ruleset/vehicle_reports_as/hinterland
 - _ih_formation_ruleset/vehicle_reports_as/hood_open_car_type_1
-- _ih_formation_ruleset/vehicle_reports_as/hopper_car
-- _ih_formation_ruleset/vehicle_reports_as/hopper_car_randomised
 - _ih_formation_ruleset/vehicle_reports_as/hurly_burly
 - _ih_formation_ruleset/vehicle_reports_as/ingot_car
 - _ih_formation_ruleset/vehicle_reports_as/intermodal_car
@@ -333,8 +334,6 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/mgr_hopper_car
 - _ih_formation_ruleset/vehicle_reports_as/mill_flat_car
 - _ih_formation_ruleset/vehicle_reports_as/mill_open_car
-- _ih_formation_ruleset/vehicle_reports_as/mineral_bulk_open_car
-- _ih_formation_ruleset/vehicle_reports_as/mineral_bulk_open_car_low_side
 - _ih_formation_ruleset/vehicle_reports_as/mineral_covered_hopper_combos
 - _ih_formation_ruleset/vehicle_reports_as/moor_gallop
 - _ih_formation_ruleset/vehicle_reports_as/motorail_automobile_car
@@ -348,6 +347,7 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/open_car
 - _ih_formation_ruleset/vehicle_reports_as/open_car_combos
 - _ih_formation_ruleset/vehicle_reports_as/open_car_randomised
+- _ih_formation_ruleset/vehicle_reports_as/ore_hopper_car
 - _ih_formation_ruleset/vehicle_reports_as/ox
 - _ih_formation_ruleset/vehicle_reports_as/panoramic_car
 - _ih_formation_ruleset/vehicle_reports_as/passenger_car
@@ -387,6 +387,7 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/roller_roof_hopper_car
 - _ih_formation_ruleset/vehicle_reports_as/ruby
 - _ih_formation_ruleset/vehicle_reports_as/salt_covered_hopper_car
+- _ih_formation_ruleset/vehicle_reports_as/sand_bulk_open_car
 - _ih_formation_ruleset/vehicle_reports_as/satyr
 - _ih_formation_ruleset/vehicle_reports_as/saxon
 - _ih_formation_ruleset/vehicle_reports_as/scooby
@@ -504,7 +505,7 @@ badges:
 - _ih_livery_def/internal_livery_name/conventional_wisdom
 - _ih_livery_def/internal_livery_name/farmflow
 - _ih_livery_def/internal_livery_name/freight_black
-- _ih_livery_def/internal_livery_name/freight_bonus_teal
+- _ih_livery_def/internal_livery_name/freight_kale
 - _ih_livery_def/internal_livery_name/freight_mist
 - _ih_livery_def/internal_livery_name/freight_red
 - _ih_livery_def/internal_livery_name/freightliner_gbrf
@@ -521,7 +522,8 @@ badges:
 - _ih_livery_def/internal_livery_name/railfreight_triple_grey
 - _ih_livery_def/internal_livery_name/rain_or_shine
 - _ih_livery_def/internal_livery_name/random_liveries_bumblebee
-- _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_silver_sulphur
+- _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_sand
+- _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_silver
 - _ih_livery_def/internal_livery_name/random_liveries_clover_ochre_sulphur
 - _ih_livery_def/internal_livery_name/random_liveries_complement_company_colour
 - _ih_livery_def/internal_livery_name/random_liveries_grey_rust_nightshade
@@ -534,6 +536,7 @@ badges:
 - _ih_livery_def/internal_livery_name/random_liveries_sulphur_ochre
 - _ih_livery_def/internal_livery_name/random_liveries_teal_ocean_teal
 - _ih_livery_def/internal_livery_name/random_liveries_teal_pewter_silver
+- _ih_livery_def/internal_livery_name/random_liveries_variety_ferrous
 - _ih_livery_def/internal_livery_name/random_liveries_variety_gemstone
 - _ih_livery_def/internal_livery_name/random_liveries_variety_limewash
 - _ih_livery_def/internal_livery_name/random_liveries_violet_teal_ocean_teal
@@ -577,6 +580,8 @@ badges:
 - _ih_randomised_wagon/candidates/ih_vehicle_family/box_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/caboose_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/cement_silo_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/coal_bulk_open_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/coal_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/coil_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/covered_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/curtain_side_box_car
@@ -587,20 +592,19 @@ badges:
 - _ih_randomised_wagon/candidates/ih_vehicle_family/food_express_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/food_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/hood_open_car_type_1
-- _ih_randomised_wagon/candidates/ih_vehicle_family/hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/lime_covered_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/merchandise_box_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/mill_flat_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/mill_open_car
-- _ih_randomised_wagon/candidates/ih_vehicle_family/mineral_bulk_open_car
-- _ih_randomised_wagon/candidates/ih_vehicle_family/mineral_bulk_open_car_low_side
 - _ih_randomised_wagon/candidates/ih_vehicle_family/open_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/ore_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/pipe_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/product_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/reefer_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/rock_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/roller_roof_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/salt_covered_hopper_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/sand_bulk_open_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/scrap_metal_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/silo_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/sliding_roof_car
@@ -675,7 +679,6 @@ badges:
 - ih_tech_tree/intro_year/1910
 - ih_tech_tree/intro_year/1915
 - ih_tech_tree/intro_year/1917
-- ih_tech_tree/intro_year/1920
 - ih_tech_tree/intro_year/1922
 - ih_tech_tree/intro_year/1925
 - ih_tech_tree/intro_year/1927
@@ -1040,9 +1043,10 @@ badges:
 - ih_vehicle_family/breeze
 - ih_vehicle_family/brenner
 - ih_vehicle_family/buffalo
-- ih_vehicle_family/bulk_cargo_box_combos
-- ih_vehicle_family/bulk_cargo_hopper_combos
+- ih_vehicle_family/bulk_cargo_mine_hopper_combos
 - ih_vehicle_family/bulk_cargo_mixed_combos
+- ih_vehicle_family/bulk_cargo_quarry_box_combos
+- ih_vehicle_family/bulk_cargo_quarry_hopper_combos
 - ih_vehicle_family/caboose_car
 - ih_vehicle_family/canary
 - ih_vehicle_family/cane_bin_car
@@ -1058,6 +1062,8 @@ badges:
 - ih_vehicle_family/chronos
 - ih_vehicle_family/chuggypig
 - ih_vehicle_family/clipper
+- ih_vehicle_family/coal_bulk_open_car
+- ih_vehicle_family/coal_hopper_car
 - ih_vehicle_family/coil_buggy_car
 - ih_vehicle_family/coil_car
 - ih_vehicle_family/constance
@@ -1141,8 +1147,6 @@ badges:
 - ih_vehicle_family/higuma
 - ih_vehicle_family/hinterland
 - ih_vehicle_family/hood_open_car_type_1
-- ih_vehicle_family/hopper_car
-- ih_vehicle_family/hopper_car_randomised
 - ih_vehicle_family/hurly_burly
 - ih_vehicle_family/ingot_car
 - ih_vehicle_family/intermodal_car
@@ -1175,8 +1179,6 @@ badges:
 - ih_vehicle_family/mgr_hopper_car
 - ih_vehicle_family/mill_flat_car
 - ih_vehicle_family/mill_open_car
-- ih_vehicle_family/mineral_bulk_open_car
-- ih_vehicle_family/mineral_bulk_open_car_low_side
 - ih_vehicle_family/mineral_covered_hopper_combos
 - ih_vehicle_family/moor_gallop
 - ih_vehicle_family/motorail_automobile_car
@@ -1189,6 +1191,7 @@ badges:
 - ih_vehicle_family/open_car
 - ih_vehicle_family/open_car_combos
 - ih_vehicle_family/open_car_randomised
+- ih_vehicle_family/ore_hopper_car
 - ih_vehicle_family/ox
 - ih_vehicle_family/panoramic_car
 - ih_vehicle_family/passenger_car
@@ -1228,6 +1231,7 @@ badges:
 - ih_vehicle_family/roller_roof_hopper_car
 - ih_vehicle_family/ruby
 - ih_vehicle_family/salt_covered_hopper_car
+- ih_vehicle_family/sand_bulk_open_car
 - ih_vehicle_family/satyr
 - ih_vehicle_family/saxon
 - ih_vehicle_family/scooby
@@ -1308,6 +1312,7 @@ badges:
 - livery/iron_horse/complement_company_colour
 - livery/iron_horse/conventional_wisdom
 - livery/iron_horse/freight_black
+- livery/iron_horse/freight_kale
 - livery/iron_horse/freight_red
 - livery/iron_horse/fruit_ripple
 - livery/iron_horse/grey_horse
@@ -1320,7 +1325,8 @@ badges:
 - livery/iron_horse/metroland
 - livery/iron_horse/rain_or_shine
 - livery/iron_horse/random_liveries_bumblebee
-- livery/iron_horse/random_liveries_clover_ochre_silver_sulphur
+- livery/iron_horse/random_liveries_clover_ochre_sand
+- livery/iron_horse/random_liveries_clover_ochre_silver
 - livery/iron_horse/random_liveries_clover_ochre_sulphur
 - livery/iron_horse/random_liveries_complement_company_colour
 - livery/iron_horse/random_liveries_grey_rust_nightshade
@@ -1332,6 +1338,7 @@ badges:
 - livery/iron_horse/random_liveries_sulphur_ochre
 - livery/iron_horse/random_liveries_teal_ocean_teal
 - livery/iron_horse/random_liveries_teal_pewter_silver
+- livery/iron_horse/random_liveries_variety_ferrous
 - livery/iron_horse/random_liveries_variety_gemstone
 - livery/iron_horse/random_liveries_variety_limewash
 - livery/iron_horse/random_liveries_violet_teal_ocean_teal
@@ -1367,3 +1374,10 @@ badges:
 - role/universal
 - role/very_high_speed
 cargos: {}
+rail_types:
+- LGVE
+- LGVN
+- MTRO
+- NAAN
+road_types: []
+tram_types: []
