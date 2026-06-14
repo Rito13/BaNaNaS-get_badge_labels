@@ -4,6 +4,11 @@ badges:
 - benches/dutch
 - benches/modern
 - benches/oak
+- fence
+- fence/between_tracks
+- fence/platform
+- fence/surrounded
+- fence/without
 - flag/NL
 - flag/PL
 - lanterns
@@ -35,3 +40,6 @@ badges:
 - shelter/sextant
 - shelter/white
 cargos: {}
+rail_types: []
+road_types: []
+tram_types: []

@@ -2,6 +2,7 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [fence](#fence) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Fence | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+57465907 "38424253, 57465907") |
 | [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Behaviour | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_gen](#ih_gen) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gen | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -30,6 +31,14 @@
 | benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Dutch | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Modern | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Oak | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+
+# fence
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| fence/between_tracks | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Between Tracks | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| fence/platform | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Platform | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| fence/surrounded | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Surrounded by | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| fence/without | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Without | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 
 # flag
 | Label | Introduced by | When | Comment | O. |

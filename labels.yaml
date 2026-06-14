@@ -5199,6 +5199,46 @@ badges:
   - ''
   - 0
   - Oak
+  fence:
+  - 1347616769
+  - 2026
+  - 6
+  - 12
+  - ''
+  - 0
+  - Fence
+  fence/between_tracks:
+  - 1347616769
+  - 2026
+  - 6
+  - 12
+  - ''
+  - 0
+  - Between Tracks
+  fence/platform:
+  - 1347616769
+  - 2026
+  - 6
+  - 12
+  - ''
+  - 0
+  - Platform
+  fence/surrounded:
+  - 1347616769
+  - 2026
+  - 6
+  - 12
+  - ''
+  - 0
+  - Surrounded by
+  fence/without:
+  - 1347616769
+  - 2026
+  - 6
+  - 12
+  - ''
+  - 0
+  - Without
   flag:
   - -1
   - 2025
