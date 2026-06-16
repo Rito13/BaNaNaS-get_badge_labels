@@ -22,6 +22,7 @@
 # _ih_formation_ruleset
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
+| _ih_formation_ruleset/alt_var_41_predicate/motorail_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
 | _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_box_combos | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
 | _ih_formation_ruleset/vehicle_reports_as/bulk_cargo_hopper_combos | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
 | _ih_formation_ruleset/vehicle_reports_as/hopper_car | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | $\textcolor{red}{\textsf{0}}$ |
