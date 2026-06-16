@@ -1,0 +1,9 @@
+badges: []
+cargos:
+  MATE: '0b0000001000100000'
+  PASS: null
+  TRPS: '0b0000000000000001'
+  VALU: null
+rail_types: []
+road_types: []
+tram_types: []
