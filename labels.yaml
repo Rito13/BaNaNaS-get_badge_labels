@@ -319,6 +319,30 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4B:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4C:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4D:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_5B:
   - 1128337955
   - 2026
@@ -1668,6 +1692,30 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4B:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4C:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4D:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
   - ''
   - 2
   - ''
@@ -4207,6 +4255,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_livery_def/internal_livery_name/mail_by_rail_alt:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 2
+  - ''
   _ih_livery_def/internal_livery_name/marginal_gains:
   - 1128337955
   - 2026
@@ -5159,6 +5215,54 @@ badges:
   - ''
   - 2
   - Multiple Unit
+  axleweight:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - Axle weight
+  axleweight/A:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - '(Class A) Very low '
+  axleweight/B:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - (Class B) Low
+  axleweight/C:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - (Class C) Medium
+  axleweight/D:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - (Class D) High
+  axleweight/E:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - (Class E) Very high
   benches:
   - 1347616769
   - 2026
@@ -7319,6 +7423,14 @@ badges:
   - ''
   - 0
   - High speed capable
+  ih_behaviour/post_office_car:
+  - 1128337955
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - Eliminates running costs for all Mail Vans and High Speed Mail Vans in the train
   ih_behaviour/provides_easter_egg_haulage_speed_bonus:
   - 1128337955
   - 2026
@@ -18616,6 +18728,14 @@ badges:
   - Electric (DC 750V)
   - 0
   - ''
+  power/electric/multi:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - Electric (AC/DC)
   power/electrified:
   - 1430669649
   - 2026
@@ -19216,6 +19336,14 @@ badges:
   - ''
   - 0
   - Driving Cab
+  role/executive:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - Executive
   role/express:
   - 1128337955
   - 2026
@@ -19272,6 +19400,14 @@ badges:
   - ''
   - 0
   - Express
+  role/international:
+  - 1414332929
+  - 2026
+  - 6
+  - 20
+  - ''
+  - 0
+  - International passengers
   role/light_freight:
   - -1
   - 2025
@@ -19279,7 +19415,7 @@ badges:
   - 27
   - Light freight
   - 0
-  - ''
+  - Light freight
   role/lolz:
   - 1128337955
   - 2026

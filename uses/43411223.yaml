@@ -39,6 +39,9 @@ badges:
 - _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_pony_gen_5B
 - _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_pony_gen_5C
 - _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_pony_gen_5D
+- _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4B
+- _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4C
+- _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4D
 - _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_5B
 - _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_5C
 - _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_5D
@@ -205,6 +208,9 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_pony_gen_5B
 - _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_pony_gen_5C
 - _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_pony_gen_5D
+- _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4B
+- _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4C
+- _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4D
 - _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_5B
 - _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_5C
 - _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_5D
@@ -515,6 +521,7 @@ badges:
 - _ih_livery_def/internal_livery_name/inversions
 - _ih_livery_def/internal_livery_name/lower_lines
 - _ih_livery_def/internal_livery_name/mail_by_rail
+- _ih_livery_def/internal_livery_name/mail_by_rail_alt
 - _ih_livery_def/internal_livery_name/marginal_gains
 - _ih_livery_def/internal_livery_name/metroland
 - _ih_livery_def/internal_livery_name/railfreight_red_stripe
@@ -630,6 +637,7 @@ badges:
 - ih_behaviour/caboose
 - ih_behaviour/driving_cab
 - ih_behaviour/lgv_capable
+- ih_behaviour/post_office_car
 - ih_behaviour/provides_easter_egg_haulage_speed_bonus
 - ih_behaviour/random_reverse
 - ih_behaviour/randomised_wagon
