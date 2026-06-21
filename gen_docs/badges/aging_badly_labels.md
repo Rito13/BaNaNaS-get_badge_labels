@@ -4,7 +4,7 @@
 | [_ih_formation_ruleset](#_ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [_ih_livery_def](#_ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [_ih_randomised_wagon](#_ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
-| [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+57465907 "38424253, 57465907") |
+| [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+544d0201,+57465907 "38424253, 544d0201, 57465907") |
 | [ih_distributed_power](#ih_distributed_power) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [ih_formation_ruleset](#ih_formation_ruleset) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | $\textcolor{red}{\textsf{0}}$ |
 | [ih_livery_def](#ih_livery_def) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
