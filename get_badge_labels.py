@@ -95,11 +95,10 @@ PROPS = {
 }
 
 
-def colour_text(text, colour):
+def markdown_colour_text(text, colour):
 	return r"$\textcolor{" + colour + r"}{\textsf{" + text + "}}$"
 
 
-RED_ZERO = colour_text("0", "red")
 OPENTTD_IMAGE = "![OpenTTD](https://github.com/OpenTTD/OpenTTD/blob/master/media/openttd.16.png?raw=true)"
 INVALID_SUB_STRINGS = [chr(n) for n in range(0x88, 0x98 + 1)] + ["\xc3\x9e"] + [chr(0x9A) + chr(n) for n in range(0x00, 0x21 + 1)]
 
@@ -381,7 +380,7 @@ def create_hierarchy(labels, required_flags: dict, debug=False, has_classes=True
 				if class_label not in labels:
 					if debug:
 						print("No class for badge:", label)
-					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", RED_ZERO]
+					labels[class_label] = [labels[label][0], labels[label][1], labels[label][2], labels[label][3], "AUTO GENERATED CLASS", "0"]
 				hierarchy[class_label] = []
 			hierarchy[class_label].append(label)
 	if has_classes:
@@ -393,6 +392,10 @@ def create_hierarchy(labels, required_flags: dict, debug=False, has_classes=True
 		for b in hc:
 			hierarchy[c][b] = labels[b]
 	return hierarchy
+
+
+def markdown_link_with_grf_ids(li):
+	return '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
 
 
 def generate_markdown_page(hierarchy, page_name, debug=False, countable_data=None):
@@ -424,11 +427,50 @@ def generate_markdown_page(hierarchy, page_name, debug=False, countable_data=Non
 					grf_id = "[{0}](https://bananas.openttd.org/package/newgrf/{1})".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
 				when = "{0}-{1:02d}-{2:02d}".format(data[1], data[2], data[3])  # Introduction date.
 				comment = data[4] if data[4] else data[6]  # Use string from grf if no comment provided.
-				md_file.write("| {0} | {1} | {2} | {3} {5}| {4} |\n".format(label, grf_id, when, comment, data[-1], f"| {data[-2]} " if countable_data else ""))
+				occurrences = markdown_link_with_grf_ids(data[-1]) if isinstance(data[-1], list) else markdown_colour_text(data[-1], "red")
+				cd_data = ""
+				if countable_data:
+					cd_data = "| " + "<br>".join([markdown_link_with_grf_ids(e[1]) + (OPENTTD_IMAGE if "OpenTTD" in e[1] else "") + ": " + e[0] for e in data[-2]]) + " "
+				md_file.write("| {0} | {1} | {2} | {3} {5}| {4} |\n".format(label, grf_id, when, comment, occurrences, cd_data))
 
 
-def link_with_grf_ids(li):
-	return '[{0}](https://bananas.openttd.org/?message=GRFs:+{2} "{1}")'.format(len(li), ", ".join(li), ",+".join(li))
+def csv_link_with_grf_ids(li, separator=",", quote='"'):
+	return "{0}{2}{3}{1}{3}".format(len(li), " ".join(li), separator, quote)
+
+
+def generate_csv_page(hierarchy, page_name, debug=False, countable_data=None):
+	with open(os.path.join("gen_docs", f"{page_name}.csv"), "w") as csv_file:
+		for c in hierarchy.keys():
+			if c == -1:  # It is a classes table.
+				csv_file.write("[Classes],")
+			else:  # It is a table for specific class.
+				csv_file.write("[{}],".format(c))
+			cd_title = "," + ",".join(countable_data) if countable_data else ""
+			csv_file.write(f"Label,Introduced by,Hyperlink,When,Comment{cd_title},Occurrences,Using GRFIDs\n")
+			for b in hierarchy[c]:
+				label = b
+				data = hierarchy[c][b]
+				grf_id = data[0]
+				if grf_id == -1:  # It comes from default badges by Peter Nelson.
+					grf_id = "OpenTTD default badges,https://github.com/OpenTTD/OpenTTD/pull/13655"
+				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
+					grf_id = "Community,https://www.tt-forums.net"
+				elif grf_id == -3:  # Introduced by Chris Sawyer in TTD.
+					grf_id = "TTD,https://www.tt-wiki.net/wiki/Main_Page"
+				elif grf_id < -3:  # Introduced by community in OTTD. GRF id is - commit hash in decimal system.
+					grf_id = f"OTTD,https://github.com/OpenTTD/OpenTTD/commit/{-grf_id:x}"
+				else:  # Introduced by grf from BaNaNaS.
+					grf_id = '"{0}",https://bananas.openttd.org/package/newgrf/{1}'.format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
+				when = "{0}-{1:02d}-{2:02d}".format(data[1], data[2], data[3])  # Introduction date.
+				comment = data[4] if data[4] else data[6]  # Use string from grf if no comment provided.
+				occurrences = csv_link_with_grf_ids(data[-1]) if isinstance(data[-1], list) else f"{data[-1]},"
+				cd_data = (',"' + "\n".join([csv_link_with_grf_ids(e[1], " - ", "") + ": " + e[0] for e in data[-2]]) + '"') if countable_data else ""
+				csv_file.write(',"{0}",{1},{2},"{3}"{5},{4}\n'.format(label, grf_id, when, comment, occurrences, cd_data))
+
+
+def generate_page_all_formats(hierarchy, page_name, debug=False, countable_data=None):
+	for page_genarator in [generate_markdown_page, generate_csv_page]:
+		page_genarator(hierarchy, page_name, debug, countable_data)
 
 
 def FRAX_from_binary(binary):
@@ -469,21 +511,19 @@ def add_uses_to_labels(labels, key, debug=False):
 		if len(labels[label]) == start_size:
 			if has_countable_data:
 				labels[label].append("")
-			labels[label].append(RED_ZERO)
+			labels[label].append("0")
 			if labels[label][0] >= 0:
 				if debug:
 					pass  # print(label, "is aging badly.")
 				labels[label][5] |= 1 << LabelFlags.AgingBadly
 		else:
-			labels[label][-1] = link_with_grf_ids(labels[label][-1])
 			if has_countable_data:
 				ordered = list(labels[label][-2].items())
 
 				def compare(a, b):
 					return len(b[1]) - len(a[1])
 
-				ordered = sorted(ordered, key=cmp_to_key(compare))
-				labels[label][-2] = "<br>".join([link_with_grf_ids(e[1]) + (OPENTTD_IMAGE if "OpenTTD" in e[1] else "") + ": " + FRAX_from_binary(e[0]) for e in ordered])
+				labels[label][-2] = [[FRAX_from_binary(e[0]), e[1]] for e in sorted(ordered, key=cmp_to_key(compare))]
 
 
 if __name__ == "__main__":
@@ -553,23 +593,23 @@ if __name__ == "__main__":
 	for key in [BADGES_KEY, CARGOS_KEY, RAIL_KEY, ROAD_KEY, TRAM_KEY]:
 		add_uses_to_labels(labels[key], key, DEBUG)
 
-	generate_markdown_page(create_hierarchy(badge_labels, {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG), os.path.join(BADGES_KEY, "public_labels"), DEBUG)
-	generate_markdown_page(create_hierarchy(badge_labels, {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG), os.path.join(BADGES_KEY, "private_labels"), DEBUG)
-	generate_markdown_page(create_hierarchy(badge_labels, {LabelFlags.AgingBadly: 1}, DEBUG), os.path.join(BADGES_KEY, "aging_badly_labels"), DEBUG)
+	generate_page_all_formats(create_hierarchy(badge_labels, {LabelFlags.Private: 0, LabelFlags.AgingBadly: 0}, DEBUG), os.path.join(BADGES_KEY, "public_labels"), DEBUG)
+	generate_page_all_formats(create_hierarchy(badge_labels, {LabelFlags.Private: 1, LabelFlags.AgingBadly: 0}, DEBUG), os.path.join(BADGES_KEY, "private_labels"), DEBUG)
+	generate_page_all_formats(create_hierarchy(badge_labels, {LabelFlags.AgingBadly: 1}, DEBUG), os.path.join(BADGES_KEY, "aging_badly_labels"), DEBUG)
 
-	generate_markdown_page(create_hierarchy(cargo_labels, {LabelFlags.AgingBadly: 0}, DEBUG, False), os.path.join(CARGOS_KEY, "public_labels"), DEBUG, ["Classes"])
-	generate_markdown_page(create_hierarchy(cargo_labels, {LabelFlags.AgingBadly: 1}, DEBUG, False), os.path.join(CARGOS_KEY, "aging_badly_labels"), DEBUG, ["Classes"])
+	generate_page_all_formats(create_hierarchy(cargo_labels, {LabelFlags.AgingBadly: 0}, DEBUG, False), os.path.join(CARGOS_KEY, "public_labels"), DEBUG, ["Classes"])
+	generate_page_all_formats(create_hierarchy(cargo_labels, {LabelFlags.AgingBadly: 1}, DEBUG, False), os.path.join(CARGOS_KEY, "aging_badly_labels"), DEBUG, ["Classes"])
 
 	rrtt_hierarchy = {
 		"Rail Types": create_hierarchy(labels[RAIL_KEY], {LabelFlags.AgingBadly: 0}, DEBUG, False)["Labels"],
 		"Road Types": create_hierarchy(labels[ROAD_KEY], {LabelFlags.AgingBadly: 0}, DEBUG, False)["Labels"],
 		"Tram Types": create_hierarchy(labels[TRAM_KEY], {LabelFlags.AgingBadly: 0}, DEBUG, False)["Labels"],
 	}
-	generate_markdown_page(rrtt_hierarchy, os.path.join("rail_road_tram_types", "public_labels"), DEBUG)
+	generate_page_all_formats(rrtt_hierarchy, os.path.join("rail_road_tram_types", "public_labels"), DEBUG)
 
 	rrtt_hierarchy = {
 		"Rail Types": create_hierarchy(labels[RAIL_KEY], {LabelFlags.AgingBadly: 1}, DEBUG, False)["Labels"],
 		"Road Types": create_hierarchy(labels[ROAD_KEY], {LabelFlags.AgingBadly: 1}, DEBUG, False)["Labels"],
 		"Tram Types": create_hierarchy(labels[TRAM_KEY], {LabelFlags.AgingBadly: 1}, DEBUG, False)["Labels"],
 	}
-	generate_markdown_page(rrtt_hierarchy, os.path.join("rail_road_tram_types", "aging_badly_labels"), DEBUG)
+	generate_page_all_formats(rrtt_hierarchy, os.path.join("rail_road_tram_types", "aging_badly_labels"), DEBUG)
