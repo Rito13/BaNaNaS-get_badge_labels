@@ -88,3 +88,4 @@ jobs:
         branch-suffix: timestamp
         author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
         committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
+        body: "@Rito13 new update is awaiting approval."
