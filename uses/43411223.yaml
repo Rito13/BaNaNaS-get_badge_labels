@@ -114,6 +114,7 @@ badges:
 - _ih_formation_ruleset/metro
 - _ih_formation_ruleset/motorail_cars
 - _ih_formation_ruleset/pax_cars
+- _ih_formation_ruleset/post_office_cars
 - _ih_formation_ruleset/railcars_2_unit_sets
 - _ih_formation_ruleset/railcars_3_unit_sets
 - _ih_formation_ruleset/railcars_4_unit_sets
@@ -370,6 +371,7 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/pipe_car
 - _ih_formation_ruleset/vehicle_reports_as/plastic_postbox
 - _ih_formation_ruleset/vehicle_reports_as/poplar
+- _ih_formation_ruleset/vehicle_reports_as/post_office_car
 - _ih_formation_ruleset/vehicle_reports_as/pressure_tank_car
 - _ih_formation_ruleset/vehicle_reports_as/product_tank_car
 - _ih_formation_ruleset/vehicle_reports_as/progress
@@ -1217,6 +1219,7 @@ badges:
 - ih_vehicle_family/pipe_car
 - ih_vehicle_family/plastic_postbox
 - ih_vehicle_family/poplar
+- ih_vehicle_family/post_office_car
 - ih_vehicle_family/pressure_tank_car
 - ih_vehicle_family/product_tank_car
 - ih_vehicle_family/progress

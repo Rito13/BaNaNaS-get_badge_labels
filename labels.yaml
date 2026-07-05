@@ -927,6 +927,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/post_office_cars:
+  - 1128337955
+  - 2026
+  - 7
+  - 4
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/railcars_2_unit_sets:
   - 1128337955
   - 2026
@@ -3020,6 +3028,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/post_office_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 4
   - ''
   - 2
   - ''
@@ -17052,6 +17068,14 @@ badges:
   - 1128337955
   - 2026
   - 1
+  - 4
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/post_office_car:
+  - 1128337955
+  - 2026
+  - 7
   - 4
   - ''
   - 0
