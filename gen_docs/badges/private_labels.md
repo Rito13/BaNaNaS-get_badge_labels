@@ -7,6 +7,7 @@
 | [_ih_pantograph_display](#_ih_pantograph_display) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [_ih_randomised_wagon](#_ih_randomised_wagon) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [_ih_wagon_subtype](#_ih_wagon_subtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| [_ww_livery](#_ww_livery) | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | Livery Pattern | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | [_ww_type](#_ww_type) | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-06-10 | Type | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 
 # _ih_distributed_power
@@ -667,6 +668,18 @@
 | _ih_wagon_subtype/d | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_wagon_subtype/u | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_wagon_subtype/z | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+
+# _ww_livery
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| _ww_livery/brblack | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/brblue | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/brbluegrey | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue/Grey | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/brbluegrey_inv | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue/Grey (Inverted) | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/intercity | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | InterCity | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/nse | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | Network Southeast | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/overground | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | TfL Overground | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/provincial | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | Provincial | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 
 # _ww_type
 | Label | Introduced by | When | Comment | O. |

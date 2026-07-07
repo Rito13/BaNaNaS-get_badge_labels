@@ -83,7 +83,7 @@
 1 - 4f540001: [Armoured, Non-Potable]",15,"4a448807 4a4b8808 4b4b0001 4d634d69 4d656f91 4f472b33 4f540001 54440901 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010"
 ,"DIOS","OpenHRT Estrogen",https://bananas.openttd.org/package/newgrf/414b3031,2025-03-09,"Diosgenin","1 - 414b3031: [OpenBulk, Refrigerated]",1,"414b3031"
 ,"DYES","ECS Chemical vector II",https://bananas.openttd.org/package/newgrf/4d656f9c,2016-01-10,"Dyes","1 - 4d656f9c: [PieceGoods, LiquidBulk]",2,"4d656f91 4d656f9c"
-,"ELEC","Apollo Rocket Industry Set",https://bananas.openttd.org/package/newgrf/454e1501,2019-07-16,"Electronics","2 - 454e1501 4d471001: [PieceGoods]",2,"454e1501 4d471001"
+,"ELEC","Apollo Rocket Industry Set",https://bananas.openttd.org/package/newgrf/454e1501,2019-07-16,"Electronics","3 - 454e1501 4d471001 4d471002: [PieceGoods]",3,"454e1501 4d471001 4d471002"
 ,"ELTR","OTIS - One Tile Industry Set",https://bananas.openttd.org/package/newgrf/47475154,2022-04-13,"Electricity","1 - 47475154: [Special]",1,"47475154"
 ,"ENRG","Cargo Pyramid Industry Set",https://bananas.openttd.org/package/newgrf/54440901,2025-03-02,"Energy","1 - 54440901: [LiquidBulk]",1,"54440901"
 ,"ENSP","FIRS Industries 1",https://bananas.openttd.org/package/newgrf/f1250005,2015-09-30,"Engineering Supplies","19 - 31ff0505 414b3031 444410aa 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4b4b0001 4d471001 4d471002 4e445903 4e4d1113 54543230 f1250005 f1250006 f1250007: [Express, PieceGoods]
@@ -164,8 +164,8 @@
 ,"HYAC","AXIS eXtreme Industry Set",https://bananas.openttd.org/package/newgrf/4a4b8808,2026-02-08,"Hydrochloric Acid","1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]",1,"4a4b8808"
 ,"IORE",TTD,https://www.tt-wiki.net/wiki/Main_Page,1995-11-01,"Iron Ore","32 - 31ff0502 31ff0503 31ff0504 31ff0505 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f94 4e445903 4e4d1113 4f472b33 54440901 54454d39 55440100 56420303 f1250005 f1250006 f1250007: [OpenBulk]
 7 - 4a4b8808 4f540001 54540401 OpenTTD f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]",40,"31ff0502 31ff0503 31ff0504 31ff0505 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4d634d69 4d656f91 4d656f94 4e445903 4e4d1113 4f472b33 4f540001 54440901 54454d39 54540401 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010"
-,"IRON","FIRS Industries 3",https://bananas.openttd.org/package/newgrf/f1250007,2019-02-18,"Pig Iron","5 - 4a448807 4b4b0001 4d471001 4e445903 f1250007: [PieceGoods]
-5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]",10,"4a448807 4a4b8808 4b4b0001 4d471001 4e445903 4f540001 f1250007 f1250008 f1250009 f1250010"
+,"IRON","FIRS Industries 3",https://bananas.openttd.org/package/newgrf/f1250007,2019-02-18,"Pig Iron","6 - 4a448807 4b4b0001 4d471001 4d471002 4e445903 f1250007: [PieceGoods]
+5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]",11,"4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4e445903 4f540001 f1250007 f1250008 f1250009 f1250010"
 ,"JAVA","FIRS Industries 1",https://bananas.openttd.org/package/newgrf/f1250005,2015-09-30,"Coffee","5 - 4a448807 4b4b0001 54543230 f1250006 f1250007: [Express, PieceGoods]
 5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [Express, PieceGoods, Potable]
 2 - 47470104 f1250005: [PieceGoods]",12,"47470104 4a448807 4a4b8808 4b4b0001 4f540001 54543230 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010"
@@ -227,7 +227,7 @@
 ,"NITR","FIRS Industries 1",https://bananas.openttd.org/package/newgrf/f1250005,2015-09-30,"Nitrates","7 - 4a448807 4b4b0001 4d471001 4d471002 f1250005 f1250006 f1250007: [OpenBulk]
 5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [OpenBulk, CoveredBulk, Non-Potable]",12,"4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4f540001 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010"
 ,"NKOR","OTIS - One Tile Industry Set",https://bananas.openttd.org/package/newgrf/47475154,2022-04-13,"Nickel","2 - 47475154 54543230: [OpenBulk]",2,"47475154 54543230"
-,"NODC","CZIS",https://bananas.openttd.org/package/newgrf/4d471001,2023-03-06,"Empty Electricity batteries","1 - 4d471001: [PieceGoods]",1,"4d471001"
+,"NODC","CZIS",https://bananas.openttd.org/package/newgrf/4d471001,2023-03-06,"Empty Electricity batteries","2 - 4d471001 4d471002: [PieceGoods]",2,"4d471001 4d471002"
 ,"NUTS","FIRS Industries 2",https://bananas.openttd.org/package/newgrf/f1250006,2016-10-21,"Nuts","5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Potable]
 4 - 4a448807 4b4b0001 f1250006 f1250007: [PieceGoods]",9,"4a448807 4a4b8808 4b4b0001 4f540001 f1250006 f1250007 f1250008 f1250009 f1250010"
 ,"O2__","FIRS Industries 4",https://bananas.openttd.org/package/newgrf/f1250008,2024-12-08,"Oxygen","5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, GasBulk, Non-Potable]
@@ -391,9 +391,10 @@
 ,"VBOD","FIRS Industries 3",https://bananas.openttd.org/package/newgrf/f1250007,2019-02-18,"Vehicle Bodies","5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]
 3 - 4a448807 4b4b0001 f1250007: [PieceGoods]
 3 - 4d471001 4d471002 55440100: [PieceGoods, Flatbed]",11,"4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4f540001 55440100 f1250007 f1250008 f1250009 f1250010"
-,"VEHI","ECS Town vector",https://bananas.openttd.org/package/newgrf/4d656f91,2016-01-10,"Vehicles","7 - 4d471001 4d471002 4d656f94 4e445903 54454d39 55440100 56420303: [PieceGoods, Flatbed]
+,"VEHI","ECS Town vector",https://bananas.openttd.org/package/newgrf/4d656f91,2016-01-10,"Vehicles","6 - 4d471001 4d656f94 4e445903 54454d39 55440100 56420303: [PieceGoods, Flatbed]
 5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]
 4 - 47475154 4a448807 4b4b0001 f1250007: [PieceGoods]
+1 - 4d471002: [OpenBulk]
 1 - f1250006: [Express, PieceGoods]",18,"47475154 4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4d656f91 4d656f94 4e445903 4f540001 54454d39 55440100 56420303 f1250006 f1250007 f1250008 f1250009 f1250010"
 ,"VENG","CZIS",https://bananas.openttd.org/package/newgrf/4d471001,2023-03-06,"Vehicle Engines","5 - 4a4b8808 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]
 3 - 4d471001 4d471002 55440100: [PieceGoods]",8,"4a4b8808 4d471001 4d471002 4f540001 55440100 f1250008 f1250009 f1250010"
