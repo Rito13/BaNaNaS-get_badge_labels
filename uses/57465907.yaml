@@ -1,4 +1,13 @@
 badges:
+- _ww_livery
+- _ww_livery/brblack
+- _ww_livery/brblue
+- _ww_livery/brbluegrey
+- _ww_livery/brbluegrey_inv
+- _ww_livery/intercity
+- _ww_livery/nse
+- _ww_livery/overground
+- _ww_livery/provincial
 - _ww_type
 - _ww_type/locomotive
 - _ww_type/multiple_unit

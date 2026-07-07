@@ -5215,6 +5215,78 @@ badges:
   - ''
   - 2
   - ''
+  _ww_livery:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - Livery Pattern
+  _ww_livery/brblack:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - BR Blue
+  _ww_livery/brblue:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - BR Blue
+  _ww_livery/brbluegrey:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - BR Blue/Grey
+  _ww_livery/brbluegrey_inv:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - BR Blue/Grey (Inverted)
+  _ww_livery/intercity:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - InterCity
+  _ww_livery/nse:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - Network Southeast
+  _ww_livery/overground:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - TfL Overground
+  _ww_livery/provincial:
+  - 1464228103
+  - 2026
+  - 7
+  - 5
+  - ''
+  - 2
+  - Provincial
   _ww_type:
   - 1464228103
   - 2026
