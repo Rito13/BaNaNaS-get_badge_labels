@@ -2,6 +2,7 @@ badges: []
 cargos:
   MATE: '0b0000001000100000'
   PASS: null
+  SHEL: '0b1000000000000000'
   TRPS: '0b0000000000000001'
   VALU: null
 rail_types: []
