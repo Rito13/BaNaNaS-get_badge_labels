@@ -647,6 +647,134 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_2B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_2C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_3B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_3C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_4B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_4C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_5B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_5C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_2B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_2C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_3B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_3C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_4B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_4C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_5B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_2_pony_gen_5C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/alt_var_41_predicate/motorail_car:
   - 1128337955
   - 2026
@@ -2671,6 +2799,142 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_2B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_2C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_3B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_3C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_4B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_4C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_5B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_5C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_2B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_2C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_3B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_3C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_4B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_4C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_5B:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_2_pony_gen_5C:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/vehicle_reports_as/maelstrom:
   - 1128337955
   - 2026
@@ -2740,6 +3004,22 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/metro_mail_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 2
+  - ''
+  _ih_formation_ruleset/vehicle_reports_as/metro_passenger_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
   - ''
   - 2
   - ''
@@ -16792,6 +17072,14 @@ badges:
   - ''
   - 0
   - ''
+  ih_vehicle_family/machinery_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 0
+  - ''
   ih_vehicle_family/maelstrom:
   - 1128337955
   - 2026
@@ -16869,6 +17157,22 @@ badges:
   - 2026
   - 1
   - 4
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/metro_mail_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/metro_passenger_car:
+  - 1128337955
+  - 2026
+  - 7
+  - 22
   - ''
   - 0
   - ''
