@@ -1,5 +1,6 @@
 badges: []
-cargos: {}
+cargos:
+  RCND: '0b0000000000001010'
 rail_types: []
 road_types: []
 tram_types: []
