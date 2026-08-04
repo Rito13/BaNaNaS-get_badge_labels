@@ -3,6 +3,7 @@
 | --- | --- | --- | --- | --- |
 | [axleweight](#axleweight) | [Dutch Trainset 3XL](https://bananas.openttd.org/package/newgrf/544d0201) | 2026-06-20 | Axle weight | [1](https://bananas.openttd.org/?message=GRFs:+544d0201 "544d0201") |
 | [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+| [builder](#builder) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Builder | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
 | [fence](#fence) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Fence | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+544d0201,+57465907 "38424253, 544d0201, 57465907") |
 | [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Behaviour | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -41,6 +42,97 @@
 | benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Dutch | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Modern | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
 | benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Oak | [1](https://bananas.openttd.org/?message=GRFs:+50530001 "50530001") |
+
+# builder
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| builder/23_august | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | '23 August' Bucharest Locomotive Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/aeg | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Allgemeine ElektricitÃ¤ts-Gesellschaft 'AEG' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/alco | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | American Locomotive Company 'ALCO' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/alsthom | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Alsthom | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ansaldo_breda | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | AnsaldoBreda | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/baldwin | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Baldwin Locomotive Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/bbc | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Brown, Boweri & Cie. 'BBC' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/beyer_peacock | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Beyer, Peacock & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/blh | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Baldwin-Lima-Hamilton | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/brown_marshall | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Brown, Marshalls & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/brush | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Brush Traction | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/caf | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Construcciones y Auxiliar de Ferrocarriles 'CAF' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/carminati_toselli | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Carminati & Toselli | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/cfd | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | CFD BagnÃ¨res | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/clyde | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Clyde Locomotive Company | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/comeng | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Commonwealth Engineering 'COMENG' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/crochat | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Ateliers Henry Crochat | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/crrc | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | CRRC | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/crrc/tangshan | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | CRRC Tangshan | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/crrc/zuzhou | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | CRRC Zuzhou | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/downer | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Downer Rail | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/dubs | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | DÃ¼bs & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ee | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | English Electric | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/emd | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Electro-Motive Division 'EMD' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/falcon | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Falcon Engine & Car Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ferrostaal | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Ferrostaal | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/fiat | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Fiat Ferroviari | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/foster_rastrick | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Foster, Rastrick & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/fuji | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Fuji Heavy Industries | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/fv_del_bajio | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | FerrovÃ­as del BajÃ­o, S.A. de C.V. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ganz_mavag | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Ganz-MAVAG | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ge | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | General Electric 'GE' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/gm | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | General Motors 'GM' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/goninan | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | A. Goninan & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/haiphong | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Haiphong Carriage Company | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/henschel | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Henschel & Son | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/hinkley | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Hinkley Locomotive Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/hitachi | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Hitachi Rail | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/hk_porter | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | H.K. Porter, Inc. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/horlock | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | A. Horlock & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/hunslet | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Hunslet Engine Company | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/inka | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Industri Kereta Api | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/jgr | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | JGR Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/jgr/kobe | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | JGR Kobe Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/kaluga | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Kalugatransmash | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/kawasaki | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Kawasaki Heavy Industries | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/kisha_seizo | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Kisha Seizo | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/kitson | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Kitson & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/komarek | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Komarek Maschinenfabrik | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/krauss_maffei | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Krauss-Maffei | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/lkm | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Lokomotivbau 'Karl Marx' Babelsberg | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/mav | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | MÃV Northern Repair Works | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/metro_cammell | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Metro-Cammell | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/mtm | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Maquinista Terrestre y Maritima 'MTM' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/munktells | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Munktells Mekaniska Verkstad | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nasmyth_wilson | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Nasmyth, Wilson & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/neilson | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Neilson & Co. | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/niigata | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Niigata Transys | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nippon_sharyo | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Nippon Sharyo | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/north_british | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | North British Locomotive Company | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nzr | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | NZR Workshops | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nzr/addington | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | NZR Addington Workshops | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nzr/hillside | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | NZR Hillside Workshops | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nzr/hutt | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | NZR Hutt Workshops | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/nzr/otahuhu | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | NZR Otahuhu Workshops | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/orenstein_koppel | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Orenstein & Koppel | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/pullman | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Pullman Palace Car Company | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ringhoffer | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Ringhoffer | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/robatel_buffaud | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Ateliers Robatel & Buffaud | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/sachsiche | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | SÃ¤chsische Maschinenfabrik | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/siemens | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Siemens Mobility | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/sig | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Schweizerische Industrie Gesellschaft 'SIG' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/slm | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Swiss Locomotive and Machine Works 'SLM' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/smz | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | SMZ Dubnica | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/soule | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Ãtablissements SoulÃ© | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/stadler | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Stadler Rail | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/sulzer | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Sulzer | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/sws | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Schweizerische Wagonsfabrik Schlieren 'Wagi' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/toshiba | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Toshiba | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/ucw | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Union Carriage & Wagon 'UCW' | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/uerdingen | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Waggon-Fabrik AG Uerdingen | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/vossloh | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Vossloh | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/vossloh/espana | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Vossloh EspaÃ±a | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/vulcan | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Vulcan Foundry | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/walkers | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Walkers Limited | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/werkspoor | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Werkspoor | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
+| builder/wismar | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Waggonfabrik Wismar | [1](https://bananas.openttd.org/?message=GRFs:+544e0101 "544e0101") |
 
 # fence
 | Label | Introduced by | When | Comment | O. |
