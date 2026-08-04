@@ -5695,6 +5695,710 @@ badges:
   - ''
   - 0
   - Oak
+  builder:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Builder
+  builder/23_august:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - '''23 August'' Bucharest Locomotive Works'
+  builder/aeg:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "Allgemeine Elektricit\xC3\xA4ts-Gesellschaft 'AEG'"
+  builder/alco:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - American Locomotive Company 'ALCO'
+  builder/alsthom:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Alsthom
+  builder/ansaldo_breda:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - AnsaldoBreda
+  builder/baldwin:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Baldwin Locomotive Works
+  builder/bbc:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Brown, Boweri & Cie. 'BBC'
+  builder/beyer_peacock:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Beyer, Peacock & Co.
+  builder/blh:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Baldwin-Lima-Hamilton
+  builder/brown_marshall:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Brown, Marshalls & Co.
+  builder/brush:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Brush Traction
+  builder/caf:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Construcciones y Auxiliar de Ferrocarriles 'CAF'
+  builder/carminati_toselli:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Carminati & Toselli
+  builder/cfd:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "CFD Bagn\xC3\xA8res"
+  builder/clyde:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Clyde Locomotive Company
+  builder/comeng:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Commonwealth Engineering 'COMENG'
+  builder/crochat:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Ateliers Henry Crochat
+  builder/crrc:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - CRRC
+  builder/crrc/tangshan:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - CRRC Tangshan
+  builder/crrc/zuzhou:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - CRRC Zuzhou
+  builder/downer:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Downer Rail
+  builder/dubs:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "D\xC3\xBCbs & Co."
+  builder/ee:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - English Electric
+  builder/emd:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Electro-Motive Division 'EMD'
+  builder/falcon:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Falcon Engine & Car Works
+  builder/ferrostaal:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Ferrostaal
+  builder/fiat:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Fiat Ferroviari
+  builder/foster_rastrick:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Foster, Rastrick & Co.
+  builder/fuji:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Fuji Heavy Industries
+  builder/fv_del_bajio:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "Ferrov\xC3\xADas del Baj\xC3\xADo, S.A. de C.V."
+  builder/ganz_mavag:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Ganz-MAVAG
+  builder/ge:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - General Electric 'GE'
+  builder/gm:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - General Motors 'GM'
+  builder/goninan:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - A. Goninan & Co.
+  builder/haiphong:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Haiphong Carriage Company
+  builder/henschel:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Henschel & Son
+  builder/hinkley:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Hinkley Locomotive Works
+  builder/hitachi:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Hitachi Rail
+  builder/hk_porter:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - H.K. Porter, Inc.
+  builder/horlock:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - A. Horlock & Co.
+  builder/hunslet:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Hunslet Engine Company
+  builder/inka:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Industri Kereta Api
+  builder/jgr:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - JGR Works
+  builder/jgr/kobe:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - JGR Kobe Works
+  builder/kaluga:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Kalugatransmash
+  builder/kawasaki:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Kawasaki Heavy Industries
+  builder/kisha_seizo:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Kisha Seizo
+  builder/kitson:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Kitson & Co.
+  builder/komarek:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Komarek Maschinenfabrik
+  builder/krauss_maffei:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Krauss-Maffei
+  builder/lkm:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Lokomotivbau 'Karl Marx' Babelsberg
+  builder/mav:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "M\xC3\x81V Northern Repair Works"
+  builder/metro_cammell:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Metro-Cammell
+  builder/mtm:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Maquinista Terrestre y Maritima 'MTM'
+  builder/munktells:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Munktells Mekaniska Verkstad
+  builder/nasmyth_wilson:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Nasmyth, Wilson & Co.
+  builder/neilson:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Neilson & Co.
+  builder/niigata:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Niigata Transys
+  builder/nippon_sharyo:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Nippon Sharyo
+  builder/north_british:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - North British Locomotive Company
+  builder/nzr:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - NZR Workshops
+  builder/nzr/addington:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - NZR Addington Workshops
+  builder/nzr/hillside:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - NZR Hillside Workshops
+  builder/nzr/hutt:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - NZR Hutt Workshops
+  builder/nzr/otahuhu:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - NZR Otahuhu Workshops
+  builder/orenstein_koppel:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Orenstein & Koppel
+  builder/pullman:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Pullman Palace Car Company
+  builder/ringhoffer:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Ringhoffer
+  builder/robatel_buffaud:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Ateliers Robatel & Buffaud
+  builder/sachsiche:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "S\xC3\xA4chsische Maschinenfabrik"
+  builder/siemens:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Siemens Mobility
+  builder/sig:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Schweizerische Industrie Gesellschaft 'SIG'
+  builder/slm:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Swiss Locomotive and Machine Works 'SLM'
+  builder/smz:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - SMZ Dubnica
+  builder/soule:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "\xC3tablissements Soul\xC3\xA9"
+  builder/stadler:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Stadler Rail
+  builder/sulzer:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Sulzer
+  builder/sws:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Schweizerische Wagonsfabrik Schlieren 'Wagi'
+  builder/toshiba:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Toshiba
+  builder/ucw:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Union Carriage & Wagon 'UCW'
+  builder/uerdingen:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Waggon-Fabrik AG Uerdingen
+  builder/vossloh:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Vossloh
+  builder/vossloh/espana:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - "Vossloh Espa\xC3\xB1a"
+  builder/vulcan:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Vulcan Foundry
+  builder/walkers:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Walkers Limited
+  builder/werkspoor:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Werkspoor
+  builder/wismar:
+  - 1414398209
+  - 2026
+  - 8
+  - 3
+  - ''
+  - 0
+  - Waggonfabrik Wismar
   fence:
   - 1347616769
   - 2026
