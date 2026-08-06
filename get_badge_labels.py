@@ -422,7 +422,7 @@ def generate_markdown_page(hierarchy, page_name, debug=False, countable_data=Non
 				if c == -1:  # It is a classes table.
 					label = "[{0}](#{0})".format(b)  # Link to a table for this class.
 				grf_id = data[0]
-				if grf_id == -1:  # It comes from default badges by Peter Nelson.
+				if grf_id == 0x504E53FF:  # It comes from default badges by Peter Nelson.
 					grf_id = "[OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655)"
 				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
 					grf_id = "[Community](https://www.tt-forums.net)"
@@ -458,7 +458,7 @@ def generate_csv_page(hierarchy, page_name, debug=False, countable_data=None):
 				label = b
 				data = hierarchy[c][b]
 				grf_id = data[0]
-				if grf_id == -1:  # It comes from default badges by Peter Nelson.
+				if grf_id == 0x504E53FF:  # It comes from default badges by Peter Nelson.
 					grf_id = "OpenTTD default badges,https://github.com/OpenTTD/OpenTTD/pull/13655"
 				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
 					grf_id = "Community,https://www.tt-forums.net"
