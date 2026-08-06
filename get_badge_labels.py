@@ -100,15 +100,22 @@ def markdown_colour_text(text, colour):
 
 
 OPENTTD_IMAGE = "![OpenTTD](https://github.com/OpenTTD/OpenTTD/blob/master/media/openttd.16.png?raw=true)"
-INVALID_SUB_STRINGS = [chr(n) for n in range(0x88, 0x98 + 1)] + ["\xc3\x9e"] + [chr(0x9A) + chr(n) for n in range(0x00, 0x21 + 1)]
+INVALID_SUB_STRINGS = [bytes([n]) for n in range(0x88, 0x98 + 1)] + [bytes([0x9A, n]) for n in range(0x00, 0x21 + 1)]
+INVALID_UTF8_SUB_STRINGS = [b.decode("utf-8", "backslashreplace") for b in INVALID_SUB_STRINGS]
 
 
 def match_string(item, label, strings, out, debug=False):
 	if item not in strings:
 		return False
 	string = strings[item]
-	for s in INVALID_SUB_STRINGS:
-		string = string.replace(s, "")
+	if string[0:2] == b"\xc3\x9e":
+		string = string[2:].decode("utf-8", "backslashreplace")
+		for s in INVALID_UTF8_SUB_STRINGS:
+			string = string.replace(s, "")
+	else:
+		for s in INVALID_SUB_STRINGS:
+			string = string.replace(s, b"")
+		string = string.decode(encoding="latin_1")
 	out[label] = string
 	if debug:
 		print(label, "\t\t", string)

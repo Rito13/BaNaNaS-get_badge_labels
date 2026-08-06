@@ -19,14 +19,14 @@ def bytes_from_int(num, size=0):
 	return out
 
 
-def read_string(start, bytes):
+def read_string(start, data):
 	"""Reads string from bytes until 0x00 encountered. OTTD uses 0x00 to terminate strings."""
 	out = []
-	for b in bytes[start:]:
+	for b in data[start:]:
 		if b == 0:
 			break
-		out.append(chr(b))
-	return "".join(out)
+		out.append(b)
+	return bytes(out)
 
 
 def is_extended_byte_a_word(byte):
