@@ -220,7 +220,7 @@
 | flag/FM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Micronesia | [1](https://bananas.openttd.org/?message=GRFs:+504e53ff "504e53ff") |
 | flag/FO | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Faroe Islands | [1](https://bananas.openttd.org/?message=GRFs:+504e53ff "504e53ff") |
 | flag/FR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | France | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544d0201 "38424253, 504e53ff, 544d0201") |
-| flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Andorra | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff "38424253, 504e53ff") |
+| flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gabon | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff "38424253, 504e53ff") |
 | flag/GB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Kingdom | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544d0201,+57465907 "38424253, 504e53ff, 544d0201, 57465907") |
 | flag/GD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Grenada | [1](https://bananas.openttd.org/?message=GRFs:+504e53ff "504e53ff") |
 | flag/GE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Georgia | [2](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff "38424253, 504e53ff") |
