@@ -6454,7 +6454,7 @@ badges:
   - 27
   - Andorra
   - 0
-  - ''
+  - Andorra
   flag/AE:
   - -1
   - 2025
@@ -6462,7 +6462,7 @@ badges:
   - 27
   - United Arab Emirates
   - 0
-  - ''
+  - United Arab Emirates
   flag/AF:
   - -1
   - 2025
@@ -6470,7 +6470,7 @@ badges:
   - 27
   - Afghanistan
   - 0
-  - ''
+  - Afghanistan
   flag/AG:
   - -1
   - 2025
@@ -6478,7 +6478,7 @@ badges:
   - 27
   - Antigua and Barbuda
   - 0
-  - ''
+  - Antigua and Barbuda
   flag/AI:
   - -1
   - 2025
@@ -6486,7 +6486,7 @@ badges:
   - 27
   - Anguilla
   - 0
-  - ''
+  - Anguilla
   flag/AL:
   - -1
   - 2025
@@ -6502,7 +6502,7 @@ badges:
   - 27
   - Armenia
   - 0
-  - ''
+  - Armenia
   flag/AO:
   - -1
   - 2025
@@ -6518,7 +6518,7 @@ badges:
   - 27
   - Antarctica
   - 0
-  - ''
+  - Antarctica
   flag/AR:
   - -1
   - 2025
@@ -6534,7 +6534,7 @@ badges:
   - 27
   - American Samoa
   - 0
-  - ''
+  - American Samoa
   flag/AT:
   - -1
   - 2025
@@ -6558,7 +6558,7 @@ badges:
   - 27
   - Aruba
   - 0
-  - ''
+  - Aruba
   flag/AX:
   - -1
   - 2025
@@ -6566,7 +6566,7 @@ badges:
   - 27
   - "\xC5land"
   - 0
-  - ''
+  - "\xC3\Nland"
   flag/AZ:
   - -1
   - 2025
@@ -6574,7 +6574,7 @@ badges:
   - 27
   - Azerbaijan
   - 0
-  - ''
+  - Azerbaijan
   flag/BA:
   - -1
   - 2025
@@ -6582,7 +6582,7 @@ badges:
   - 27
   - Bosnia and Herzegovina
   - 0
-  - ''
+  - Bosnia and Herzegovina
   flag/BB:
   - -1
   - 2025
@@ -6630,7 +6630,7 @@ badges:
   - 27
   - Bahrain
   - 0
-  - ''
+  - Bahrain
   flag/BI:
   - -1
   - 2025
@@ -6638,7 +6638,7 @@ badges:
   - 27
   - Burundi
   - 0
-  - ''
+  - Burundi
   flag/BJ:
   - -1
   - 2025
@@ -6654,7 +6654,7 @@ badges:
   - 27
   - "Saint Barth\xE9lemy"
   - 0
-  - ''
+  - "Saint Barth\xC3\xA9lemy"
   flag/BM:
   - -1
   - 2025
@@ -6662,7 +6662,7 @@ badges:
   - 27
   - Bermuda
   - 0
-  - ''
+  - Bermuda
   flag/BN:
   - -1
   - 2025
@@ -6670,7 +6670,7 @@ badges:
   - 27
   - Brunei
   - 0
-  - ''
+  - Brunei
   flag/BO:
   - -1
   - 2025
@@ -6686,7 +6686,7 @@ badges:
   - 27
   - Caribbean Netherlands
   - 0
-  - ''
+  - Caribbean Netherlands
   flag/BR:
   - -1
   - 2025
@@ -6702,7 +6702,7 @@ badges:
   - 27
   - Bahamas
   - 0
-  - ''
+  - Bahamas
   flag/BT:
   - -1
   - 2025
@@ -6710,7 +6710,7 @@ badges:
   - 27
   - Bhutan
   - 0
-  - ''
+  - Bhutan
   flag/BV:
   - -1
   - 2025
@@ -6718,7 +6718,7 @@ badges:
   - 27
   - Bouvet Island
   - 0
-  - ''
+  - Bouvet Island
   flag/BW:
   - -1
   - 2025
@@ -6742,7 +6742,7 @@ badges:
   - 27
   - Belize
   - 0
-  - ''
+  - Belize
   flag/CA:
   - -1
   - 2025
@@ -6758,7 +6758,7 @@ badges:
   - 27
   - Cocos Islands
   - 0
-  - ''
+  - Cocos Islands
   flag/CD:
   - -1
   - 2025
@@ -6774,7 +6774,7 @@ badges:
   - 27
   - Central African Republic
   - 0
-  - ''
+  - Central African Republic
   flag/CG:
   - -1
   - 2025
@@ -6806,7 +6806,7 @@ badges:
   - 27
   - Cook Islands
   - 0
-  - ''
+  - Cook Islands
   flag/CL:
   - -1
   - 2025
@@ -6854,7 +6854,7 @@ badges:
   - 27
   - Cuba
   - 0
-  - ''
+  - Cuba
   flag/CV:
   - -1
   - 2025
@@ -6870,7 +6870,7 @@ badges:
   - 27
   - "Cura\xE7ao"
   - 0
-  - ''
+  - "Cura\xC3\xA7ao"
   flag/CX:
   - -1
   - 2025
@@ -6878,7 +6878,7 @@ badges:
   - 27
   - Christmas Island
   - 0
-  - ''
+  - Christmas Island
   flag/CY:
   - -1
   - 2025
@@ -6886,7 +6886,7 @@ badges:
   - 27
   - Cyprus
   - 0
-  - ''
+  - Cyprus
   flag/CZ:
   - -1
   - 2025
@@ -6910,7 +6910,7 @@ badges:
   - 27
   - Djibouti
   - 0
-  - ''
+  - Djibouti
   flag/DK:
   - -1
   - 2025
@@ -6926,7 +6926,7 @@ badges:
   - 27
   - Dominica
   - 0
-  - ''
+  - Dominica
   flag/DO:
   - -1
   - 2025
@@ -6934,7 +6934,7 @@ badges:
   - 27
   - Dominican Republic
   - 0
-  - ''
+  - Dominican Republic
   flag/DZ:
   - -1
   - 2025
@@ -6974,7 +6974,7 @@ badges:
   - 27
   - Western Sahara
   - 0
-  - ''
+  - Western Sahara
   flag/ER:
   - -1
   - 2025
@@ -6998,7 +6998,7 @@ badges:
   - 27
   - Ethiopia
   - 0
-  - ''
+  - Ethiopia
   flag/EU:
   - 943866451
   - 2026
@@ -7022,7 +7022,7 @@ badges:
   - 27
   - Fiji
   - 0
-  - ''
+  - Fiji
   flag/FK:
   - -1
   - 2025
@@ -7030,7 +7030,7 @@ badges:
   - 27
   - Falkland Islands
   - 0
-  - ''
+  - Falkland Islands
   flag/FM:
   - -1
   - 2025
@@ -7038,7 +7038,7 @@ badges:
   - 27
   - Micronesia
   - 0
-  - ''
+  - Micronesia
   flag/FO:
   - -1
   - 2025
@@ -7046,7 +7046,7 @@ badges:
   - 27
   - Faroe Islands
   - 0
-  - ''
+  - Faroe Islands
   flag/FR:
   - -1
   - 2025
@@ -7078,7 +7078,7 @@ badges:
   - 27
   - Grenada
   - 0
-  - ''
+  - Grenada
   flag/GE:
   - -1
   - 2025
@@ -7094,7 +7094,7 @@ badges:
   - 27
   - French Guiana
   - 0
-  - ''
+  - French Guiana
   flag/GG:
   - -1
   - 2025
@@ -7102,7 +7102,7 @@ badges:
   - 27
   - Guernsey
   - 0
-  - ''
+  - Guernsey
   flag/GH:
   - -1
   - 2025
@@ -7118,7 +7118,7 @@ badges:
   - 27
   - Gibraltar
   - 0
-  - ''
+  - Gibraltar
   flag/GL:
   - -1
   - 2025
@@ -7126,7 +7126,7 @@ badges:
   - 27
   - Greenland
   - 0
-  - ''
+  - Greenland
   flag/GM:
   - -1
   - 2025
@@ -7150,7 +7150,7 @@ badges:
   - 27
   - Guadeloupe
   - 0
-  - ''
+  - Guadeloupe
   flag/GQ:
   - -1
   - 2025
@@ -7158,7 +7158,7 @@ badges:
   - 27
   - Equatorial Guinea
   - 0
-  - ''
+  - Equatorial Guinea
   flag/GR:
   - -1
   - 2025
@@ -7174,7 +7174,7 @@ badges:
   - 27
   - South Georgia and the South Sandwich Islands
   - 0
-  - ''
+  - South Georgia and the South Sandwich Islands
   flag/GT:
   - -1
   - 2025
@@ -7182,7 +7182,7 @@ badges:
   - 27
   - Gautemala
   - 0
-  - ''
+  - Gautemala
   flag/GU:
   - -1
   - 2025
@@ -7190,7 +7190,7 @@ badges:
   - 27
   - Guam
   - 0
-  - ''
+  - Guam
   flag/GW:
   - -1
   - 2025
@@ -7206,7 +7206,7 @@ badges:
   - 27
   - Guyana
   - 0
-  - ''
+  - Guyana
   flag/HK:
   - -1
   - 2025
@@ -7222,7 +7222,7 @@ badges:
   - 27
   - Heard Island and McDonald Islands
   - 0
-  - ''
+  - Heard Island and McDonald Islands
   flag/HN:
   - -1
   - 2025
@@ -7230,7 +7230,7 @@ badges:
   - 27
   - Honduras
   - 0
-  - ''
+  - Honduras
   flag/HR:
   - -1
   - 2025
@@ -7246,7 +7246,7 @@ badges:
   - 27
   - Haiti
   - 0
-  - ''
+  - Haiti
   flag/HU:
   - -1
   - 2025
@@ -7286,7 +7286,7 @@ badges:
   - 27
   - Isle of Man
   - 0
-  - ''
+  - Isle of Man
   flag/IN:
   - -1
   - 2025
@@ -7302,7 +7302,7 @@ badges:
   - 27
   - British Indian Ocean Territory
   - 0
-  - ''
+  - British Indian Ocean Territory
   flag/IQ:
   - -1
   - 2025
@@ -7326,7 +7326,7 @@ badges:
   - 27
   - Iceland
   - 0
-  - ''
+  - Iceland
   flag/IT:
   - -1
   - 2025
@@ -7342,7 +7342,7 @@ badges:
   - 27
   - Jersey
   - 0
-  - ''
+  - Jersey
   flag/JM:
   - -1
   - 2025
@@ -7350,7 +7350,7 @@ badges:
   - 27
   - Jamaica
   - 0
-  - ''
+  - Jamaica
   flag/JO:
   - -1
   - 2025
@@ -7358,7 +7358,7 @@ badges:
   - 27
   - Jordan
   - 0
-  - ''
+  - Jordan
   flag/JP:
   - -1
   - 2025
@@ -7382,7 +7382,7 @@ badges:
   - 27
   - Kyrgyzstan
   - 0
-  - ''
+  - Kyrgyzstan
   flag/KH:
   - -1
   - 2025
@@ -7398,7 +7398,7 @@ badges:
   - 27
   - Kiribati
   - 0
-  - ''
+  - Kiribati
   flag/KM:
   - -1
   - 2025
@@ -7414,7 +7414,7 @@ badges:
   - 27
   - Saint Kitts and Nevis
   - 0
-  - ''
+  - Saint Kitts and Nevis
   flag/KP:
   - -1
   - 2025
@@ -7438,7 +7438,7 @@ badges:
   - 27
   - Kuwait
   - 0
-  - ''
+  - Kuwait
   flag/KY:
   - -1
   - 2025
@@ -7446,7 +7446,7 @@ badges:
   - 27
   - Cayman Islands
   - 0
-  - ''
+  - Cayman Islands
   flag/KZ:
   - -1
   - 2025
@@ -7470,7 +7470,7 @@ badges:
   - 27
   - Lebanon
   - 0
-  - ''
+  - Lebanon
   flag/LC:
   - -1
   - 2025
@@ -7478,7 +7478,7 @@ badges:
   - 27
   - Saint Lucia
   - 0
-  - ''
+  - Saint Lucia
   flag/LI:
   - -1
   - 2025
@@ -7486,7 +7486,7 @@ badges:
   - 27
   - Liechtenstein
   - 0
-  - ''
+  - Liechtenstein
   flag/LK:
   - -1
   - 2025
@@ -7510,7 +7510,7 @@ badges:
   - 27
   - Lesotho
   - 0
-  - ''
+  - Lesotho
   flag/LT:
   - -1
   - 2025
@@ -7534,7 +7534,7 @@ badges:
   - 27
   - Lativa
   - 0
-  - ''
+  - Lativa
   flag/LY:
   - -1
   - 2025
@@ -7542,7 +7542,7 @@ badges:
   - 27
   - Libya
   - 0
-  - ''
+  - Libya
   flag/MA:
   - -1
   - 2025
@@ -7558,7 +7558,7 @@ badges:
   - 27
   - Monaco
   - 0
-  - ''
+  - Monaco
   flag/MD:
   - -1
   - 2025
@@ -7566,7 +7566,7 @@ badges:
   - 27
   - Moldova
   - 0
-  - ''
+  - Moldova
   flag/ME:
   - -1
   - 2025
@@ -7574,7 +7574,7 @@ badges:
   - 27
   - Montenegro
   - 0
-  - ''
+  - Montenegro
   flag/MF:
   - -1
   - 2025
@@ -7582,7 +7582,7 @@ badges:
   - 27
   - Saint Martin
   - 0
-  - ''
+  - Saint Martin
   flag/MG:
   - -1
   - 2025
@@ -7598,7 +7598,7 @@ badges:
   - 27
   - Marshall Islands
   - 0
-  - ''
+  - Marshall Islands
   flag/MK:
   - -1
   - 2025
@@ -7630,7 +7630,7 @@ badges:
   - 27
   - Mongolia
   - 0
-  - ''
+  - Mongolia
   flag/MO:
   - -1
   - 2025
@@ -7638,7 +7638,7 @@ badges:
   - 27
   - Macao
   - 0
-  - ''
+  - Macao
   flag/MP:
   - -1
   - 2025
@@ -7646,7 +7646,7 @@ badges:
   - 27
   - Northern Mariana Islands
   - 0
-  - ''
+  - Northern Mariana Islands
   flag/MQ:
   - -1
   - 2025
@@ -7654,7 +7654,7 @@ badges:
   - 27
   - Martinique
   - 0
-  - ''
+  - Martinique
   flag/MR:
   - -1
   - 2025
@@ -7670,7 +7670,7 @@ badges:
   - 27
   - Montserrat
   - 0
-  - ''
+  - Montserrat
   flag/MT:
   - -1
   - 2025
@@ -7678,7 +7678,7 @@ badges:
   - 27
   - Malta
   - 0
-  - ''
+  - Malta
   flag/MU:
   - -1
   - 2025
@@ -7694,7 +7694,7 @@ badges:
   - 27
   - Maldives
   - 0
-  - ''
+  - Maldives
   flag/MW:
   - -1
   - 2025
@@ -7702,7 +7702,7 @@ badges:
   - 27
   - Malawi
   - 0
-  - ''
+  - Malawi
   flag/MX:
   - -1
   - 2025
@@ -7742,7 +7742,7 @@ badges:
   - 27
   - New Caledonia
   - 0
-  - ''
+  - New Caledonia
   flag/NE:
   - -1
   - 2025
@@ -7758,7 +7758,7 @@ badges:
   - 27
   - Norfolk Island
   - 0
-  - ''
+  - Norfolk Island
   flag/NG:
   - -1
   - 2025
@@ -7774,7 +7774,7 @@ badges:
   - 27
   - Nicaragua
   - 0
-  - ''
+  - Nicaragua
   flag/NL:
   - -1
   - 2025
@@ -7798,7 +7798,7 @@ badges:
   - 27
   - Nepal
   - 0
-  - ''
+  - Nepal
   flag/NR:
   - -1
   - 2025
@@ -7806,7 +7806,7 @@ badges:
   - 27
   - Nauru
   - 0
-  - ''
+  - Nauru
   flag/NU:
   - -1
   - 2025
@@ -7814,7 +7814,7 @@ badges:
   - 27
   - Niue
   - 0
-  - ''
+  - Niue
   flag/NZ:
   - -1
   - 2025
@@ -7830,7 +7830,7 @@ badges:
   - 27
   - Oman
   - 0
-  - ''
+  - Oman
   flag/PA:
   - -1
   - 2025
@@ -7854,7 +7854,7 @@ badges:
   - 27
   - French Polynesia
   - 0
-  - ''
+  - French Polynesia
   flag/PG:
   - -1
   - 2025
@@ -7862,7 +7862,7 @@ badges:
   - 27
   - Papua New Guinea
   - 0
-  - ''
+  - Papua New Guinea
   flag/PH:
   - -1
   - 2025
@@ -7870,7 +7870,7 @@ badges:
   - 27
   - Philippines
   - 0
-  - ''
+  - Philippines
   flag/PK:
   - -1
   - 2025
@@ -7878,7 +7878,7 @@ badges:
   - 27
   - Pakistan
   - 0
-  - ''
+  - Pakistan
   flag/PL:
   - -1
   - 2025
@@ -7894,7 +7894,7 @@ badges:
   - 27
   - Saint Pierre and Miquelon
   - 0
-  - ''
+  - Saint Pierre and Miquelon
   flag/PN:
   - -1
   - 2025
@@ -7902,7 +7902,7 @@ badges:
   - 27
   - Pitcairn
   - 0
-  - ''
+  - Pitcairn
   flag/PR:
   - -1
   - 2025
@@ -7910,7 +7910,7 @@ badges:
   - 27
   - Puerto Rico
   - 0
-  - ''
+  - Puerto Rico
   flag/PS:
   - -1
   - 2025
@@ -7918,7 +7918,7 @@ badges:
   - 27
   - Palestine
   - 0
-  - ''
+  - Palestine
   flag/PT:
   - -1
   - 2025
@@ -7934,7 +7934,7 @@ badges:
   - 27
   - Palau
   - 0
-  - ''
+  - Palau
   flag/PY:
   - -1
   - 2025
@@ -7950,7 +7950,7 @@ badges:
   - 27
   - Qatar
   - 0
-  - ''
+  - Qatar
   flag/RE:
   - -1
   - 2025
@@ -7958,7 +7958,7 @@ badges:
   - 27
   - "R\xE9union"
   - 0
-  - ''
+  - "R\xC3\xA9union"
   flag/RO:
   - -1
   - 2025
@@ -8006,7 +8006,7 @@ badges:
   - 27
   - Solomon Islands
   - 0
-  - ''
+  - Solomon Islands
   flag/SC:
   - -1
   - 2025
@@ -8014,7 +8014,7 @@ badges:
   - 27
   - Seychelles
   - 0
-  - ''
+  - Seychelles
   flag/SD:
   - -1
   - 2025
@@ -8022,7 +8022,7 @@ badges:
   - 27
   - Sudan
   - 0
-  - ''
+  - Sudan
   flag/SE:
   - -1
   - 2025
@@ -8046,7 +8046,7 @@ badges:
   - 27
   - Saint Helena, Ascension and Tristan da Cunha
   - 0
-  - ''
+  - Saint Helena, Ascension and Tristan da Cunha
   flag/SI:
   - -1
   - 2025
@@ -8054,7 +8054,7 @@ badges:
   - 27
   - Slovenia
   - 0
-  - ''
+  - Slovenia
   flag/SJ:
   - -1
   - 2025
@@ -8062,7 +8062,7 @@ badges:
   - 27
   - Svalbard and Jan Mayen
   - 0
-  - ''
+  - Svalbard and Jan Mayen
   flag/SK:
   - -1
   - 2025
@@ -8102,7 +8102,7 @@ badges:
   - 27
   - Somalia
   - 0
-  - ''
+  - Somalia
   flag/SR:
   - -1
   - 2025
@@ -8110,7 +8110,7 @@ badges:
   - 27
   - Suriname
   - 0
-  - ''
+  - Suriname
   flag/SS:
   - -1
   - 2025
@@ -8118,7 +8118,7 @@ badges:
   - 27
   - South Sudan
   - 0
-  - ''
+  - South Sudan
   flag/ST:
   - -1
   - 2025
@@ -8126,7 +8126,7 @@ badges:
   - 27
   - Sao Tome and Principe
   - 0
-  - ''
+  - Sao Tome and Principe
   flag/SV:
   - -1
   - 2025
@@ -8134,7 +8134,7 @@ badges:
   - 27
   - El Salvador
   - 0
-  - ''
+  - El Salvador
   flag/SX:
   - -1
   - 2025
@@ -8142,7 +8142,7 @@ badges:
   - 27
   - Sint Maarten
   - 0
-  - ''
+  - Sint Maarten
   flag/SY:
   - -1
   - 2025
@@ -8150,7 +8150,7 @@ badges:
   - 27
   - Syrian Arab Republic
   - 0
-  - ''
+  - Syrian Arab Republic
   flag/SZ:
   - -1
   - 2025
@@ -8158,7 +8158,7 @@ badges:
   - 27
   - Eswatini
   - 0
-  - ''
+  - Eswatini
   flag/TC:
   - -1
   - 2025
@@ -8166,7 +8166,7 @@ badges:
   - 27
   - Turks and Caicos Islands
   - 0
-  - ''
+  - Turks and Caicos Islands
   flag/TD:
   - -1
   - 2025
@@ -8174,7 +8174,7 @@ badges:
   - 27
   - Chad
   - 0
-  - ''
+  - Chad
   flag/TF:
   - -1
   - 2025
@@ -8182,7 +8182,7 @@ badges:
   - 27
   - French Southern Territories
   - 0
-  - ''
+  - French Southern Territories
   flag/TG:
   - -1
   - 2025
@@ -8206,7 +8206,7 @@ badges:
   - 27
   - Tajikistan
   - 0
-  - ''
+  - Tajikistan
   flag/TK:
   - -1
   - 2025
@@ -8214,7 +8214,7 @@ badges:
   - 27
   - Tokelau
   - 0
-  - ''
+  - Tokelau
   flag/TL:
   - -1
   - 2025
@@ -8222,7 +8222,7 @@ badges:
   - 27
   - Timor-Leste
   - 0
-  - ''
+  - Timor-Leste
   flag/TM:
   - -1
   - 2025
@@ -8230,7 +8230,7 @@ badges:
   - 27
   - Turkmenistan
   - 0
-  - ''
+  - Turkmenistan
   flag/TN:
   - -1
   - 2025
@@ -8246,7 +8246,7 @@ badges:
   - 27
   - Tonga
   - 0
-  - ''
+  - Tonga
   flag/TR:
   - -1
   - 2025
@@ -8262,7 +8262,7 @@ badges:
   - 27
   - Trinidad and Tobago
   - 0
-  - ''
+  - Trinidad and Tobago
   flag/TV:
   - -1
   - 2025
@@ -8270,7 +8270,7 @@ badges:
   - 27
   - Tuvalu
   - 0
-  - ''
+  - Tuvalu
   flag/TW:
   - -1
   - 2025
@@ -8310,7 +8310,7 @@ badges:
   - 27
   - United States Minor Outlying Islands
   - 0
-  - ''
+  - United States Minor Outlying Islands
   flag/US:
   - -1
   - 2025
@@ -8334,7 +8334,7 @@ badges:
   - 27
   - Uzbekistan
   - 0
-  - ''
+  - Uzbekistan
   flag/VA:
   - -1
   - 2025
@@ -8342,7 +8342,7 @@ badges:
   - 27
   - Holy See
   - 0
-  - ''
+  - Holy See
   flag/VC:
   - -1
   - 2025
@@ -8350,7 +8350,7 @@ badges:
   - 27
   - Saint Vincent and the Grenadines
   - 0
-  - ''
+  - Saint Vincent and the Grenadines
   flag/VE:
   - -1
   - 2025
@@ -8366,7 +8366,7 @@ badges:
   - 27
   - Virgin Islands (British)
   - 0
-  - ''
+  - Virgin Islands (British)
   flag/VI:
   - -1
   - 2025
@@ -8374,7 +8374,7 @@ badges:
   - 27
   - Virgin Islands (U.S.)
   - 0
-  - ''
+  - Virgin Islands (U.S.)
   flag/VN:
   - -1
   - 2025
@@ -8390,7 +8390,7 @@ badges:
   - 27
   - Vanuatu
   - 0
-  - ''
+  - Vanuatu
   flag/WF:
   - -1
   - 2025
@@ -8398,7 +8398,7 @@ badges:
   - 27
   - Wallis and Futuna
   - 0
-  - ''
+  - Wallis and Futuna
   flag/WS:
   - -1
   - 2025
@@ -8406,7 +8406,7 @@ badges:
   - 27
   - Samoa
   - 0
-  - ''
+  - Samoa
   flag/YE:
   - -1
   - 2025
@@ -8414,7 +8414,7 @@ badges:
   - 27
   - Yemen
   - 0
-  - ''
+  - Yemen
   flag/YT:
   - -1
   - 2025
@@ -8422,7 +8422,7 @@ badges:
   - 27
   - Mayotte
   - 0
-  - ''
+  - Mayotte
   flag/ZA:
   - -1
   - 2025
@@ -8454,7 +8454,7 @@ badges:
   - 27
   - East Germany
   - 0
-  - ''
+  - East Germany
   flag/europe:
   - -1
   - 2025
@@ -8478,7 +8478,7 @@ badges:
   - 27
   - USSR
   - 0
-  - ''
+  - USSR
   flag/yugoslavia:
   - -1
   - 2025
@@ -8486,7 +8486,7 @@ badges:
   - 27
   - Yugoslavia
   - 0
-  - ''
+  - Yugoslavia
   ih_behaviour:
   - 1128337955
   - 2026
@@ -19079,7 +19079,7 @@ badges:
   - 27
   - Dual company colour (2CC)
   - 0
-  - ''
+  - Dual company colour (2CC)
   livery/iron_horse/banger_blue:
   - 1128337955
   - 2026
@@ -19471,7 +19471,7 @@ badges:
   - 27
   - Random based on first company colour
   - 0
-  - ''
+  - Random based on first company colour
   livery/random/2cc:
   - -1
   - 2025
@@ -19479,7 +19479,7 @@ badges:
   - 27
   - Random based on second company colour
   - 0
-  - ''
+  - Random based on second company colour
   newgrf/43411223:
   - 1128337955
   - 2026
@@ -19495,7 +19495,7 @@ badges:
   - 27
   - Operator
   - 0
-  - ''
+  - Operator
   platform_colour:
   - 1347616769
   - 2026
@@ -19751,7 +19751,7 @@ badges:
   - 27
   - Diesel (Diesel-electric)
   - 0
-  - ''
+  - Diesel (Diesel-electric)
   power/diesel/diesel-hydraulic:
   - -1
   - 2025
@@ -19759,7 +19759,7 @@ badges:
   - 27
   - Diesel (Diesel-hydraulic)
   - 0
-  - ''
+  - Diesel (Diesel-hydraulic)
   power/dual:
   - 1414398209
   - 2026
@@ -19799,7 +19799,7 @@ badges:
   - 27
   - Electric (AC 15kV)
   - 0
-  - ''
+  - Electric (AC 15kV)
   power/electric/ac/25kv:
   - -1
   - 2025
@@ -19807,7 +19807,7 @@ badges:
   - 27
   - Electric (AC 25kV)
   - 0
-  - ''
+  - Electric (AC 25kV)
   power/electric/dc:
   - -1
   - 2025
@@ -19823,7 +19823,7 @@ badges:
   - 27
   - Electric (DC 1200V)
   - 0
-  - ''
+  - Electric (DC 1200V)
   power/electric/dc/1500v:
   - -1
   - 2025
@@ -19831,7 +19831,7 @@ badges:
   - 27
   - Electric (DC 1500V)
   - 0
-  - ''
+  - Electric (DC 1500V)
   power/electric/dc/3kv:
   - -1
   - 2025
@@ -19839,7 +19839,7 @@ badges:
   - 27
   - Electric (DC 3kV)
   - 0
-  - ''
+  - Electric (DC 3kV)
   power/electric/dc/600v:
   - -1
   - 2025
@@ -19847,7 +19847,7 @@ badges:
   - 27
   - Electric (DC 600V)
   - 0
-  - ''
+  - Electric (DC 600V)
   power/electric/dc/750v:
   - -1
   - 2025
@@ -19855,7 +19855,7 @@ badges:
   - 27
   - Electric (DC 750V)
   - 0
-  - ''
+  - Electric (DC 750V)
   power/electric/multi:
   - 1414332929
   - 2026
@@ -20215,7 +20215,7 @@ badges:
   - 27
   - Region
   - 0
-  - ''
+  - Region
   region/africa:
   - -1
   - 2025
@@ -20223,7 +20223,7 @@ badges:
   - 27
   - Africa
   - 0
-  - ''
+  - Africa
   region/africa/eastern:
   - -1
   - 2025
@@ -20231,7 +20231,7 @@ badges:
   - 27
   - Eastern Africa
   - 0
-  - ''
+  - Eastern Africa
   region/africa/middle:
   - -1
   - 2025
@@ -20239,7 +20239,7 @@ badges:
   - 27
   - Middle Africa
   - 0
-  - ''
+  - Middle Africa
   region/africa/northern:
   - -1
   - 2025
@@ -20247,7 +20247,7 @@ badges:
   - 27
   - Northern Africa
   - 0
-  - ''
+  - Northern Africa
   region/africa/southern:
   - -1
   - 2025
@@ -20255,7 +20255,7 @@ badges:
   - 27
   - Southern Africa
   - 0
-  - ''
+  - Southern Africa
   region/africa/western:
   - -1
   - 2025
@@ -20263,7 +20263,7 @@ badges:
   - 27
   - Western Africa
   - 0
-  - ''
+  - Western Africa
   region/america:
   - -1
   - 2025
@@ -20271,7 +20271,7 @@ badges:
   - 27
   - Americas
   - 0
-  - ''
+  - Americas
   region/america/caribbean:
   - -1
   - 2025
@@ -20279,7 +20279,7 @@ badges:
   - 27
   - Caribbean
   - 0
-  - ''
+  - Caribbean
   region/america/central:
   - -1
   - 2025
@@ -20287,7 +20287,7 @@ badges:
   - 27
   - Central America
   - 0
-  - ''
+  - Central America
   region/america/northern:
   - -1
   - 2025
@@ -20295,7 +20295,7 @@ badges:
   - 27
   - Northern America
   - 0
-  - ''
+  - Northern America
   region/america/south:
   - -1
   - 2025
@@ -20303,7 +20303,7 @@ badges:
   - 27
   - South America
   - 0
-  - ''
+  - South America
   region/asia:
   - -1
   - 2025
@@ -20311,7 +20311,7 @@ badges:
   - 27
   - Asia
   - 0
-  - ''
+  - Asia
   region/asia/central:
   - -1
   - 2025
@@ -20319,7 +20319,7 @@ badges:
   - 27
   - Central Asia
   - 0
-  - ''
+  - Central Asia
   region/asia/eastern:
   - -1
   - 2025
@@ -20327,7 +20327,7 @@ badges:
   - 27
   - Eastern Asia
   - 0
-  - ''
+  - Eastern Asia
   region/asia/southeastern:
   - -1
   - 2025
@@ -20335,7 +20335,7 @@ badges:
   - 27
   - South-eastern Asia
   - 0
-  - ''
+  - South-eastern Asia
   region/asia/southern:
   - -1
   - 2025
@@ -20343,7 +20343,7 @@ badges:
   - 27
   - Southern Asia
   - 0
-  - ''
+  - Southern Asia
   region/asia/western:
   - -1
   - 2025
@@ -20351,7 +20351,7 @@ badges:
   - 27
   - Western Asia
   - 0
-  - ''
+  - Western Asia
   region/europe:
   - -1
   - 2025
@@ -20359,7 +20359,7 @@ badges:
   - 27
   - Europe
   - 0
-  - ''
+  - Europe
   region/europe/eastern:
   - -1
   - 2025
@@ -20375,7 +20375,7 @@ badges:
   - 27
   - Northern Europe
   - 0
-  - ''
+  - Northern Europe
   region/europe/southern:
   - -1
   - 2025
@@ -20383,7 +20383,7 @@ badges:
   - 27
   - Southern Europe
   - 0
-  - ''
+  - Southern Europe
   region/europe/western:
   - -1
   - 2025
@@ -20391,7 +20391,7 @@ badges:
   - 27
   - Western Europe
   - 0
-  - ''
+  - Western Europe
   region/oceania:
   - -1
   - 2025
@@ -20399,7 +20399,7 @@ badges:
   - 27
   - Oceania
   - 0
-  - ''
+  - Oceania
   region/oceania/australia_and_new_zealand:
   - -1
   - 2025
@@ -20407,7 +20407,7 @@ badges:
   - 27
   - Australia and New Zealand
   - 0
-  - ''
+  - Australia and New Zealand
   region/oceania/melanesia:
   - -1
   - 2025
@@ -20415,7 +20415,7 @@ badges:
   - 27
   - Melanesia
   - 0
-  - ''
+  - Melanesia
   region/oceania/micronesia:
   - -1
   - 2025
@@ -20423,7 +20423,7 @@ badges:
   - 27
   - Micronesia
   - 0
-  - ''
+  - Micronesia
   region/oceania/polynesia:
   - -1
   - 2025
@@ -20431,7 +20431,7 @@ badges:
   - 27
   - Polynesia
   - 0
-  - ''
+  - Polynesia
   roadtype_flag_no_houses:
   - 1430669648
   - 2026
@@ -20455,7 +20455,7 @@ badges:
   - 27
   - Banking
   - 0
-  - ''
+  - Banking
   role/driving_cab:
   - 1128337955
   - 2026
@@ -20487,7 +20487,7 @@ badges:
   - 27
   - Express freight
   - 0
-  - ''
+  - Express freight
   role/express_passenger:
   - -1
   - 2025
@@ -20607,7 +20607,7 @@ badges:
   - 27
   - Restaurant car
   - 0
-  - ''
+  - Restaurant car
   role/shunting:
   - -1
   - 2025
@@ -20623,7 +20623,7 @@ badges:
   - 27
   - Snowplough
   - 0
-  - ''
+  - Snowplough
   role/suburban_or_universal_railcar:
   - 1128337955
   - 2026
@@ -20647,7 +20647,7 @@ badges:
   - 27
   - Utility
   - 0
-  - ''
+  - Utility
   role/very_high_speed:
   - 1128337955
   - 2026
@@ -20783,7 +20783,7 @@ badges:
   - 27
   - Zone
   - 0
-  - ''
+  - Zone
   zone/agricultural:
   - -1
   - 2025
@@ -20791,7 +20791,7 @@ badges:
   - 27
   - Agricultural
   - 0
-  - ''
+  - Agricultural
   zone/com:
   - -1
   - 2025
@@ -20799,7 +20799,7 @@ badges:
   - 27
   - Commercial
   - 0
-  - ''
+  - Commercial
   zone/com/high:
   - -1
   - 2025
@@ -20807,7 +20807,7 @@ badges:
   - 27
   - High density commercial
   - 0
-  - ''
+  - High density commercial
   zone/com/low:
   - -1
   - 2025
@@ -20815,7 +20815,7 @@ badges:
   - 27
   - Low density commercial
   - 0
-  - ''
+  - Low density commercial
   zone/com/medium:
   - -1
   - 2025
@@ -20823,7 +20823,7 @@ badges:
   - 27
   - Medium density commercial
   - 0
-  - ''
+  - Medium density commercial
   zone/forestry:
   - -1
   - 2025
@@ -20831,7 +20831,7 @@ badges:
   - 27
   - Forestry
   - 0
-  - ''
+  - Forestry
   zone/general:
   - -1
   - 2025
@@ -20839,7 +20839,7 @@ badges:
   - 27
   - General
   - 0
-  - ''
+  - General
   zone/ind:
   - -1
   - 2025
@@ -20847,7 +20847,7 @@ badges:
   - 27
   - Industrial
   - 0
-  - ''
+  - Industrial
   zone/ind/high:
   - -1
   - 2025
@@ -20855,7 +20855,7 @@ badges:
   - 27
   - High density industrial
   - 0
-  - ''
+  - High density industrial
   zone/ind/low:
   - -1
   - 2025
@@ -20863,7 +20863,7 @@ badges:
   - 27
   - Low density industrial
   - 0
-  - ''
+  - Low density industrial
   zone/ind/medium:
   - -1
   - 2025
@@ -20871,7 +20871,7 @@ badges:
   - 27
   - Medium density industrial
   - 0
-  - ''
+  - Medium density industrial
   zone/leisure:
   - -1
   - 2025
@@ -20879,7 +20879,7 @@ badges:
   - 27
   - Leisure
   - 0
-  - ''
+  - Leisure
   zone/mixed:
   - -1
   - 2025
@@ -20887,7 +20887,7 @@ badges:
   - 27
   - Commercial & residential
   - 0
-  - ''
+  - Commercial & residential
   zone/mixed/high:
   - -1
   - 2025
@@ -20895,7 +20895,7 @@ badges:
   - 27
   - High density commercial & residential
   - 0
-  - ''
+  - High density commercial & residential
   zone/mixed/low:
   - -1
   - 2025
@@ -20903,7 +20903,7 @@ badges:
   - 27
   - Low density commercial & residential
   - 0
-  - ''
+  - Low density commercial & residential
   zone/mixed/medium:
   - -1
   - 2025
@@ -20911,7 +20911,7 @@ badges:
   - 27
   - Medium density commercial & residential
   - 0
-  - ''
+  - Medium density commercial & residential
   zone/other:
   - -1
   - 2025
@@ -20919,7 +20919,7 @@ badges:
   - 27
   - Other
   - 0
-  - ''
+  - Other
   zone/public:
   - -1
   - 2025
@@ -20927,7 +20927,7 @@ badges:
   - 27
   - Public
   - 0
-  - ''
+  - Public
   zone/res:
   - -1
   - 2025
@@ -20935,7 +20935,7 @@ badges:
   - 27
   - Residential
   - 0
-  - ''
+  - Residential
   zone/res/high:
   - -1
   - 2025
@@ -20943,7 +20943,7 @@ badges:
   - 27
   - High density residential
   - 0
-  - ''
+  - High density residential
   zone/res/low:
   - -1
   - 2025
@@ -20951,7 +20951,7 @@ badges:
   - 27
   - Low density residential
   - 0
-  - ''
+  - Low density residential
   zone/res/medium:
   - -1
   - 2025
@@ -20959,7 +20959,7 @@ badges:
   - 27
   - Medium density residential
   - 0
-  - ''
+  - Medium density residential
   zone/transport:
   - -1
   - 2025
@@ -20967,7 +20967,7 @@ badges:
   - 27
   - Transport
   - 0
-  - ''
+  - Transport
 cargos:
   ACET:
   - 1246464008
