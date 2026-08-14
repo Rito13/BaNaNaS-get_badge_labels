@@ -1,4 +1,5 @@
 [Classes],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
+,"__tmp__",Community,https://www.tt-forums.net,2026-08-14,"TMP",1,"fb300c4b"
 ,"_ih_distributed_power","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"AUTO GENERATED CLASS",0,
 ,"_ih_formation_ruleset","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",1,"43411223"
 ,"_ih_livery_def","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"AUTO GENERATED CLASS",0,
@@ -7,6 +8,7 @@
 ,"_ih_wagon_subtype","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",1,"43411223"
 ,"_ww_livery","Wolfie's Unified UK Trains",https://bananas.openttd.org/package/newgrf/57465907,2026-07-05,"Livery Pattern",1,"57465907"
 ,"_ww_type","Wolfie's Unified UK Trains",https://bananas.openttd.org/package/newgrf/57465907,2026-06-10,"Type",1,"57465907"
+[__tmp__],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
 [_ih_distributed_power],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
 ,"_ih_distributed_power/is_power_cab/alize_cab","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",1,"43411223"
 ,"_ih_distributed_power/is_power_cab/brash_cab","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",1,"43411223"

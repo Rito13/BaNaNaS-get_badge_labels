@@ -678,7 +678,7 @@
 ,"EFNC","Unspooled",https://bananas.openttd.org/package/newgrf/44450601,2021-03-02,"Cable Vault Tramway with Catenary Construction",1,"44450601"
 ,"ELML","Unspooled",https://bananas.openttd.org/package/newgrf/44450601,2021-03-02,"Pedestrian Mall Tramway Construction",1,"44450601"
 ,"ELOW","Unspooled",https://bananas.openttd.org/package/newgrf/44450601,2021-03-02,"Rough Electric Tramway Construction",1,"44450601"
-,"ELRL",OTTD,https://github.com/OpenTTD/OpenTTD/commit/1739024,2007-05-26,"Electrified rail",14,"415a1001 4242444c 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204"
+,"ELRL",OTTD,https://github.com/OpenTTD/OpenTTD/commit/1739024,2007-05-26,"Electrified rail",15,"415a1001 4242444c 43530201 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204"
 ,"EMLR","Unspooled",https://bananas.openttd.org/package/newgrf/44450601,2021-03-02,"Modern Light Railway with Catenary Construction",1,"44450601"
 ,"FUNC","Unspooled",https://bananas.openttd.org/package/newgrf/44450601,2021-03-02,"Cable Vault Tramway Construction",1,"44450601"
 ,"INVI","Quast65's TramTrackSet",https://bananas.openttd.org/package/newgrf/51546501,2023-05-30,"Invisible Tramlanes Construction",1,"51546501"
