@@ -6,7 +6,7 @@ badges:
   - 14
   - ''
   - 2
-  - ''
+  - TMP
   _ih_distributed_power/is_power_cab/alize_cab:
   - 1128337955
   - 2026
@@ -19088,6 +19088,14 @@ badges:
   - ''
   - 0
   - Dual company colour (2CC)
+  livery/iron_horse:
+  - 4214230091
+  - 2026
+  - 8
+  - 7
+  - ''
+  - 0
+  - Iron Horse
   livery/iron_horse/banger_blue:
   - 1128337955
   - 2026
@@ -19472,6 +19480,14 @@ badges:
   - ''
   - 0
   - Work Horse
+  livery/random:
+  - 4214230091
+  - 2026
+  - 8
+  - 7
+  - ''
+  - 0
+  - Random
   livery/random/1cc:
   - 1347310591
   - 2025
