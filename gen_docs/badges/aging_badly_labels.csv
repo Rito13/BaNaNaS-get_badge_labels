@@ -2,7 +2,7 @@
 ,"_ih_formation_ruleset","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",1,"43411223"
 ,"_ih_livery_def","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"AUTO GENERATED CLASS",0,
 ,"_ih_randomised_wagon","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"AUTO GENERATED CLASS",0,
-,"flag",OpenTTD default badges,https://github.com/OpenTTD/OpenTTD/pull/13655,2025-02-27,"Country/Region",5,"38424253 504e53ff 544d0201 57465907 fb300c4b"
+,"flag",OpenTTD default badges,https://github.com/OpenTTD/OpenTTD/pull/13655,2025-02-27,"Country/Region",6,"38424253 504e53ff 544d0201 564e0101 57465907 fb300c4b"
 ,"ih_distributed_power","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"AUTO GENERATED CLASS",0,
 ,"ih_formation_ruleset","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"",0,
 ,"ih_livery_def","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"AUTO GENERATED CLASS",0,
@@ -35,7 +35,6 @@
 ,"_ih_randomised_wagon/candidates/ih_vehicle_family/mineral_bulk_open_car","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 ,"_ih_randomised_wagon/candidates/ih_vehicle_family/mineral_bulk_open_car_low_side","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 [flag],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
-,"flag/EU","8-bit Badge Set",https://bananas.openttd.org/package/newgrf/38424253,2026-03-13,"European Union",0,
 ,"flag/gb","Wolfie's Unified UK Trains",https://bananas.openttd.org/package/newgrf/57465907,2026-05-24,"United Kingdom",0,
 [ih_distributed_power],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
 ,"ih_distributed_power/is_power_cab/alize_cab","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"",0,
