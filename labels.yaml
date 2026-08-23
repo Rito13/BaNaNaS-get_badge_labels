@@ -5534,7 +5534,7 @@ badges:
   - 5
   - ''
   - 2
-  - BR Blue
+  - BR Black
   _ww_livery/brblue:
   - 1464228103
   - 2026
@@ -5559,6 +5559,22 @@ badges:
   - ''
   - 2
   - BR Blue/Grey (Inverted)
+  _ww_livery/brgreen:
+  - 1464228103
+  - 2026
+  - 8
+  - 18
+  - ''
+  - 2
+  - BR Green
+  _ww_livery/brgreen_yp:
+  - 1464228103
+  - 2026
+  - 8
+  - 18
+  - ''
+  - 2
+  - BR Green (Yellow Warning Panel)
   _ww_livery/intercity:
   - 1464228103
   - 2026
@@ -5615,6 +5631,22 @@ badges:
   - ''
   - 2
   - Multiple Unit
+  attribute:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Attribute
+  attribute/push_pull:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Push-Pull
   axleweight:
   - 1414332929
   - 2026
@@ -7014,7 +7046,7 @@ badges:
   - 13
   - European Union
   - 0
-  - ''
+  - European Union
   flag/FI:
   - 1347310591
   - 2025
@@ -7087,6 +7119,14 @@ badges:
   - ''
   - 0
   - Grenada
+  flag/GDR:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - East Germany
   flag/GE:
   - 1347310591
   - 2025
@@ -8135,6 +8175,14 @@ badges:
   - ''
   - 0
   - Sao Tome and Principe
+  flag/SU:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - USSR
   flag/SV:
   - 1347310591
   - 2025
@@ -8407,6 +8455,14 @@ badges:
   - ''
   - 0
   - Wallis and Futuna
+  flag/WRLD:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - World
   flag/WS:
   - 1347310591
   - 2025
@@ -8431,6 +8487,14 @@ badges:
   - ''
   - 0
   - Mayotte
+  flag/YU:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Yugoslavia
   flag/ZA:
   - 1347310591
   - 2025
@@ -19928,6 +19992,14 @@ badges:
   - ''
   - 0
   - Hydrogen
+  power/maglev:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Maglev
   power/metro:
   - 1128337955
   - 2026
@@ -20480,6 +20552,54 @@ badges:
   - ''
   - 0
   - Banking
+  role/coach__commuter_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Coach (Commuter)
+  role/coach__express_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Coach (Express)
+  role/coach__hs_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Coach (HS)
+  role/coach__mail_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Coach (Mail)
+  role/coach__regional_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Coach (Regional)
+  role/commuter_urban:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Commuter/Urban
   role/driving_cab:
   - 1128337955
   - 2026
@@ -20616,6 +20736,14 @@ badges:
   - ''
   - 0
   - Passenger
+  role/powered_unpowered_sundry:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Powered/Unpowered Sundry
   role/prototype:
   - 1347310591
   - 2025
@@ -20624,6 +20752,14 @@ badges:
   - ''
   - 0
   - Prototype
+  role/regional_passenger:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Regional Passenger
   role/restaurant_car:
   - 1347310591
   - 2025
@@ -20656,6 +20792,22 @@ badges:
   - ''
   - 0
   - High Capacity
+  role/ultra_high_speed__pax_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Ultra-High-Speed (Pax)
+  role/ultra_high_speed__universal_:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Ultra-High-Speed (Universal)
   role/universal:
   - 1128337955
   - 2026
@@ -20680,6 +20832,14 @@ badges:
   - ''
   - 0
   - InterCity Express
+  role/wagon:
+  - 1447952641
+  - 2026
+  - 8
+  - 22
+  - ''
+  - 0
+  - Wagon
   roof:
   - 1347616769
   - 2026
@@ -21817,6 +21977,14 @@ cargos:
   - ''
   - 0
   - Lubricants
+  LVPT:
+  - 1296630280
+  - 2026
+  - 8
+  - 20
+  - ''
+  - 0
+  - "Zbarven\xED"
   LVST:
   - -3
   - 1995

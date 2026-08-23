@@ -714,10 +714,12 @@
 # _ww_livery
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| _ww_livery/brblack | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/brblack | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Black | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_livery/brblue | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_livery/brbluegrey | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue/Grey | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_livery/brbluegrey_inv | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | BR Blue/Grey (Inverted) | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/brgreen | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-08-18 | BR Green | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| _ww_livery/brgreen_yp | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-08-18 | BR Green (Yellow Warning Panel) | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_livery/intercity | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | InterCity | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_livery/nse | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | Network Southeast | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_livery/overground | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | TfL Overground | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
