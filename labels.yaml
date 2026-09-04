@@ -5735,6 +5735,14 @@ badges:
   - ''
   - 0
   - Oak
+  benches/romanian:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Romanian
   builder:
   - 1414398209
   - 2026
@@ -19640,6 +19648,110 @@ badges:
   - ''
   - 0
   - White-Lined Grey
+  platform_crossing:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Platform crossing
+  platform_crossing/level/concrete_modern:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Level crossing - modern concrete
+  platform_crossing/level/concrete_slabs:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Level crossing - concrete slabs
+  platform_crossing/overpass:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Overpass
+  platform_crossing/underpass:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Underpass
+  platform_side:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Platform side
+  platform_side/both:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Both platforms
+  platform_side/bottom:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Bottom platform
+  platform_side/top:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Top platform
+  platform_type:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Platform type
+  platform_type/concrete_slabs:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Concrete slabs
+  platform_type/high_asphalt:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - High asphalt
+  platform_type/low_asphalt:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Low asphalt
   polish_stations_benches:
   - 1347616769
   - 2025
@@ -20912,6 +21024,14 @@ badges:
   - ''
   - 0
   - Blue
+  screen/romanian:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Romanian
   screen/white:
   - 1347616769
   - 2026
@@ -20960,6 +21080,22 @@ badges:
   - ''
   - 0
   - White
+  sign:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Station sign
+  sign/romanian:
+  - 1634730241
+  - 2026
+  - 9
+  - 1
+  - ''
+  - 0
+  - Romanian
   zone:
   - 1347310591
   - 2025

@@ -3,9 +3,9 @@
 | --- | --- | --- | --- | --- |
 | [attribute](#attribute) | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Attribute | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
 | [axleweight](#axleweight) | [Dutch Trainset 3XL](https://bananas.openttd.org/package/newgrf/544d0201) | 2026-06-20 | Axle weight | [2](https://bananas.openttd.org/?message=GRFs:+544d0201,+fb300c4b "544d0201, fb300c4b") |
-| [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [builder](#builder) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Builder | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
-| [fence](#fence) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Fence | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| [fence](#fence) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Fence | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [6](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544d0201,+564e0101,+57465907,+fb300c4b "38424253, 504e53ff, 544d0201, 564e0101, 57465907, fb300c4b") |
 | [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Behaviour | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
 | [ih_gen](#ih_gen) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Gen | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
@@ -17,14 +17,18 @@
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| [platform_crossing](#platform_crossing) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform crossing | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| [platform_side](#platform_side) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform side | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| [platform_type](#platform_type) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform type | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
 | [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [9](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+504e53ff,+544d0201,+544e0101,+55464951,+564e0101,+57465907,+fb300c4b "38424253, 43411223, 504e53ff, 544d0201, 544e0101, 55464951, 564e0101, 57465907, fb300c4b") |
 | [railgauge](#railgauge) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-03-30 | Track Gauge | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 | no houses | [2](https://bananas.openttd.org/?message=GRFs:+55464950,+fb300c4b "55464950, fb300c4b") |
 | [role](#role) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Role | [6](https://bananas.openttd.org/?message=GRFs:+43411223,+504e53ff,+544d0201,+564e0101,+57465907,+fb300c4b "43411223, 504e53ff, 544d0201, 564e0101, 57465907, fb300c4b") |
-| [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Roof | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
-| [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Screen | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Roof | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
+| [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Screen | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Shelter | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| [sign](#sign) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Station sign | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
 | [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 
 # attribute
@@ -48,6 +52,7 @@
 | benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Dutch | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Modern | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Oak | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| benches/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
 
 # builder
 | Label | Introduced by | When | Comment | O. |
@@ -143,7 +148,7 @@
 # fence
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| fence/between_tracks | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Between Tracks | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| fence/between_tracks | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Between Tracks | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | fence/platform | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Platform | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | fence/surrounded | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Surrounded by | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | fence/without | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Without | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
@@ -1189,6 +1194,28 @@
 | platform_colour/tiled | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Tiled Grey | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | platform_colour/whitel | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | White-Lined Grey | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 
+# platform_crossing
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| platform_crossing/level/concrete_modern | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Level crossing - modern concrete | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_crossing/level/concrete_slabs | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Level crossing - concrete slabs | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_crossing/overpass | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Overpass | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_crossing/underpass | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Underpass | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+
+# platform_side
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| platform_side/both | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Both platforms | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_side/bottom | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Bottom platform | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_side/top | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Top platform | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+
+# platform_type
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| platform_type/concrete_slabs | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Concrete slabs | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_type/high_asphalt | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | High asphalt | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_type/low_asphalt | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Low asphalt | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+
 # power
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
@@ -1332,7 +1359,7 @@
 | --- | --- | --- | --- | --- |
 | roof/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | roof/glass | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Glass | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
-| roof/metal | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Metal | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| roof/metal | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Metal | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | roof/rusty | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Rusty | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | roof/slate | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Slate | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 
@@ -1341,6 +1368,7 @@
 | --- | --- | --- | --- | --- |
 | screen/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Black | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | screen/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| screen/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
 | screen/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | White | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 
 # shelter
@@ -1350,6 +1378,11 @@
 | shelter/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | shelter/sextant | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Sextant | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | shelter/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | White | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+
+# sign
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| sign/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
 
 # zone
 | Label | Introduced by | When | Comment | O. |
