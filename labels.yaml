@@ -22329,6 +22329,22 @@ cargos:
   - ''
   - 0
   - Empty Electricity batteries
+  NUKF:
+  - 1414792193
+  - 2010
+  - 9
+  - 18
+  - Nuclear fuel
+  - 0
+  - ''
+  NUKW:
+  - 1414792193
+  - 2010
+  - 9
+  - 18
+  - Nuclear waste
+  - 0
+  - ''
   NUTS:
   - 4045733894
   - 2016
