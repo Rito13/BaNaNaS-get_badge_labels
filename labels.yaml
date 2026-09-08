@@ -19656,6 +19656,14 @@ badges:
   - ''
   - 0
   - Platform crossing
+  platform_crossing/level:
+  - 4214230091
+  - 2026
+  - 9
+  - 6
+  - ''
+  - 0
+  - Level
   platform_crossing/level/concrete_modern:
   - 1634730241
   - 2026

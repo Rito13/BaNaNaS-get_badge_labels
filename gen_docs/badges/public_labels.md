@@ -1,7 +1,7 @@
 # Classes
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| [attribute](#attribute) | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Attribute | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| [attribute](#attribute) | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Attribute | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | [axleweight](#axleweight) | [Dutch Trainset 3XL](https://bananas.openttd.org/package/newgrf/544d0201) | 2026-06-20 | Axle weight | [2](https://bananas.openttd.org/?message=GRFs:+544d0201,+fb300c4b "544d0201, fb300c4b") |
 | [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [builder](#builder) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Builder | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
@@ -17,9 +17,9 @@
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
-| [platform_crossing](#platform_crossing) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform crossing | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| [platform_side](#platform_side) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform side | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| [platform_type](#platform_type) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform type | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| [platform_crossing](#platform_crossing) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform crossing | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| [platform_side](#platform_side) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform side | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| [platform_type](#platform_type) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform type | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 | [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [9](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+504e53ff,+544d0201,+544e0101,+55464951,+564e0101,+57465907,+fb300c4b "38424253, 43411223, 504e53ff, 544d0201, 544e0101, 55464951, 564e0101, 57465907, fb300c4b") |
 | [railgauge](#railgauge) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-03-30 | Track Gauge | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
@@ -28,13 +28,13 @@
 | [roof](#roof) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Roof | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [screen](#screen) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Screen | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Shelter | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
-| [sign](#sign) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Station sign | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| [sign](#sign) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Station sign | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 | [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 
 # attribute
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| attribute/push_pull | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Push-Pull | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| attribute/push_pull | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Push-Pull | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 
 # axleweight
 | Label | Introduced by | When | Comment | O. |
@@ -52,7 +52,7 @@
 | benches/dutch | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Dutch | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | benches/modern | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Modern | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | benches/oak | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Oak | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
-| benches/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| benches/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 
 # builder
 | Label | Introduced by | When | Comment | O. |
@@ -225,7 +225,7 @@
 | flag/ER | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Eritrea | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/ES | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Spain | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/ET | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Ethiopia | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
-| flag/EU | [8-bit Badge Set](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 | European Union | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| flag/EU | [8-bit Badge Set](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 | European Union | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | flag/FI | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Finland | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/FJ | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Fiji | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/FK | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Falkland Islands | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
@@ -235,7 +235,7 @@
 | flag/GA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gabon | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/GB | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | United Kingdom | [6](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544d0201,+564e0101,+57465907,+fb300c4b "38424253, 504e53ff, 544d0201, 564e0101, 57465907, fb300c4b") |
 | flag/GD | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Grenada | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
-| flag/GDR | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | East Germany | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| flag/GDR | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | East Germany | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | flag/GE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Georgia | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/GF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | French Guiana | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/GG | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Guernsey | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
@@ -367,7 +367,7 @@
 | flag/SR | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Suriname | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/SS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Sudan | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/ST | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sao Tome and Principe | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
-| flag/SU | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | USSR | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| flag/SU | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | USSR | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | flag/SV | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | El Salvador | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/SX | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Sint Maarten | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/SY | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Syrian Arab Republic | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
@@ -402,11 +402,11 @@
 | flag/VN | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Vietnam | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/VU | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Vanuatu | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/WF | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Wallis and Futuna | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
-| flag/WRLD | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | World | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| flag/WRLD | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | World | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | flag/WS | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Samoa | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/YE | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Yemen | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | flag/YT | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mayotte | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
-| flag/YU | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Yugoslavia | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| flag/YU | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Yugoslavia | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | flag/ZA | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | South Africa | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/ZM | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zambia | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
 | flag/ZW | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zimbabwe | [4](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+564e0101,+fb300c4b "38424253, 504e53ff, 564e0101, fb300c4b") |
@@ -1197,24 +1197,25 @@
 # platform_crossing
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| platform_crossing/level/concrete_modern | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Level crossing - modern concrete | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_crossing/level/concrete_slabs | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Level crossing - concrete slabs | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_crossing/overpass | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Overpass | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_crossing/underpass | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Underpass | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_crossing/level | [SUBS is an Ultimate Badge Set](https://bananas.openttd.org/package/newgrf/fb300c4b) | 2026-09-06 | Level | [1](https://bananas.openttd.org/?message=GRFs:+fb300c4b "fb300c4b") |
+| platform_crossing/level/concrete_modern | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Level crossing - modern concrete | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_crossing/level/concrete_slabs | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Level crossing - concrete slabs | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_crossing/overpass | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Overpass | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_crossing/underpass | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Underpass | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 
 # platform_side
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| platform_side/both | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Both platforms | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_side/bottom | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Bottom platform | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_side/top | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Top platform | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_side/both | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Both platforms | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_side/bottom | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Bottom platform | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_side/top | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Top platform | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 
 # platform_type
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| platform_type/concrete_slabs | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Concrete slabs | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_type/high_asphalt | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | High asphalt | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
-| platform_type/low_asphalt | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Low asphalt | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| platform_type/concrete_slabs | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Concrete slabs | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_type/high_asphalt | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | High asphalt | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
+| platform_type/low_asphalt | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Low asphalt | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 
 # power
 | Label | Introduced by | When | Comment | O. |
@@ -1243,7 +1244,7 @@
 | power/electro_diesel | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | power/gasoline | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-05-05 | Petrol | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+544e0101,+fb300c4b "38424253, 544e0101, fb300c4b") |
 | power/hydrogen | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-05-05 | Hydrogen | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
-| power/maglev | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Maglev | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| power/maglev | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Maglev | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | power/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Metro | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+564e0101,+fb300c4b "43411223, 564e0101, fb300c4b") |
 | power/ohle | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Electric | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
 | power/petrol | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | Petrol | [2](https://bananas.openttd.org/?message=GRFs:+57465907,+fb300c4b "57465907, fb300c4b") |
@@ -1317,12 +1318,12 @@
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
 | role/banking | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Banking | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
-| role/coach__commuter_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Commuter) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
-| role/coach__express_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Express) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
-| role/coach__hs_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (HS) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
-| role/coach__mail_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Mail) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
-| role/coach__regional_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Regional) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
-| role/commuter_urban | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Commuter/Urban | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| role/coach__commuter_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Commuter) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| role/coach__express_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Express) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| role/coach__hs_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (HS) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| role/coach__mail_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Mail) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| role/coach__regional_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Coach (Regional) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| role/commuter_urban | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Commuter/Urban | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | role/driving_cab | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Driving Cab | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
 | role/executive | [Dutch Trainset 3XL](https://bananas.openttd.org/package/newgrf/544d0201) | 2026-06-20 | Executive | [2](https://bananas.openttd.org/?message=GRFs:+544d0201,+fb300c4b "544d0201, fb300c4b") |
 | role/express | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Express | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+564e0101,+fb300c4b "43411223, 564e0101, fb300c4b") |
@@ -1340,19 +1341,19 @@
 | role/metro_freight | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Urban Freight | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
 | role/mixed | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Mixed | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+57465907,+fb300c4b "504e53ff, 57465907, fb300c4b") |
 | role/passenger | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Passenger | [5](https://bananas.openttd.org/?message=GRFs:+504e53ff,+50530001,+544d0201,+57465907,+fb300c4b "504e53ff, 50530001, 544d0201, 57465907, fb300c4b") |
-| role/powered_unpowered_sundry | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Powered/Unpowered Sundry | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| role/powered_unpowered_sundry | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Powered/Unpowered Sundry | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | role/prototype | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Prototype | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+57465907,+fb300c4b "504e53ff, 57465907, fb300c4b") |
-| role/regional_passenger | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Regional Passenger | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| role/regional_passenger | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Regional Passenger | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | role/restaurant_car | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Restaurant car | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | role/shunting | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Shunting | [5](https://bananas.openttd.org/?message=GRFs:+504e53ff,+544d0201,+564e0101,+57465907,+fb300c4b "504e53ff, 544d0201, 564e0101, 57465907, fb300c4b") |
 | role/snowplough | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Snowplough | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | role/suburban_or_universal_railcar | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | High Capacity | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
-| role/ultra_high_speed__pax_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Ultra-High-Speed (Pax) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
-| role/ultra_high_speed__universal_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Ultra-High-Speed (Universal) | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| role/ultra_high_speed__pax_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Ultra-High-Speed (Pax) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| role/ultra_high_speed__universal_ | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Ultra-High-Speed (Universal) | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 | role/universal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | General Purpose | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+564e0101,+fb300c4b "43411223, 564e0101, fb300c4b") |
 | role/utility | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Utility | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | role/very_high_speed | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | InterCity Express | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+544d0201,+fb300c4b "43411223, 544d0201, fb300c4b") |
-| role/wagon | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Wagon | [1](https://bananas.openttd.org/?message=GRFs:+564e0101 "564e0101") |
+| role/wagon | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Wagon | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
 
 # roof
 | Label | Introduced by | When | Comment | O. |
@@ -1368,7 +1369,7 @@
 | --- | --- | --- | --- | --- |
 | screen/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Black | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | screen/blue | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Blue | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
-| screen/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| screen/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 | screen/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | White | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 
 # shelter
@@ -1382,7 +1383,7 @@
 # sign
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
-| sign/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [1](https://bananas.openttd.org/?message=GRFs:+61700101 "61700101") |
+| sign/romanian | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Romanian | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 
 # zone
 | Label | Introduced by | When | Comment | O. |
