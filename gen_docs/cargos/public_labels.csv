@@ -382,6 +382,7 @@
 ,"TEST","OpenHRT Estrogen",https://bananas.openttd.org/package/newgrf/414b3031,2025-03-09,"Testosterone","1 - 414b3031: [Express, Refrigerated]",1,"414b3031"
 ,"TEXT","OTIS - One Tile Industry Set",https://bananas.openttd.org/package/newgrf/47475154,2022-04-13,"Textile","3 - 47475154 4f495431 55440100: [PieceGoods, CoveredBulk]
 1 - 4a4b8808: [PieceGoods, Non-Potable]",4,"47475154 4a4b8808 4f495431 55440100"
+,"THIN","Clooppy Mod",https://bananas.openttd.org/package/newgrf/58583031,2026-09-13,"Things","",1,"58583031"
 ,"TINP","AXIS eXtreme Industry Set",https://bananas.openttd.org/package/newgrf/4a4b8808,2026-02-08,"Tinplate","1 - 4a4b8808: [PieceGoods, Non-Potable]",1,"4a4b8808"
 ,"TOFF",TTD,https://www.tt-wiki.net/wiki/Main_Page,1995-11-01,"Toffee","3 - 47440101 54440901 OpenTTD: [OpenBulk]",3,"47440101 54440901 OpenTTD"
 ,"TOUR","ECS Town vector",https://bananas.openttd.org/package/newgrf/4d656f91,2016-01-10,"Tourists","1 - 4d656f91: [Passengers, Express]
@@ -408,6 +409,7 @@
 1 - f1250006: [Express, PieceGoods]",21,"41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f94 4e445903 4f495431 4f540001 54454d39 55440100 56420303 f1250006 f1250007 f1250008 f1250009 f1250010"
 ,"VENG","CZIS",https://bananas.openttd.org/package/newgrf/4d471001,2023-03-06,"Vehicle Engines","6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]
 3 - 4d471001 4d471002 55440100: [PieceGoods]",9,"4a4b8808 4d433501 4d471001 4d471002 4f540001 55440100 f1250008 f1250009 f1250010"
+,"VERT","Clooppy Mod",https://bananas.openttd.org/package/newgrf/58583031,2026-09-13,"Veritys","",1,"58583031"
 ,"VPTS","FIRS Industries 1",https://bananas.openttd.org/package/newgrf/f1250005,2015-09-30,"Vehicle Parts","6 - 4a448807 4b4b0001 4d471001 4d471002 55440100 f1250007: [PieceGoods]
 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]
 2 - f1250005 f1250006: [Express, PieceGoods]",14,"4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010"

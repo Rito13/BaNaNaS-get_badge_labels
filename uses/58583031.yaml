@@ -1,5 +1,7 @@
 badges: []
-cargos: {}
+cargos:
+  THIN: null
+  VERT: null
 rail_types: []
 road_types: []
 tram_types: []
