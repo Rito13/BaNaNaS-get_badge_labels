@@ -24266,6 +24266,14 @@ rail_types:
   - ''
   - 0
   - Railbed Construction
+  KRLR:
+  - 1414223189
+  - 2026
+  - 9
+  - 17
+  - ''
+  - 0
+  - Light Rail Track Construction
   KRNR:
   - 1263808561
   - 2025

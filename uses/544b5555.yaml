@@ -1,1 +1,7 @@
-[]
+badges: []
+cargos: {}
+rail_types:
+- KRLR
+- KRNR
+road_types: []
+tram_types: []
