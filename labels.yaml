@@ -6447,6 +6447,310 @@ badges:
   - ''
   - 0
   - Waggonfabrik Wismar
+  company:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Company
+  company/chiba_kyuko:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Chiba Kyuko Electric Railway
+  company/chiba_nt:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Chiba New Town Railway
+  company/fukuoka_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Fukuoka Transportation Bureau
+  company/hankyu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Hankyu Railway
+  company/hanshin:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Hanshin Electric Railway
+  company/hokuso:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Hokuso Railway
+  company/iyotetsu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Iyotetsu
+  company/jp_pc:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  company/keikyu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Keikyu Corporation
+  company/keio:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Keio Corporation
+  company/keisei:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Keisei Electric Railway
+  company/kintetsu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Kintetsu Railway
+  company/kobe_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Kobe Transportation Bureau
+  company/kotoden:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Kotoden
+  company/kyoto_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Kyoto Transportation Bureau
+  company/minato:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Yokohama Minatomirai Railway
+  company/nagoya_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Nagoya Transportation Bureau
+  company/nankai:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Nankai Railway
+  company/odakyu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Odakyu Electric Railway
+  company/osaka_kitakyu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Kita-Osaka Kyuko Railway
+  company/osaka_metro:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Osaka Metro
+  company/saitama:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Saitama Railway
+  company/sapporo_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Sapporo Municipal Subway
+  company/seibu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Seibu Railway
+  company/semboku:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Semboku Rapid Railway
+  company/sendai_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Sendai Transportation Bureau
+  company/shibayama:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Shibayama Railway
+  company/shin_keisei:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Shin-Keisei Electric Railway
+  company/sotetsu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Sagami Railway (Sotetsu)
+  company/tobu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Tobu Railway
+  company/toei:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - TOEI
+  company/tokyo_metro:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Tokyo Metro
+  company/tokyu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Tokyu Corporation
+  company/toyo:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Toyo Rapid Railway
+  company/tsukuba:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Tsukuba Express
+  company/twr:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Tokyo Waterfront Area Rapid Transit
+  company/yokohama_subway:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Yokohama City Transportation Bureau
   fence:
   - 1347616769
   - 2026
@@ -19144,6 +19448,334 @@ badges:
   - ''
   - 0
   - White
+  line:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - Line
+  line/fukuoka_kuko:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/fukuoka_nanakuma:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/kobe_kaigan:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/kobe_seishin:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/kyoto_karasuma:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/kyoto_tozai:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/nagoya_higashi:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/nagoya_kamiida:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/nagoya_meijo:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/nagoya_sakura:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/nagoya_tsurumai:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_chuo:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_imazato:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_midosuji:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_sakaisuji:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_sennichi:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_tanimachi:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_tsurumi:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/osaka_yotsu:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/sapporo_namboku:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/sapporo_toho:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/sapporo_tozai:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/sendai_namboku:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/sendai_tozai:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_asakusa:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_chiyoda:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_fukutoshin:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_ginza:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_hanzomon:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_hibiya:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_maru:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_maru_br:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_mita:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_namboku:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_oedo:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_shinjuku:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_tozai:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/tokyo_yurakucho:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/yokohama_blue:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
+  line/yokohama_green:
+  - 1499113985
+  - 2026
+  - 9
+  - 27
+  - ''
+  - 0
+  - ''
   livery:
   - 1347310591
   - 2025

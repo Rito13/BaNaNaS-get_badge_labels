@@ -5,6 +5,7 @@
 | [axleweight](#axleweight) | [Dutch Trainset 3XL](https://bananas.openttd.org/package/newgrf/544d0201) | 2026-06-20 | Axle weight | [2](https://bananas.openttd.org/?message=GRFs:+544d0201,+fb300c4b "544d0201, fb300c4b") |
 | [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [builder](#builder) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Builder | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
+| [company](#company) | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Company | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
 | [fence](#fence) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-06-12 | Fence | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
 | [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [6](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544d0201,+564e0101,+57465907,+fb300c4b "38424253, 504e53ff, 544d0201, 564e0101, 57465907, fb300c4b") |
 | [ih_behaviour](#ih_behaviour) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | Behaviour | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
@@ -13,6 +14,7 @@
 | [ih_tech_tree](#ih_tech_tree) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [ih_vehicle_family](#ih_vehicle_family) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [lanterns](#lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Lanterns | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+| [line](#line) | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Line | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
 | [livery](#livery) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Livery | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+504e53ff,+fb300c4b "43411223, 504e53ff, fb300c4b") |
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
@@ -144,6 +146,47 @@
 | builder/walkers | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Walkers Limited | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
 | builder/werkspoor | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Werkspoor | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
 | builder/wismar | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-08-03 | Waggonfabrik Wismar | [2](https://bananas.openttd.org/?message=GRFs:+544e0101,+fb300c4b "544e0101, fb300c4b") |
+
+# company
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| company/chiba_kyuko | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Chiba Kyuko Electric Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/chiba_nt | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Chiba New Town Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/fukuoka_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Fukuoka Transportation Bureau | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/hankyu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Hankyu Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/hanshin | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Hanshin Electric Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/hokuso | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Hokuso Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/iyotetsu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Iyotetsu | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/jp_pc | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/keikyu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Keikyu Corporation | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/keio | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Keio Corporation | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/keisei | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Keisei Electric Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/kintetsu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Kintetsu Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/kobe_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Kobe Transportation Bureau | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/kotoden | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Kotoden | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/kyoto_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Kyoto Transportation Bureau | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/minato | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Yokohama Minatomirai Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/nagoya_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Nagoya Transportation Bureau | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/nankai | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Nankai Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/odakyu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Odakyu Electric Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/osaka_kitakyu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Kita-Osaka Kyuko Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/osaka_metro | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Osaka Metro | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/saitama | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Saitama Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/sapporo_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Sapporo Municipal Subway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/seibu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Seibu Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/semboku | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Semboku Rapid Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/sendai_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Sendai Transportation Bureau | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/shibayama | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Shibayama Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/shin_keisei | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Shin-Keisei Electric Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/sotetsu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Sagami Railway (Sotetsu) | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/tobu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Tobu Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/toei | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | TOEI | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/tokyo_metro | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Tokyo Metro | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/tokyu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Tokyu Corporation | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/toyo | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Toyo Rapid Railway | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/tsukuba | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Tsukuba Express | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/twr | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Tokyo Waterfront Area Rapid Transit | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| company/yokohama_subway | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Yokohama City Transportation Bureau | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
 
 # fence
 | Label | Introduced by | When | Comment | O. |
@@ -1120,6 +1163,50 @@
 | lanterns/black | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Black | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | lanterns/old | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Old | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | lanterns/white | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | White | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
+
+# line
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| line/fukuoka_kuko | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/fukuoka_nanakuma | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/kobe_kaigan | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/kobe_seishin | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/kyoto_karasuma | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/kyoto_tozai | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/nagoya_higashi | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/nagoya_kamiida | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/nagoya_meijo | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/nagoya_sakura | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/nagoya_tsurumai | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_chuo | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_imazato | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_midosuji | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_sakaisuji | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_sennichi | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_tanimachi | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_tsurumi | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/osaka_yotsu | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/sapporo_namboku | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/sapporo_toho | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/sapporo_tozai | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/sendai_namboku | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/sendai_tozai | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_asakusa | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_chiyoda | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_fukutoshin | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_ginza | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_hanzomon | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_hibiya | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_maru | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_maru_br | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_mita | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_namboku | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_oedo | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_shinjuku | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_tozai | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/tokyo_yurakucho | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/yokohama_blue | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
+| line/yokohama_green | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 |  | [1](https://bananas.openttd.org/?message=GRFs:+595aaa01 "595aaa01") |
 
 # livery
 | Label | Introduced by | When | Comment | O. |
