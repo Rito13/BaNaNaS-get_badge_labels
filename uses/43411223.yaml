@@ -526,6 +526,7 @@ badges:
 - _ih_livery_def/colour_set_names/freight_rust
 - _ih_livery_def/colour_set_names/freight_sand
 - _ih_livery_def/colour_set_names/freight_silver
+- _ih_livery_def/colour_set_names/freight_slate
 - _ih_livery_def/colour_set_names/freight_sulphur
 - _ih_livery_def/colour_set_names/freight_teal
 - _ih_livery_def/colour_set_names/freight_violet
@@ -547,6 +548,7 @@ badges:
 - _ih_livery_def/internal_livery_name/conventional_wisdom
 - _ih_livery_def/internal_livery_name/farmflow
 - _ih_livery_def/internal_livery_name/freight_black
+- _ih_livery_def/internal_livery_name/freight_galena
 - _ih_livery_def/internal_livery_name/freight_kale
 - _ih_livery_def/internal_livery_name/freight_mist
 - _ih_livery_def/internal_livery_name/freight_red
@@ -1363,6 +1365,7 @@ badges:
 - livery/iron_horse/complement_company_colour
 - livery/iron_horse/conventional_wisdom
 - livery/iron_horse/freight_black
+- livery/iron_horse/freight_galena
 - livery/iron_horse/freight_kale
 - livery/iron_horse/freight_red
 - livery/iron_horse/fruit_ripple

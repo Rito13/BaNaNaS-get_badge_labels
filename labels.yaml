@@ -4279,6 +4279,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_livery_def/colour_set_names/freight_slate:
+  - 1128337955
+  - 2026
+  - 10
+  - 3
+  - ''
+  - 2
+  - ''
   _ih_livery_def/colour_set_names/freight_sulphur:
   - 1128337955
   - 2026
@@ -4460,6 +4468,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_livery_def/internal_livery_name/freight_galena:
+  - 1128337955
+  - 2026
+  - 10
+  - 3
   - ''
   - 2
   - ''
@@ -19848,6 +19864,14 @@ badges:
   - ''
   - 0
   - Dark Horse
+  livery/iron_horse/freight_galena:
+  - 1128337955
+  - 2026
+  - 10
+  - 3
+  - ''
+  - 0
+  - Galena
   livery/iron_horse/freight_industrial_yellow:
   - 1128337955
   - 2026
@@ -20704,6 +20728,22 @@ badges:
   - ''
   - 0
   - Electric (AC/DC)
+  power/electric_3rd:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Electric 3rd Rail '
+  power/electric_oh:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Electric Overhead Line '
   power/electrified:
   - 1430669649
   - 2026
@@ -20736,6 +20776,14 @@ badges:
   - ''
   - 0
   - Petrol
+  power/hybrid:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Hybrid '
   power/hydrogen:
   - 1414398209
   - 2026
@@ -21296,6 +21344,22 @@ badges:
   - ''
   - 0
   - Role
+  role/1st_class:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - First Class Coach
+  role/3rd_class:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Third Class Coach '
   role/banking:
   - 1347310591
   - 2025
@@ -21344,6 +21408,14 @@ badges:
   - ''
   - 0
   - Coach (Regional)
+  role/commuter:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - Commuter
   role/commuter_urban:
   - 1447952641
   - 2026
@@ -21416,6 +21488,14 @@ badges:
   - ''
   - 0
   - Heavy freight
+  role/heavy_metro:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Metro '
   role/high_power_railcar:
   - 1128337955
   - 2026
@@ -21440,6 +21520,14 @@ badges:
   - ''
   - 0
   - Light freight
+  role/light_metro:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Light Metro    '
   role/lolz:
   - 1128337955
   - 2026
@@ -21480,6 +21568,22 @@ badges:
   - ''
   - 0
   - Mixed
+  role/mixed_class:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Mixed Class Coach '
+  role/mixed_traffic:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Mixed Traffic '
   role/passenger:
   - 1347310591
   - 2025
@@ -21528,6 +21632,14 @@ badges:
   - ''
   - 0
   - Shunting
+  role/sleeper:
+  - 1347223809
+  - 2026
+  - 10
+  - 4
+  - ''
+  - 0
+  - 'Sleeper Coach '
   role/snowplough:
   - 1347310591
   - 2025

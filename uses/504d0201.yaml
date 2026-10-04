@@ -1,4 +1,12 @@
-badges: []
+badges:
+- flag
+- flag/PH
+- power
+- power/electric_3rd
+- power/electric_oh
+- role
+- role/heavy_metro
+- role/light_metro
 cargos: {}
 rail_types: []
 road_types: []

@@ -552,6 +552,7 @@
 | _ih_livery_def/colour_set_names/freight_rust | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/colour_set_names/freight_sand | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/colour_set_names/freight_silver | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| _ih_livery_def/colour_set_names/freight_slate | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-10-03 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/colour_set_names/freight_sulphur | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/colour_set_names/freight_teal | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/colour_set_names/freight_violet | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
@@ -573,6 +574,7 @@
 | _ih_livery_def/internal_livery_name/conventional_wisdom | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/farmflow | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/freight_black | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
+| _ih_livery_def/internal_livery_name/freight_galena | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-10-03 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/freight_kale | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-06-09 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/freight_mist | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | _ih_livery_def/internal_livery_name/freight_red | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
