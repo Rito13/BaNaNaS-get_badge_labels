@@ -1,0 +1,26 @@
+badges:
+- flag
+- flag/PH
+- power
+- power/diesel
+- power/electric_3rd
+- power/electric_oh
+- power/gasoline
+- power/hybrid
+- power/steam
+- role
+- role/1st_class
+- role/3rd_class
+- role/commuter
+- role/express_passenger
+- role/freight
+- role/heavy_metro
+- role/light_metro
+- role/mail
+- role/mixed_class
+- role/mixed_traffic
+- role/sleeper
+cargos: {}
+rail_types: []
+road_types: []
+tram_types: []
