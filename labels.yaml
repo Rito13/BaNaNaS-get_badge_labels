@@ -1575,6 +1575,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/vehicle_reports_as/caustic_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/vehicle_reports_as/cement_silo_car:
   - 1128337955
   - 2026
@@ -3703,6 +3711,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_formation_ruleset/vehicle_reports_as/solvent_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 2
+  - ''
   _ih_formation_ruleset/vehicle_reports_as/spacer_car:
   - 1128337955
   - 2026
@@ -5119,6 +5135,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/caustic_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 2
+  - ''
   _ih_randomised_wagon/candidates/ih_vehicle_family/cement_silo_car:
   - 1128337955
   - 2026
@@ -5156,6 +5180,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/cryo_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
   - ''
   - 2
   - ''
@@ -5311,6 +5343,14 @@ badges:
   - ''
   - 2
   - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/pressure_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 2
+  - ''
   _ih_randomised_wagon/candidates/ih_vehicle_family/product_tank_car:
   - 1128337955
   - 2026
@@ -5396,6 +5436,14 @@ badges:
   - 2026
   - 3
   - 23
+  - ''
+  - 2
+  - ''
+  _ih_randomised_wagon/candidates/ih_vehicle_family/solvent_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
   - ''
   - 2
   - ''
@@ -6471,6 +6519,14 @@ badges:
   - ''
   - 0
   - Company
+  company/aizu:
+  - 1499113985
+  - 2026
+  - 10
+  - 8
+  - ''
+  - 0
+  - Aizu Railway
   company/chiba_kyuko:
   - 1499113985
   - 2026
@@ -17248,6 +17304,14 @@ badges:
   - ''
   - 0
   - ''
+  ih_vehicle_family/caustic_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 0
+  - ''
   ih_vehicle_family/cement_silo_car:
   - 1128337955
   - 2026
@@ -18941,6 +19005,14 @@ badges:
   - 2026
   - 1
   - 4
+  - ''
+  - 0
+  - ''
+  ih_vehicle_family/solvent_tank_car:
+  - 1128337955
+  - 2026
+  - 10
+  - 7
   - ''
   - 0
   - ''
@@ -26579,6 +26651,54 @@ rail_types:
   - ''
   - 0
   - Medium-speed mainline, gravel ballast, wood ties
+  SE01:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Electrified Railway (80 km/h)
+  SE02:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Electrified Railway (120 km/h)
+  SE03:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Electrified Railway (160 km/h)
+  SE04:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Electrified Railway (200 km/h)
+  SE05:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Electrified Railway (250 km/h)
+  SE06:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Electrified Railway (400 km/h)
   SEA3:
   - 1398098772
   - 2023
@@ -26859,6 +26979,54 @@ rail_types:
   - ''
   - 0
   - Underground Rail Construction
+  ST01:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Railway (80 km/h)
+  ST02:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Railway (120 km/h)
+  ST03:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Railway (160 km/h)
+  ST04:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Railway (200 km/h)
+  ST05:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Railway (250 km/h)
+  ST06:
+  - 1398014209
+  - 2026
+  - 10
+  - 6
+  - ''
+  - 0
+  - Build Railway (400 km/h)
   SU1E:
   - 1162743297
   - 2022
@@ -28404,6 +28572,22 @@ road_types:
   - ''
   - 0
   - Gravel road
+  ORDA:
+  - 1161955329
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 0
+  - OPM Sand road
+  ORDB:
+  - 1161955329
+  - 2026
+  - 10
+  - 7
+  - ''
+  - 0
+  - OPM Gravel road
   PD01:
   - 1499113989
   - 2025
