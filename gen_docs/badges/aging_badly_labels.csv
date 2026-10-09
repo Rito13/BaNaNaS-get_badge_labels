@@ -1,6 +1,6 @@
 [Classes],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
 ,"_ih_formation_ruleset","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",1,"43411223"
-,"_ih_livery_def","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"AUTO GENERATED CLASS",0,
+,"_ih_livery_def","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-10-03,"AUTO GENERATED CLASS",0,
 ,"_ih_randomised_wagon","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"AUTO GENERATED CLASS",0,
 ,"flag",OpenTTD default badges,https://github.com/OpenTTD/OpenTTD/pull/13655,2025-02-27,"Country/Region",8,"38424253 504d0101 504d0201 504e53ff 544d0201 564e0101 57465907 fb300c4b"
 ,"ih_distributed_power","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"AUTO GENERATED CLASS",0,
@@ -25,8 +25,10 @@
 ,"_ih_formation_ruleset/vehicle_reports_as/mineral_bulk_open_car","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 ,"_ih_formation_ruleset/vehicle_reports_as/mineral_bulk_open_car_low_side","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 [_ih_livery_def],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
+,"_ih_livery_def/colour_set_names/freight_slate","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-10-03,"",0,
 ,"_ih_livery_def/internal_livery_name/dutch","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 ,"_ih_livery_def/internal_livery_name/freight_bonus_teal","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
+,"_ih_livery_def/internal_livery_name/freight_galena","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-10-03,"",0,
 ,"_ih_livery_def/internal_livery_name/freight_industrial_yellow","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 ,"_ih_livery_def/internal_livery_name/random_liveries_clover_ochre_silver_sulphur","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-03-23,"",0,
 ,"_ih_livery_def/internal_livery_name/worker_bee","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-04-04,"",0,
@@ -678,6 +680,7 @@
 ,"ih_wagon_subtype/u","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"",0,
 ,"ih_wagon_subtype/z","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"",0,
 [livery],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
+,"livery/iron_horse/freight_galena","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-10-03,"Galena",0,
 ,"livery/iron_horse/freight_industrial_yellow","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-02-01,"Industrial Yellow",0,
 ,"livery/iron_horse/random_liveries_clover_ochre_silver_sulphur","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-01-04,"Clover Fields",0,
 ,"livery/iron_horse/worker_bee","Iron Horse 4 (Trains)",https://bananas.openttd.org/package/newgrf/43411223,2026-04-04,"Worker Bee",0,

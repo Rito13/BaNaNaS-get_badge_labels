@@ -1,0 +1,19 @@
+badges: []
+cargos: {}
+rail_types:
+- ELRL
+- RAIL
+- SE01
+- SE02
+- SE03
+- SE04
+- SE05
+- SE06
+- ST01
+- ST02
+- ST03
+- ST04
+- ST05
+- ST06
+road_types: []
+tram_types: []

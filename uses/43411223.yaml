@@ -192,6 +192,7 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/captain_steel
 - _ih_formation_ruleset/vehicle_reports_as/carbon_black_hopper_car
 - _ih_formation_ruleset/vehicle_reports_as/carrack
+- _ih_formation_ruleset/vehicle_reports_as/caustic_tank_car
 - _ih_formation_ruleset/vehicle_reports_as/cement_silo_car
 - _ih_formation_ruleset/vehicle_reports_as/centaur
 - _ih_formation_ruleset/vehicle_reports_as/cheddar_valley
@@ -454,6 +455,7 @@ badges:
 - _ih_formation_ruleset/vehicle_reports_as/snapper
 - _ih_formation_ruleset/vehicle_reports_as/snowplough_pony_gen_2
 - _ih_formation_ruleset/vehicle_reports_as/solano
+- _ih_formation_ruleset/vehicle_reports_as/solvent_tank_car
 - _ih_formation_ruleset/vehicle_reports_as/spacer_car
 - _ih_formation_ruleset/vehicle_reports_as/spinner
 - _ih_formation_ruleset/vehicle_reports_as/stag
@@ -526,7 +528,6 @@ badges:
 - _ih_livery_def/colour_set_names/freight_rust
 - _ih_livery_def/colour_set_names/freight_sand
 - _ih_livery_def/colour_set_names/freight_silver
-- _ih_livery_def/colour_set_names/freight_slate
 - _ih_livery_def/colour_set_names/freight_sulphur
 - _ih_livery_def/colour_set_names/freight_teal
 - _ih_livery_def/colour_set_names/freight_violet
@@ -548,7 +549,6 @@ badges:
 - _ih_livery_def/internal_livery_name/conventional_wisdom
 - _ih_livery_def/internal_livery_name/farmflow
 - _ih_livery_def/internal_livery_name/freight_black
-- _ih_livery_def/internal_livery_name/freight_galena
 - _ih_livery_def/internal_livery_name/freight_kale
 - _ih_livery_def/internal_livery_name/freight_mist
 - _ih_livery_def/internal_livery_name/freight_red
@@ -626,11 +626,13 @@ badges:
 - _ih_randomised_wagon/candidates/ih_vehicle_family/box_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/caboose_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/carbon_black_hopper_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/caustic_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/cement_silo_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/coal_bulk_open_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/coal_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/coil_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/covered_hopper_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/cryo_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/curtain_side_box_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/express_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/farm_product_box_car
@@ -647,6 +649,7 @@ badges:
 - _ih_randomised_wagon/candidates/ih_vehicle_family/open_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/ore_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/pipe_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/pressure_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/product_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/reefer_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/rock_hopper_car
@@ -658,6 +661,7 @@ badges:
 - _ih_randomised_wagon/candidates/ih_vehicle_family/sliding_roof_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/sliding_roof_hi_cube_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/sliding_wall_car
+- _ih_randomised_wagon/candidates/ih_vehicle_family/solvent_tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/swing_roof_hopper_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/tank_car
 - _ih_randomised_wagon/candidates/ih_vehicle_family/tarpaulin_car
@@ -1102,6 +1106,7 @@ badges:
 - ih_vehicle_family/captain_steel
 - ih_vehicle_family/carbon_black_hopper_car
 - ih_vehicle_family/carrack
+- ih_vehicle_family/caustic_tank_car
 - ih_vehicle_family/cement_silo_car
 - ih_vehicle_family/centaur
 - ih_vehicle_family/cheddar_valley
@@ -1308,6 +1313,7 @@ badges:
 - ih_vehicle_family/snapper
 - ih_vehicle_family/snowplough_pony_gen_2
 - ih_vehicle_family/solano
+- ih_vehicle_family/solvent_tank_car
 - ih_vehicle_family/spacer_car
 - ih_vehicle_family/spinner
 - ih_vehicle_family/stag
@@ -1365,7 +1371,6 @@ badges:
 - livery/iron_horse/complement_company_colour
 - livery/iron_horse/conventional_wisdom
 - livery/iron_horse/freight_black
-- livery/iron_horse/freight_galena
 - livery/iron_horse/freight_kale
 - livery/iron_horse/freight_red
 - livery/iron_horse/fruit_ripple
