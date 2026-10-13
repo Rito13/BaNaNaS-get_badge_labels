@@ -1,6 +1,8 @@
 badges: []
 cargos:
   CAND: null
+  EXPL: null
+  REDD: '0b0000000000000001'
   THIN: null
   VERT: null
 rail_types: []
