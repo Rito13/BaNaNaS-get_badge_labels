@@ -22593,6 +22593,14 @@ cargos:
   - ''
   - 0
   - Ethylene
+  EXPL:
+  - 1482174513
+  - 2026
+  - 10
+  - 12
+  - ''
+  - 0
+  - Exploding babies
   FEAL:
   - 4045733897
   - 2026
@@ -23473,6 +23481,14 @@ cargos:
   - ''
   - 0
   - Recyclables
+  REDD:
+  - 1482174513
+  - 2026
+  - 10
+  - 12
+  - ''
+  - 0
+  - Redditors
   RENG:
   - 1162745089
   - 2019
