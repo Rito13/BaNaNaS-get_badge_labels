@@ -5703,6 +5703,14 @@ badges:
   - ''
   - 0
   - Attribute
+  attribute/concept:
+  - 943866451
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Concept / Prototype
   attribute/push_pull:
   - 1447952641
   - 2026
@@ -5847,6 +5855,14 @@ badges:
   - ''
   - 0
   - Alsthom
+  builder/alstom:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Alsthom / Alstom
   builder/ansaldo_breda:
   - 1414398209
   - 2026
@@ -5855,6 +5871,14 @@ badges:
   - ''
   - 0
   - AnsaldoBreda
+  builder/babcock_wilcox:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Babcock & Wilcox
   builder/baldwin:
   - 1414398209
   - 2026
@@ -5959,6 +5983,30 @@ badges:
   - ''
   - 0
   - CRRC
+  builder/crrc/dallian:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - CRRC Dallian
+  builder/crrc/qishuyan:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - CRRC Qishuyan
+  builder/crrc/sifang:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - CRRC Qingdao Sifang
   builder/crrc/tangshan:
   - 1414398209
   - 2026
@@ -6007,6 +6055,22 @@ badges:
   - ''
   - 0
   - Electro-Motive Division 'EMD'
+  builder/euskalduna:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Euskalduna
+  builder/fablok:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Fablok
   builder/falcon:
   - 1414398209
   - 2026
@@ -6079,6 +6143,14 @@ badges:
   - ''
   - 0
   - General Motors 'GM'
+  builder/gmd:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - General Motors Diesel 'GMD'
   builder/goninan:
   - 1414398209
   - 2026
@@ -6095,6 +6167,14 @@ badges:
   - ''
   - 0
   - Haiphong Carriage Company
+  builder/hanomag:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Hannoversche Maschinenbau AG 'Hanomag'
   builder/henschel:
   - 1414398209
   - 2026
@@ -6199,6 +6279,14 @@ badges:
   - ''
   - 0
   - Kitson & Co.
+  builder/koechlin:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - "Andr\xE9 Koechlin & Cie"
   builder/komarek:
   - 1414398209
   - 2026
@@ -6231,6 +6319,14 @@ badges:
   - ''
   - 0
   - "M\xC1V Northern Repair Works"
+  builder/mavag:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - MAVAG
   builder/metro_cammell:
   - 1414398209
   - 2026
@@ -6239,6 +6335,14 @@ badges:
   - ''
   - 0
   - Metro-Cammell
+  builder/mlw:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Montreal Locomotive Works 'MLW'
   builder/mtm:
   - 1414398209
   - 2026
@@ -6287,6 +6391,14 @@ badges:
   - ''
   - 0
   - Nippon Sharyo
+  builder/nohab:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Nydqvist och Holm AB 'NOHAB'
   builder/north_british:
   - 1414398209
   - 2026
@@ -6343,6 +6455,14 @@ badges:
   - ''
   - 0
   - Orenstein & Koppel
+  builder/pesa:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Pesa
   builder/pullman:
   - 1414398209
   - 2026
@@ -6447,6 +6567,14 @@ badges:
   - ''
   - 0
   - Toshiba
+  builder/tulloch:
+  - 1447963479
+  - 2026
+  - 10
+  - 17
+  - ''
+  - 0
+  - Tulloch Limited
   builder/ucw:
   - 1414398209
   - 2026
