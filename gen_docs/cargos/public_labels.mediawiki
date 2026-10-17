@@ -1,0 +1,502 @@
+
+=== Labels ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment,Classes !! Occurrences !! Using GRFIDs
+|-
+| ACET || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Acetic Acid || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| ACFT || [https://bananas.openttd.org/package/newgrf/41445201 ADRS] || 2026-08-16 || Aircraft || 1 - 41445201: [PieceGoods, Flatbed]" || 1 || 41445201
+|-
+| ACID || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Acid || 7 - 47475154 4a448807 4b4b0001 4d471001 4d471002 55440100 f1250007: [LiquidBulk, GasBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, LiquidBulk, Non-Potable]" || 13 || 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| ALO_ || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Alumina || 1 - 4a4b8808: [PieceGoods, CoveredBulk, PowderBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| ALUM || [https://bananas.openttd.org/package/newgrf/4e445903 Age of Industry Replacement Set] || 2024-04-13 || Aluminium || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>5 - 41445201 4d471001 4d471002 4e445903 55440100: [PieceGoods]" || 11 || 41445201 4a4b8808 4d433501 4d471001 4d471002 4e445903 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| AORE || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Bauxite || 18 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47475154 4a448807 4b4b0001 4d471001 4d471002 4d656f94 4e445903 4e4d1113 55440100 f1250005 f1250006 f1250007: [OpenBulk]<br>1 - 4a4b8808: [OpenBulk, Non-Potable]" || 20 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47475154 4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4d656f91 4d656f94 4e445903 4e4d1113 55440100 f1250005 f1250006 f1250007
+|-
+| APOL || [https://bananas.openttd.org/package/newgrf/454e1501 Apollo Rocket Industry Set] || 2019-07-16 || Apollo spacecraft || 1 - 454e1501: [Flatbed]" || 1 || 454e1501
+|-
+| ARMS || [https://bananas.openttd.org/package/newgrf/41445201 ADRS] || 2026-08-16 || Armaments || 1 - 41445201: [PieceGoods]" || 1 || 41445201
+|-
+| BAKE || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Flour || 1 - 47475154: [OpenBulk, PieceGoods, CoveredBulk, PowderBulk]<br>1 - 4a4b8808: [PieceGoods, CoveredBulk, PowderBulk, Potable]" || 2 || 47475154 4a4b8808
+|-
+| BATT || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Batteries || 3 - 47440101 56420303 OpenTTD: [PieceGoods]" || 3 || 47440101 56420303 OpenTTD
+|-
+| BDMT || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Building Materials || 22 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4e445903 f1250005 f1250006 f1250007: [OpenBulk, PieceGoods]<br>6 - 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Flatbed, Non-Potable]<br>2 - 4d656f9f 4f495431: [PieceGoods, CoveredBulk]<br>2 - 55440100 56420303: [PieceGoods]<br>1 - 4a4b8808: [PieceGoods, CoveredBulk, Flatbed, PowderBulk, Non-Potable]<br>1 - 4e4d1113: [OpenBulk, PieceGoods, CoveredBulk]" || 35 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f9f 4e445903 4e4d1113 4f495431 4f540001 54540401 55440100 56420303 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| BEAN || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Beans || 8 - 47470104 4a448807 4b4b0001 4d471001 4d471002 f1250005 f1250006 f1250007: [OpenBulk]<br>5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Potable]<br>1 - 414b3031: [OpenBulk, CoveredBulk]" || 14 || 414b3031 47470104 4a448807 4b4b0001 4d433501 4d471001 4d471002 4f540001 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| BEER || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Alcohol || 20 - 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 f1250005 f1250006 f1250007: [Express, PieceGoods, LiquidBulk]<br>5 - 4a4b8808 4d433501 4f540001 f1250009 f1250010: [Express, PieceGoods, LiquidBulk, Refrigerated, Potable]<br>1 - 414b3031: [LiquidBulk]<br>1 - 54543230: [Express, PieceGoods]<br>1 - f1250008: [Express, PieceGoods, LiquidBulk, Potable]" || 28 || 31ff0502 31ff0503 31ff0504 31ff0505 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 54543230 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| BIOM || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Biomass || 1 - 4a4b8808: [OpenBulk, PieceGoods, CoveredBulk, Non-Potable]<br>1 - 55440100: [OpenBulk]" || 2 || 4a4b8808 55440100
+|-
+| BITU || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Bitumen || 1 - 4f540001: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4f540001
+|-
+| BOOM || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Explosives || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, Armoured, PieceGoods, Non-Potable]<br>3 - 4a448807 4b4b0001 f1250007: [Express, PieceGoods]<br>2 - 41445201 47475154: [Express, PieceGoods, GasBulk]<br>1 - 55440100: [PieceGoods, GasBulk]" || 12 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| BPRE || [https://bananas.openttd.org/package/newgrf/47440101 Xmas Competition] || 2024-11-24 || Bad presents || 1 - 47440101: [PieceGoods]" || 1 || 47440101
+|-
+| BRCK || [https://bananas.openttd.org/package/newgrf/4d656f96 ECS Construction Vector] || 2010-12-30 || Bricks || 1 - 4d656f96: [PieceGoods]" || 2 || 4d656f91 4d656f96
+|-
+| BUBL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Bubbles || 2 - 54440901 OpenTTD: [PieceGoods]" || 2 || 54440901 OpenTTD
+|-
+| C2H4 || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Monomer || 1 - 4a4b8808: [PieceGoods, GasBulk, Non-Potable]<br>1 - 55440100: [LiquidBulk, GasBulk]" || 2 || 4a4b8808 55440100
+|-
+| C3H6 || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Propylene || 1 - 4a4b8808: [PieceGoods, GasBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| CAND || [https://bananas.openttd.org/package/newgrf/58583031 Clooppy Mod] || 2026-09-19 || "Candy" || " || 1 || 58583031
+|-
+| CASH || [https://bananas.openttd.org/package/newgrf/54440901 Cargo Pyramid Industry Set] || 2025-03-02 || Money || 1 - 54440901: [Express]" || 1 || 54440901
+|-
+| CASS || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Cassava || 5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, CoveredBulk, Potable]<br>4 - 4a448807 4b4b0001 f1250006 f1250007: [OpenBulk]<br>1 - 4a4b8808: [PieceGoods, CoveredBulk, Potable]" || 10 || 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| CBLK || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Carbon Black || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, PowderBulk, Non-Potable]<br>1 - 55440100: [OpenBulk, PieceGoods, CoveredBulk, PowderBulk]" || 7 || 4a4b8808 4d433501 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| CCPR || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Concrete Products || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| CERA || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 ||  || " || 1 || 4d656f91
+|-
+| CERE || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Cereals || 1 - 4d656f97: [OpenBulk, CoveredBulk]" || 2 || 4d656f91 4d656f97
+|-
+| CHAM || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Champagne || 1 - 50524f48: [PieceGoods]" || 1 || 50524f48
+|-
+| CHEM || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Chemicals || 5 - 4d433501 4f540001 54540401 f1250009 f1250010: [PieceGoods, LiquidBulk, GasBulk, CoveredBulk, PowderBulk, Non-Potable]" || 5 || 4d433501 4f540001 54540401 f1250009 f1250010
+|-
+| CHLO || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Chlorine || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, GasBulk, Non-Potable]<br>5 - 47475154 4a448807 4b4b0001 55440100 f1250007: [LiquidBulk, GasBulk]" || 11 || 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| CHSE || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Cheese || 1 - 47475154: [Express, PieceGoods, Refrigerated]" || 1 || 47475154
+|-
+| CIGR || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Cigars || 1 - 54543230: [Express, PieceGoods]" || 1 || 54543230
+|-
+| CLAY || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Clay || 22 - 31ff0502 31ff0503 31ff0504 31ff0505 44440603 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4e4d1113 f1250005 f1250006 f1250007: [OpenBulk, CoveredBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, CoveredBulk, Non-Potable]<br>1 - 56420303: [OpenBulk]" || 30 || 31ff0502 31ff0503 31ff0504 31ff0505 44440603 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4e4d1113 4f540001 56420303 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| CMNT || [https://bananas.openttd.org/package/newgrf/4d656f96 ECS Construction Vector] || 2010-12-30 || Cement || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, PowderBulk, Non-Potable]<br>5 - 41445201 4d471001 4d471002 4e445903 55440100: [OpenBulk, CoveredBulk, PowderBulk]<br>5 - 47475154 4a448807 4b4b0001 4d656f96 f1250007: [OpenBulk, CoveredBulk]" || 17 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f96 4e445903 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| COAL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Coal || 34 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f92 4d656f9f 4e445903 4e4d1113 4f472b33 4f495431 54440901 54454d39 54543231 55440100 f1250005 f1250006 f1250007: [OpenBulk]<br>8 - 4a4b8808 4d433501 4f540001 54540401 OpenTTD f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 43 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f92 4d656f9f 4e445903 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 54543231 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| COAT || [https://bananas.openttd.org/package/newgrf/54543231 Lumberjack Industries] || 2021-12-17 || Varnish || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, LiquidBulk, Non-Potable]<br>4 - 4d471001 4d471002 54543231 55440100: [PieceGoods, LiquidBulk]" || 10 || 4a4b8808 4d433501 4d471001 4d471002 4f540001 54543231 55440100 f1250008 f1250009 f1250010
+|-
+| COBL || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Cobalt || 1 - 54543230: [PieceGoods]" || 1 || 54543230
+|-
+| COCO || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Copper Concentrate || 1 - 4a4b8808: [PieceGoods, CoveredBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| COKE || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Coke || 8 - 41445201 4a448807 4b4b0001 4d471001 4d471002 4e445903 55440100 f1250007: [OpenBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 14 || 41445201 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| COLA || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Cola || 3 - 47440101 54440901 OpenTTD: [LiquidBulk]" || 3 || 47440101 54440901 OpenTTD
+|-
+| COND || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Condensate || 1 - 4f540001: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4f540001
+|-
+| CONV || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Convicts || 1 - 50524f48: [Passengers, Armoured]" || 1 || 50524f48
+|-
+| COPR || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Copper || 10 - 41445201 44440602 47475154 4a448807 4b4b0001 4d471001 4d471002 55440100 f1250006 f1250007: [PieceGoods]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 16 || 41445201 44440602 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 55440100 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| CORE || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Copper Ore || 15 - 47472030 47472031 47475154 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4e4d1113 4f472b33 54440901 55440100 f1250005 f1250006 f1250007: [OpenBulk]<br>8 - 41445201 4a4b8808 4d433501 4f540001 OpenTTD f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 24 || 41445201 47472030 47472031 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4e4d1113 4f472b33 4f540001 54440901 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| COST || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Coast Guard officers || 1 - 50524f48: [Passengers]" || 1 || 50524f48
+|-
+| CSTI || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Cast Iron || 5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 5 || 4d433501 4f540001 f1250008 f1250009 f1250010
+|-
+| CTAR || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Coal Tar || 5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [LiquidBulk, Non-Potable]<br>1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 6 || 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010
+|-
+| CTCD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Cotton Candy (Candyfloss) || 2 - 54440901 OpenTTD: [OpenBulk]" || 2 || 54440901 OpenTTD
+|-
+| DIAM || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Diamonds || 13 - 4a448807 4a4b8808 4b4b0001 4d634d69 4f472b33 54440901 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010: [Armoured]<br>2 - 4d433501 4f540001: [Armoured, Non-Potable]" || 16 || 4a448807 4a4b8808 4b4b0001 4d433501 4d634d69 4d656f91 4f472b33 4f540001 54440901 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| DIOS || [https://bananas.openttd.org/package/newgrf/414b3031 OpenHRT Estrogen] || 2025-03-09 || Diosgenin || 1 - 414b3031: [OpenBulk, Refrigerated]" || 1 || 414b3031
+|-
+| DYES || [https://bananas.openttd.org/package/newgrf/4d656f9c ECS Chemical vector II] || 2016-01-10 || Dyes || 1 - 4d656f9c: [PieceGoods, LiquidBulk]" || 2 || 4d656f91 4d656f9c
+|-
+| ELEC || [https://bananas.openttd.org/package/newgrf/454e1501 Apollo Rocket Industry Set] || 2019-07-16 || Electronics || 2 - 454e1501 4d471001: [PieceGoods]" || 2 || 454e1501 4d471001
+|-
+| ELTR || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Electricity || 1 - 47475154: [Special]" || 1 || 47475154
+|-
+| ENRG || [https://bananas.openttd.org/package/newgrf/54440901 Cargo Pyramid Industry Set] || 2025-03-02 || Energy || 1 - 54440901: [LiquidBulk]" || 1 || 54440901
+|-
+| ENSP || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Engineering Supplies || 20 - 31ff0505 41445201 414b3031 444410aa 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4b4b0001 4d471001 4d471002 4e445903 4e4d1113 54543230 f1250005 f1250006 f1250007: [Express, PieceGoods]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, PieceGoods, Flatbed, Non-Potable]<br>1 - 47470105: [Mail, Express]<br>1 - 4f495431: [PieceGoods, CoveredBulk]<br>1 - 55440100: [PieceGoods]" || 29 || 31ff0505 41445201 414b3031 444410aa 47470105 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4e4d1113 4f495431 4f540001 54543230 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| ENUM || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Food Additives || 1 - 4a4b8808: [PieceGoods, LiquidBulk, CoveredBulk, Potable]" || 1 || 4a4b8808
+|-
+| EOIL || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Edible Oil || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, LiquidBulk, Potable]<br>4 - 4a448807 4b4b0001 f1250006 f1250007: [PieceGoods, LiquidBulk]<br>1 - 414b3031: [LiquidBulk]" || 11 || 414b3031 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| ESTR || [https://bananas.openttd.org/package/newgrf/414b3031 OpenHRT Estrogen] || 2025-03-09 || Estrogen || 1 - 414b3031: [Express, Refrigerated]" || 1 || 414b3031
+|-
+| ETHY || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Ethylene || 1 - 4f540001: [LiquidBulk, GasBulk, Non-Potable]" || 1 || 4f540001
+|-
+| EXPL || [https://bananas.openttd.org/package/newgrf/58583031 Clooppy Mod] || 2026-10-12 || Exploding babies || " || 1 || 58583031
+|-
+| FEAL || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Ferroalloys || 4 - 4d433501 4f540001 f1250009 f1250010: [OpenBulk, PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| FECR || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Ferrochrome || 2 - 4a4b8808 f1250008: [OpenBulk, Non-Potable]" || 2 || 4a4b8808 f1250008
+|-
+| FERT || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Fertiliser || 8 - 47475154 4a448807 4b4b0001 4e445903 54543230 54543231 55440100 f1250007: [OpenBulk, PieceGoods, CoveredBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Non-Potable]<br>2 - 414b3031 4d656f97: [OpenBulk, PieceGoods]<br>1 - 47470105: [PieceGoods, CoveredBulk]" || 18 || 414b3031 47470105 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d656f91 4d656f97 4e445903 4f540001 54543230 54543231 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| FFLD || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Fracking Fluid || 1 - 4f540001: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4f540001
+|-
+| FICR || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Plant Fibres || 19 - 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4b4b0001 4d656f97 4e4d1113 f1250005 f1250006 f1250007: [OpenBulk, PieceGoods]<br>1 - 47475154: [OpenBulk, PieceGoods, CoveredBulk]<br>1 - 4a4b8808: [PieceGoods, Non-Potable]" || 22 || 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d656f91 4d656f97 4e4d1113 f1250005 f1250006 f1250007
+|-
+| FISH || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Fish || 26 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d656f97 4e445903 4e4d1113 55440100 f1250005 f1250006 f1250007: [Express, Refrigerated]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, Refrigerated, Potable]" || 33 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d656f91 4d656f97 4e445903 4e4d1113 4f540001 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| FMSP || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Farm Supplies || 11 - 444410aa 47470104 47470105 4a448807 4b4b0001 4d471001 4d471002 4e445903 f1250005 f1250006 f1250007: [Express, PieceGoods]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, PieceGoods, Flatbed, Non-Potable]<br>1 - 31ff0505: [OpenBulk, PieceGoods, LiquidBulk]<br>1 - 4e4d1113: [Express, OpenBulk, PieceGoods, LiquidBulk, CoveredBulk]" || 19 || 31ff0505 444410aa 47470104 47470105 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4e4d1113 4f540001 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| FOCA || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Forgings & Castings || 3 - 4d433501 4f540001 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>1 - f1250009: [PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| FOOD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Food || 32 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f97 4e445903 4e4d1113 54440901 54454d39 54543230 54543231 55440100 f1250005 f1250006 f1250007: [Express, Refrigerated]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, PieceGoods, LiquidBulk, Refrigerated, CoveredBulk, Potable]<br>2 - 444410aa 4f495431: [Express, PieceGoods, Refrigerated]<br>1 - 4f472b33: [Refrigerated]<br>1 - 54540401: [Express, LiquidBulk, Refrigerated, CoveredBulk, Potable]<br>1 - 56420303: [PieceGoods, Refrigerated]<br>1 - OpenTTD: [Express, Refrigerated, Potable]" || 45 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f97 4e445903 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 54543230 54543231 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| FRUT || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Fruit || 23 - 31ff0502 31ff0503 31ff0504 31ff0505 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4e4d1113 55440100 f1250005 f1250006 f1250007: [Express, PieceGoods, Refrigerated]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, PieceGoods, Refrigerated, CoveredBulk, Potable]<br>3 - 4d634d69 4d656f97 54440901: [OpenBulk, Refrigerated]<br>1 - 4f472b33: [Refrigerated]<br>1 - 56420303: [PieceGoods, CoveredBulk]<br>1 - OpenTTD: [OpenBulk, Refrigerated, Potable]" || 36 || 31ff0502 31ff0503 31ff0504 31ff0505 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f97 4e4d1113 4f472b33 4f540001 54440901 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| FRVG || [https://bananas.openttd.org/package/newgrf/47470105 Z. Austailian Industry V3] || 2016-06-22 || Vegetables || 8 - 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001: [Express, PieceGoods, Refrigerated]" || 8 || 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001
+|-
+| FUEL || [https://bananas.openttd.org/package/newgrf/47470160 Z. AuzInd160] || 2017-02-23 || Fuel || 8 - 47470160 47471080 47472017 47472030 47472031 47476001 54543230 54543231: [LiquidBulk]<br>1 - 47475154: [LiquidBulk, GasBulk]" || 9 || 47470160 47471080 47472017 47472030 47472031 47475154 47476001 54543230 54543231
+|-
+| FURN || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Furniture || 2 - 47475154 4f495431: [PieceGoods, CoveredBulk]<br>2 - 4d471001 4d471002: [PieceGoods]<br>1 - 4a4b8808: [PieceGoods, Non-Potable]" || 5 || 47475154 4a4b8808 4d471001 4d471002 4f495431
+|-
+| FZDR || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Fizzy Drinks || 2 - 54440901 OpenTTD: [PieceGoods]" || 2 || 54440901 OpenTTD
+|-
+| GANG || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Gangsters || 1 - 50524f48: [Passengers]" || 1 || 50524f48
+|-
+| GEAR || [https://www.tt-forums.net Community] || 1995-11-01 || Locomotive regearing - Special cargo used for livery refit tricks. || " || 0 ||
+|-
+| GLAS || [https://bananas.openttd.org/package/newgrf/4d656f92 ECS Basic vector] || 2009-11-27 || Glass || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>4 - 4d471001 4d471002 4d656f92 55440100: [PieceGoods]<br>2 - 4d656f9f 4f495431: [PieceGoods, Flatbed]<br>1 - 47475154: [OpenBulk, PieceGoods]<br>1 - 4e4d1113: [Express, PieceGoods]" || 15 || 47475154 4a4b8808 4d433501 4d471001 4d471002 4d656f91 4d656f92 4d656f9f 4e4d1113 4f495431 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| GOLD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Gold || 7 - 41445201 43530201 4d634d69 4d656f92 4f472b33 54440901 OpenTTD: [Armoured]<br>1 - 50524f48: [Express, Armoured, PieceGoods]" || 9 || 41445201 43530201 4d634d69 4d656f91 4d656f92 4f472b33 50524f48 54440901 OpenTTD
+|-
+| GOOD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Goods || 32 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f91 4e445903 4e4d1113 4f472b33 54440901 54454d39 54543231 55440100 OpenTTD f1250005 f1250006 f1250007: [Express]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [Express, PieceGoods, Flatbed, Non-Potable]<br>2 - 414b3031 454e3101: [Express, PieceGoods]" || 41 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 414b3031 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4e445903 4e4d1113 4f472b33 4f540001 54440901 54454d39 54540401 54543231 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| GPRE || [https://bananas.openttd.org/package/newgrf/47440101 Xmas Competition] || 2024-11-24 || Good presents || 1 - 47440101: [PieceGoods]" || 1 || 47440101
+|-
+| GRAI || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Grain || 27 - 31ff0502 31ff0503 31ff0504 31ff0505 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4b4b0001 4d471001 4d471002 4e445903 4e4d1113 4f472b33 4f495431 54440901 54543231 55440100 f1250005 f1250006 f1250007: [OpenBulk]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Potable]<br>5 - 444410aa 47475154 4d634d69 54454d39 56420303: [OpenBulk, CoveredBulk]<br>2 - 41445201 OpenTTD: [OpenBulk, Potable]" || 41 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4e445903 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 54543231 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| GRVL || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Stone || 25 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440603 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4e445903 4e4d1113 56420303 f1250005 f1250006 f1250007: [OpenBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 32 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440603 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4e445903 4e4d1113 4f540001 56420303 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| GTRD || [https://bananas.openttd.org/package/newgrf/47440101 Xmas Competition] || 2024-11-24 || Glittered turds || 1 - 47440101: [OpenBulk]" || 1 || 47440101
+|-
+| H2__ || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Hydrogen || 1 - 4a4b8808: [PieceGoods, GasBulk, Non-Potable]<br>1 - 55440100: [LiquidBulk, GasBulk]" || 2 || 4a4b8808 55440100
+|-
+| HCOW || [https://bananas.openttd.org/package/newgrf/54440901 Cargo Pyramid Industry Set] || 2025-03-02 || Holy cow || 1 - 54440901: [Express, PieceGoods]" || 1 || 54440901
+|-
+| HCWI || [https://bananas.openttd.org/package/newgrf/54440901 Cargo Pyramid Industry Set] || 2025-03-02 || Holy cow true || 1 - 54440901: [GasBulk]" || 1 || 54440901
+|-
+| HOIL || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Heavy Oil || 1 - 4f540001: [LiquidBulk, Non-Potable]" || 1 || 4f540001
+|-
+| HVEH || [https://bananas.openttd.org/package/newgrf/54454d39 Temporal8 Real Industries 32bpp] || 2025-09-27 ||  Heavy Vehicles || 1 - 54454d39: [PieceGoods, Flatbed]" || 1 || 54454d39
+|-
+| HWAR || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Hardware || 4 - 4d433501 4f540001 f1250009 f1250010: [Express, PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| HYAC || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Hydrochloric Acid || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| IORE || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Iron Ore || 34 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f94 4e445903 4e4d1113 4f472b33 4f495431 54440901 54454d39 55440100 56420303 f1250005 f1250006 f1250007: [OpenBulk]<br>8 - 4a4b8808 4d433501 4f540001 54540401 OpenTTD f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 43 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f94 4e445903 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| IRON || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Pig Iron || 7 - 41445201 4a448807 4b4b0001 4d471001 4d471002 4e445903 f1250007: [PieceGoods]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]" || 13 || 41445201 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4f540001 f1250007 f1250008 f1250009 f1250010
+|-
+| JAVA || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Coffee || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, PieceGoods, Potable]<br>5 - 4a448807 4b4b0001 54543230 f1250006 f1250007: [Express, PieceGoods]<br>2 - 47470104 f1250005: [PieceGoods]" || 13 || 47470104 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 54543230 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| JAZZ || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Jazz Musicians || 1 - 50524f48: [Passengers]" || 1 || 50524f48
+|-
+| KAOL || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Kaolin || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, LiquidBulk, CoveredBulk, Non-Potable]<br>4 - 4a448807 4b4b0001 54543231 f1250007: [OpenBulk, LiquidBulk, CoveredBulk]<br>2 - 4d471001 4d471002: [OpenBulk, CoveredBulk]" || 12 || 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 54543231 f1250007 f1250008 f1250009 f1250010
+|-
+| LAMB || [https://bananas.openttd.org/package/newgrf/41445201 ADRS] || 2026-08-16 || Virgin Lambs || 1 - 41445201: [PieceGoods]" || 1 || 41445201
+|-
+| LEAT || [https://bananas.openttd.org/package/newgrf/4f495431 Open Industries: Temperate] || 2026-07-31 || Leather || 1 - 4f495431: [PieceGoods, CoveredBulk]" || 1 || 4f495431
+|-
+| LIME || [https://bananas.openttd.org/package/newgrf/4d656f96 ECS Construction Vector] || 2010-12-30 || Limestone || 10 - 41445201 47475154 4a448807 4b4b0001 4d471001 4d471002 4d656f96 4e445903 55440100 f1250007: [OpenBulk]<br>5 - 4a4b8808 4d433501 4f540001 f1250009 f1250010: [OpenBulk, CoveredBulk, Non-Potable]<br>1 - f1250008: [OpenBulk, Non-Potable]" || 17 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f96 4e445903 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| LMBR || [https://bananas.openttd.org/package/newgrf/65460101 DefaultIndustriesPlus] || 2025-03-29 || Lumber || 1 - 65460101: [PieceGoods]" || 1 || 65460101
+|-
+| LNDR || [https://bananas.openttd.org/package/newgrf/454e1501 Apollo Rocket Industry Set] || 2019-07-16 || Apollo landers || 1 - 454e1501: [Flatbed]" || 1 || 454e1501
+|-
+| LNG_ || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || LNG || 1 - 4f540001: [LiquidBulk, GasBulk, Non-Potable]" || 1 || 4f540001
+|-
+| LOIL || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Light Oil || 1 - 4f540001: [LiquidBulk, Non-Potable]" || 1 || 4f540001
+|-
+| LPG_ || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || LPG || 1 - 4f540001: [LiquidBulk, GasBulk, Non-Potable]" || 1 || 4f540001
+|-
+| LUBR || [https://bananas.openttd.org/package/newgrf/65460101 DefaultIndustriesPlus] || 2025-03-29 || Lubricants || 2 - 4f495431 65460101: [LiquidBulk]<br>1 - 4f540001: [PieceGoods, LiquidBulk, Non-Potable]" || 3 || 4f495431 4f540001 65460101
+|-
+| LVST || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Livestock || 29 - 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f97 4e4d1113 4f472b33 4f495431 54440901 54454d39 55440100 56420303 f1250005 f1250006 f1250007: [PieceGoods]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, Weird, Non-Potable]<br>2 - 41445201 OpenTTD: [PieceGoods, Non-Potable]" || 39 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f97 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| LYE_ || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Sodium Hydroxide || 3 - 4a4b8808 4d433501 4f540001: [PieceGoods, LiquidBulk, Non-Potable]<br>3 - f1250008 f1250009 f1250010: [LiquidBulk, Non-Potable]<br>1 - 55440100: [LiquidBulk, GasBulk]" || 7 || 4a4b8808 4d433501 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| MAIL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Mail || 41 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4e445903 4e4d1113 4f495431 4f540001 50524f48 54440901 54454d39 54540401 54543230 54543231 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010: [Mail]" || 41 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4e445903 4e4d1113 4f495431 4f540001 50524f48 54440901 54454d39 54540401 54543230 54543231 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| MAIZ || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Maize || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Potable]<br>4 - 4a448807 4b4b0001 f1250006 f1250007: [OpenBulk]<br>3 - 414b3031 47475154 54454d39: [OpenBulk, CoveredBulk]<br>1 - OpenTTD: [OpenBulk, Potable]" || 14 || 414b3031 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 54454d39 OpenTTD f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| MATE || [https://bananas.openttd.org/package/newgrf/4a500101 QuartermasterGRF] || 2026-06-14 || Materiel (military term) || 2 - 4a500101 594b0101: [PieceGoods, CoveredBulk]" || 2 || 4a500101 594b0101
+|-
+| MEAT || [https://bananas.openttd.org/package/newgrf/47470160 Z. AuzInd160] || 2017-02-23 || Meat || 8 - 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4f495431: [Express, PieceGoods, Refrigerated]<br>1 - 4a4b8808: [Express, Refrigerated, Potable]" || 9 || 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a4b8808 4f495431
+|-
+| MEOH || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Methanol || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| METL || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Metal || 4 - 4a448807 4b4b0001 4e4d1113 f1250007: [PieceGoods]<br>1 - 454e1501: [OpenBulk]" || 5 || 454e1501 4a448807 4b4b0001 4e4d1113 f1250007
+|-
+| MILK || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Milk || 22 - 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4e4d1113 55440100 f1250005 f1250006 f1250007: [Express, LiquidBulk, Refrigerated]<br>5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [Express, LiquidBulk, Refrigerated, Potable]<br>1 - 4a4b8808: [Express, PieceGoods, LiquidBulk, Refrigerated, Potable]" || 28 || 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e4d1113 4f540001 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| MNO2 || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Manganese || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]<br>4 - 4a448807 4b4b0001 f1250006 f1250007: [OpenBulk]" || 10 || 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| MNRL || [https://bananas.openttd.org/package/newgrf/414b3031 OpenHRT Estrogen] || 2025-03-09 || Minerals || 1 - 414b3031: [OpenBulk]" || 1 || 414b3031
+|-
+| MNSP || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Manufacturing Supplies || 18 - 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4b4b0001 54543231 f1250005 f1250006 f1250007: [Express, PieceGoods]<br>2 - 414b3031 55440100: [PieceGoods]<br>1 - 4a4b8808: [Express, PieceGoods, Non-Potable]" || 21 || 31ff0502 31ff0503 31ff0504 31ff0505 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4a4b8808 4b4b0001 54543231 55440100 f1250005 f1250006 f1250007
+|-
+| MOLS || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Molasses || 1 - 54543230: [LiquidBulk]" || 1 || 54543230
+|-
+| MOON || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Moonshine || 1 - 50524f48: [PieceGoods]" || 1 || 50524f48
+|-
+| MPAR || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Metal Parts || 1 - 4a4b8808: [PieceGoods, Non-Potable]" || 1 || 4a4b8808
+|-
+| MPTS || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Machine Parts || 1 - 47475154: [PieceGoods, CoveredBulk]" || 1 || 47475154
+|-
+| N2__ || [https://bananas.openttd.org/package/newgrf/55440100 GIST - German Industries Set] || 2026-03-14 || Nitrogen || 1 - 55440100: [LiquidBulk]" || 1 || 55440100
+|-
+| N7__ || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Nitrogen || 5 - 4a4b8808 4d433501 4f540001 f1250009 f1250010: [PieceGoods, GasBulk, Non-Potable]" || 5 || 4a4b8808 4d433501 4f540001 f1250009 f1250010
+|-
+| NAPH || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Naphtha || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]<br>1 - 4f540001: [LiquidBulk, Non-Potable]" || 2 || 4a4b8808 4f540001
+|-
+| NGAS || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Raw Gas || 1 - 4f540001: [LiquidBulk, GasBulk, Non-Potable]" || 1 || 4f540001
+|-
+| NH3_ || [https://bananas.openttd.org/package/newgrf/4e445903 Age of Industry Replacement Set] || 2024-04-13 || Ammonia || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, GasBulk, Non-Potable]<br>3 - 4d471001 4d471002 4e445903: [LiquidBulk, GasBulk]<br>1 - 55440100: [LiquidBulk]" || 10 || 4a4b8808 4d433501 4d471001 4d471002 4e445903 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| NHNO || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Ammonium Nitrate || 3 - 4d471001 4d471002 55440100: [OpenBulk, PieceGoods, GasBulk]<br>1 - 4a4b8808: [PieceGoods, LiquidBulk, CoveredBulk, Non-Potable]" || 4 || 4a4b8808 4d471001 4d471002 55440100
+|-
+| NICK || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Nickel || 1 - 54543230: [PieceGoods]" || 1 || 54543230
+|-
+| NITR || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Nitrates || 8 - 41445201 4a448807 4b4b0001 4d471001 4d471002 f1250005 f1250006 f1250007: [OpenBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, CoveredBulk, Non-Potable]" || 14 || 41445201 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| NKOR || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Nickel || 2 - 47475154 54543230: [OpenBulk]" || 2 || 47475154 54543230
+|-
+| NODC || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Empty Electricity batteries || 1 - 4d471001: [PieceGoods]" || 1 || 4d471001
+|-
+| NUTS || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Nuts || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Potable]<br>4 - 4a448807 4b4b0001 f1250006 f1250007: [PieceGoods]" || 10 || 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| O2__ || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Oxygen || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, GasBulk, Non-Potable]<br>1 - 55440100: [LiquidBulk]" || 7 || 4a4b8808 4d433501 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| OILD || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Oil (domestic) || 1 - 54543230: [LiquidBulk]" || 1 || 54543230
+|-
+| OILI || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Oil (imported) || 1 - 54543230: [LiquidBulk]" || 1 || 54543230
+|-
+| OIL_ || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Oil || 31 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f9c 4e445903 4e4d1113 4f472b33 54440901 54454d39 54543231 55440100 56420303 f1250005 f1250006 f1250007: [LiquidBulk]<br>7 - 4d433501 4f540001 54540401 OpenTTD f1250008 f1250009 f1250010: [LiquidBulk, Non-Potable]<br>2 - 47475154 4f495431: [LiquidBulk, GasBulk]<br>1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 42 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f9c 4e445903 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 54543231 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| OLSD || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Oil seeds || 1 - 4a4b8808: [PieceGoods, CoveredBulk, Potable]<br>1 - 4d656f97: [OpenBulk, CoveredBulk]" || 3 || 4a4b8808 4d656f91 4d656f97
+|-
+| OTI1 || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Workers || 1 - 47475154: [Passengers]" || 1 || 47475154
+|-
+| OTI2 || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Tourists || 2 - 47475154 54454d39: [Passengers]" || 2 || 47475154 54454d39
+|-
+| OYST || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Oysters || 1 - 47475154: [Express, PieceGoods, Refrigerated]" || 1 || 47475154
+|-
+| PACK || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Packaging || 2 - 4d471001 4d471002: [PieceGoods]" || 2 || 4d471001 4d471002
+|-
+| PAPR || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Paper || 19 - 31ff0502 31ff0503 31ff0504 31ff0505 47472030 47472031 47476001 4a448807 4b4b0001 4d634d69 4d656f95 4e4d1113 4f472b33 54543231 55440100 OpenTTD f1250005 f1250006 f1250007: [PieceGoods]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>2 - 47475154 4f495431: [PieceGoods, CoveredBulk]" || 30 || 31ff0502 31ff0503 31ff0504 31ff0505 44440602 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d634d69 4d656f91 4d656f95 4e4d1113 4f472b33 4f495431 4f540001 54540401 54543231 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| PASS || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Passengers || 41 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4e445903 4e4d1113 4f495431 4f540001 50524f48 54440901 54454d39 54540401 54543230 54543231 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010: [Passengers]" || 43 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4a500101 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4e445903 4e4d1113 4f495431 4f540001 50524f48 54440901 54454d39 54540401 54543230 54543231 55440100 594b0101 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| PCL_ || [https://bananas.openttd.org/package/newgrf/47470104 Z. Australian Industries] || 2015-09-20 || Parcels || 6 - 47470160 47471080 47472017 47472030 47472031 47476001: [Mail, Express]<br>1 - 47470104: [Express, PieceGoods]<br>1 - 47475154: [Mail, Express, PieceGoods]" || 8 || 47470104 47470160 47471080 47472017 47472030 47472031 47475154 47476001
+|-
+| PEAT || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Peat || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]<br>3 - 4a448807 4b4b0001 f1250007: [OpenBulk]" || 9 || 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 f1250007 f1250008 f1250009 f1250010
+|-
+| PETR || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Petrol || 20 - 31ff0502 31ff0503 31ff0504 41445201 44440602 444410aa 47470104 47470105 4a448807 4b4b0001 4d471001 4d471002 4d656f9c 4e445903 4e4d1113 56420303 65460101 f1250005 f1250006 f1250007: [LiquidBulk]<br>5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [LiquidBulk, Non-Potable]<br>4 - 47475154 4f495431 54454d39 55440100: [LiquidBulk, GasBulk]<br>1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 31 || 31ff0502 31ff0503 31ff0504 41445201 44440602 444410aa 47470104 47470105 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f9c 4e445903 4e4d1113 4f495431 4f540001 54454d39 55440100 56420303 65460101 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| PHAC || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Phosphoric Acid || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| PHOS || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Phosphate || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, CoveredBulk, Non-Potable]<br>5 - 4a448807 4b4b0001 4e445903 f1250006 f1250007: [OpenBulk]" || 11 || 4a448807 4a4b8808 4b4b0001 4d433501 4e445903 4f540001 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| PIPE || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Pipe || 5 - 47475154 4a448807 4b4b0001 54543230 f1250007: [PieceGoods]<br>1 - f1250008: [PieceGoods, Non-Potable]" || 6 || 47475154 4a448807 4b4b0001 54543230 f1250007 f1250008
+|-
+| PIZZ || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Pizza || 1 - 50524f48: [PieceGoods]" || 1 || 50524f48
+|-
+| PLAS || [https://bananas.openttd.org/package/newgrf/44440602 Pikka's Basic Industries] || 2019-02-21 || Plastics || 4 - 4a4b8808 4f540001 54540401 f1250008: [PieceGoods, CoveredBulk, Non-Potable]<br>2 - 4d471001 4d471002: [OpenBulk, PieceGoods, CoveredBulk]<br>1 - 44440602: [PieceGoods, LiquidBulk]<br>1 - 54454d39: [PieceGoods]<br>1 - 55440100: [OpenBulk, CoveredBulk]" || 9 || 44440602 4a4b8808 4d471001 4d471002 4f540001 54454d39 54540401 55440100 f1250008
+|-
+| PLAY || [https://bananas.openttd.org/package/newgrf/54454d39 Temporal8 Real Industries 32bpp] || 2025-09-27 ||  Players || 1 - 54454d39: [Passengers]" || 1 || 54454d39
+|-
+| PLNT || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Plant & Machinery || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| PLST || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Plastic || 2 - 47440101 OpenTTD: [LiquidBulk]" || 3 || 47440101 4d656f91 OpenTTD
+|-
+| POLI || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Police officers || 1 - 50524f48: [Passengers]" || 1 || 50524f48
+|-
+| PORE || [https://bananas.openttd.org/package/newgrf/f1250006 FIRS Industries 2] || 2016-10-21 || Pyrite Ore || 6 - 4a448807 4b4b0001 4e4d1113 55440100 f1250006 f1250007: [OpenBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 12 || 4a448807 4a4b8808 4b4b0001 4d433501 4e4d1113 4f540001 55440100 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| POTA || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Potash || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, Non-Potable]<br>2 - 4e445903 55440100: [OpenBulk]<br>1 - 414b3031: [OpenBulk, CoveredBulk]" || 10 || 414b3031 4a4b8808 4d433501 4d656f91 4e445903 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| POWR || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Electrical Machines || 6 - 41445201 4a448807 4b4b0001 4d471001 4d471002 f1250007: [PieceGoods]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>1 - 47475154: [PieceGoods, CoveredBulk]" || 13 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 f1250007 f1250008 f1250009 f1250010
+|-
+| PPAR || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Plastic Parts || 1 - 4a4b8808: [PieceGoods, Non-Potable]" || 1 || 4a4b8808
+|-
+| PPWK || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Storage Tanks & Pipework || 3 - 4d433501 4f540001 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>1 - f1250009: [PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| PRIS || [https://bananas.openttd.org/package/newgrf/54454d39 Temporal8 Real Industries 32bpp] || 2025-09-27 ||  Prisioners || 1 - 54454d39: [Passengers]" || 1 || 54454d39
+|-
+| PRNT || [https://bananas.openttd.org/package/newgrf/4f495431 Open Industries: Temperate] || 2026-07-31 || Printed Products || 1 - 4f495431: [PieceGoods, CoveredBulk]" || 1 || 4f495431
+|-
+| PUMP || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Pumps & Valves || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| QLME || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Quicklime || 8 - 41445201 4a448807 4b4b0001 4d471001 4d471002 4e445903 55440100 f1250007: [OpenBulk, CoveredBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, PowderBulk, Non-Potable]" || 14 || 41445201 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| RAMT || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Rare Metals || 1 - 4a4b8808: [PieceGoods, Non-Potable]" || 1 || 4a4b8808
+|-
+| RBAR || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Rebar || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| RCND || [https://bananas.openttd.org/package/newgrf/43530201 Cargostrife GRF] || 2026-07-31 || Rock Candy || 1 - 43530201: [Mail, Armoured]" || 1 || 43530201
+|-
+| RCYC || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Recyclables || 10 - 31ff0504 31ff0505 41445201 4a448807 4b4b0001 4e445903 55440100 6a647204 f1250006 f1250007: [OpenBulk, PieceGoods]<br>3 - 31ff0502 31ff0503 f1250005: [PieceGoods, CoveredBulk]<br>1 - 4a4b8808: [OpenBulk, PieceGoods, Non-Potable]" || 14 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 4a448807 4a4b8808 4b4b0001 4e445903 55440100 6a647204 f1250005 f1250006 f1250007
+|-
+| REDD || [https://bananas.openttd.org/package/newgrf/58583031 Clooppy Mod] || 2026-10-12 || Redditors || 1 - 58583031: [Passengers]" || 1 || 58583031
+|-
+| RENG || [https://bananas.openttd.org/package/newgrf/454e1501 Apollo Rocket Industry Set] || 2019-07-16 || Rocket engines || 1 - 454e1501: [PieceGoods]" || 1 || 454e1501
+|-
+| RFPR || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Chemicals || 20 - 31ff0502 31ff0503 31ff0504 31ff0505 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d656f9c 4e4d1113 f1250005 f1250006 f1250007: [LiquidBulk]<br>4 - 41445201 4d471001 4d471002 4e445903: [PieceGoods, LiquidBulk, GasBulk]<br>2 - 414b3031 55440100: [LiquidBulk, GasBulk]<br>2 - 54543230 54543231: [LiquidBulk, PowderBulk]<br>1 - 444410aa: [OpenBulk, PieceGoods, LiquidBulk, CoveredBulk]<br>1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]<br>1 - f1250008: [PieceGoods, LiquidBulk, GasBulk, Non-Potable]" || 32 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 414b3031 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d471001 4d471002 4d656f91 4d656f9c 4e445903 4e4d1113 54543230 54543231 55440100 f1250005 f1250006 f1250007 f1250008
+|-
+| RGAS || [https://bananas.openttd.org/package/newgrf/4f540001 FIRS Forked: Oil Town] || 2026-04-20 || Refinery Gas || 1 - 4f540001: [LiquidBulk, GasBulk, Non-Potable]" || 1 || 4f540001
+|-
+| RSTG || [https://bananas.openttd.org/package/newgrf/454e1501 Apollo Rocket Industry Set] || 2019-07-16 || Rocket stages || 1 - 454e1501: [Flatbed]" || 1 || 454e1501
+|-
+| RUBR || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Rubber || 10 - 47475154 4a448807 4b4b0001 4d634d69 4f472b33 54440901 55440100 f1250005 f1250006 f1250007: [LiquidBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, LiquidBulk, CoveredBulk, PowderBulk, Non-Potable]<br>2 - 41445201 OpenTTD: [LiquidBulk, Non-Potable]<br>1 - 54454d39: [PieceGoods]" || 20 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d634d69 4d656f91 4f472b33 4f540001 54440901 54454d39 55440100 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| RWES || [https://bananas.openttd.org/package/newgrf/414b3031 OpenHRT Estrogen] || 2025-03-09 || Raw Estrone || 1 - 414b3031: [OpenBulk, Refrigerated]" || 1 || 414b3031
+|-
+| RWTS || [https://bananas.openttd.org/package/newgrf/414b3031 OpenHRT Estrogen] || 2025-03-09 || Raw Testosterone || 1 - 414b3031: [OpenBulk, Refrigerated]" || 1 || 414b3031
+|-
+| SALT || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Salt || 5 - 4a4b8808 4d433501 4f540001 f1250009 f1250010: [OpenBulk, PieceGoods, CoveredBulk, Non-Potable]<br>4 - 414b3031 4a448807 4b4b0001 f1250007: [OpenBulk]<br>1 - 55440100: [OpenBulk, CoveredBulk]<br>1 - f1250008: [PieceGoods, CoveredBulk, Non-Potable]" || 11 || 414b3031 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| SAND || [https://bananas.openttd.org/package/newgrf/4d656f92 ECS Basic vector] || 2009-11-27 || Sand || 23 - 31ff0502 31ff0503 31ff0504 31ff0505 414b3031 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d656f92 4d656f9f 4e4d1113 55440100 f1250005 f1250006 f1250007: [OpenBulk]<br>4 - 4a4b8808 f1250008 f1250009 f1250010: [OpenBulk, CoveredBulk, Non-Potable]<br>2 - 4d433501 4f540001: [OpenBulk, CoveredBulk, PowderBulk, Non-Potable]<br>2 - 4d471001 4d471002: [OpenBulk, CoveredBulk]<br>1 - 454e1501: [PieceGoods]<br>1 - 4f495431: [OpenBulk, PowderBulk]" || 34 || 31ff0502 31ff0503 31ff0504 31ff0505 414b3031 454e1501 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f92 4d656f9f 4e4d1113 4f495431 4f540001 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| SASH || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Soda Ash || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, CoveredBulk, PowderBulk, Non-Potable]<br>4 - 4a448807 4b4b0001 55440100 f1250007: [OpenBulk, CoveredBulk]" || 10 || 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| SCMT || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Scrap Metal || 18 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47475154 4a448807 4b4b0001 4d471001 4d471002 4e445903 4e4d1113 4f495431 55440100 f1250005 f1250006 f1250007: [OpenBulk, Weird]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 25 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 47470104 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4e4d1113 4f495431 4f540001 54540401 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| SCPR || [https://bananas.openttd.org/package/newgrf/54540401 Improved Town Industries] || 2026-02-12 || Scrap Paper || 1 - 54540401: [PieceGoods, Non-Potable]" || 1 || 54540401
+|-
+| SEAL || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Seals, Hoses & Belts || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| SEED || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Seed || 1 - 47475154: [OpenBulk, PieceGoods, CoveredBulk]" || 1 || 47475154
+|-
+| SESP || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Marine Supplies || 1 - 47475154: [Express, PieceGoods]" || 1 || 47475154
+|-
+| SGBT || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Sugar Beet || 7 - 4a448807 4b4b0001 4d471001 4d471002 f1250005 f1250006 f1250007: [OpenBulk]<br>1 - 4a4b8808: [OpenBulk, Non-Potable]" || 8 || 4a448807 4a4b8808 4b4b0001 4d471001 4d471002 f1250005 f1250006 f1250007
+|-
+| SGCN || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Sugarcane || 7 - 47470104 47470105 47470160 47471080 47472017 54543230 f1250005: [OpenBulk, Weird]<br>1 - 4a4b8808: [OpenBulk, Non-Potable]" || 8 || 47470104 47470105 47470160 47471080 47472017 4a4b8808 54543230 f1250005
+|-
+| SHEL || [https://bananas.openttd.org/package/newgrf/4a500101 QuartermasterGRF] || 2026-07-17 || Heavy Artillery Shells || 1 - 4a500101: [Special]" || 1 || 4a500101
+|-
+| SILC || [https://bananas.openttd.org/package/newgrf/454e1501 Apollo Rocket Industry Set] || 2019-07-16 || Silicon || 1 - 454e1501: [OpenBulk]" || 1 || 454e1501
+|-
+| SLAG || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Slag || 8 - 41445201 47475154 4a448807 4b4b0001 4d471001 4d471002 4e445903 f1250007: [OpenBulk]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [OpenBulk, Non-Potable]" || 14 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4e445903 4f540001 f1250007 f1250008 f1250009 f1250010
+|-
+| SOAP || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Cleaning Agents || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, LiquidBulk, Non-Potable]" || 6 || 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010
+|-
+| STAL || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Alloy Steel || 2 - 4a4b8808 f1250008: [PieceGoods, Flatbed, Non-Potable]<br>2 - 4d471001 4d471002: [PieceGoods]" || 4 || 4a4b8808 4d471001 4d471002 f1250008
+|-
+| STBL || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Billets & Blooms || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STBR || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Merchant Bar || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STCB || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Carbon Steel || 2 - 4a4b8808 f1250008: [PieceGoods, Flatbed, Non-Potable]" || 2 || 4a4b8808 f1250008
+|-
+| STEL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Steel || 34 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f94 4e445903 4f472b33 4f495431 54440901 54454d39 55440100 56420303 OpenTTD f1250005 f1250006 f1250007: [PieceGoods]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 42 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f94 4e445903 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 55440100 56420303 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| STIG || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Steel Ingots || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STPL || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Steel Plate || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STPP || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Steel Pipe || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STSE || [https://bananas.openttd.org/package/newgrf/4e445903 Age of Industry Replacement Set] || 2024-04-13 || Steel Parts || 3 - 4d471001 4d471002 4e445903: [PieceGoods]<br>1 - f1250008: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d471001 4d471002 4e445903 f1250008
+|-
+| STSH || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Steel Sheet || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>3 - 4d471001 4d471002 55440100: [PieceGoods]" || 9 || 4a4b8808 4d433501 4d471001 4d471002 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| STSL || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Steel Slab || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STST || [https://bananas.openttd.org/package/newgrf/f1250008 FIRS Industries 4] || 2024-12-08 || Stainless Steel || 1 - f1250008: [PieceGoods, Flatbed, Non-Potable]" || 1 || f1250008
+|-
+| STSW || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Structural Steel || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STTB || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Steel Tube || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| STUD || [https://bananas.openttd.org/package/newgrf/54454d39 Temporal8 Real Industries 32bpp] || 2025-09-27 ||  Students || 1 - 54454d39: [Passengers]" || 1 || 54454d39
+|-
+| STWR || [https://bananas.openttd.org/package/newgrf/4e445903 Age of Industry Replacement Set] || 2024-04-13 || Steel Wire Rod || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>2 - 4e445903 55440100: [PieceGoods]" || 8 || 4a4b8808 4d433501 4e445903 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| SUAC || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Sulphuric Acid || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| SUGR || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Sugar || 8 - 47470104 47470160 47471080 47472017 47472030 47472031 47476001 f1250005: [OpenBulk, PieceGoods]<br>1 - 4a4b8808: [PieceGoods, CoveredBulk, PowderBulk, Potable]<br>1 - 54440901: [OpenBulk]<br>1 - 54543230: [OpenBulk, CoveredBulk]<br>1 - OpenTTD: [OpenBulk, Potable]" || 12 || 47470104 47470160 47471080 47472017 47472030 47472031 47476001 4a4b8808 54440901 54543230 OpenTTD f1250005
+|-
+| SULP || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Sulphur || 7 - 47475154 4a448807 4b4b0001 4d471001 4d471002 55440100 f1250007: [OpenBulk, LiquidBulk, CoveredBulk]<br>5 - 4a4b8808 4d433501 f1250008 f1250009 f1250010: [OpenBulk, LiquidBulk, CoveredBulk, Non-Potable]<br>1 - 4f540001: [OpenBulk, CoveredBulk, Non-Potable]" || 14 || 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| SUSP || [https://bananas.openttd.org/package/newgrf/50524f48 Prohibition] || 2024-02-11 || Suspects || 1 - 50524f48: [Passengers, Armoured]" || 1 || 50524f48
+|-
+| SWET || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Sweets (Candy) || 2 - 54440901 OpenTTD: [Express]" || 2 || 54440901 OpenTTD
+|-
+| TANK || [https://bananas.openttd.org/package/newgrf/41445201 ADRS] || 2026-08-16 || Tanks || 1 - 41445201: [PieceGoods, Flatbed]" || 1 || 41445201
+|-
+| TATO || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Potatoes || 1 - 414b3031: [OpenBulk, CoveredBulk]<br>1 - 47475154: [Express, PieceGoods, Refrigerated]" || 2 || 414b3031 47475154
+|-
+| TBCO || [https://bananas.openttd.org/package/newgrf/54543230 Industries of the Caribbean] || 2024-07-08 || Tobacco || 1 - 54543230: [OpenBulk, Weird]" || 1 || 54543230
+|-
+| TEST || [https://bananas.openttd.org/package/newgrf/414b3031 OpenHRT Estrogen] || 2025-03-09 || Testosterone || 1 - 414b3031: [Express, Refrigerated]" || 1 || 414b3031
+|-
+| TEXT || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Textile || 3 - 47475154 4f495431 55440100: [PieceGoods, CoveredBulk]<br>1 - 4a4b8808: [PieceGoods, Non-Potable]" || 4 || 47475154 4a4b8808 4f495431 55440100
+|-
+| THIN || [https://bananas.openttd.org/package/newgrf/58583031 Clooppy Mod] || 2026-09-13 || Things || " || 1 || 58583031
+|-
+| TINP || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Tinplate || 1 - 4a4b8808: [PieceGoods, Non-Potable]" || 1 || 4a4b8808
+|-
+| TOFF || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Toffee || 3 - 47440101 54440901 OpenTTD: [OpenBulk]" || 3 || 47440101 54440901 OpenTTD
+|-
+| TOUR || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Tourists || 1 - 4d656f91: [Passengers, Express]<br>1 - 54543230: [Passengers]" || 2 || 4d656f91 54543230
+|-
+| TOYS || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Toys || 3 - 47440101 54440901 OpenTTD: [PieceGoods]" || 3 || 47440101 54440901 OpenTTD
+|-
+| TRPS || [https://bananas.openttd.org/package/newgrf/4a500101 QuartermasterGRF] || 2026-06-14 || Troops || 2 - 4a500101 594b0101: [Passengers]" || 2 || 4a500101 594b0101
+|-
+| TRSH || [https://bananas.openttd.org/package/newgrf/54454d39 Temporal8 Real Industries 32bpp] || 2025-09-27 ||  Trash || 1 - 54454d39: [OpenBulk]" || 1 || 54454d39
+|-
+| TURD || [https://bananas.openttd.org/package/newgrf/47440101 Xmas Competition] || 2024-11-24 || Turds || 1 - 47440101: [OpenBulk]" || 1 || 47440101
+|-
+| TWOD || [https://bananas.openttd.org/package/newgrf/47475154 OTIS - One Tile Industry Set] || 2022-04-13 || Tropic Wood || 1 - 47475154: [PieceGoods]" || 1 || 47475154
+|-
+| TXTL || [https://bananas.openttd.org/package/newgrf/31ff0505 SPI 1.3] || 2016-09-07 || Textiles || 2 - 31ff0504 31ff0505: [PieceGoods, CoveredBulk]" || 2 || 31ff0504 31ff0505
+|-
+| TYCO || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Tyre Cord || 4 - 4d433501 4f540001 f1250009 f1250010: [PieceGoods, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| TYRE || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Rubber Parts || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]<br>4 - 4d471001 4d471002 54454d39 55440100: [PieceGoods]" || 10 || 4a4b8808 4d433501 4d471001 4d471002 4f540001 54454d39 55440100 f1250008 f1250009 f1250010
+|-
+| URAN || [https://bananas.openttd.org/package/newgrf/56420303 YETI Extended Towns & Industrie] || 2016-11-25 || Uranium || 2 - 47475154 56420303: [OpenBulk, GasBulk]<br>1 - 4e4d1113: [PieceGoods, GasBulk]" || 3 || 47475154 4e4d1113 56420303
+|-
+| UREA || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Urea || 1 - 4a4b8808: [PieceGoods, LiquidBulk, CoveredBulk, Non-Potable]" || 1 || 4a4b8808
+|-
+| VALU || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Valuables || 11 - 47475154 474c0301 4d634d69 4d656f91 4e4d1113 4f472b33 4f495431 54440901 54454d39 54540401 OpenTTD: [Armoured]" || 13 || 47475154 474c0301 4a500101 4d634d69 4d656f91 4e4d1113 4f472b33 4f495431 54440901 54454d39 54540401 594b0101 OpenTTD
+|-
+| VBOD || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Vehicle Bodies || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>3 - 4a448807 4b4b0001 f1250007: [PieceGoods]<br>3 - 4d471001 4d471002 55440100: [PieceGoods, Flatbed]" || 12 || 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|-
+| VEHI || [https://bananas.openttd.org/package/newgrf/4d656f91 ECS Town vector] || 2016-01-10 || Vehicles || 9 - 41445201 4d471001 4d471002 4d656f94 4e445903 4f495431 54454d39 55440100 56420303: [PieceGoods, Flatbed]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>4 - 47475154 4a448807 4b4b0001 f1250007: [PieceGoods]<br>1 - f1250006: [Express, PieceGoods]" || 21 || 41445201 47475154 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f94 4e445903 4f495431 4f540001 54454d39 55440100 56420303 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| VENG || [https://bananas.openttd.org/package/newgrf/4d471001 CZIS] || 2023-03-06 || Vehicle Engines || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]<br>3 - 4d471001 4d471002 55440100: [PieceGoods]" || 9 || 4a4b8808 4d433501 4d471001 4d471002 4f540001 55440100 f1250008 f1250009 f1250010
+|-
+| VERT || [https://bananas.openttd.org/package/newgrf/58583031 Clooppy Mod] || 2026-09-13 || Veritys || " || 1 || 58583031
+|-
+| VPTS || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Vehicle Parts || 6 - 4a448807 4b4b0001 4d471001 4d471002 55440100 f1250007: [PieceGoods]<br>6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]<br>2 - f1250005 f1250006: [Express, PieceGoods]" || 14 || 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4f540001 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| WATR || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Water || 4 - 474c0201 4d634d69 4f472b33 54440901: [LiquidBulk]<br>1 - 47470105: [OpenBulk, Weird]<br>1 - 47475154: [Express, LiquidBulk]<br>1 - 4f540001: [PieceGoods, LiquidBulk, Potable]<br>1 - OpenTTD: [LiquidBulk, Potable]" || 9 || 47470105 47475154 474c0201 4d634d69 4d656f91 4f472b33 4f540001 54440901 OpenTTD
+|-
+| WDCH || [https://bananas.openttd.org/package/newgrf/54540401 Improved Town Industries] || 2026-02-12 || Wood Chips || 1 - 54540401: [OpenBulk, CoveredBulk, Non-Potable]" || 1 || 54540401
+|-
+| WDPR || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Timber || 26 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d656f95 4e445903 4e4d1113 54454d39 f1250005 f1250006 f1250007: [OpenBulk, PieceGoods]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>3 - 44440602 54543231 55440100: [PieceGoods]<br>1 - 4f495431: [PieceGoods, CoveredBulk]" || 38 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 44440602 444410aa 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d656f91 4d656f95 4e445903 4e4d1113 4f495431 4f540001 54454d39 54540401 54543231 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| WELD || [https://bananas.openttd.org/package/newgrf/f1250009 FIRS Industries 5] || 2026-01-25 || Welding Consumables || 4 - 4d433501 4f540001 f1250009 f1250010: [Express, PieceGoods, LiquidBulk, Non-Potable]" || 4 || 4d433501 4f540001 f1250009 f1250010
+|-
+| WHEA || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Wheat || 4 - 47470160 47471080 47472017 47476001: [OpenBulk]<br>1 - OpenTTD: [OpenBulk, Potable]" || 5 || 47470160 47471080 47472017 47476001 OpenTTD
+|-
+| WOOD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Wood || 36 - 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d471001 4d471002 4d634d69 4d656f95 4e445903 4e4d1113 4f472b33 4f495431 54440901 54454d39 54543231 55440100 56420303 6a647204 OpenTTD f1250005 f1250006 f1250007: [PieceGoods]<br>7 - 4a4b8808 4d433501 4f540001 54540401 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]" || 44 || 31ff0502 31ff0503 31ff0504 31ff0505 41445201 444410aa 454e3101 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4a4b8808 4b4b0001 4d433501 4d471001 4d471002 4d634d69 4d656f91 4d656f95 4e445903 4e4d1113 4f472b33 4f495431 4f540001 54440901 54454d39 54540401 54543231 55440100 56420303 6a647204 OpenTTD f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| WOOL || [https://bananas.openttd.org/package/newgrf/f1250005 FIRS Industries 1] || 2015-09-30 || Wool || 20 - 31ff0502 31ff0503 41445201 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d656f97 4f495431 55440100 f1250005 f1250006 f1250007: [PieceGoods, CoveredBulk]<br>5 - 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Non-Potable]" || 26 || 31ff0502 31ff0503 41445201 47470104 47470105 47470160 47471080 47472017 47472030 47472031 47475154 47476001 4a448807 4b4b0001 4d433501 4d656f91 4d656f97 4f495431 4f540001 55440100 f1250005 f1250006 f1250007 f1250008 f1250009 f1250010
+|-
+| WORK || [https://bananas.openttd.org/package/newgrf/54454d39 Temporal8 Real Industries 32bpp] || 2025-09-27 ||  Qualified Workers || 1 - 54454d39: [Passengers]" || 1 || 54454d39
+|-
+| WSTE || [https://bananas.openttd.org/package/newgrf/6a647204 WR Extra Industries (WRExInd)] || 2020-06-07 || Waste || 1 - 4d471002: [OpenBulk]<br>1 - 4f495431: [OpenBulk, Weird]<br>1 - 54540401: [OpenBulk, PieceGoods, Non-Potable]<br>1 - 6a647204: [OpenBulk, PieceGoods]" || 4 || 4d471002 4f495431 54540401 6a647204
+|-
+| YETI || [https://bananas.openttd.org/package/newgrf/56420303 YETI Extended Towns & Industrie] || 2016-11-25 || YETI dudes || 1 - 56420303: [Express, Flatbed]" || 1 || 56420303
+|-
+| YETY || [https://bananas.openttd.org/package/newgrf/56420303 YETI Extended Towns & Industrie] || 2016-11-25 || Tired YETI || 1 - 56420303: [Express, Flatbed]" || 1 || 56420303
+|-
+| ZINC || [https://bananas.openttd.org/package/newgrf/f1250007 FIRS Industries 3] || 2019-02-18 || Zinc || 6 - 4a4b8808 4d433501 4f540001 f1250008 f1250009 f1250010: [PieceGoods, Flatbed, Non-Potable]<br>4 - 4a448807 4b4b0001 55440100 f1250007: [PieceGoods]" || 10 || 4a448807 4a4b8808 4b4b0001 4d433501 4f540001 55440100 f1250007 f1250008 f1250009 f1250010
+|}

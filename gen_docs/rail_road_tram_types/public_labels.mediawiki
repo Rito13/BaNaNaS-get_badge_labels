@@ -1,0 +1,1472 @@
+
+=== Rail Types ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|-
+| 3RDC || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (Dual Voltaage) construction. || 4 || 44442303 534d0101 53554b54 55504454
+|-
+| 3RDR || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 4 || 44442303 534d0101 53554b54 55504454
+|-
+| B3A3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Third rail railroad (right) || 1 || 4d656fb1
+|-
+| BAA3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Third rail railroad (left) || 1 || 4d656fb1
+|-
+| BAAE || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| BAAN || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Ultra-Broad Gauge Rail Construction || 4 || 47385203 4738520b 4b494f02 5f5f040c
+|-
+| BBA3 || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Broad Gauge Third Rail || 1 || 5f5f040c
+|-
+| BBAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC Broad Gauge Electrified Railroad || 1 || 5f5f040c
+|-
+| BBAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 3kV DC Broad Gauge Electrified Railroad || 1 || 5f5f040c
+|-
+| BBAN || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Broad Gauge Railroad || 1 || 5f5f040c
+|-
+| BBAZ || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC / Third Rail Broad Gauge Railroad || 1 || 5f5f040c
+|-
+| BCAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC Broad Gauge Electrified Trunk Railroad || 1 || 5f5f040c
+|-
+| BCAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 3kV DC Broad Gauge Electrified Trunk Railroad || 1 || 5f5f040c
+|-
+| BCAE || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC / 3kV DC Broad Gauge Electrified Railroad || 1 || 5f5f040c
+|-
+| BCAN || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Broad Gauge Trunk Railroad || 1 || 5f5f040c
+|-
+| BDAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 3kV DC Broad Gauge Electrified High-Speed Railroad || 1 || 5f5f040c
+|-
+| BDAN || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Broad Gauge High-Speed Railroad || 1 || 5f5f040c
+|-
+| BEAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC Broad Gauge Electrified High-Speed Railroad || 1 || 5f5f040c
+|-
+| BEAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 3kV DC Broad Gauge Electrified High-Speed Railroad || 1 || 5f5f040c
+|-
+| BFAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC Broad Gauge Electrified Unlimited-Speed Railroad || 1 || 5f5f040c
+|-
+| BLS2 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Empty track ballast construction. || 3 || 42424e54 42425354 53554b54
+|-
+| BLS3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Empty track ballast construction. || 3 || 42424e54 42425354 53554b54
+|-
+| BLST || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Empty track ballast construction. || 3 || 42424e54 42425354 53554b54
+|-
+| DABE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Dual-gauge electrified railway construction || 1 || 5f5f0409
+|-
+| DABN || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Dual-gauge railway construction || 1 || 5f5f0409
+|-
+| DACE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Dual-gauge electrified modern railway construction || 1 || 5f5f0409
+|-
+| DBAE || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Standard-Broad Dual Gauge AC/DC Electrified Railroad || 1 || 5f5f040c
+|-
+| DBAN || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Standard-Broad Dual Gauge Railroad || 1 || 5f5f040c
+|-
+| DBHE || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| DBHS || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| DBNE || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| DIRT || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 2 || 47385203 52545303
+|-
+| DIS3 || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (EXCEPTED) Disused (3RD RAIL) || 1 || 4e4d0920
+|-
+| DISE || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (EXCEPTED) Disused (EL.RAIL) || 1 || 4e4d0920
+|-
+| DISN || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (EXCEPTED) Disused (RAIL) || 1 || 4e4d0920
+|-
+| DISZ || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (EXCEPTED) Disused (DUAL SYSTEM) || 1 || 4e4d0920
+|-
+| DPRK || [https://bananas.openttd.org/package/newgrf/454e3701 Trackless Trackset] || 2021-03-04 || North Korean Urban Ground (Trackless) || 2 || 454e3701 524a451d
+|-
+| E040 || [https://bananas.openttd.org/package/newgrf/53455230 Swedish Rails] || 2013-12-06 ||  || 1 || 53455230
+|-
+| E080 || [https://bananas.openttd.org/package/newgrf/53455230 Swedish Rails] || 2013-12-06 ||  || 1 || 53455230
+|-
+| EHIG || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || High speed Lines (electrified) || 2 || 53455230 55460101
+|-
+| ELNG || [https://bananas.openttd.org/package/newgrf/4e475453 Narrow Gauge Track Types] || 2011-11-22 || Narrow gauge electrified construction || 3 || 414d6301 4e475453 6a647207
+|-
+| ELOW || [https://bananas.openttd.org/package/newgrf/53455230 Swedish Rails] || 2013-12-06 ||  || 1 || 53455230
+|-
+| ELR1 || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || Very High speed Lines (electrified) || 1 || 55460101
+|-
+| ELRL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Electrified rail || 42 || 414d6301 42425354 42450101 42525417 44442303 444a5401 44503000 454e0e01 454e1201 454e3001 47385203 4738520b 47471026 47471031 4a560201 4b494f02 4b543031 4d490104 4d656fb1 4e4d0705 4e4d0920 524a451a 524a451c 52545303 53455230 534d0101 53540101 53554b54 544f5901 54574606 55460101 55464951 55464990 55464991 55504454 56420202 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0402 fbfb0701
+|-
+| ELSA || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Electrified 1 Gantry with Wire Fence || 1 || 47471031
+|-
+| ELSC || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Electrified with Sound Proof Fence || 1 || 47471031
+|-
+| ELSD || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Electrified 2 Gantry (NO pylons or fences) || 1 || 47471031
+|-
+| ELSE || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Electrified Subway (Invisible Catenary) || 1 || 47471031
+|-
+| ELUR || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || Urban Lines (electrified) || 1 || 55460101
+|-
+| ELYD || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Electrified Rail 4 (Yard/Station) || 1 || 47471031
+|-
+| EMED || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || Modern Main Lines (electrified) || 2 || 53455230 55460101
+|-
+| ER01 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Wood ( - ) - MECH -  || 1 || 4d490104
+|-
+| ER02 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Concrete ( - ) - SSSR -  || 1 || 4d490104
+|-
+| ER03 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Concrete (R)  - SSSR/AŽD -  || 1 || 4d490104
+|-
+| ER04 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Wood ( - ) - SSSR -  || 1 || 4d490104
+|-
+| ER05 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Concrete ( - ) - AŽD -  || 1 || 4d490104
+|-
+| ER06 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Concrete ( - ) - AŽD -  || 1 || 4d490104
+|-
+| ER07 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Concrete ( - ) - AŽD -  || 1 || 4d490104
+|-
+| ER08 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  (EL) Concrete ( - ) - MECH/SSSR -  || 1 || 4d490104
+|-
+| ER2D || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC 1500V / 3kV electrified railroad || 1 || 4d656fb1
+|-
+| ER2S || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Electrified AC/DC railroad || 1 || 4d656fb1
+|-
+| ER2s || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC 25kV / DC 1500V electrified railroad || 1 || 4d656fb1
+|-
+| ER3D || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Electrified AC 25kV / DC 1500V / 3kV railroad || 1 || 4d656fb1
+|-
+| ER3a || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Electrified AC 15 / 25kV / DC 1500V railroad || 1 || 4d656fb1
+|-
+| ER4S || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Electrified AC 15 / 25kV / DC 1500V / 3kV railroad || 1 || 4d656fb1
+|-
+| ERA0 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC electrified railroad || 1 || 4d656fb1
+|-
+| ERA1 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC electrified railroad || 1 || 4d656fb1
+|-
+| ERA2 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC electrified railroad || 1 || 4d656fb1
+|-
+| ERA3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC electrified railroad || 1 || 4d656fb1
+|-
+| ERA4 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC electrified railroad || 1 || 4d656fb1
+|-
+| ERD0 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC electrified railroad || 1 || 4d656fb1
+|-
+| ERD1 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC electrified railroad || 1 || 4d656fb1
+|-
+| ERD2 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC electrified railroad || 1 || 4d656fb1
+|-
+| ERD3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC electrified railroad || 1 || 4d656fb1
+|-
+| ERa0 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC 15kV electrified railroad || 1 || 4d656fb1
+|-
+| ERa1 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC 15kV electrified railroad || 1 || 4d656fb1
+|-
+| ERa2 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC 15kV electrified railroad || 1 || 4d656fb1
+|-
+| ERa3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC 15kV electrified railroad || 1 || 4d656fb1
+|-
+| ERa4 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || AC 15kV electrified railroad || 1 || 4d656fb1
+|-
+| ERd0 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC 1500V electrified railroad || 1 || 4d656fb1
+|-
+| ERd1 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC 1500V electrified railroad || 1 || 4d656fb1
+|-
+| ERd2 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC 1500V electrified railroad || 1 || 4d656fb1
+|-
+| ERd3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || DC 1500V electrified railroad || 1 || 4d656fb1
+|-
+| ES2D || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Electrified DC 1.5/3kV railroad || 1 || 5f5f040c
+|-
+| ES2S || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Electrified AC 25kV/DC 3kV railroad || 1 || 5f5f040c
+|-
+| ES2s || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Electrified AC 25kV/DC 1.5kV railroad || 1 || 5f5f040c
+|-
+| ES3D || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Electrified AC 25kV/DC 1.5/3kV railroad || 1 || 5f5f040c
+|-
+| ES3a || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Electrified AC 15/25kV/DC 1.5kV railroad || 1 || 5f5f040c
+|-
+| FILL || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Grass Fill Construction || 1 || 47385203
+|-
+| HSTR || [https://bananas.openttd.org/package/newgrf/53455230 Swedish Rails] || 2013-12-06 ||  || 1 || 53455230
+|-
+| IHAA || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| IHA_ || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| IHBA || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| IHB_ || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| IHC_ || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| IHD_ || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| IHE_ || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| INVS || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Invisible track construction. || 3 || 42424e54 42425354 53554b54
+|-
+| ISR1 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Industrial Stations Renewal Ground (Trackless) || 5 || 42424e54 42425354 454e3701 524a451d 53554b54
+|-
+| ISR2 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || CHIPS Dirt Ground (Trackless) || 5 || 42424e54 42425354 454e3701 524a451d 53554b54
+|-
+| ISR3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || CHIPS Asphalt Ground (Trackless) || 5 || 42424e54 42425354 454e3701 524a451d 53554b54
+|-
+| ISR4 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || CHIPS Cobblestone Ground (Trackless) || 5 || 42424e54 42425354 454e3701 524a451d 53554b54
+|-
+| JEC0 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Invisible Track || 1 || 595aaa02
+|-
+| JEC2 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || JP+ Ballast Ground || 1 || 595aaa02
+|-
+| JEC3 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || JP+ Urban Ground || 1 || 595aaa02
+|-
+| JEC4 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || JP+ High-Speed Ballast Ground || 1 || 595aaa02
+|-
+| JEC5 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || CHIPS Concrete Ground || 1 || 595aaa02
+|-
+| JEC6 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || CHIPS Cobblestone Ground || 1 || 595aaa02
+|-
+| JEC7 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || CHIPS Dirt Ground || 1 || 595aaa02
+|-
+| JEC8 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || ISR Ground || 1 || 595aaa02
+|-
+| JEC9 || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Light Concrete || 1 || 595aaa02
+|-
+| JPU1 || [https://bananas.openttd.org/package/newgrf/454e3701 Trackless Trackset] || 2021-03-04 || Japanese Urban Ground (Trackless) || 2 || 454e3701 524a451d
+|-
+| KDSU || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Standard Speed Track Construction (Urban, Electrified) || 1 || 4b543031
+|-
+| KDS_ || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Standard Speed Track Construction || 1 || 4b543031
+|-
+| KFIL || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Korean Concrete Fill Construction || 1 || 47385203
+|-
+| KHS_ || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || High Speed Track Construction || 1 || 4b543031
+|-
+| KL3L || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Light Rail (Third Rail) Track Construction || 1 || 4b543031
+|-
+| KLAG || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Light Rail (Automated Guideway) Track Construction || 1 || 4b543031
+|-
+| KLMN || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Light Rail (Monorail) Track Construction || 1 || 4b543031
+|-
+| KLSE || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Low Speed Track Construction (Electrified) || 1 || 4b543031
+|-
+| KLSU || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Low Speed Track Construction (Urban, Electrified) || 1 || 4b543031
+|-
+| KMTR || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Metro Track Construction || 1 || 4b543031
+|-
+| KRBD || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Railbed Construction || 1 || 4b543031
+|-
+| KRLR || [https://bananas.openttd.org/package/newgrf/544b5555 Korean Train Set] || 2026-09-17 || Light Rail Track Construction || 1 || 544b5555
+|-
+| KRNR || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || 762mm Narrow Gauge Track Construction || 3 || 4b455453 4b543031 544b5555
+|-
+| KSSU || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Semi High Speed Track Construction || 1 || 4b543031
+|-
+| KSUB || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Subway Track Construction || 1 || 4b543031
+|-
+| KSUP || [https://bananas.openttd.org/package/newgrf/4b543031 Korean Tracks] || 2025-09-02 || Subway (With Park) Construction || 1 || 4b543031
+|-
+| LAA3 || [https://bananas.openttd.org/package/newgrf/444a5401 NuTracks] || 2019-10-17 || Maglev line construction || 1 || 444a5401
+|-
+| LBAS || [https://bananas.openttd.org/package/newgrf/524a451b Maglev Track Set v2 reMOD] || 2024-01-09 || M-Bahn || 3 || 454e0202 47385203 524a451b
+|-
+| LCAI || [https://bananas.openttd.org/package/newgrf/524a451b Maglev Track Set v2 reMOD] || 2024-01-09 || SC-Maglev || 3 || 454e0202 47385203 524a451b
+|-
+| LFTD || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Lifted Track Construction || 3 || 47385203 52545303 fbfb0a01
+|-
+| LGVE || [https://bananas.openttd.org/package/newgrf/4a483031 U&ReRMM 2: IH4 plugin] || 2026-05-24 ||  || 2 || 43411223 4a483031
+|-
+| LGVN || [https://bananas.openttd.org/package/newgrf/4a483031 U&ReRMM 2: IH4 plugin] || 2026-05-24 ||  || 2 || 43411223 4a483031
+|-
+| LIHT || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 3 || 47385203 4738520b 4b494f02
+|-
+| LTRL || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Prototype Railway Construction || 4 || 47385203 4738520b 4b494f02 52545303
+|-
+| MGL2 || [https://bananas.openttd.org/package/newgrf/444a5401 NuTracks] || 2019-10-17 || Accelerated narrow-gauge line construction || 1 || 444a5401
+|-
+| MGLV || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Maglev tracks || 22 || 414d6301 44442303 444a5401 44503000 454e0202 454e1201 4672783a 47385203 4d656fb1 4e475453 4e4d0705 4e4d0920 524a451b 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402
+|-
+| MON2 || [https://bananas.openttd.org/package/newgrf/444a5401 NuTracks] || 2019-10-17 || Electric accelerated narrow-gauge line construction || 1 || 444a5401
+|-
+| MONO || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Monorail tracks || 21 || 414d6301 42450101 44442303 444a5401 444e0601 44503000 454e1002 454e1201 47385203 4d656fb1 4e4d0705 4e4d0920 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402
+|-
+| MTRO || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Standard Gauge Metro (3rd Rail Electrified) || 4 || 43411223 454e3001 4b494f02 524a451a
+|-
+| NAA3 || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || Narrow-gauge railway (3rd rail powered)  || 4 || 42424e54 55464951 55464990 55464991
+|-
+| NAAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC) (Wooden Ties) || 2 || 42424e54 595aaa02
+|-
+| NAAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (DC) (Wooden Ties) || 2 || 42424e54 595aaa02
+|-
+| NAAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (Wooden Ties) || 13 || 414d6301 42424e54 444a5401 47385203 4738520b 4b494f02 4d470201 4e4d0920 55464951 55464990 55464991 595aaa02 6a647207
+|-
+| NAAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Branch || 24 || 414d6301 42424e54 43411223 444a5401 44503000 454e0e01 454e3001 47385203 4738520b 4b494f02 4d470201 4e4d0920 524a451a 524a451c 54574606 55464951 55464990 55464991 55504454 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0b01
+|-
+| NAAZ || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NAAa || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (15kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NAAd || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (1.5kv DC Overhead) construction. || 1 || 42424e54
+|-
+| NABE || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Branch (Electrified) || 8 || 44503000 454e0e01 454e3001 4738520b 524a451a 524a451c 55504454 5f5f0409
+|-
+| NABN || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Narrow gauge railroad || 2 || 44503000 5f5f0409
+|-
+| NACE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Highspeed line || 2 || 44503000 5f5f0409
+|-
+| NBA3 || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || Modern narrow-gauge railway (3rd rail powered)  || 3 || 42424e54 55464990 5f5f040c
+|-
+| NBAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC) (Concrete Ties) || 3 || 42424e54 595aaa02 5f5f040c
+|-
+| NBAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (DC) (Concrete Ties) || 3 || 42424e54 595aaa02 5f5f040c
+|-
+| NBAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (Concrete Ties) || 5 || 444a5401 4e4d0920 55464990 595aaa02 5f5f040c
+|-
+| NBAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Trunk || 8 || 42424e54 444a5401 454e3001 4e4d0920 524a451a 55464990 595aaa02 5f5f040c
+|-
+| NBAZ || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 2 || 42424e54 5f5f040c
+|-
+| NBAa || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (15kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NBAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Trunk (Electrified) || 3 || 42424e54 454e3001 524a451a
+|-
+| NCAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC) (Slabs) || 2 || 595aaa02 5f5f040c
+|-
+| NCAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (DC) (Slabs) || 2 || 595aaa02 5f5f040c
+|-
+| NCAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (Slabs) || 3 || 4e4d0920 55464990 595aaa02
+|-
+| NCAN || [https://bananas.openttd.org/package/newgrf/524a451a North Korean Track Set reMOD] || 2024-01-09 || Narrow Gauge Modern || 4 || 4e4d0920 524a451a 55464990 595aaa02
+|-
+| NCAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Modern (Electrified) || 2 || 454e3001 524a451a
+|-
+| NDAE || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || High-speed narrow-gauge railway (electrified)  || 1 || 55464990
+|-
+| NDAN || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (Slabs) || 1 || 595aaa02
+|-
+| NEAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (CHIPS Concrete) || 1 || 595aaa02
+|-
+| NEAN || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (CHIPS Concrete) || 1 || 595aaa02
+|-
+| NEL1 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Narrow gauge railway (level 1) (electrified) || 1 || 55464951
+|-
+| NFAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (CHIPS Cobblestone) || 1 || 595aaa02
+|-
+| NFAN || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (CHIPS Cobblestone) || 1 || 595aaa02
+|-
+| NG60 || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 4 || 47385203 4738520b 4b494f02 52545303
+|-
+| NG6E || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 3 || 47385203 4738520b 4b494f02
+|-
+| NGAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (CHIPS Dirt) || 1 || 595aaa02
+|-
+| NGAN || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (CHIPS Dirt) || 1 || 595aaa02
+|-
+| NGRL || [https://bananas.openttd.org/package/newgrf/4e475453 Narrow Gauge Track Types] || 2011-11-22 || Narrow gauge construction || 1 || 4e475453
+|-
+| NHAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC/DC) (ISR) || 1 || 595aaa02
+|-
+| NHAN || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (ISR) || 1 || 595aaa02
+|-
+| NRAE || [https://bananas.openttd.org/package/newgrf/4d470201 NNGT] || 2020-10-04 || Electrified Narrow Gauge Rack Railway Track Construction || 1 || 4d470201
+|-
+| NRAN || [https://bananas.openttd.org/package/newgrf/4d470201 NNGT] || 2020-10-04 || Narrow Gauge Rack Only Railway Track Construction || 1 || 4d470201
+|-
+| NRHE || [https://bananas.openttd.org/package/newgrf/4d470201 NNGT] || 2020-10-04 || Electrified Narrow Gauge Rack Railway Track Construction || 1 || 4d470201
+|-
+| NRHN || [https://bananas.openttd.org/package/newgrf/4d470201 NNGT] || 2020-10-04 || Narrow Gauge Rack Only Railway Track Construction || 1 || 4d470201
+|-
+| NRL0 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Overgrown narrow gauge railway || 1 || 55464951
+|-
+| NRL1 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Narrow gauge railway (level 1) || 1 || 55464951
+|-
+| NSWE || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Unelectrified 2 (Wire Mesh Fence) || 2 || 47471026 47471031
+|-
+| NSWR || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Unelectrified 3 (High Woodpanel Fence) || 2 || 47471026 47471031
+|-
+| NU1E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge ISR (Electrified) || 2 || 454e0e01 524a451c
+|-
+| NU1N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge ISR || 2 || 454e0e01 524a451c
+|-
+| NU2E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge Cobblestone (Electrified) || 2 || 454e0e01 524a451c
+|-
+| NU2N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge Cobblestone || 2 || 454e0e01 524a451c
+|-
+| NU3E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge Dirt (Electrified) || 2 || 454e0e01 524a451c
+|-
+| NU3N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge Dirt || 2 || 454e0e01 524a451c
+|-
+| NU4E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge Asphalt (Electrified) || 2 || 454e0e01 524a451c
+|-
+| NU4N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Narrow Gauge Asphalt || 2 || 454e0e01 524a451c
+|-
+| NUAE || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || Urban narrow-gauge railway (electrified)  || 2 || 55464990 55464991
+|-
+| NUAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Urban || 2 || 454e3001 524a451a
+|-
+| NUAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Urban (Electrified) || 2 || 454e3001 524a451a
+|-
+| NUBE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Urban line (3rd rail powered) || 2 || 44503000 5f5f0409
+|-
+| NY23 || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NY2A || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NY2D || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (3kv DC Overhead) construction. || 1 || 42424e54
+|-
+| NY2N || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge construction. || 1 || 42424e54
+|-
+| NY2Z || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NY2a || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (15kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NY2d || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (1.5kv DC Overhead) construction. || 1 || 42424e54
+|-
+| NY33 || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NY3A || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NY3D || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (3kv DC Overhead) construction. || 1 || 42424e54
+|-
+| NY3N || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge construction. || 1 || 42424e54
+|-
+| NY3Z || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NY3a || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (15kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NY3d || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (1.5kv DC Overhead) construction. || 1 || 42424e54
+|-
+| NY43 || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NY4A || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NY4D || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (3kv DC Overhead) construction. || 1 || 42424e54
+|-
+| NY4N || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge construction. || 1 || 42424e54
+|-
+| NY4Z || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 1 || 42424e54
+|-
+| NY4a || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (15kv AC Overhead) construction. || 1 || 42424e54
+|-
+| NY4d || [https://bananas.openttd.org/package/newgrf/42424e54 SETS: Narrow gauge] || 2024-04-21 || Narrow Gauge (1.5kv DC Overhead) construction. || 1 || 42424e54
+|-
+| OMNE || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 || Omni-Gauge Electrified Rail Construction || 1 || 4b494f02
+|-
+| OMNI || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 || Omni-Gauge Rail Construction || 1 || 4b494f02
+|-
+| PLAN || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Planning Track Construction || 3 || 47385203 52545303 fbfb0a01
+|-
+| PRIV || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Unelectrified Private 6 (UnFenced) || 1 || 47471031
+|-
+| PTWY || [https://bananas.openttd.org/package/newgrf/54574606 Timberwolf's Tracks] || 2026-03-09 || Plateway Construction || 1 || 54574606
+|-
+| RA01 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood (R)  - MECH -  || 1 || 4d490104
+|-
+| RA02 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood ( - ) - MECH -  || 1 || 4d490104
+|-
+| RA03 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood ( - ) - MECH -  || 1 || 4d490104
+|-
+| RA04 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood ( - ) - MECH -  || 1 || 4d490104
+|-
+| RA05 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete ( - ) - SSSR -  || 1 || 4d490104
+|-
+| RA06 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete (R)  - SSSR/AŽD -  || 1 || 4d490104
+|-
+| RA07 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood ( - ) - SSSR -  || 1 || 4d490104
+|-
+| RA08 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood ( - ) - SSSR -  || 1 || 4d490104
+|-
+| RA09 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Wood (R)  - SSSR/AŽD -  || 1 || 4d490104
+|-
+| RA10 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete ( - ) - AŽD -  || 1 || 4d490104
+|-
+| RA11 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete ( - ) - MECH/SSSR -  || 1 || 4d490104
+|-
+| RA12 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete (R) - SSSR -  || 1 || 4d490104
+|-
+| RA13 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete - AŽD -  || 1 || 4d490104
+|-
+| RAIL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Normal rail || 41 || 414d6301 42425354 42525417 44442303 444a5401 44503000 454e0e01 454e1201 454e3001 47385203 4738520b 47471026 47471031 4a560201 4b494f02 4b543031 4d490104 4d656fb1 4e4d0705 4e4d0920 524a451a 524a451c 52545303 53455230 534d0101 53540101 53554b54 544f5901 54574606 55460101 55464951 55464990 55464991 55504454 56420202 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0402 fbfb0701
+|-
+| RHIG || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || High speed Lines || 2 || 53455230 55460101
+|-
+| RLA0 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Railroad || 1 || 4d656fb1
+|-
+| RLA1 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Railroad || 1 || 4d656fb1
+|-
+| RLA2 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Railroad || 1 || 4d656fb1
+|-
+| RLA3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Railroad || 1 || 4d656fb1
+|-
+| RLOW || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || Main Lines || 2 || 53455230 55460101
+|-
+| RMED || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || Modern Main Lines || 2 || 53455230 55460101
+|-
+| SAA$ || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv AC Overhead) construction. || 1 || 42425354
+|-
+| SAA' || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/3kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA( || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/1.5kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA) || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/3kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA, || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv/3kv/1.5kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 17 || 42425354 42525417 444a5401 47385203 4e4d0920 52545303 53554b54 54574606 55464951 55464990 55464991 55504454 595aaa02 ac1d0002 fbfb0402 fbfb0701 fbfb0b01
+|-
+| SAA4 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (630v 4th Rail) construction. || 7 || 42425354 42525417 534d0101 53554b54 54574606 55504454 595aaa02
+|-
+| SAA= || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv/1.5kv DC Overhead) construction. || 1 || 42425354
+|-
+| SAAA || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv AC Overhead) construction. || 2 || 42425354 595aaa02
+|-
+| SAAD || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv DC Overhead) construction. || 3 || 42425354 4b494f02 595aaa02
+|-
+| SAAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 4 || 444a5401 47471026 4e4d0705 53554b54
+|-
+| SAAI || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Standard Gauge Track (Linear Motor) (Concrete Ties) || 1 || 595aaa02
+|-
+| SAAN || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 8 || 444a5401 47471026 47471031 4e4d0705 53554b54 595aaa02 5f5f0409 5f5f040c
+|-
+| SAAX || [https://bananas.openttd.org/package/newgrf/55504454 Railtype Compatibility GRF] || 2023-05-09 || Developer Track construction || 1 || 55504454
+|-
+| SAAY || [https://bananas.openttd.org/package/newgrf/54574606 Timberwolf's Tracks] || 2026-03-09 || Dual Power Metro (25kV AC/630V DC) Electrified Railway Construction || 2 || 534d0101 54574606
+|-
+| SAAZ || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 11 || 42425354 42525417 444a5401 4e4d0920 53554b54 54574606 55464951 55464990 55504454 595aaa02 fbfb0402
+|-
+| SAA[ || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv/1.5kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA] || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv/3kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA^ || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/1.5kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAA_ || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/3kv/1.5kv AC/DC Overhead) construction. || 1 || 42425354
+|-
+| SAAa || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv AC Overhead) construction. || 1 || 42425354
+|-
+| SAAd || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 1 || 42425354
+|-
+| SAB3 || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (3rd rail powered) || 1 || 44503000
+|-
+| SABN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Branch line || 1 || 44503000
+|-
+| SAC3 || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (3rd rail powered) || 1 || 44503000
+|-
+| SACE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Modern line (electrified) || 2 || 44503000 5f5f0409
+|-
+| SACZ || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (dual electrified) || 1 || 44503000
+|-
+| SADD || [https://bananas.openttd.org/package/newgrf/fbfb0701 Dutch Tracks] || 2014-09-26 || Standard Rail [1500V DC] || 2 || fbfb0402 fbfb0701
+|-
+| SADE || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Highspeed line (electrified) || 1 || 44503000
+|-
+| SADN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Highspeed line || 1 || 44503000
+|-
+| SAE3 || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Metro track, 3rd rail || 1 || 4a560201
+|-
+| SAEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line/siding, gravel/crushed stone ballast, wood/concrete ties, electrified || 3 || 4a560201 fbfb0402 fbfb0701
+|-
+| SAEE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Modern highspeed line (electrified) || 2 || 44503000 5f5f0409
+|-
+| SAEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line/siding, gravel/crushed stone ballast, wood/concrete ties || 1 || 4a560201
+|-
+| SBA3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 8 || 42425354 444a5401 4e4d0705 4e4d0920 53554b54 55464990 595aaa02 5f5f040c
+|-
+| SBA4 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (630v 4th Rail) construction. || 2 || 53554b54 5f5f040c
+|-
+| SBAA || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv AC Overhead) construction. || 3 || 42425354 595aaa02 5f5f040c
+|-
+| SBAD || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv DC Overhead) construction. || 6 || 42425354 454e3001 4b494f02 524a451a 595aaa02 5f5f040c
+|-
+| SBAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 5 || 42525417 4e4d0920 53554b54 595aaa02 5f5f040c
+|-
+| SBAI || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Standard Gauge Track (Linear Motor) (Slabs) || 1 || 595aaa02
+|-
+| SBAN || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge construction. || 8 || 42425354 454e3001 4e4d0920 524a451a 53554b54 55464990 595aaa02 5f5f040c
+|-
+| SBAX || [https://bananas.openttd.org/package/newgrf/55504454 Railtype Compatibility GRF] || 2023-05-09 || Developer Track construction || 1 || 55504454
+|-
+| SBAY || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC / Fourth Rail || 1 || 5f5f040c
+|-
+| SBAZ || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 7 || 42425354 444a5401 4e4d0705 4e4d0920 53554b54 55464990 55464991
+|-
+| SBAa || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv AC Overhead) construction. || 2 || 42425354 5f5f040c
+|-
+| SBAd || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 2 || 42425354 5f5f040c
+|-
+| SBCA || [https://bananas.openttd.org/package/newgrf/fbfb0701 Dutch Tracks] || 2014-09-26 || HSL [25kV AC] || 1 || fbfb0701
+|-
+| SBCE || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Modern line (electrified) || 1 || 44503000
+|-
+| SBCN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Modern main line || 1 || 44503000
+|-
+| SBEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line, gravel ballast, wood ties, electrified || 1 || 4a560201
+|-
+| SBEE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Modern highspeed line (electrified) || 3 || 44503000 5f5f0409 fbfb0701
+|-
+| SBEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line, gravel ballast, wood ties || 1 || 4a560201
+|-
+| SCA3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 6 || 42425354 444a5401 4e4d0705 4e4d0920 53554b54 5f5f040c
+|-
+| SCA4 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (630v 4th Rail) construction. || 1 || 53554b54
+|-
+| SCAA || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv AC Overhead) construction. || 4 || 42425354 4b494f02 595aaa02 5f5f040c
+|-
+| SCAD || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv DC Overhead) construction. || 6 || 42425354 454e3001 4b494f02 524a451a 595aaa02 5f5f040c
+|-
+| SCAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 9 || 42525417 444a5401 47471026 4a483031 4e4d0705 4e4d0920 53554b54 55464990 595aaa02
+|-
+| SCAN || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge construction. || 11 || 42425354 444a5401 47471026 47471031 4e4d0705 4e4d0920 524a451a 53554b54 55464990 595aaa02 5f5f040c
+|-
+| SCAZ || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (Dual Voltaage) construction. || 5 || 444a5401 4e4d0705 4e4d0920 53554b54 5f5f040c
+|-
+| SCAa || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv AC Overhead) construction. || 2 || 42425354 5f5f040c
+|-
+| SCAd || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 2 || 42425354 5f5f040c
+|-
+| SCEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed siding/branch line, crushed stone ballast, wood/concrete ties, electrified || 1 || 4a560201
+|-
+| SDA3 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 2 || 4e4d0920 53554b54
+|-
+| SDA4 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (630v 4th Rail) construction. || 1 || 53554b54
+|-
+| SDAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified AC 25kV railroad || 2 || 4b494f02 5f5f040c
+|-
+| SDAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified DC 3kV railroad || 1 || 5f5f040c
+|-
+| SDAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 8 || 444a5401 47471026 4a483031 4e4d0705 4e4d0920 53554b54 55464990 595aaa02
+|-
+| SDAN || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 9 || 444a5401 47471026 4a483031 4e4d0705 4e4d0920 53554b54 55464990 595aaa02 5f5f040c
+|-
+| SDAZ || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (CLASS 4) Medium Speed (DUAL SYSTEM) || 1 || 4e4d0920
+|-
+| SDAa || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Trunk Electrified AC 15kV railroad || 1 || 5f5f040c
+|-
+| SDEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-high-speed siding, crushed stone ballast, wood/concrete ties, electrified || 1 || 4a560201
+|-
+| SDEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed mainline, gravel ballast, wood ties || 1 || 4a560201
+|-
+| SE01 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Electrified Railway (80 km/h) || 1 || 53540101
+|-
+| SE02 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Electrified Railway (120 km/h) || 1 || 53540101
+|-
+| SE03 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Electrified Railway (160 km/h) || 1 || 53540101
+|-
+| SE04 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Electrified Railway (200 km/h) || 1 || 53540101
+|-
+| SE05 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Electrified Railway (250 km/h) || 1 || 53540101
+|-
+| SE06 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Electrified Railway (400 km/h) || 1 || 53540101
+|-
+| SEA3 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 2 || 4e4d0920 53554b54
+|-
+| SEAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified AC 25kV railroad || 2 || 4b494f02 5f5f040c
+|-
+| SEAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified DC 3kV railroad || 1 || 5f5f040c
+|-
+| SEAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 7 || 444a5401 4a483031 4e4d0705 4e4d0920 53554b54 55464990 595aaa02
+|-
+| SEAN || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 4 || 4e4d0705 4e4d0920 53554b54 595aaa02
+|-
+| SEAZ || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (CLASS 5) Medium Speed (DUAL SYSTEM) || 1 || 4e4d0920
+|-
+| SEAa || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified AC 15kV railroad || 1 || 5f5f040c
+|-
+| SEAd || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified DC 1.5kV railroad || 1 || 5f5f040c
+|-
+| SEEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed mainline, gravel/crushed stone ballast, wood/concrete ties || 1 || 4a560201
+|-
+| SEL1 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Railway (level 1) (electrified) || 1 || 55464951
+|-
+| SEL2 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Railway (level 2) (electrified) || 1 || 55464951
+|-
+| SEL3 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || High speed railway (electrified) || 1 || 55464951
+|-
+| SFA3 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 2 || 4e4d0920 53554b54
+|-
+| SFAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Unlimited-speed Electrified AC 25kV railroad || 1 || 5f5f040c
+|-
+| SFAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 5 || 4a483031 4e4d0920 53554b54 55464990 595aaa02
+|-
+| SFAN || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 3 || 4e4d0920 53554b54 595aaa02
+|-
+| SFAZ || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (CLASS 6) Medium Speed (DUAL SYSTEM) || 1 || 4e4d0920
+|-
+| SFAa || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Unlimited-speed Electrified AC 15kV railroad || 1 || 5f5f040c
+|-
+| SFEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Modern medium-speed mainline, crushed stone ballast, concrete ties, electrified || 1 || 4a560201
+|-
+| SFEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed mainline, crushed stone ballast, wood/concrete ties || 1 || 4a560201
+|-
+| SGAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Standard High-Speed Track (AC) (Concrete Ties) || 1 || 595aaa02
+|-
+| SGAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 3 || 4e4d0920 53554b54 595aaa02
+|-
+| SGAN || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 3 || 4e4d0920 53554b54 595aaa02
+|-
+| SGEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Modern high-speed mainline, crushed stone ballast, concrete ties, electrified || 1 || 4a560201
+|-
+| SHAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Standard High-Speed Track (AC) (Slabs) || 1 || 595aaa02
+|-
+| SHAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 3 || 4e4d0920 53554b54 595aaa02
+|-
+| SHAN || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (CLASS 8) High Speed (RAIL) || 1 || 4e4d0920
+|-
+| SHEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Modern high-speed mainline, crushed stone ballast, concrete ties, electrified || 1 || 4a560201
+|-
+| SIAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Standard High-Speed Track (AC/DC) (Slabs) || 2 || 4e4d0920 595aaa02
+|-
+| SIAN || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (CLASS 9) High Speed (RAIL) || 1 || 4e4d0920
+|-
+| SRL0 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Overgrown railway || 1 || 55464951
+|-
+| SRL1 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Railway (level 1) || 1 || 55464951
+|-
+| SRL2 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Railway (level 2) || 1 || 55464951
+|-
+| SSA3 || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Underground Standard Gauge Metro (3rd Rail Electrified) || 4 || 454e3001 47385203 524a451a 52545303
+|-
+| SSAZ || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Underground Rail Construction || 3 || 47385203 52545303 fbfb0402
+|-
+| ST01 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Railway (80 km/h) || 1 || 53540101
+|-
+| ST02 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Railway (120 km/h) || 1 || 53540101
+|-
+| ST03 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Railway (160 km/h) || 1 || 53540101
+|-
+| ST04 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Railway (200 km/h) || 1 || 53540101
+|-
+| ST05 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Railway (250 km/h) || 1 || 53540101
+|-
+| ST06 || [https://bananas.openttd.org/package/newgrf/53540101 Speeded Tracks] || 2026-10-06 || Build Railway (400 km/h) || 1 || 53540101
+|-
+| SU1E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge ISR (Electrified) || 2 || 454e0e01 524a451c
+|-
+| SU1N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge ISR || 2 || 454e0e01 524a451c
+|-
+| SU2E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge Cobblestone (Electrified) || 2 || 454e0e01 524a451c
+|-
+| SU2N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge Cobblestone || 2 || 454e0e01 524a451c
+|-
+| SU3E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge Dirt (Electrified) || 2 || 454e0e01 524a451c
+|-
+| SU3N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge Dirt || 2 || 454e0e01 524a451c
+|-
+| SU4E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge Asphalt (Electrified) || 2 || 454e0e01 524a451c
+|-
+| SU4N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Standard Gauge Asphalt || 2 || 454e0e01 524a451c
+|-
+| SUA3 || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Standard Gauge Urban Metro (3rd Rail Electrified) || 4 || 454e3001 524a451a 55464990 55464991
+|-
+| SUAD || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Standard Gauge Urban (Electrified) || 2 || 454e3001 524a451a
+|-
+| SUAE || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || Urban railway (electrified)  || 2 || 55464990 55464991
+|-
+| SUAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Standard Gauge Urban || 2 || 454e3001 524a451a
+|-
+| SUAZ || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || Urban metro (Dual powered electrified)  || 5 || 47385203 52545303 55464990 55464991 fbfb0402
+|-
+| SUB3 || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (dual electrified) || 1 || 44503000
+|-
+| SUBE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Narrow gauge railroad || 2 || 44503000 5f5f0409
+|-
+| SUC3 || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Urban line (3rd rail powered) || 1 || 44503000
+|-
+| SUCE || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Urban line (electrified) || 1 || 44503000
+|-
+| SY13 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 1 || 53554b54
+|-
+| SY1E || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 1 || 53554b54
+|-
+| SY1N || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 1 || 53554b54
+|-
+| SY1Z || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (Dual Voltaage) construction. || 1 || 53554b54
+|-
+| SY23 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 2 || 42425354 53554b54
+|-
+| SY2A || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv AC Overhead) construction. || 1 || 42425354
+|-
+| SY2D || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv DC Overhead) construction. || 1 || 42425354
+|-
+| SY2E || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 1 || 53554b54
+|-
+| SY2N || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge construction. || 2 || 42425354 53554b54
+|-
+| SY2Z || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 2 || 42425354 53554b54
+|-
+| SY2a || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv AC Overhead) construction. || 1 || 42425354
+|-
+| SY2d || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 1 || 42425354
+|-
+| SY33 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 2 || 42425354 53554b54
+|-
+| SY3A || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv AC Overhead) construction. || 1 || 42425354
+|-
+| SY3D || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv DC Overhead) construction. || 1 || 42425354
+|-
+| SY3E || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 1 || 53554b54
+|-
+| SY3N || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge construction. || 2 || 42425354 53554b54
+|-
+| SY3Z || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 2 || 42425354 53554b54
+|-
+| SY3a || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv AC Overhead) construction. || 1 || 42425354
+|-
+| SY3d || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 1 || 42425354
+|-
+| SY43 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 2 || 42425354 53554b54
+|-
+| SY4A || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv AC Overhead) construction. || 1 || 42425354
+|-
+| SY4D || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (3kv DC Overhead) construction. || 1 || 42425354
+|-
+| SY4E || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 1 || 53554b54
+|-
+| SY4N || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge construction. || 2 || 42425354 53554b54
+|-
+| SY4Z || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (25kv/15kv/3kv/1.5kv AC/DC Overhead) (750v DC 3rd Rail) construction. || 2 || 42425354 53554b54
+|-
+| SY4a || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (15kv AC Overhead) construction. || 1 || 42425354
+|-
+| SY4d || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 1 || 42425354
+|-
+| SY53 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 1 || 53554b54
+|-
+| SY5E || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 1 || 53554b54
+|-
+| SY5N || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 1 || 53554b54
+|-
+| SY5Z || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (Dual Voltaage) construction. || 1 || 53554b54
+|-
+| TBAI || [https://bananas.openttd.org/package/newgrf/524a451b Maglev Track Set v2 reMOD] || 2024-01-09 || Urban Maglev || 3 || 454e0202 47385203 524a451b
+|-
+| TBAS || [https://bananas.openttd.org/package/newgrf/524a451b Maglev Track Set v2 reMOD] || 2024-01-09 || Intercity Maglev || 3 || 454e0202 47385203 524a451b
+|-
+| TCAI || [https://bananas.openttd.org/package/newgrf/524a451b Maglev Track Set v2 reMOD] || 2024-01-09 || SUMA Maglev || 3 || 454e0202 47385203 524a451b
+|-
+| TCAS || [https://bananas.openttd.org/package/newgrf/524a451b Maglev Track Set v2 reMOD] || 2024-01-09 || Transrapid Maglev || 3 || 454e0202 47385203 524a451b
+|-
+| UBMR || [https://bananas.openttd.org/package/newgrf/444e0601 Monorail Infrastructure Conv Se] || 2013-01-28 || Urban Monorail Construction || 1 || 444e0601
+|-
+| UFIL || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 1 || 47385203
+|-
+| UNI1 || [https://bananas.openttd.org/package/newgrf/56420202 PURR Universal Rainbow Rails] || 2021-06-11 || CLEAN purr || 1 || 56420202
+|-
+| UNI2 || [https://bananas.openttd.org/package/newgrf/56420202 PURR Universal Rainbow Rails] || 2021-06-11 || YELLOW purr || 1 || 56420202
+|-
+| UNI3 || [https://bananas.openttd.org/package/newgrf/56420202 PURR Universal Rainbow Rails] || 2021-06-11 || RED purr || 1 || 56420202
+|-
+| UNI4 || [https://bananas.openttd.org/package/newgrf/56420202 PURR Universal Rainbow Rails] || 2021-06-11 || BLUE purr || 1 || 56420202
+|-
+| UNI5 || [https://bananas.openttd.org/package/newgrf/56420202 PURR Universal Rainbow Rails] || 2021-06-11 || GREEN purr || 1 || 56420202
+|-
+| VACT || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 1 || 47385203
+|-
+| VOLE || [https://bananas.openttd.org/package/newgrf/52545303 (OLD) Recycled Tracktype Set v1] || 2020-02-27 || Volos triple gauge electrified || 1 || 52545303
+|-
+| VOLO || [https://bananas.openttd.org/package/newgrf/52545303 (OLD) Recycled Tracktype Set v1] || 2020-02-27 || Volos triple gauge || 1 || 52545303
+|-
+| WGWY || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 ||  || 3 || 47385203 4738520b 4b494f02
+|-
+| WWAY || [https://bananas.openttd.org/package/newgrf/47385203 Recycled Tracktype Set] || 2022-08-16 || Wagonway Construction || 4 || 47385203 4738520b 4b494f02 52545303
+|-
+| YARD || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Unelectrified Rail 7 (Yard/Station) || 1 || 47471031
+|-
+| _040 || [https://bananas.openttd.org/package/newgrf/53455230 Swedish Rails] || 2013-12-06 ||  || 1 || 53455230
+|-
+| _080 || [https://bananas.openttd.org/package/newgrf/53455230 Swedish Rails] || 2013-12-06 ||  || 1 || 53455230
+|-
+| _AAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Universal Underground (Grass) || 1 || 595aaa02
+|-
+| _BAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Universal Underground (Concrete) || 1 || 595aaa02
+|-
+| dAAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Dual Gauge Track (AC/DC) (Wooden Ties) || 1 || 595aaa02
+|-
+| dAAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Branch || 6 || 454e3001 524a451a 55464951 55464990 55464991 595aaa02
+|-
+| dAAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Branch (Electrified) || 2 || 454e3001 524a451a
+|-
+| dBAE || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Dual Gauge Track (AC/DC) (Slabs) || 5 || 55464951 55464990 55464991 595aaa02 5f5f040c
+|-
+| dBAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Trunk || 4 || 454e3001 524a451a 55464990 5f5f040c
+|-
+| dBAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Trunk (Electrified) || 2 || 454e3001 524a451a
+|-
+| dCAN || [https://bananas.openttd.org/package/newgrf/524a451a North Korean Track Set reMOD] || 2024-01-09 || Dual Gauge Modern || 1 || 524a451a
+|-
+| dCAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Modern (Electrified) || 2 || 454e3001 524a451a
+|-
+| dU1E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge ISR (Electrified) || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU1N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge ISR || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU2E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge Cobblestone (Electrified) || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU2N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge Cobblestone || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU3E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge Dirt (Electrified) || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU3N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge Dirt || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU4E || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge Asphalt (Electrified) || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dU4N || [https://bananas.openttd.org/package/newgrf/454e0e01 Industrial Trackset] || 2022-07-03 || Dual Gauge Asphalt || 4 || 454e0e01 47385203 4738520b 524a451c
+|-
+| dUAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Urban || 2 || 454e3001 524a451a
+|-
+| dUAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Urban (Electrified) || 2 || 454e3001 524a451a
+|-
+| nAAE || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| nAAN || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
+|-
+| sAAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Scotch Gauge Track (DC) (Wooden Ties) || 1 || 595aaa02
+|-
+| sBAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Scotch Gauge Track (DC) (Concrete Ties) || 1 || 595aaa02
+|-
+| sCAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Scotch Gauge Track (DC) (Slabs) || 1 || 595aaa02
+|}
+
+=== Road Types ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|-
+| AAAN || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 ||  || 1 || 51526501
+|-
+| AABN || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 ||  || 1 || 51526501
+|-
+| AACN || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 ||  || 1 || 51526501
+|-
+| AER0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Asphalt road || 2 || 55464989 5f5f0204
+|-
+| AER2 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Asphalt road (class C) || 2 || 55464989 5f5f0204
+|-
+| AER3 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Asphalt road (class B) || 3 || 55464988 55464989 5f5f0204
+|-
+| ARD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Asphalt road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| ARD1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Road (class B) || 3 || 55464950 55464989 5f5f0204
+|-
+| ARD2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Road (class A) || 3 || 55464950 55464989 5f5f0204
+|-
+| ARD3 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Asphalt road (class B) || 3 || 55464988 55464989 5f5f0204
+|-
+| ARD4 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Asphalt road (class A) || 3 || 55464988 55464989 5f5f0204
+|-
+| ASP0 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Basic Asphalt Road Construction || 2 || 415a1001 59580100
+|-
+| ASP1 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Improved Asphalt Road Construction || 2 || 415a1001 59580100
+|-
+| ASP2 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Modern Asphalt Road Construction || 2 || 415a1001 59580100
+|-
+| ASPT || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Asphalt Road Constructon || 1 || 44450601
+|-
+| A_RD || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || A Road Construction || 1 || 54574609
+|-
+| BEAC || [https://bananas.openttd.org/package/newgrf/52425219 AuzObjects Beach] || 2023-09-24 || Beach Road || 1 || 52425219
+|-
+| BFWY || [https://bananas.openttd.org/package/newgrf/4d560100 Basic Highway] || 2024-08-01 || Freeway Construction || 1 || 4d560100
+|-
+| BHWY || [https://bananas.openttd.org/package/newgrf/4d560100 Basic Highway] || 2024-08-01 || Highway Construction || 1 || 4d560100
+|-
+| B_RD || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || B Road Construction || 1 || 54574609
+|-
+| CAN0 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Seawaterway || 1 || 51526501
+|-
+| CAN1 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Canal || 1 || 51526501
+|-
+| CAN2 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Lakewaterway || 1 || 51526501
+|-
+| CBRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Cobblestone Driveway Constructon || 3 || 4242444c 44450401 47524302
+|-
+| CBRE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Cobblestone Electric Driveway Constructon || 3 || 4242444c 44450401 47524302
+|-
+| CONC || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Concrete Road Construction || 1 || 54574609
+|-
+| CTNL || [https://bananas.openttd.org/package/newgrf/47524305 (OLD) GRC 1, Pt. 5] || 2020-11-01 || Road Tunnel Construction || 1 || 47524305
+|-
+| DIRT || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Unpaved Track  Construction || 4 || 415a1001 44450601 54574609 59580100
+|-
+| DRD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Dirt yard road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| DRD1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Cobblestone road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| DRD2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Pavement road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| DRD3 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Industrial road || 3 || 55464950 55464989 5f5f0204
+|-
+| DRD4 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Cement slabs yard road || 3 || 55464950 55464989 5f5f0204
+|-
+| DRD5 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Asphalt concrete road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| DRD6 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Cement concrete road || 3 || 55464950 55464989 5f5f0204
+|-
+| EGRV || [https://bananas.openttd.org/package/newgrf/47524301 (OLD) GRC 1, Pt. 1] || 2020-10-28 || Gravel Road with Overhead Wire Constructon || 2 || 44450601 47524301
+|-
+| ELA0 || [https://bananas.openttd.org/package/newgrf/47524305 (OLD) GRC 1, Pt. 5] || 2020-11-01 || Electrified Basic Asphalt Road Construction || 3 || 415a1001 47524305 59580100
+|-
+| ELA1 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Electrified Improved Asphalt Road Construction || 2 || 415a1001 59580100
+|-
+| ELA2 || [https://bananas.openttd.org/package/newgrf/47524305 (OLD) GRC 1, Pt. 5] || 2020-11-01 || Electrified Modern Asphalt Road Construction || 3 || 415a1001 47524305 59580100
+|-
+| ELAS || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Asphalt Road with Overhead Wire Construction || 1 || 44450601
+|-
+| ELHL || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 ||  || 3 || 4242444c 44450401 47524302
+|-
+| ELR2 || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Town Road (electrified) Construction || 1 || 54574609
+|-
+| ELRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Basic road (electrified) || 16 || 415a1001 4242444c 44450401 44450601 47524302 47524305 4d410003 4d490101 51526501 54574609 55464950 55464988 55464989 59580100 5f5f0200 5f5f0204
+|-
+| ELSP || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Electrified Sett Paved Road Construction || 2 || 415a1001 59580100
+|-
+| ERD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Asphalt road (electrified) || 1 || 55464950
+|-
+| ERD1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Road (class B) (electrified) || 1 || 55464950
+|-
+| ERD2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Residential road (electrified) || 1 || 55464950
+|-
+| ERD3 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Urban road (electrified) || 1 || 55464950
+|-
+| FORD || [https://bananas.openttd.org/package/newgrf/47524303 (OLD) GRC 1, Pt. 3] || 2020-07-17 || Ford Construction || 1 || 47524303
+|-
+| FRZN || [https://bananas.openttd.org/package/newgrf/47524303 (OLD) GRC 1, Pt. 3] || 2020-07-17 || Frozen River Way Construction || 1 || 47524303
+|-
+| GRAV || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Gravel Road Constructon || 1 || 44450601
+|-
+| GSLP || [https://bananas.openttd.org/package/newgrf/47385202 Utility Roadtype Set] || 2022-07-02 || Sett Street with Gaslamps || 1 || 47385202
+|-
+| GTNL || [https://bananas.openttd.org/package/newgrf/47524305 (OLD) GRC 1, Pt. 5] || 2020-11-01 || Road Tunnel Construction || 1 || 47524305
+|-
+| HAUL || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 ||  || 3 || 4242444c 44450401 47524302
+|-
+| HWAY || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Highway Constructon || 3 || 415a1001 44450601 59580100
+|-
+| IAAN || [https://bananas.openttd.org/package/newgrf/43530103 Country Roads] || 2023-06-22 || Unsurfaced Dirt Road Construction || 1 || 43530103
+|-
+| IABE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| IABN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| IAaN || [https://bananas.openttd.org/package/newgrf/43530103 Country Roads] || 2023-06-22 || Unsurfaced Forest Road Construction || 1 || 43530103
+|-
+| IBBE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| IBBN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| ICBE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| ICBN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| ID2E || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || CHIPS Concrete Road (catenary) || 1 || 595aaa05
+|-
+| IND2 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || CHIPS Concrete Road || 1 || 595aaa05
+|-
+| IND3 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || CHIPS Cobblestone Road || 1 || 595aaa05
+|-
+| IND4 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || ISR Concrete Road || 1 || 595aaa05
+|-
+| IND5 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || AUZ Concrete Road || 1 || 595aaa05
+|-
+| ISRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Industrial Station Driveway Constructon || 2 || 4242444c 44450401
+|-
+| ISRE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Industrial Station Electric Driveway Constructon || 2 || 4242444c 44450401
+|-
+| JF01 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF02 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF03 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF04 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF05 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF06 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF07 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF08 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF09 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF10 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF11 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF12 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF13 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF14 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF15 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF16 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF17 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF18 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF19 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF20 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF21 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF22 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF23 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| JF24 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| MWAY || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Motorway Construction || 1 || 54574609
+|-
+| OLD_ || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Old Town Road Construction || 2 || 415a1001 59580100
+|-
+| ORD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Field road || 3 || 55464950 55464989 5f5f0204
+|-
+| ORD1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Dirt road || 1 || 55464950
+|-
+| ORD2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Sand road || 3 || 55464950 55464989 5f5f0204
+|-
+| ORD3 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Gravel road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| ORDA || [https://bananas.openttd.org/package/newgrf/45420801 OPM_Road] || 2026-10-07 || OPM Sand road || 1 || 45420801
+|-
+| ORDB || [https://bananas.openttd.org/package/newgrf/45420801 OPM_Road] || 2026-10-07 || OPM Gravel road || 1 || 45420801
+|-
+| PD01 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Stone Pedestrian Street || 1 || 595aaa05
+|-
+| PD02 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Tiled Sidewalk Pedestrian Street || 1 || 595aaa05
+|-
+| PIPE || [https://bananas.openttd.org/package/newgrf/47385202 Utility Roadtype Set] || 2022-07-02 || Pipeline || 1 || 47385202
+|-
+| PVRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Asphalt Driveway Constructon || 2 || 4242444c 44450401
+|-
+| PVRE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Asphalt Electric Driveway Constructon || 3 || 4242444c 44450401 47524302
+|-
+| QR00 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Sandroad || 1 || 51526501
+|-
+| QR02 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Grassroad || 1 || 51526501
+|-
+| QR03 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Footpath, Tile || 1 || 51526501
+|-
+| QR04 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Brickroad, Tile || 1 || 51526501
+|-
+| QR05 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Brickroad, Electrified || 1 || 51526501
+|-
+| QR06 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Countryroad, Grass || 1 || 51526501
+|-
+| QR07 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Motorway, Concrete || 1 || 51526501
+|-
+| QR08 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Highway, Tarmac || 1 || 51526501
+|-
+| QR09 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || ISR-Road, Tile || 1 || 51526501
+|-
+| QR10 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || CHIPS-Road, Tile || 1 || 51526501
+|-
+| QR11 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || GarryG-Concrete, Tile || 1 || 51526501
+|-
+| QR12 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Airport-Concrete, Tile || 1 || 51526501
+|-
+| QR13 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Taxiway || 1 || 51526501
+|-
+| QR14 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Red Road, Tile || 1 || 51526501
+|-
+| QR15 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Green Road, Tile || 1 || 51526501
+|-
+| QR16 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Formula-1 Track || 1 || 51526501
+|-
+| QR17 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Formula-1 Pitlane || 1 || 51526501
+|-
+| QR18 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Asphaltroad, Tile || 1 || 51526501
+|-
+| QR22 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Beachroad || 1 || 51526501
+|-
+| QR24 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Concrete, Tile || 1 || 51526501
+|-
+| QR25 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Grass, Tile || 1 || 51526501
+|-
+| QR35 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Brickroad, Sidewalk || 1 || 51526501
+|-
+| QR36 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Ruralroad, Grass || 1 || 51526501
+|-
+| QR37 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Highway, Electrified || 1 || 51526501
+|-
+| QR38 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Cityroad, Sidewalk || 1 || 51526501
+|-
+| QR39 || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 || Cityroad, Electrified || 1 || 51526501
+|-
+| RAAE || [https://bananas.openttd.org/package/newgrf/47524301 (OLD) GRC 1, Pt. 1] || 2020-10-28 || Stone Road with Overhead Wire Constructon || 2 || 47524301 5f5f0200
+|-
+| RAAN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RABE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RABN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RACN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RAaN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RBAN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RBBE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RBBN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RBCN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RBaN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RCAN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RCBE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RCBN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RD01 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Field Path || 1 || 595aaa05
+|-
+| RD02 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Unpaved Road || 1 || 595aaa05
+|-
+| RD04 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Stone || 1 || 595aaa05
+|-
+| RD05 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Concrete Road || 1 || 595aaa05
+|-
+| RD07 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Asphalt Road || 1 || 595aaa05
+|-
+| RD08 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Asphalt Road (catenary) || 1 || 595aaa05
+|-
+| RD09 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Improved Asphalt Road || 1 || 595aaa05
+|-
+| RDBE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| RDBN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| REBE || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| REBN || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| REX1 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Expressway || 1 || 595aaa05
+|-
+| REX2 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Expressway (Solid) || 1 || 595aaa05
+|-
+| REX3 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Expressway (Slow) || 1 || 595aaa05
+|-
+| ROAD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Normal road || 22 || 415a1001 4242444c 43530103 44450401 44450601 47385202 47524302 47524303 47524305 4d410003 4d490101 4d560100 51526501 52425219 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
+|-
+| RT01 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Rural dirt  || 2 || 4d410003 4d490101
+|-
+| RT02 || [https://bananas.openttd.org/package/newgrf/4d490101 CZTR Road set] || 2026-01-31 ||  [ - ] Cobblestone - countryside || 1 || 4d490101
+|-
+| RT03 || [https://bananas.openttd.org/package/newgrf/4d490101 CZTR Road set] || 2026-01-31 ||  [EL] Cobblestone - countryside || 1 || 4d490101
+|-
+| RT04 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] (Trucks only) Cobblestone freight  || 2 || 4d410003 4d490101
+|-
+| RT05 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Street paved with sidewalk   || 2 || 4d410003 4d490101
+|-
+| RT06 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Cobblestone highway  || 2 || 4d410003 4d490101
+|-
+| RT07 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Asphalt 2-lane street with lighting   || 2 || 4d410003 4d490101
+|-
+| RT08 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Paved street   || 2 || 4d410003 4d490101
+|-
+| RT09 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [EL] Asphalt 2-lane street  || 2 || 4d410003 4d490101
+|-
+| RT10 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Paved highway  || 2 || 4d410003 4d490101
+|-
+| RT11 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Urban asphalt 2-lane with lighting  || 2 || 4d410003 4d490101
+|-
+| RT12 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Urban asphalt 2-lane || 2 || 4d410003 4d490101
+|-
+| RT13 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [EL] (EL) Urban asphalt 2-lane with lighting  || 2 || 4d410003 4d490101
+|-
+| RT14 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Intercity highway  || 2 || 4d410003 4d490101
+|-
+| RT15 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Highway with left bump  || 2 || 4d410003 4d490101
+|-
+| RT16 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Highway with right bump  || 2 || 4d410003 4d490101
+|-
+| RT17 || [https://bananas.openttd.org/package/newgrf/4d490101 CZTR Road set] || 2026-01-31 ||  [EL] 2. class - countryside || 1 || 4d490101
+|-
+| SETT || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Sett Paved Road Construction || 2 || 415a1001 59580100
+|-
+| SMRT || [https://bananas.openttd.org/package/newgrf/47524304 (OLD) GRC 1, Pt. 4] || 2021-04-25 || Smartroad || 1 || 47524304
+|-
+| SMTS || [https://bananas.openttd.org/package/newgrf/47524304 (OLD) GRC 1, Pt. 4] || 2021-04-25 || Smartstreet || 1 || 47524304
+|-
+| SRD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Paved stone road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| SRD1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Cement slabs road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| SRD2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Concrete road || 3 || 55464950 55464989 5f5f0204
+|-
+| SRD3 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Concrete slabs road || 3 || 55464950 55464989 5f5f0204
+|-
+| ST01 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Unpaved Street || 1 || 595aaa05
+|-
+| ST03 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Stone Street || 1 || 595aaa05
+|-
+| ST04 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Stone Street (catenary) || 1 || 595aaa05
+|-
+| ST05 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Concrete Street || 1 || 595aaa05
+|-
+| ST06 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Concrete Street (catenary) || 1 || 595aaa05
+|-
+| ST08 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Secondary Street || 1 || 595aaa05
+|-
+| ST09 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Primary Street || 1 || 595aaa05
+|-
+| ST10 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Primary Street (catenary) || 1 || 595aaa05
+|-
+| ST11 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Tiled Sidewalk Street || 1 || 595aaa05
+|-
+| ST12 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Tall Green Tree Primary Street || 1 || 595aaa05
+|-
+| ST13 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Sakura Tree Primary Street || 1 || 595aaa05
+|-
+| ST14 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || 4L Street R (deco) || 1 || 595aaa05
+|-
+| ST15 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || 4L Street L (deco) || 1 || 595aaa05
+|-
+| ST18 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || 6L Avenue R || 1 || 595aaa05
+|-
+| ST19 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || 6L Avenue L || 1 || 595aaa05
+|-
+| STAM || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Asphalt Paved Street Constructon || 1 || 44450601
+|-
+| STAS || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Asphalt Paved Street Constructon || 1 || 44450601
+|-
+| TOWN || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Town Road Construction || 1 || 54574609
+|-
+| TRD0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Town road || 2 || 55464989 5f5f0204
+|-
+| TRD_ || [https://bananas.openttd.org/package/newgrf/47385202 Utility Roadtype Set] || 2022-07-02 ||  || 1 || 47385202
+|-
+| UER0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Residential road || 2 || 55464989 5f5f0204
+|-
+| UER1 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Urban road || 3 || 55464988 55464989 5f5f0204
+|-
+| UER5 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || White pavement || 2 || 55464989 5f5f0204
+|-
+| URD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Residential road || 3 || 55464950 55464989 5f5f0204
+|-
+| URD1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Urban road || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| URD2 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Green road || 3 || 45420802 55464989 5f5f0204
+|-
+| URD3 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Red road || 3 || 45420802 55464989 5f5f0204
+|-
+| URD4 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Gray pavement || 2 || 55464989 5f5f0204
+|-
+| URD5 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || White pavement || 2 || 55464989 5f5f0204
+|-
+| URD6 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Pedestrian zone || 2 || 55464989 5f5f0204
+|-
+| WRD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Highway || 4 || 55464950 55464988 55464989 5f5f0204
+|-
+| WRD1 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Expressway || 2 || 55464989 5f5f0204
+|-
+| YDRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Mud Yard Driveway Construction || 3 || 4242444c 44450401 47524302
+|-
+| aABN || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 ||  || 1 || 51526501
+|-
+| aACN || [https://bananas.openttd.org/package/newgrf/51526501 Quast65's RoadSet] || 2023-10-10 ||  || 1 || 51526501
+|}
+
+=== Tram Types ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|-
+| CBTE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Cobblestone Electric Tramway Construction || 2 || 4242444c 44450401
+|-
+| CBTR || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Cobblestone Tramway Construction || 2 || 4242444c 44450401
+|-
+| DE11 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Slip Road Overlap R || 1 || 595aaa05
+|-
+| DE12 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Slip Road Overlap L || 1 || 595aaa05
+|-
+| DEC1 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Street Lights Right || 1 || 595aaa05
+|-
+| DEC2 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Street Lights Left || 1 || 595aaa05
+|-
+| DEC8 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Sound Barrier R || 1 || 595aaa05
+|-
+| DEC9 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Sound Barrier L || 1 || 595aaa05
+|-
+| DEL0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || ISR tram track || 3 || 55464988 55464989 5f5f0204
+|-
+| DRL0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || ISR tram track || 3 || 55464988 55464989 5f5f0204
+|-
+| EFNC || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Cable Vault Tramway with Catenary Construction || 1 || 44450601
+|-
+| ELML || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Pedestrian Mall Tramway Construction || 1 || 44450601
+|-
+| ELOW || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Rough Electric Tramway Construction || 1 || 44450601
+|-
+| ELRL || [https://github.com/OpenTTD/OpenTTD/commit/1739024 OTTD] || 2007-05-26 || Electrified rail || 15 || 415a1001 4242444c 43530201 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
+|-
+| EMLR || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Modern Light Railway with Catenary Construction || 1 || 44450601
+|-
+| FUNC || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Cable Vault Tramway Construction || 1 || 44450601
+|-
+| INVI || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Invisible Tramlanes Construction || 1 || 51546501
+|-
+| ISTE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Industrial Station Electric Tramway Construction || 2 || 4242444c 44450401
+|-
+| ISTR || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Industrial Station Tramway Construction || 2 || 4242444c 44450401
+|-
+| LT0_ || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Lighting (Both) || 1 || 55464950
+|-
+| LT1_ || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Lighting (Right) || 1 || 55464950
+|-
+| LT2_ || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Lighting (Left) || 1 || 55464950
+|-
+| MLRL || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Modern Light Railway Construction || 1 || 44450601
+|-
+| MONO || [https://bananas.openttd.org/package/newgrf/47524304 (OLD) GRC 1, Pt. 4] || 2021-04-25 || Subway and Monorail || 1 || 47524304
+|-
+| MTR0 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, Rural Construction || 1 || 51546501
+|-
+| MTR1 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, Urban Construction || 1 || 51546501
+|-
+| MTR2 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, Urban & Concrete Construction || 1 || 51546501
+|-
+| MTR3 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, Highspeed Construction || 1 || 51546501
+|-
+| MTR4 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, With Grass Roof Construction || 1 || 51546501
+|-
+| MTR5 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, With Concrete Roof Construction || 1 || 51546501
+|-
+| MTR6 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Metro, With Fake Airport Concrete Roof Construction || 1 || 51546501
+|-
+| MTRO || [https://bananas.openttd.org/package/newgrf/47524304 (OLD) GRC 1, Pt. 4] || 2021-04-25 || Metro Subway || 1 || 47524304
+|-
+| PVTE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Asphalt Electric Tramway Construction || 2 || 4242444c 44450401
+|-
+| PVTR || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Asphalt Tramway Construction || 2 || 4242444c 44450401
+|-
+| QTM0 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Highspeed Tramway Construction || 1 || 51546501
+|-
+| QTM1 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Highspeed Electric Tramway Construction || 1 || 51546501
+|-
+| RAIL || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Tramway || 14 || 415a1001 4242444c 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
+|-
+| RLOW || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Rough Tramway Construction || 1 || 44450601
+|-
+| SAAE || [https://bananas.openttd.org/package/newgrf/415a1001 RattRoads] || 2023-05-21 || Concrete Electric Tramway Construction || 1 || 415a1001
+|-
+| SAAN || [https://bananas.openttd.org/package/newgrf/415a1001 RattRoads] || 2023-05-21 || Concrete Tramway Construction || 1 || 415a1001
+|-
+| TEL0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Overgrown tramway (electrified) || 3 || 55464950 55464989 5f5f0204
+|-
+| TEL1 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Concrete tramway (electrified) || 1 || 55464950
+|-
+| TEL2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Urban tramway (electrified) || 1 || 55464950
+|-
+| TRL0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Overgrown tramway || 3 || 55464950 55464989 5f5f0204
+|-
+| UEL0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Urban tram track || 2 || 55464989 5f5f0204
+|-
+| UEL1 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Red tram track || 2 || 55464989 5f5f0204
+|-
+| UEL2 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Green tram track || 2 || 55464989 5f5f0204
+|-
+| YDTR || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Mud Yard Tramway Construction || 2 || 4242444c 44450401
+|}

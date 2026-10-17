@@ -475,8 +475,41 @@ def generate_csv_page(hierarchy, page_name, debug=False, countable_data=None):
 				csv_file.write(',"{0}",{1},{2},"{3}"{5},{4}\n'.format(label, grf_id, when, comment.replace('"', '""'), occurrences, cd_data))
 
 
+def generate_mediawiki_page(hierarchy, page_name, debug=False, countable_data=None):
+	with open(os.path.join("gen_docs", f"{page_name}.mediawiki"), "w") as mediawiki_file:
+		for c in hierarchy.keys():
+			if c == -1:  # It is a classes table.
+				mediawiki_file.write("== Classes ==\n")
+			else:  # It is a table for specific class.
+				mediawiki_file.write("\n=== {} ===\n".format(c))
+			cd_title = "," + ",".join(countable_data) if countable_data else ""
+			mediawiki_file.write(f'\n{{| class="wikitable sortable"\n! Label !! Introduced by !! When !! Comment{cd_title} !! Occurrences !! Using GRFIDs\n')
+			for b in hierarchy[c]:
+				label = b
+				data = hierarchy[c][b]
+				grf_id = data[0]
+				if grf_id == 0x504E53FF:  # It comes from default badges by Peter Nelson.
+					grf_id = "[https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges]"
+				elif grf_id == -2:  # Introduced by community but not necessarily used in any grfs.
+					grf_id = "[https://www.tt-forums.net Community]"
+				elif grf_id == -3:  # Introduced by Chris Sawyer in TTD.
+					grf_id = "[https://www.tt-wiki.net/wiki/Main_Page TTD]"
+				elif grf_id < -3:  # Introduced by community in OTTD. GRF id is - commit hash in decimal system.
+					grf_id = f"[https://github.com/OpenTTD/OpenTTD/commit/{-grf_id:x} OTTD]"
+				else:  # Introduced by grf from BaNaNaS.
+					grf_id = "[https://bananas.openttd.org/package/newgrf/{1} {0}]".format(find_grf_name(grf_id, debug), hex(grf_id)[2:])
+				when = "{0}-{1:02d}-{2:02d}".format(data[1], data[2], data[3])  # Introduction date.
+				comment = data[4] if data[4] else data[6]  # Use string from grf if no comment provided.
+				occurrences = csv_link_with_grf_ids(data[-1], " || ", "") if isinstance(data[-1], list) else f"{data[-1]} ||"
+				cd_data = (" || " + "<br>".join([csv_link_with_grf_ids(e[1], " - ", "") + ": " + e[0] for e in data[-2]]) + '"') if countable_data else ""
+				mediawiki_file.write("|-\n| {0} || {1} || {2} || {3}{5} || {4}\n".format(label, grf_id, when, comment, occurrences, cd_data))
+			mediawiki_file.write("|}\n")
+			if c == -1:
+				mediawiki_file.write("\n== {} ==\n".format(page_name.split("/")[0].capitalize()))
+
+
 def generate_page_all_formats(hierarchy, page_name, debug=False, countable_data=None):
-	for page_genarator in [generate_markdown_page, generate_csv_page]:
+	for page_genarator in [generate_markdown_page, generate_csv_page, generate_mediawiki_page]:
 		page_genarator(hierarchy, page_name, debug, countable_data)
 
 

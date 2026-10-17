@@ -1,0 +1,18 @@
+
+=== Rail Types ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|}
+
+=== Road Types ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|}
+
+=== Tram Types ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|}

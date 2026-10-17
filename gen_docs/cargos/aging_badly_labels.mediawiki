@@ -1,0 +1,12 @@
+
+=== Labels ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment,Classes !! Occurrences !! Using GRFIDs
+|-
+| LVPT || [https://bananas.openttd.org/package/newgrf/4d490208 CZTR Engines - Electric] || 2026-08-20 || Zbarvení || " || 0 ||
+|-
+| NUKF || [https://bananas.openttd.org/package/newgrf/54540401 Improved Town Industries] || 2010-09-18 || Nuclear fuel || " || 0 ||
+|-
+| NUKW || [https://bananas.openttd.org/package/newgrf/54540401 Improved Town Industries] || 2010-09-18 || Nuclear waste || " || 0 ||
+|}
