@@ -472,7 +472,7 @@ def generate_csv_page(hierarchy, page_name, debug=False, countable_data=None):
 				comment = data[4] if data[4] else data[6]  # Use string from grf if no comment provided.
 				occurrences = csv_link_with_grf_ids(data[-1]) if isinstance(data[-1], list) else f"{data[-1]},"
 				cd_data = (',"' + "\n".join([csv_link_with_grf_ids(e[1], " - ", "") + ": " + e[0] for e in data[-2]]) + '"') if countable_data else ""
-				csv_file.write(',"{0}",{1},{2},"{3}"{5},{4}\n'.format(label, grf_id, when, comment.replace('"', '\\"'), occurrences, cd_data))
+				csv_file.write(',"{0}",{1},{2},"{3}"{5},{4}\n'.format(label, grf_id, when, comment.replace('"', '""'), occurrences, cd_data))
 
 
 def generate_page_all_formats(hierarchy, page_name, debug=False, countable_data=None):
