@@ -1,4 +1,7 @@
 badges:
+- attribute
+- attribute/concept
+- attribute/push_pull
 - flag
 - flag/AL
 - flag/AO
@@ -103,7 +106,6 @@ badges:
 - flag/SK
 - flag/SL
 - flag/SM
-- flag/SN
 - flag/TG
 - flag/TH
 - flag/TN
