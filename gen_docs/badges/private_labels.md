@@ -10,6 +10,7 @@
 | [_ih_wagon_subtype](#_ih_wagon_subtype) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
 | [_ww_livery](#_ww_livery) | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-07-05 | Livery Pattern | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | [_ww_type](#_ww_type) | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-06-10 | Type | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+| [flag](#flag) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Country/Region | [8](https://bananas.openttd.org/?message=GRFs:+38424253,+504d0101,+504d0201,+504e53ff,+544d0201,+564e0101,+57465907,+fb300c4b "38424253, 504d0101, 504d0201, 504e53ff, 544d0201, 564e0101, 57465907, fb300c4b") |
 
 # __tmp__
 | Label | Introduced by | When | Comment | O. |
@@ -736,3 +737,12 @@
 | --- | --- | --- | --- | --- |
 | _ww_type/locomotive | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-06-10 | Locomotive | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
 | _ww_type/multiple_unit | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-06-10 | Multiple Unit | [1](https://bananas.openttd.org/?message=GRFs:+57465907 "57465907") |
+
+# flag
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| flag/EU | [8-bit Badge Set](https://bananas.openttd.org/package/newgrf/38424253) | 2026-03-13 | European Union | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| flag/GDR | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | East Germany | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| flag/SU | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | USSR | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| flag/WRLD | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | World | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
+| flag/YU | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Yugoslavia | [2](https://bananas.openttd.org/?message=GRFs:+564e0101,+fb300c4b "564e0101, fb300c4b") |
