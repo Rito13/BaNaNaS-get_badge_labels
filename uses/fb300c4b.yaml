@@ -1,6 +1,7 @@
 badges:
 - __tmp__
 - attribute
+- attribute/concept
 - attribute/push_pull
 - axleweight
 - axleweight/A
@@ -19,7 +20,9 @@ badges:
 - builder/aeg
 - builder/alco
 - builder/alsthom
+- builder/alstom
 - builder/ansaldo_breda
+- builder/babcock_wilcox
 - builder/baldwin
 - builder/bbc
 - builder/beyer_peacock
@@ -33,12 +36,17 @@ badges:
 - builder/comeng
 - builder/crochat
 - builder/crrc
+- builder/crrc/dallian
+- builder/crrc/qishuyan
+- builder/crrc/sifang
 - builder/crrc/tangshan
 - builder/crrc/zuzhou
 - builder/downer
 - builder/dubs
 - builder/ee
 - builder/emd
+- builder/euskalduna
+- builder/fablok
 - builder/falcon
 - builder/ferrostaal
 - builder/fiat
@@ -48,8 +56,10 @@ badges:
 - builder/ganz_mavag
 - builder/ge
 - builder/gm
+- builder/gmd
 - builder/goninan
 - builder/haiphong
+- builder/hanomag
 - builder/henschel
 - builder/hinkley
 - builder/hitachi
@@ -63,17 +73,21 @@ badges:
 - builder/kawasaki
 - builder/kisha_seizo
 - builder/kitson
+- builder/koechlin
 - builder/komarek
 - builder/krauss_maffei
 - builder/lkm
 - builder/mav
+- builder/mavag
 - builder/metro_cammell
+- builder/mlw
 - builder/mtm
 - builder/munktells
 - builder/nasmyth_wilson
 - builder/neilson
 - builder/niigata
 - builder/nippon_sharyo
+- builder/nohab
 - builder/north_british
 - builder/nzr
 - builder/nzr/addington
@@ -81,6 +95,7 @@ badges:
 - builder/nzr/hutt
 - builder/nzr/otahuhu
 - builder/orenstein_koppel
+- builder/pesa
 - builder/pullman
 - builder/ringhoffer
 - builder/robatel_buffaud
@@ -94,6 +109,7 @@ badges:
 - builder/sulzer
 - builder/sws
 - builder/toshiba
+- builder/tulloch
 - builder/ucw
 - builder/uerdingen
 - builder/vossloh
