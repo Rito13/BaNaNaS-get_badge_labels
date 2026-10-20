@@ -69,6 +69,18 @@
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/athena || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_formation_ruleset/alt_var_41_predicate/automobile_car_combo_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/automobile_car_combo_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/automobile_car_combo_randomised_pony_gen_4D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/automobile_car_combo_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/automobile_car_combo_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/automobile_car_combo_randomised_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_formation_ruleset/alt_var_41_predicate/automobile_car_pony_gen_2A || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/automobile_car_pony_gen_2B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
@@ -121,6 +133,18 @@
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_randomised_pony_gen_4D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/double_deck_automobile_car_randomised_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-06-20 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-06-20 ||  || 1 || 43411223
@@ -134,6 +158,10 @@
 | _ih_formation_ruleset/alt_var_41_predicate/double_deck_enclosed_automobile_car_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/dover || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/express_intermodal_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/express_intermodal_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/express_intermodal_car_type_1_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
@@ -179,6 +207,12 @@
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/intermodal_car_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_formation_ruleset/alt_var_41_predicate/intermodal_car_randomised_pony_gen_5A || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/intermodal_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/intermodal_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_formation_ruleset/alt_var_41_predicate/jupiter || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/kraken || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
@@ -202,6 +236,22 @@
 | _ih_formation_ruleset/alt_var_41_predicate/low_floor_intermodal_car_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/low_floor_intermodal_car_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_2B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_2C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_3B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_3C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/machinery_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/machinery_car_type_1_pony_gen_2B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-07-22 ||  || 1 || 43411223
 |-
@@ -254,6 +304,18 @@
 | _ih_formation_ruleset/alt_var_41_predicate/scooby || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/serpentine || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/single_deck_automobile_car_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/single_deck_automobile_car_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/single_deck_automobile_car_randomised_pony_gen_4D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/single_deck_automobile_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/single_deck_automobile_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/alt_var_41_predicate/single_deck_automobile_car_randomised_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/alt_var_41_predicate/skeiron_middle || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
@@ -344,6 +406,20 @@
 | _ih_formation_ruleset/vehicle_reports_as/autocoach_pony_gen_2 || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/automobile_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised_pony_gen_4D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/automobile_car_combo_randomised_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/automobile_car_pony_gen_2A || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
@@ -495,6 +571,18 @@
 |-
 | _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_randomised_pony_gen_4D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/double_deck_automobile_car_randomised_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-06-20 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/double_deck_enclosed_automobile_car_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-06-20 ||  || 1 || 43411223
@@ -544,6 +632,10 @@
 | _ih_formation_ruleset/vehicle_reports_as/express_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/express_intermodal_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/express_intermodal_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/express_intermodal_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/express_intermodal_car_type_1_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
@@ -679,6 +771,12 @@
 |-
 | _ih_formation_ruleset/vehicle_reports_as/intermodal_car_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_formation_ruleset/vehicle_reports_as/intermodal_car_randomised_pony_gen_5A || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/intermodal_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/intermodal_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_formation_ruleset/vehicle_reports_as/intrepid || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/jupiter || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
@@ -734,6 +832,22 @@
 | _ih_formation_ruleset/vehicle_reports_as/lynx || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/machinery_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-07-22 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_2B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_2C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_3B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_3C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/machinery_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/machinery_car_type_1_pony_gen_2B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-07-22 ||  || 1 || 43411223
 |-
@@ -924,6 +1038,18 @@
 | _ih_formation_ruleset/vehicle_reports_as/side_door_hopper_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/silo_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/single_deck_automobile_car_randomised_pony_gen_4B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/single_deck_automobile_car_randomised_pony_gen_4C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/single_deck_automobile_car_randomised_pony_gen_4D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/single_deck_automobile_car_randomised_pony_gen_5B || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/single_deck_automobile_car_randomised_pony_gen_5C || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
+| _ih_formation_ruleset/vehicle_reports_as/single_deck_automobile_car_randomised_pony_gen_5D || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_formation_ruleset/vehicle_reports_as/sizzler || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
@@ -1305,6 +1431,8 @@
 |-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/aggregate_hopper_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_randomised_wagon/candidates/ih_vehicle_family/automobile_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/bolster_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/box_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
@@ -1329,7 +1457,11 @@
 |-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/curtain_side_box_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_randomised_wagon/candidates/ih_vehicle_family/double_deck_automobile_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/express_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_randomised_wagon/candidates/ih_vehicle_family/express_intermodal_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/farm_product_box_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
@@ -1343,7 +1475,11 @@
 |-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/hood_open_car_type_1 || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-
+| _ih_randomised_wagon/candidates/ih_vehicle_family/intermodal_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/lime_covered_hopper_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
+|-
+| _ih_randomised_wagon/candidates/ih_vehicle_family/machinery_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
 |-
 | _ih_randomised_wagon/candidates/ih_vehicle_family/mail_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-07-08 ||  || 1 || 43411223
 |-

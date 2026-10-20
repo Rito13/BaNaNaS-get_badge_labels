@@ -1747,6 +1747,8 @@
 |-
 | ih_vehicle_family/automobile_car || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-01-04 ||  || 1 || 43411223
 |-
+| ih_vehicle_family/automobile_car_combo_randomised || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-10-18 ||  || 1 || 43411223
+|-
 | ih_vehicle_family/avenger || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-01-04 ||  || 1 || 43411223
 |-
 | ih_vehicle_family/backbone || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-01-04 ||  || 1 || 43411223
