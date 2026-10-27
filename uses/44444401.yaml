@@ -1,1 +1,35 @@
-[]
+badges: []
+cargos: {}
+rail_types:
+- 3RDC
+- 3RDR
+- ELRL
+- MGLV
+- MONO
+- RAIL
+road_types:
+- ASP1
+- ASP2
+- ASP3
+- CITE
+- CITY
+- CONY
+- CONZ
+- DIRE
+- DIRY
+- DIRZ
+- ELRD
+- ESP1
+- ESP2
+- ESP3
+- MACA
+- MACE
+- MACY
+- MACZ
+- ROAD
+- SETT
+- TOWE
+- TOWN
+tram_types:
+- ELRL
+- RAIL
