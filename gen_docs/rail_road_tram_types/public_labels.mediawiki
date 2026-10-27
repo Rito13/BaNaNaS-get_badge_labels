@@ -4,9 +4,9 @@
 {| class="wikitable sortable"
 ! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
 |-
-| 3RDC || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (Dual Voltaage) construction. || 4 || 44442303 534d0101 53554b54 55504454
+| 3RDC || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (Dual Voltaage) construction. || 5 || 44442303 44444401 534d0101 53554b54 55504454
 |-
-| 3RDR || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 4 || 44442303 534d0101 53554b54 55504454
+| 3RDR || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 5 || 44442303 44444401 534d0101 53554b54 55504454
 |-
 | B3A3 || [https://bananas.openttd.org/package/newgrf/4d656fb1 xUSSR Rails Set] || 2024-02-29 || Third rail railroad (right) || 1 || 4d656fb1
 |-
@@ -90,7 +90,7 @@
 |-
 | ELR1 || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || Very High speed Lines (electrified) || 1 || 55460101
 |-
-| ELRL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Electrified rail || 42 || 414d6301 42425354 42450101 42525417 44442303 444a5401 44503000 454e0e01 454e1201 454e3001 47385203 4738520b 47471026 47471031 4a560201 4b494f02 4b543031 4d490104 4d656fb1 4e4d0705 4e4d0920 524a451a 524a451c 52545303 53455230 534d0101 53540101 53554b54 544f5901 54574606 55460101 55464951 55464990 55464991 55504454 56420202 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0402 fbfb0701
+| ELRL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Electrified rail || 43 || 414d6301 42425354 42450101 42525417 44442303 44444401 444a5401 44503000 454e0e01 454e1201 454e3001 47385203 4738520b 47471026 47471031 4a560201 4b494f02 4b543031 4d490104 4d656fb1 4e4d0705 4e4d0920 524a451a 524a451c 52545303 53455230 534d0101 53540101 53554b54 544f5901 54574606 55460101 55464951 55464990 55464991 55504454 56420202 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0402 fbfb0701
 |-
 | ELSA || [https://bananas.openttd.org/package/newgrf/47471031 AuzRails Set] || 2023-09-30 || Electrified 1 Gantry with Wire Fence || 1 || 47471031
 |-
@@ -278,11 +278,11 @@
 |-
 | MGL2 || [https://bananas.openttd.org/package/newgrf/444a5401 NuTracks] || 2019-10-17 || Accelerated narrow-gauge line construction || 1 || 444a5401
 |-
-| MGLV || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Maglev tracks || 22 || 414d6301 44442303 444a5401 44503000 454e0202 454e1201 4672783a 47385203 4d656fb1 4e475453 4e4d0705 4e4d0920 524a451b 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402
+| MGLV || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Maglev tracks || 23 || 414d6301 44442303 44444401 444a5401 44503000 454e0202 454e1201 4672783a 47385203 4d656fb1 4e475453 4e4d0705 4e4d0920 524a451b 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402
 |-
 | MON2 || [https://bananas.openttd.org/package/newgrf/444a5401 NuTracks] || 2019-10-17 || Electric accelerated narrow-gauge line construction || 1 || 444a5401
 |-
-| MONO || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Monorail tracks || 21 || 414d6301 42450101 44442303 444a5401 444e0601 44503000 454e1002 454e1201 47385203 4d656fb1 4e4d0705 4e4d0920 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402
+| MONO || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Monorail tracks || 22 || 414d6301 42450101 44442303 44444401 444a5401 444e0601 44503000 454e1002 454e1201 47385203 4d656fb1 4e4d0705 4e4d0920 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402
 |-
 | MTRO || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Standard Gauge Metro (3rd Rail Electrified) || 4 || 43411223 454e3001 4b494f02 524a451a
 |-
@@ -480,7 +480,7 @@
 |-
 | RA13 || [https://bananas.openttd.org/package/newgrf/4d490104 CZTR Rails] || 2026-01-31 ||  ( -- ) Concrete - AŽD -  || 1 || 4d490104
 |-
-| RAIL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Normal rail || 41 || 414d6301 42425354 42525417 44442303 444a5401 44503000 454e0e01 454e1201 454e3001 47385203 4738520b 47471026 47471031 4a560201 4b494f02 4b543031 4d490104 4d656fb1 4e4d0705 4e4d0920 524a451a 524a451c 52545303 53455230 534d0101 53540101 53554b54 544f5901 54574606 55460101 55464951 55464990 55464991 55504454 56420202 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0402 fbfb0701
+| RAIL || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Normal rail || 42 || 414d6301 42425354 42525417 44442303 44444401 444a5401 44503000 454e0e01 454e1201 454e3001 47385203 4738520b 47471026 47471031 4a560201 4b494f02 4b543031 4d490104 4d656fb1 4e4d0705 4e4d0920 524a451a 524a451c 52545303 53455230 534d0101 53540101 53554b54 544f5901 54574606 55460101 55464951 55464990 55464991 55504454 56420202 595aaa02 5f5f0409 5f5f040c 6a647207 fbfb0402 fbfb0701
 |-
 | RHIG || [https://bananas.openttd.org/package/newgrf/55460101 U&ReRMM] || 2019-01-10 || High speed Lines || 2 || 53455230 55460101
 |-
@@ -950,9 +950,11 @@
 |-
 | ASP0 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Basic Asphalt Road Construction || 2 || 415a1001 59580100
 |-
-| ASP1 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Improved Asphalt Road Construction || 2 || 415a1001 59580100
+| ASP1 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Improved Asphalt Road Construction || 3 || 415a1001 44444401 59580100
 |-
-| ASP2 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Modern Asphalt Road Construction || 2 || 415a1001 59580100
+| ASP2 || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Modern Asphalt Road Construction || 3 || 415a1001 44444401 59580100
+|-
+| ASP3 || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Highway Construction || 1 || 44444401
 |-
 | ASPT || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Asphalt Road Constructon || 1 || 44450601
 |-
@@ -976,11 +978,25 @@
 |-
 | CBRE || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Cobblestone Electric Driveway Constructon || 3 || 4242444c 44450401 47524302
 |-
+| CITE || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified City Street Construction || 1 || 44444401
+|-
+| CITY || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || City Street Construction || 1 || 44444401
+|-
 | CONC || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Concrete Road Construction || 1 || 54574609
+|-
+| CONY || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Concrete Yard Construction || 1 || 44444401
+|-
+| CONZ || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Concrete Yard Construction || 1 || 44444401
 |-
 | CTNL || [https://bananas.openttd.org/package/newgrf/47524305 (OLD) GRC 1, Pt. 5] || 2020-11-01 || Road Tunnel Construction || 1 || 47524305
 |-
+| DIRE || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Dirt Road Construction || 1 || 44444401
+|-
 | DIRT || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Unpaved Track  Construction || 4 || 415a1001 44450601 54574609 59580100
+|-
+| DIRY || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Dirt Yard Construction || 1 || 44444401
+|-
+| DIRZ || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Dirt Yard Construction || 1 || 44444401
 |-
 | DRD0 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Dirt yard road || 4 || 55464950 55464988 55464989 5f5f0204
 |-
@@ -1010,7 +1026,7 @@
 |-
 | ELR2 || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Town Road (electrified) Construction || 1 || 54574609
 |-
-| ELRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Basic road (electrified) || 16 || 415a1001 4242444c 44450401 44450601 47524302 47524305 4d410003 4d490101 51526501 54574609 55464950 55464988 55464989 59580100 5f5f0200 5f5f0204
+| ELRD || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Basic road (electrified) || 17 || 415a1001 4242444c 44444401 44450401 44450601 47524302 47524305 4d410003 4d490101 51526501 54574609 55464950 55464988 55464989 59580100 5f5f0200 5f5f0204
 |-
 | ELSP || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Electrified Sett Paved Road Construction || 2 || 415a1001 59580100
 |-
@@ -1021,6 +1037,12 @@
 | ERD2 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Residential road (electrified) || 1 || 55464950
 |-
 | ERD3 || [https://bananas.openttd.org/package/newgrf/55464950 U&RaTT 2] || 2026-01-02 || Urban road (electrified) || 1 || 55464950
+|-
+| ESP1 || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Asphalt Road Construction || 1 || 44444401
+|-
+| ESP2 || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Marked Road Construction || 1 || 44444401
+|-
+| ESP3 || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Highway Construction || 1 || 44444401
 |-
 | FORD || [https://bananas.openttd.org/package/newgrf/47524303 (OLD) GRC 1, Pt. 3] || 2020-07-17 || Ford Construction || 1 || 47524303
 |-
@@ -1113,6 +1135,14 @@
 | JF23 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
 |-
 | JF24 || [https://bananas.openttd.org/package/newgrf/5f5f0200 JF Ratt Roads] || 2023-10-11 ||  || 1 || 5f5f0200
+|-
+| MACA || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Gravel Road Construction || 1 || 44444401
+|-
+| MACE || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Gravel Road Construction || 1 || 44444401
+|-
+| MACY || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Gravel Yard Construction || 1 || 44444401
+|-
+| MACZ || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Gravel Yard Construction || 1 || 44444401
 |-
 | MWAY || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Motorway Construction || 1 || 54574609
 |-
@@ -1248,7 +1278,7 @@
 |-
 | REX3 || [https://bananas.openttd.org/package/newgrf/595aaa05 JP+ Roads] || 2025-11-12 || Expressway (Slow) || 1 || 595aaa05
 |-
-| ROAD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Normal road || 22 || 415a1001 4242444c 43530103 44450401 44450601 47385202 47524302 47524303 47524305 4d410003 4d490101 4d560100 51526501 52425219 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
+| ROAD || [https://www.tt-wiki.net/wiki/Main_Page TTD] || 1995-11-01 || Normal road || 23 || 415a1001 4242444c 43530103 44444401 44450401 44450601 47385202 47524302 47524303 47524305 4d410003 4d490101 4d560100 51526501 52425219 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
 |-
 | RT01 || [https://bananas.openttd.org/package/newgrf/4d410003 czRoadsFix Names] || 2021-04-06 ||  [ - ] Rural dirt  || 2 || 4d410003 4d490101
 |-
@@ -1284,7 +1314,7 @@
 |-
 | RT17 || [https://bananas.openttd.org/package/newgrf/4d490101 CZTR Road set] || 2026-01-31 ||  [EL] 2. class - countryside || 1 || 4d490101
 |-
-| SETT || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Sett Paved Road Construction || 2 || 415a1001 59580100
+| SETT || [https://bananas.openttd.org/package/newgrf/59580100 RattRoads-L] || 2023-03-12 || Sett Paved Road Construction || 3 || 415a1001 44444401 59580100
 |-
 | SMRT || [https://bananas.openttd.org/package/newgrf/47524304 (OLD) GRC 1, Pt. 4] || 2021-04-25 || Smartroad || 1 || 47524304
 |-
@@ -1332,7 +1362,9 @@
 |-
 | STAS || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Asphalt Paved Street Constructon || 1 || 44450601
 |-
-| TOWN || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Town Road Construction || 1 || 54574609
+| TOWE || [https://bananas.openttd.org/package/newgrf/44444401 Sunshine Landscape] || 2026-10-25 || Electrified Paved Street Construction || 1 || 44444401
+|-
+| TOWN || [https://bananas.openttd.org/package/newgrf/54574609 Timberwolf's Roads] || 2023-12-19 || Town Road Construction || 2 || 44444401 54574609
 |-
 | TRD0 || [https://bananas.openttd.org/package/newgrf/55464989 U&RaTT] || 2024-02-08 || Town road || 2 || 55464989 5f5f0204
 |-
@@ -1400,7 +1432,7 @@
 |-
 | ELOW || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Rough Electric Tramway Construction || 1 || 44450601
 |-
-| ELRL || [https://github.com/OpenTTD/OpenTTD/commit/1739024 OTTD] || 2007-05-26 || Electrified rail || 15 || 415a1001 4242444c 43530201 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
+| ELRL || [https://github.com/OpenTTD/OpenTTD/commit/1739024 OTTD] || 2007-05-26 || Electrified rail || 16 || 415a1001 4242444c 43530201 44444401 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
 |-
 | EMLR || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Modern Light Railway with Catenary Construction || 1 || 44450601
 |-
@@ -1446,7 +1478,7 @@
 |-
 | QTM1 || [https://bananas.openttd.org/package/newgrf/51546501 Quast65's TramTrackSet] || 2023-05-30 || Highspeed Electric Tramway Construction || 1 || 51546501
 |-
-| RAIL || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Tramway || 14 || 415a1001 4242444c 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
+| RAIL || [https://bananas.openttd.org/package/newgrf/44450401 Docklands] || 2021-02-14 || Tramway || 15 || 415a1001 4242444c 44444401 44450401 44450601 47524305 51546501 54574609 55464950 55464988 55464989 59580100 595aaa05 5f5f0200 5f5f0204
 |-
 | RLOW || [https://bananas.openttd.org/package/newgrf/44450601 Unspooled] || 2021-03-02 || Rough Tramway Construction || 1 || 44450601
 |-

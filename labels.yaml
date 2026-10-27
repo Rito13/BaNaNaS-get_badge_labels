@@ -28580,6 +28580,14 @@ road_types:
   - ''
   - 0
   - Modern Asphalt Road Construction
+  ASP3:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Highway Construction
   ASPT:
   - 1145374209
   - 2021
@@ -28668,6 +28676,22 @@ road_types:
   - ''
   - 0
   - Cobblestone Electric Driveway Constructon
+  CITE:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified City Street Construction
+  CITY:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - City Street Construction
   CONC:
   - 1415005705
   - 2023
@@ -28676,6 +28700,22 @@ road_types:
   - ''
   - 0
   - Concrete Road Construction
+  CONY:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Concrete Yard Construction
+  CONZ:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Concrete Yard Construction
   CTNL:
   - 1196573445
   - 2020
@@ -28684,6 +28724,14 @@ road_types:
   - ''
   - 0
   - Road Tunnel Construction
+  DIRE:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Dirt Road Construction
   DIRT:
   - 1415005705
   - 2023
@@ -28692,6 +28740,22 @@ road_types:
   - ''
   - 0
   - Unpaved Track  Construction
+  DIRY:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Dirt Yard Construction
+  DIRZ:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Dirt Yard Construction
   DRD0:
   - 1430669648
   - 2026
@@ -28852,6 +28916,30 @@ road_types:
   - ''
   - 0
   - Urban road (electrified)
+  ESP1:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Asphalt Road Construction
+  ESP2:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Marked Road Construction
+  ESP3:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Highway Construction
   FORD:
   - 1196573443
   - 2020
@@ -29220,6 +29308,38 @@ road_types:
   - ''
   - 0
   - ''
+  MACA:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Gravel Road Construction
+  MACE:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Gravel Road Construction
+  MACY:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Gravel Yard Construction
+  MACZ:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Gravel Yard Construction
   MWAY:
   - 1415005705
   - 2023
@@ -30092,6 +30212,14 @@ road_types:
   - ''
   - 0
   - Asphalt Paved Street Constructon
+  TOWE:
+  - 1145324545
+  - 2026
+  - 10
+  - 25
+  - ''
+  - 0
+  - Electrified Paved Street Construction
   TOWN:
   - 1415005705
   - 2023
