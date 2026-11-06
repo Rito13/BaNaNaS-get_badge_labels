@@ -6407,6 +6407,14 @@ badges:
   - ''
   - 0
   - Alsthom / Alstom
+  builder/ansaldo:
+  - 1414398209
+  - 2026
+  - 11
+  - 5
+  - ''
+  - 0
+  - Gio. Ansaldo & Co.
   builder/ansaldo_breda:
   - 1414398209
   - 2026
@@ -7039,6 +7047,14 @@ badges:
   - ''
   - 0
   - "S\xE4chsische Maschinenfabrik"
+  builder/sharp_stewart:
+  - 1414398209
+  - 2026
+  - 11
+  - 5
+  - ''
+  - 0
+  - Sharp, Stewart & Co.
   builder/siemens:
   - 1414398209
   - 2026
@@ -7151,6 +7167,14 @@ badges:
   - ''
   - 0
   - "Vossloh Espa\xF1a"
+  builder/vouga:
+  - 1414398209
+  - 2026
+  - 11
+  - 5
+  - ''
+  - 0
+  - Companhia do Vouga
   builder/vulcan:
   - 1414398209
   - 2026

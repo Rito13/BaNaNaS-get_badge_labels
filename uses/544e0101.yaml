@@ -4,6 +4,7 @@ badges:
 - builder/aeg
 - builder/alco
 - builder/alsthom
+- builder/ansaldo
 - builder/ansaldo_breda
 - builder/baldwin
 - builder/bbc
@@ -33,6 +34,7 @@ badges:
 - builder/ganz_mavag
 - builder/ge
 - builder/gm
+- builder/gmd
 - builder/goninan
 - builder/haiphong
 - builder/henschel
@@ -70,6 +72,7 @@ badges:
 - builder/ringhoffer
 - builder/robatel_buffaud
 - builder/sachsiche
+- builder/sharp_stewart
 - builder/siemens
 - builder/sig
 - builder/slm
@@ -83,6 +86,7 @@ badges:
 - builder/uerdingen
 - builder/vossloh
 - builder/vossloh/espana
+- builder/vouga
 - builder/vulcan
 - builder/walkers
 - builder/werkspoor
