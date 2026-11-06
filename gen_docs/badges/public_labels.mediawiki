@@ -125,6 +125,8 @@
 |-
 | builder/alstom || [https://bananas.openttd.org/package/newgrf/564e2b57 2cc Trains in NML (World Patch)] || 2026-10-17 || Alsthom / Alstom || 2 || 564e2b57 fb300c4b
 |-
+| builder/ansaldo || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-11-05 || Gio. Ansaldo & Co. || 1 || 544e0101
+|-
 | builder/ansaldo_breda || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || AnsaldoBreda || 3 || 544e0101 564e2b57 fb300c4b
 |-
 | builder/babcock_wilcox || [https://bananas.openttd.org/package/newgrf/564e2b57 2cc Trains in NML (World Patch)] || 2026-10-17 || Babcock & Wilcox || 2 || 564e2b57 fb300c4b
@@ -195,7 +197,7 @@
 |-
 | builder/gm || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || General Motors 'GM' || 3 || 544e0101 564e2b57 fb300c4b
 |-
-| builder/gmd || [https://bananas.openttd.org/package/newgrf/564e2b57 2cc Trains in NML (World Patch)] || 2026-10-17 || General Motors Diesel 'GMD' || 2 || 564e2b57 fb300c4b
+| builder/gmd || [https://bananas.openttd.org/package/newgrf/564e2b57 2cc Trains in NML (World Patch)] || 2026-10-17 || General Motors Diesel 'GMD' || 3 || 544e0101 564e2b57 fb300c4b
 |-
 | builder/goninan || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || A. Goninan & Co. || 3 || 544e0101 564e2b57 fb300c4b
 |-
@@ -283,6 +285,8 @@
 |-
 | builder/sachsiche || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || Sächsische Maschinenfabrik || 3 || 544e0101 564e2b57 fb300c4b
 |-
+| builder/sharp_stewart || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-11-05 || Sharp, Stewart & Co. || 1 || 544e0101
+|-
 | builder/siemens || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || Siemens Mobility || 3 || 544e0101 564e2b57 fb300c4b
 |-
 | builder/sig || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || Schweizerische Industrie Gesellschaft 'SIG' || 3 || 544e0101 564e2b57 fb300c4b
@@ -310,6 +314,8 @@
 | builder/vossloh || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || Vossloh || 3 || 544e0101 564e2b57 fb300c4b
 |-
 | builder/vossloh/espana || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || Vossloh España || 3 || 544e0101 564e2b57 fb300c4b
+|-
+| builder/vouga || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-11-05 || Companhia do Vouga || 1 || 544e0101
 |-
 | builder/vulcan || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-08-03 || Vulcan Foundry || 3 || 544e0101 564e2b57 fb300c4b
 |-
