@@ -15,7 +15,7 @@
 |-
 | fence || [https://bananas.openttd.org/package/newgrf/50530001 Polish-Stations] || 2026-06-12 || Fence || 3 || 50530001 61700101 fb300c4b
 |-
-| flag || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Country/Region || 8 || 38424253 504d0101 504d0201 504e53ff 544d0201 564e0101 57465907 fb300c4b
+| flag || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Country/Region || 7 || 38424253 504d0101 504d0201 504e53ff 544d0201 57465907 fb300c4b
 |-
 | ih_behaviour || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-01-04 || Behaviour || 2 || 43411223 fb300c4b
 |-
@@ -427,503 +427,503 @@
 {| class="wikitable sortable"
 ! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
 |-
-| flag/AD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Andorra || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Andorra || 2 || 504e53ff fb300c4b
 |-
-| flag/AE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United Arab Emirates || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United Arab Emirates || 2 || 504e53ff fb300c4b
 |-
-| flag/AF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Afghanistan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Afghanistan || 2 || 504e53ff fb300c4b
 |-
-| flag/AG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Antigua and Barbuda || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Antigua and Barbuda || 2 || 504e53ff fb300c4b
 |-
-| flag/AI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Anguilla || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Anguilla || 2 || 504e53ff fb300c4b
 |-
-| flag/AL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Albania || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/AL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Albania || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/AM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Armenia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Armenia || 2 || 504e53ff fb300c4b
 |-
-| flag/AO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Angola || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/AO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Angola || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/AQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Antarctica || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Antarctica || 2 || 504e53ff fb300c4b
 |-
-| flag/AR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Argentina || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/AR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Argentina || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/AS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || American Samoa || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || American Samoa || 2 || 504e53ff fb300c4b
 |-
-| flag/AT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Austria || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/AT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Austria || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/AU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Australia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/AU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Australia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/AW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Aruba || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Aruba || 2 || 504e53ff fb300c4b
 |-
-| flag/AX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Åland || 3 || 504e53ff 564e0101 fb300c4b
+| flag/AX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Åland || 2 || 504e53ff fb300c4b
 |-
-| flag/AZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Azerbaijan || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/AZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Azerbaijan || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bosnia and Herzegovina || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bosnia and Herzegovina || 2 || 504e53ff fb300c4b
 |-
-| flag/BB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Barbados || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Barbados || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bangladesh || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bangladesh || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Belgium || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/BE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Belgium || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/BF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Burkina Faso || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Burkina Faso || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bulgaria || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bulgaria || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bahrain || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bahrain || 2 || 504e53ff fb300c4b
 |-
-| flag/BI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Burundi || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Burundi || 2 || 504e53ff fb300c4b
 |-
-| flag/BJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Benin || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Benin || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Barthélemy || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Barthélemy || 2 || 504e53ff fb300c4b
 |-
-| flag/BM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bermuda || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bermuda || 2 || 504e53ff fb300c4b
 |-
-| flag/BN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Brunei || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Brunei || 2 || 504e53ff fb300c4b
 |-
-| flag/BO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bolivia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bolivia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Caribbean Netherlands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Caribbean Netherlands || 2 || 504e53ff fb300c4b
 |-
-| flag/BR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Brazil || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Brazil || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bahamas || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bahamas || 2 || 504e53ff fb300c4b
 |-
-| flag/BT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bhutan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bhutan || 2 || 504e53ff fb300c4b
 |-
-| flag/BV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bouvet Island || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Bouvet Island || 2 || 504e53ff fb300c4b
 |-
-| flag/BW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Botswana || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Botswana || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Belarus || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/BY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Belarus || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/BZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Belize || 3 || 504e53ff 564e0101 fb300c4b
+| flag/BZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Belize || 2 || 504e53ff fb300c4b
 |-
-| flag/CA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Canada || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Canada || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cocos Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cocos Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/CD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Democratic Republic of the Congo || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Democratic Republic of the Congo || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Central African Republic || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Central African Republic || 2 || 504e53ff fb300c4b
 |-
-| flag/CG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Republic of the Congo || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Republic of the Congo || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Switzerland || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/CH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Switzerland || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/CI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ivory Coast || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ivory Coast || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cook Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cook Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/CL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Chile || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Chile || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cameroon || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cameroon || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || China || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || China || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Colombia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Colombia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Costa Rica || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Costa Rica || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cuba || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cuba || 2 || 504e53ff fb300c4b
 |-
-| flag/CV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cape Verde || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/CV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cape Verde || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/CW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Curaçao || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Curaçao || 2 || 504e53ff fb300c4b
 |-
-| flag/CX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Christmas Island || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Christmas Island || 2 || 504e53ff fb300c4b
 |-
-| flag/CY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cyprus || 3 || 504e53ff 564e0101 fb300c4b
+| flag/CY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cyprus || 2 || 504e53ff fb300c4b
 |-
-| flag/CZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Czech Republic || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/CZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Czech Republic || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/DE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Germany || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/DE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Germany || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/DJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Djibouti || 3 || 504e53ff 564e0101 fb300c4b
+| flag/DJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Djibouti || 2 || 504e53ff fb300c4b
 |-
-| flag/DK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Denmark || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/DK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Denmark || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/DM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Dominica || 3 || 504e53ff 564e0101 fb300c4b
+| flag/DM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Dominica || 2 || 504e53ff fb300c4b
 |-
-| flag/DO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Dominican Republic || 3 || 504e53ff 564e0101 fb300c4b
+| flag/DO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Dominican Republic || 2 || 504e53ff fb300c4b
 |-
-| flag/DZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Algeria || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/DZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Algeria || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/EC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ecuador || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/EC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ecuador || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/EE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Estonia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/EE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Estonia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/EG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Egypt || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/EG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Egypt || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/EH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Western Sahara || 3 || 504e53ff 564e0101 fb300c4b
+| flag/EH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Western Sahara || 2 || 504e53ff fb300c4b
 |-
-| flag/ER || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Eritrea || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ER || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Eritrea || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/ES || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Spain || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ES || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Spain || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/ET || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ethiopia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/ET || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ethiopia || 2 || 504e53ff fb300c4b
 |-
-| flag/FI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Finland || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/FI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Finland || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/FJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Fiji || 3 || 504e53ff 564e0101 fb300c4b
+| flag/FJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Fiji || 2 || 504e53ff fb300c4b
 |-
-| flag/FK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Falkland Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/FK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Falkland Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/FM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Micronesia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/FM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Micronesia || 2 || 504e53ff fb300c4b
 |-
-| flag/FO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Faroe Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/FO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Faroe Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/FR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || France || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/FR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || France || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/GA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gabon || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gabon || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United Kingdom || 6 || 38424253 504e53ff 544d0201 564e0101 57465907 fb300c4b
+| flag/GB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United Kingdom || 5 || 38424253 504e53ff 544d0201 57465907 fb300c4b
 |-
-| flag/GD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Grenada || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Grenada || 2 || 504e53ff fb300c4b
 |-
-| flag/GE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Georgia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Georgia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || French Guiana || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || French Guiana || 2 || 504e53ff fb300c4b
 |-
-| flag/GG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guernsey || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guernsey || 2 || 504e53ff fb300c4b
 |-
-| flag/GH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ghana || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ghana || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gibraltar || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gibraltar || 2 || 504e53ff fb300c4b
 |-
-| flag/GL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Greenland || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Greenland || 2 || 504e53ff fb300c4b
 |-
-| flag/GM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gambia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gambia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guinea || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guinea || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guadeloupe || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guadeloupe || 2 || 504e53ff fb300c4b
 |-
-| flag/GQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Equatorial Guinea || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Equatorial Guinea || 2 || 504e53ff fb300c4b
 |-
-| flag/GR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Greece || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Greece || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Georgia and the South Sandwich Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Georgia and the South Sandwich Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/GT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gautemala || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Gautemala || 2 || 504e53ff fb300c4b
 |-
-| flag/GU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guam || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guam || 2 || 504e53ff fb300c4b
 |-
-| flag/GW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guinea-Bissau || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/GW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guinea-Bissau || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/GY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guyana || 3 || 504e53ff 564e0101 fb300c4b
+| flag/GY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Guyana || 2 || 504e53ff fb300c4b
 |-
-| flag/HK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Hong Kong || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/HK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Hong Kong || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/HM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Heard Island and McDonald Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/HM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Heard Island and McDonald Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/HN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Honduras || 3 || 504e53ff 564e0101 fb300c4b
+| flag/HN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Honduras || 2 || 504e53ff fb300c4b
 |-
-| flag/HR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Croatia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/HR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Croatia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/HT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Haiti || 3 || 504e53ff 564e0101 fb300c4b
+| flag/HT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Haiti || 2 || 504e53ff fb300c4b
 |-
-| flag/HU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Hungary || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/HU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Hungary || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/ID || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Indonesia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ID || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Indonesia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/IE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ireland || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/IE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ireland || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/IL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Israel || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/IL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Israel || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/IM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Isle of Man || 3 || 504e53ff 564e0101 fb300c4b
+| flag/IM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Isle of Man || 2 || 504e53ff fb300c4b
 |-
-| flag/IN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || India || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/IN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || India || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/IO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || British Indian Ocean Territory || 3 || 504e53ff 564e0101 fb300c4b
+| flag/IO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || British Indian Ocean Territory || 2 || 504e53ff fb300c4b
 |-
-| flag/IQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Iraq || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/IQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Iraq || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/IR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Iran || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/IR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Iran || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/IS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Iceland || 3 || 504e53ff 564e0101 fb300c4b
+| flag/IS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Iceland || 2 || 504e53ff fb300c4b
 |-
-| flag/IT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Italy || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/IT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Italy || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/JE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Jersey || 3 || 504e53ff 564e0101 fb300c4b
+| flag/JE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Jersey || 2 || 504e53ff fb300c4b
 |-
-| flag/JM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Jamaica || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/JM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Jamaica || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/JO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Jordan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/JO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Jordan || 2 || 504e53ff fb300c4b
 |-
-| flag/JP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Japan || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/JP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Japan || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/KE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kenya || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/KE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kenya || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/KG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kyrgyzstan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/KG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kyrgyzstan || 2 || 504e53ff fb300c4b
 |-
-| flag/KH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cambodia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/KH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cambodia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/KI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kiribati || 3 || 504e53ff 564e0101 fb300c4b
+| flag/KI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kiribati || 2 || 504e53ff fb300c4b
 |-
-| flag/KM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Comoros || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/KM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Comoros || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/KN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Kitts and Nevis || 3 || 504e53ff 564e0101 fb300c4b
+| flag/KN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Kitts and Nevis || 2 || 504e53ff fb300c4b
 |-
-| flag/KP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || North Korea || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/KP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || North Korea || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/KR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Korea || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/KR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Korea || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/KW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kuwait || 3 || 504e53ff 564e0101 fb300c4b
+| flag/KW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kuwait || 2 || 504e53ff fb300c4b
 |-
-| flag/KY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cayman Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/KY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Cayman Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/KZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kazakhstan || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/KZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Kazakhstan || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/LA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lao || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/LA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lao || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/LB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lebanon || 3 || 504e53ff 564e0101 fb300c4b
+| flag/LB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lebanon || 2 || 504e53ff fb300c4b
 |-
-| flag/LC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Lucia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/LC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Lucia || 2 || 504e53ff fb300c4b
 |-
-| flag/LI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Liechtenstein || 3 || 504e53ff 564e0101 fb300c4b
+| flag/LI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Liechtenstein || 2 || 504e53ff fb300c4b
 |-
-| flag/LK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sri Lanka || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/LK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sri Lanka || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/LR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Liberia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/LR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Liberia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/LS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lesotho || 3 || 504e53ff 564e0101 fb300c4b
+| flag/LS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lesotho || 2 || 504e53ff fb300c4b
 |-
-| flag/LT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lithuania || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/LT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lithuania || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/LU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Luxembourg || 5 || 38424253 504e53ff 544d0201 564e0101 fb300c4b
+| flag/LU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Luxembourg || 4 || 38424253 504e53ff 544d0201 fb300c4b
 |-
-| flag/LV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lativa || 3 || 504e53ff 564e0101 fb300c4b
+| flag/LV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Lativa || 2 || 504e53ff fb300c4b
 |-
-| flag/LY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Libya || 3 || 504e53ff 564e0101 fb300c4b
+| flag/LY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Libya || 2 || 504e53ff fb300c4b
 |-
-| flag/MA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Morocco || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Morocco || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Monaco || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Monaco || 2 || 504e53ff fb300c4b
 |-
-| flag/MD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Moldova || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Moldova || 2 || 504e53ff fb300c4b
 |-
-| flag/ME || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Montenegro || 3 || 504e53ff 564e0101 fb300c4b
+| flag/ME || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Montenegro || 2 || 504e53ff fb300c4b
 |-
-| flag/MF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Martin || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Martin || 2 || 504e53ff fb300c4b
 |-
-| flag/MG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Madagascar || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Madagascar || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Marshall Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Marshall Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/MK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || North Macedonia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || North Macedonia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/ML || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mali || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ML || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mali || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Myanmar || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Myanmar || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mongolia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mongolia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Macao || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Macao || 2 || 504e53ff fb300c4b
 |-
-| flag/MP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Northern Mariana Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Northern Mariana Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/MQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Martinique || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MQ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Martinique || 2 || 504e53ff fb300c4b
 |-
-| flag/MR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mauritania || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mauritania || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Montserrat || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Montserrat || 2 || 504e53ff fb300c4b
 |-
-| flag/MT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Malta || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Malta || 2 || 504e53ff fb300c4b
 |-
-| flag/MU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mauritius || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mauritius || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Maldives || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Maldives || 2 || 504e53ff fb300c4b
 |-
-| flag/MW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Malawi || 3 || 504e53ff 564e0101 fb300c4b
+| flag/MW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Malawi || 2 || 504e53ff fb300c4b
 |-
-| flag/MX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mexico || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mexico || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Malaysia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Malaysia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/MZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mozambique || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/MZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mozambique || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/NA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Namibia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/NA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Namibia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/NC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || New Caledonia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/NC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || New Caledonia || 2 || 504e53ff fb300c4b
 |-
-| flag/NE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Niger || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/NE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Niger || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/NF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Norfolk Island || 3 || 504e53ff 564e0101 fb300c4b
+| flag/NF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Norfolk Island || 2 || 504e53ff fb300c4b
 |-
-| flag/NG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nigeria || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/NG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nigeria || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/NI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nicaragua || 3 || 504e53ff 564e0101 fb300c4b
+| flag/NI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nicaragua || 2 || 504e53ff fb300c4b
 |-
-| flag/NL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Netherlands || 6 || 38424253 504e53ff 50530001 544d0201 564e0101 fb300c4b
+| flag/NL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Netherlands || 5 || 38424253 504e53ff 50530001 544d0201 fb300c4b
 |-
-| flag/NO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Norway || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/NO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Norway || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/NP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nepal || 3 || 504e53ff 564e0101 fb300c4b
+| flag/NP || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nepal || 2 || 504e53ff fb300c4b
 |-
-| flag/NR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nauru || 3 || 504e53ff 564e0101 fb300c4b
+| flag/NR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Nauru || 2 || 504e53ff fb300c4b
 |-
-| flag/NU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Niue || 3 || 504e53ff 564e0101 fb300c4b
+| flag/NU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Niue || 2 || 504e53ff fb300c4b
 |-
-| flag/NZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || New Zealand || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/NZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || New Zealand || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/OM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Oman || 3 || 504e53ff 564e0101 fb300c4b
+| flag/OM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Oman || 2 || 504e53ff fb300c4b
 |-
-| flag/PA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Panama || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/PA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Panama || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/PE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Peru || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/PE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Peru || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/PF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || French Polynesia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || French Polynesia || 2 || 504e53ff fb300c4b
 |-
-| flag/PG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Papua New Guinea || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Papua New Guinea || 2 || 504e53ff fb300c4b
 |-
-| flag/PH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Philippines || 5 || 504d0101 504d0201 504e53ff 564e0101 fb300c4b
+| flag/PH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Philippines || 4 || 504d0101 504d0201 504e53ff fb300c4b
 |-
-| flag/PK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Pakistan || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/PK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Pakistan || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/PL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Poland || 5 || 38424253 504e53ff 50530001 564e0101 fb300c4b
+| flag/PL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Poland || 4 || 38424253 504e53ff 50530001 fb300c4b
 |-
-| flag/PM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Pierre and Miquelon || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Pierre and Miquelon || 2 || 504e53ff fb300c4b
 |-
-| flag/PN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Pitcairn || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Pitcairn || 2 || 504e53ff fb300c4b
 |-
-| flag/PR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Puerto Rico || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Puerto Rico || 2 || 504e53ff fb300c4b
 |-
-| flag/PS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Palestine || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Palestine || 2 || 504e53ff fb300c4b
 |-
-| flag/PT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Portugal || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/PT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Portugal || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/PW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Palau || 3 || 504e53ff 564e0101 fb300c4b
+| flag/PW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Palau || 2 || 504e53ff fb300c4b
 |-
-| flag/PY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Paraguay || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/PY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Paraguay || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/QA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Qatar || 3 || 504e53ff 564e0101 fb300c4b
+| flag/QA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Qatar || 2 || 504e53ff fb300c4b
 |-
-| flag/RE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Réunion || 3 || 504e53ff 564e0101 fb300c4b
+| flag/RE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Réunion || 2 || 504e53ff fb300c4b
 |-
-| flag/RO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Romania || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/RO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Romania || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/RS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Serbia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/RS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Serbia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/RU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Russia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/RU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Russia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/RW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Rwanda || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/RW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Rwanda || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saudi Arabia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saudi Arabia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Solomon Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SB || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Solomon Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/SC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Seychelles || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Seychelles || 2 || 504e53ff fb300c4b
 |-
-| flag/SD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sudan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sudan || 2 || 504e53ff fb300c4b
 |-
-| flag/SE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sweden || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sweden || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Singapore || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Singapore || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Helena, Ascension and Tristan da Cunha || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Helena, Ascension and Tristan da Cunha || 2 || 504e53ff fb300c4b
 |-
-| flag/SI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Slovenia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Slovenia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Svalbard and Jan Mayen || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Svalbard and Jan Mayen || 2 || 504e53ff fb300c4b
 |-
-| flag/SK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Slovakia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Slovakia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sierra Leone || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sierra Leone || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || San Marino || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/SM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || San Marino || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/SN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Senegal || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Senegal || 2 || 504e53ff fb300c4b
 |-
-| flag/SO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Somalia || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Somalia || 2 || 504e53ff fb300c4b
 |-
-| flag/SR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Suriname || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Suriname || 2 || 504e53ff fb300c4b
 |-
-| flag/SS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Sudan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Sudan || 2 || 504e53ff fb300c4b
 |-
-| flag/ST || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sao Tome and Principe || 3 || 504e53ff 564e0101 fb300c4b
+| flag/ST || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sao Tome and Principe || 2 || 504e53ff fb300c4b
 |-
-| flag/SV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || El Salvador || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || El Salvador || 2 || 504e53ff fb300c4b
 |-
-| flag/SX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sint Maarten || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SX || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Sint Maarten || 2 || 504e53ff fb300c4b
 |-
-| flag/SY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Syrian Arab Republic || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Syrian Arab Republic || 2 || 504e53ff fb300c4b
 |-
-| flag/SZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Eswatini || 3 || 504e53ff 564e0101 fb300c4b
+| flag/SZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Eswatini || 2 || 504e53ff fb300c4b
 |-
-| flag/TC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Turks and Caicos Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Turks and Caicos Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/TD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Chad || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TD || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Chad || 2 || 504e53ff fb300c4b
 |-
-| flag/TF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || French Southern Territories || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || French Southern Territories || 2 || 504e53ff fb300c4b
 |-
-| flag/TG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Togo || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/TG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Togo || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/TH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Thailand || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/TH || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Thailand || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/TJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tajikistan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TJ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tajikistan || 2 || 504e53ff fb300c4b
 |-
-| flag/TK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tokelau || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TK || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tokelau || 2 || 504e53ff fb300c4b
 |-
-| flag/TL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Timor-Leste || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TL || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Timor-Leste || 2 || 504e53ff fb300c4b
 |-
-| flag/TM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Turkmenistan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Turkmenistan || 2 || 504e53ff fb300c4b
 |-
-| flag/TN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tunisia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/TN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tunisia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/TO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tonga || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TO || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tonga || 2 || 504e53ff fb300c4b
 |-
-| flag/TR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Türkiye || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/TR || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Türkiye || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/TT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Trinidad and Tobago || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Trinidad and Tobago || 2 || 504e53ff fb300c4b
 |-
-| flag/TV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tuvalu || 3 || 504e53ff 564e0101 fb300c4b
+| flag/TV || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tuvalu || 2 || 504e53ff fb300c4b
 |-
-| flag/TW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Taiwan || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/TW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Taiwan || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/TZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tanzania || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/TZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Tanzania || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/UA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ukraine || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/UA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Ukraine || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/UG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Uganda || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/UG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Uganda || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/UM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United States Minor Outlying Islands || 3 || 504e53ff 564e0101 fb300c4b
+| flag/UM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United States Minor Outlying Islands || 2 || 504e53ff fb300c4b
 |-
-| flag/US || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United States || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/US || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || United States || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/UY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Uruguay || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/UY || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Uruguay || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/UZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Uzbekistan || 3 || 504e53ff 564e0101 fb300c4b
+| flag/UZ || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Uzbekistan || 2 || 504e53ff fb300c4b
 |-
-| flag/VA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Holy See || 3 || 504e53ff 564e0101 fb300c4b
+| flag/VA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Holy See || 2 || 504e53ff fb300c4b
 |-
-| flag/VC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Vincent and the Grenadines || 3 || 504e53ff 564e0101 fb300c4b
+| flag/VC || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Saint Vincent and the Grenadines || 2 || 504e53ff fb300c4b
 |-
-| flag/VE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Venezuela || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/VE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Venezuela || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/VG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Virgin Islands (British) || 3 || 504e53ff 564e0101 fb300c4b
+| flag/VG || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Virgin Islands (British) || 2 || 504e53ff fb300c4b
 |-
-| flag/VI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Virgin Islands (U.S.) || 3 || 504e53ff 564e0101 fb300c4b
+| flag/VI || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Virgin Islands (U.S.) || 2 || 504e53ff fb300c4b
 |-
-| flag/VN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Vietnam || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/VN || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Vietnam || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/VU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Vanuatu || 3 || 504e53ff 564e0101 fb300c4b
+| flag/VU || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Vanuatu || 2 || 504e53ff fb300c4b
 |-
-| flag/WF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Wallis and Futuna || 3 || 504e53ff 564e0101 fb300c4b
+| flag/WF || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Wallis and Futuna || 2 || 504e53ff fb300c4b
 |-
-| flag/WS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Samoa || 3 || 504e53ff 564e0101 fb300c4b
+| flag/WS || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Samoa || 2 || 504e53ff fb300c4b
 |-
-| flag/YE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Yemen || 3 || 504e53ff 564e0101 fb300c4b
+| flag/YE || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Yemen || 2 || 504e53ff fb300c4b
 |-
-| flag/YT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mayotte || 3 || 504e53ff 564e0101 fb300c4b
+| flag/YT || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Mayotte || 2 || 504e53ff fb300c4b
 |-
-| flag/ZA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Africa || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ZA || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || South Africa || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/ZM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Zambia || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ZM || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Zambia || 3 || 38424253 504e53ff fb300c4b
 |-
-| flag/ZW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Zimbabwe || 4 || 38424253 504e53ff 564e0101 fb300c4b
+| flag/ZW || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Zimbabwe || 3 || 38424253 504e53ff fb300c4b
 |-
 | flag/east_germany || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || East Germany || 2 || 504e53ff fb300c4b
 |-
@@ -2621,7 +2621,7 @@
 |-
 | power/diesel/diesel-hydraulic || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Diesel (Diesel-hydraulic) || 2 || 504e53ff fb300c4b
 |-
-| power/dual || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-05-05 || Dual-mode || 4 || 38424253 544e0101 564e2b57 fb300c4b
+| power/dual || [https://bananas.openttd.org/package/newgrf/544e0101 2cc Narrow Gauge in NML] || 2026-05-05 || Dual-mode || 5 || 38424253 544e0101 564e0101 564e2b57 fb300c4b
 |-
 | power/dual_voltage || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 ||  || 1 || 43411223
 |-

@@ -9,7 +9,7 @@
 |-
 | _ih_randomised_wagon || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-03-23 || AUTO GENERATED CLASS || 0 ||
 |-
-| flag || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Country/Region || 8 || 38424253 504d0101 504d0201 504e53ff 544d0201 564e0101 57465907 fb300c4b
+| flag || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Country/Region || 7 || 38424253 504d0101 504d0201 504e53ff 544d0201 57465907 fb300c4b
 |-
 | ih_distributed_power || [https://bananas.openttd.org/package/newgrf/43411223 Iron Horse 4 (Trains)] || 2026-01-04 || AUTO GENERATED CLASS || 0 ||
 |-

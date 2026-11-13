@@ -21,7 +21,7 @@
 |-
 | _ww_type || [https://bananas.openttd.org/package/newgrf/57465907 Wolfie's Unified UK Trains] || 2026-06-10 || Type || 1 || 57465907
 |-
-| flag || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Country/Region || 8 || 38424253 504d0101 504d0201 504e53ff 544d0201 564e0101 57465907 fb300c4b
+| flag || [https://github.com/OpenTTD/OpenTTD/pull/13655 OpenTTD default badges] || 2025-02-27 || Country/Region || 7 || 38424253 504d0101 504d0201 504e53ff 544d0201 57465907 fb300c4b
 |}
 
 == Badges ==
@@ -1601,13 +1601,13 @@
 {| class="wikitable sortable"
 ! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
 |-
-| flag/EU || [https://bananas.openttd.org/package/newgrf/38424253 8-bit Badge Set] || 2026-03-13 || European Union || 2 || 564e0101 fb300c4b
+| flag/EU || [https://bananas.openttd.org/package/newgrf/38424253 8-bit Badge Set] || 2026-03-13 || European Union || 1 || fb300c4b
 |-
-| flag/GDR || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || East Germany || 2 || 564e0101 fb300c4b
+| flag/GDR || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || East Germany || 1 || fb300c4b
 |-
-| flag/SU || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || USSR || 2 || 564e0101 fb300c4b
+| flag/SU || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || USSR || 1 || fb300c4b
 |-
-| flag/WRLD || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || World || 2 || 564e0101 fb300c4b
+| flag/WRLD || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || World || 1 || fb300c4b
 |-
-| flag/YU || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || Yugoslavia || 2 || 564e0101 fb300c4b
+| flag/YU || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || Yugoslavia || 1 || fb300c4b
 |}
