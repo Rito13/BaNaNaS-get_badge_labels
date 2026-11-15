@@ -3,6 +3,10 @@
 {| class="wikitable sortable"
 ! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
 |-
+| LAND || [https://bananas.openttd.org/package/newgrf/43495253 CIRS Community Industry] || 2026-11-15 || LAND || 1 || 43495253
+|-
+| SEA || [https://bananas.openttd.org/package/newgrf/43495253 CIRS Community Industry] || 2026-11-15 || SEA || 1 || 43495253
+|-
 | attribute || [https://bananas.openttd.org/package/newgrf/564e0101 2cc Trains In NML (Revival)] || 2026-08-22 || Attribute || 3 || 38424253 564e0101 fb300c4b
 |-
 | axleweight || [https://bananas.openttd.org/package/newgrf/544d0201 Dutch Trainset 3XL] || 2026-06-20 || Axle weight || 2 || 544d0201 fb300c4b
@@ -67,6 +71,18 @@
 |}
 
 == Badges ==
+
+=== LAND ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|}
+
+=== SEA ===
+
+{| class="wikitable sortable"
+! Label !! Introduced by !! When !! Comment !! Occurrences !! Using GRFIDs
+|}
 
 === attribute ===
 
