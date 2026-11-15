@@ -1,4 +1,6 @@
 [Classes],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
+,"LAND","CIRS Community Industry",https://bananas.openttd.org/package/newgrf/43495253,2026-11-15,"LAND",1,"43495253"
+,"SEA","CIRS Community Industry",https://bananas.openttd.org/package/newgrf/43495253,2026-11-15,"SEA",1,"43495253"
 ,"attribute","2cc Trains In NML (Revival)",https://bananas.openttd.org/package/newgrf/564e0101,2026-08-22,"Attribute",3,"38424253 564e0101 fb300c4b"
 ,"axleweight","Dutch Trainset 3XL",https://bananas.openttd.org/package/newgrf/544d0201,2026-06-20,"Axle weight",2,"544d0201 fb300c4b"
 ,"benches","Polish-Stations",https://bananas.openttd.org/package/newgrf/50530001,2026-02-12,"Benches",3,"50530001 61700101 fb300c4b"
@@ -30,6 +32,8 @@
 ,"shelter","Polish-Stations",https://bananas.openttd.org/package/newgrf/50530001,2026-02-14,"Shelter",2,"50530001 fb300c4b"
 ,"sign","Romanian stations",https://bananas.openttd.org/package/newgrf/61700101,2026-09-01,"Station sign",2,"61700101 fb300c4b"
 ,"zone",OpenTTD default badges,https://github.com/OpenTTD/OpenTTD/pull/13655,2025-02-27,"Zone",2,"504e53ff fb300c4b"
+[LAND],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
+[SEA],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
 [attribute],Label,Introduced by,Hyperlink,When,Comment,Occurrences,Using GRFIDs
 ,"attribute/concept","8-bit Badge Set",https://bananas.openttd.org/package/newgrf/38424253,2026-10-17,"Concept / Prototype",2,"38424253 fb300c4b"
 ,"attribute/push_pull","2cc Trains In NML (Revival)",https://bananas.openttd.org/package/newgrf/564e0101,2026-08-22,"Push-Pull",3,"38424253 564e0101 fb300c4b"

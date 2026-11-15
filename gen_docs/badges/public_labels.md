@@ -1,6 +1,8 @@
 # Classes
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
+| [LAND](#LAND) | [CIRS Community Industry](https://bananas.openttd.org/package/newgrf/43495253) | 2026-11-15 | LAND | [1](https://bananas.openttd.org/?message=GRFs:+43495253 "43495253") |
+| [SEA](#SEA) | [CIRS Community Industry](https://bananas.openttd.org/package/newgrf/43495253) | 2026-11-15 | SEA | [1](https://bananas.openttd.org/?message=GRFs:+43495253 "43495253") |
 | [attribute](#attribute) | [2cc Trains In NML (Revival)](https://bananas.openttd.org/package/newgrf/564e0101) | 2026-08-22 | Attribute | [3](https://bananas.openttd.org/?message=GRFs:+38424253,+564e0101,+fb300c4b "38424253, 564e0101, fb300c4b") |
 | [axleweight](#axleweight) | [Dutch Trainset 3XL](https://bananas.openttd.org/package/newgrf/544d0201) | 2026-06-20 | Axle weight | [2](https://bananas.openttd.org/?message=GRFs:+544d0201,+fb300c4b "544d0201, fb300c4b") |
 | [benches](#benches) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Benches | [3](https://bananas.openttd.org/?message=GRFs:+50530001,+61700101,+fb300c4b "50530001, 61700101, fb300c4b") |
@@ -32,6 +34,14 @@
 | [shelter](#shelter) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-14 | Shelter | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | [sign](#sign) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Station sign | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 | [zone](#zone) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Zone | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
+
+# LAND
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+
+# SEA
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
 
 # attribute
 | Label | Introduced by | When | Comment | O. |
