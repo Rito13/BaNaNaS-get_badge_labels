@@ -23609,6 +23609,14 @@ cargos:
   - ''
   - 0
   - Hydrochloric Acid
+  IMER:
+  - 1297155585
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Prestige Goods
   INCA:
   - 1128878675
   - 2026
@@ -25074,6 +25082,22 @@ rail_types:
   - ''
   - 0
   - 25kV AC / Third Rail Broad Gauge Railroad
+  BBDA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Russian broad gauge (electrified) 25kVAC
+  BBDN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Russian broad gauge 1520mm
   BCAA:
   - 1600062476
   - 2024
@@ -25186,6 +25210,14 @@ rail_types:
   - ''
   - 0
   - Dual-gauge railway construction
+  DACA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - ''
   DACE:
   - 1600062473
   - 2023
@@ -25194,6 +25226,14 @@ rail_types:
   - ''
   - 0
   - Dual-gauge electrified modern railway construction
+  DACN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - ''
   DBAE:
   - 1600062476
   - 2024
@@ -25210,6 +25250,22 @@ rail_types:
   - ''
   - 0
   - Standard-Broad Dual Gauge Railroad
+  DBDA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Dual gauge (broad, electrified) 25kVAC
+  DBDN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Dual gauge (broad) 1435+1520mm
   DBHE:
   - 1263095554
   - 2022
@@ -26202,6 +26258,14 @@ rail_types:
   - ''
   - 0
   - Highspeed line
+  NACN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Narrow gauge
   NBA3:
   - 1430669712
   - 2023
@@ -26266,6 +26330,22 @@ rail_types:
   - ''
   - 0
   - Narrow Gauge Trunk (Electrified)
+  NBCA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Electric narrow gauge 25kVAC
+  NBCN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Modern narrow gauge
   NCAA:
   - 1499113986
   - 2026
@@ -26306,6 +26386,14 @@ rail_types:
   - ''
   - 0
   - Narrow Gauge Modern (Electrified)
+  NCCA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - High-speed narrow gauge 25kVAC
   NDAE:
   - 1430669712
   - 2023
@@ -27154,6 +27242,22 @@ rail_types:
   - ''
   - 0
   - Railroad (3rd rail powered)
+  SACA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - ''
+  SACD:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - ''
   SACE:
   - 1600062473
   - 2023
@@ -27162,6 +27266,22 @@ rail_types:
   - ''
   - 0
   - Modern line (electrified)
+  SACL:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Linear motor 3rd Rail + LIM
+  SACN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - ''
   SACZ:
   - 1146105856
   - 2016
@@ -27170,6 +27290,14 @@ rail_types:
   - ''
   - 0
   - Railroad (dual electrified)
+  SACd:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Metro 1.5kVDC
   SADD:
   - 4227532545
   - 2014
@@ -27323,6 +27451,14 @@ rail_types:
   - ''
   - 0
   - Standard Gauge (1.5kv DC Overhead) construction.
+  SBC3:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Modern metro 3rd Rail
   SBCA:
   - 4227532545
   - 2014
@@ -27347,6 +27483,38 @@ rail_types:
   - ''
   - 0
   - Modern main line
+  SBCd:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Modern metro 1.5kVDC
+  SBDA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Electrified railway 25kVAC
+  SBDD:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Korean electrified railway 3kVDC
+  SBDN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - 'Main line '
   SBEA:
   - 1247150593
   - 2019
@@ -27371,6 +27539,14 @@ rail_types:
   - ''
   - 0
   - Low-speed branch line, gravel ballast, wood ties
+  SBEd:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Industrial electrified railway 1.5kVDC
   SCA3:
   - 1111642964
   - 2024
@@ -27443,6 +27619,30 @@ rail_types:
   - ''
   - 0
   - Standard Gauge (1.5kv DC Overhead) construction.
+  SCCA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Intercity 25kVAC
+  SCDA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Electrified semi-high-speed 25kVAC
+  SCDN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - 'Semi-high-speed '
   SCEA:
   - 1247150593
   - 2019
@@ -27515,6 +27715,22 @@ rail_types:
   - ''
   - 0
   - Trunk Electrified AC 15kV railroad
+  SDCA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Passenger dedicated 25kVAC
+  SDDA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Electrified fast 25kVAC
   SDEA:
   - 1247150593
   - 2019
@@ -27643,6 +27859,14 @@ rail_types:
   - ''
   - 0
   - High-speed Electrified DC 1.5kV railroad
+  SECA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - High-speed 25kVAC
   SEEN:
   - 1247150593
   - 2019
@@ -27723,6 +27947,14 @@ rail_types:
   - ''
   - 0
   - Unlimited-speed Electrified AC 15kV railroad
+  SFCA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - High-speed 25kVAC
   SFEA:
   - 1247150593
   - 2019
@@ -27763,6 +27995,14 @@ rail_types:
   - ''
   - 0
   - Standard Gauge construction.
+  SGCA:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - High-speed 25kVAC
   SGEA:
   - 1247150593
   - 2019
@@ -28515,6 +28755,14 @@ rail_types:
   - ''
   - 0
   - Dual Gauge Trunk (Electrified)
+  dBCN:
+  - 1600062336
+  - 2026
+  - 11
+  - 21
+  - ''
+  - 0
+  - Dual gauge 1435+1000mm
   dCAN:
   - 1380599066
   - 2024
