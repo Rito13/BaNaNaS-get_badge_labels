@@ -26,6 +26,10 @@
 |-
 | BBAZ || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC / Third Rail Broad Gauge Railroad || 1 || 5f5f040c
 |-
+| BBDA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Russian broad gauge (electrified) 25kVAC || 1 || 5f5f0380
+|-
+| BBDN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Russian broad gauge 1520mm || 1 || 5f5f0380
+|-
 | BCAA || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 25kV AC Broad Gauge Electrified Trunk Railroad || 1 || 5f5f040c
 |-
 | BCAD || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || 3kV DC Broad Gauge Electrified Trunk Railroad || 1 || 5f5f040c
@@ -54,11 +58,19 @@
 |-
 | DABN || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Dual-gauge railway construction || 1 || 5f5f0409
 |-
+| DACA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 ||  || 1 || 5f5f0380
+|-
 | DACE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Dual-gauge electrified modern railway construction || 1 || 5f5f0409
+|-
+| DACN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 ||  || 1 || 5f5f0380
 |-
 | DBAE || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Standard-Broad Dual Gauge AC/DC Electrified Railroad || 1 || 5f5f040c
 |-
 | DBAN || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Standard-Broad Dual Gauge Railroad || 1 || 5f5f040c
+|-
+| DBDA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Dual gauge (broad, electrified) 25kVAC || 1 || 5f5f0380
+|-
+| DBDN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Dual gauge (broad) 1435+1520mm || 1 || 5f5f0380
 |-
 | DBHE || [https://bananas.openttd.org/package/newgrf/4b494f02 Omni-Gauge Railtype] || 2022-07-02 ||  || 1 || 4b494f02
 |-
@@ -308,6 +320,8 @@
 |-
 | NACE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Highspeed line || 2 || 44503000 5f5f0409
 |-
+| NACN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Narrow gauge || 1 || 5f5f0380
+|-
 | NBA3 || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || Modern narrow-gauge railway (3rd rail powered)  || 3 || 42424e54 55464990 5f5f040c
 |-
 | NBAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC) (Concrete Ties) || 3 || 42424e54 595aaa02 5f5f040c
@@ -324,6 +338,10 @@
 |-
 | NBAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Trunk (Electrified) || 3 || 42424e54 454e3001 524a451a
 |-
+| NBCA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Electric narrow gauge 25kVAC || 1 || 5f5f0380
+|-
+| NBCN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Modern narrow gauge || 1 || 5f5f0380
+|-
 | NCAA || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (AC) (Slabs) || 2 || 595aaa02 5f5f040c
 |-
 | NCAD || [https://bananas.openttd.org/package/newgrf/595aaa02 JP+ Tracks] || 2026-04-02 || Narrow Gauge Track (DC) (Slabs) || 2 || 595aaa02 5f5f040c
@@ -333,6 +351,8 @@
 | NCAN || [https://bananas.openttd.org/package/newgrf/524a451a North Korean Track Set reMOD] || 2024-01-09 || Narrow Gauge Modern || 4 || 4e4d0920 524a451a 55464990 595aaa02
 |-
 | NCAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Narrow Gauge Modern (Electrified) || 2 || 454e3001 524a451a
+|-
+| NCCA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || High-speed narrow gauge 25kVAC || 1 || 5f5f0380
 |-
 | NDAE || [https://bananas.openttd.org/package/newgrf/55464990 U&ReRMM 2] || 2023-03-02 || High-speed narrow-gauge railway (electrified)  || 1 || 55464990
 |-
@@ -544,17 +564,27 @@
 |-
 | SABN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Branch line || 1 || 44503000
 |-
-| SAC3 || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (3rd rail powered) || 1 || 44503000
+| SAC3 || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (3rd rail powered) || 2 || 44503000 5f5f0380
+|-
+| SACA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 ||  || 1 || 5f5f0380
+|-
+| SACD || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 ||  || 1 || 5f5f0380
 |-
 | SACE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Modern line (electrified) || 2 || 44503000 5f5f0409
 |-
-| SACZ || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (dual electrified) || 1 || 44503000
+| SACL || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Linear motor 3rd Rail + LIM || 1 || 5f5f0380
+|-
+| SACN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 ||  || 1 || 5f5f0380
+|-
+| SACZ || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Railroad (dual electrified) || 2 || 44503000 5f5f0380
+|-
+| SACd || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Metro 1.5kVDC || 1 || 5f5f0380
 |-
 | SADD || [https://bananas.openttd.org/package/newgrf/fbfb0701 Dutch Tracks] || 2014-09-26 || Standard Rail [1500V DC] || 2 || fbfb0402 fbfb0701
 |-
 | SADE || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Highspeed line (electrified) || 1 || 44503000
 |-
-| SADN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Highspeed line || 1 || 44503000
+| SADN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Highspeed line || 2 || 44503000 5f5f0380
 |-
 | SAE3 || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Metro track, 3rd rail || 1 || 4a560201
 |-
@@ -562,7 +592,7 @@
 |-
 | SAEE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Modern highspeed line (electrified) || 2 || 44503000 5f5f0409
 |-
-| SAEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line/siding, gravel/crushed stone ballast, wood/concrete ties || 1 || 4a560201
+| SAEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line/siding, gravel/crushed stone ballast, wood/concrete ties || 2 || 4a560201 5f5f0380
 |-
 | SBA3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 8 || 42425354 444a5401 4e4d0705 4e4d0920 53554b54 55464990 595aaa02 5f5f040c
 |-
@@ -588,17 +618,29 @@
 |-
 | SBAd || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 2 || 42425354 5f5f040c
 |-
+| SBC3 || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Modern metro 3rd Rail || 1 || 5f5f0380
+|-
 | SBCA || [https://bananas.openttd.org/package/newgrf/fbfb0701 Dutch Tracks] || 2014-09-26 || HSL [25kV AC] || 1 || fbfb0701
 |-
 | SBCE || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Modern line (electrified) || 1 || 44503000
 |-
 | SBCN || [https://bananas.openttd.org/package/newgrf/44503000 Japanese Tracks] || 2016-01-30 || Modern main line || 1 || 44503000
 |-
-| SBEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line, gravel ballast, wood ties, electrified || 1 || 4a560201
+| SBCd || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Modern metro 1.5kVDC || 1 || 5f5f0380
+|-
+| SBDA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Electrified railway 25kVAC || 1 || 5f5f0380
+|-
+| SBDD || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Korean electrified railway 3kVDC || 1 || 5f5f0380
+|-
+| SBDN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Main line  || 1 || 5f5f0380
+|-
+| SBEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line, gravel ballast, wood ties, electrified || 2 || 4a560201 5f5f0380
 |-
 | SBEE || [https://bananas.openttd.org/package/newgrf/5f5f0409 JF Japan-Themed DualGauge Rails] || 2023-09-21 || Modern highspeed line (electrified) || 3 || 44503000 5f5f0409 fbfb0701
 |-
-| SBEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line, gravel ballast, wood ties || 1 || 4a560201
+| SBEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Low-speed branch line, gravel ballast, wood ties || 2 || 4a560201 5f5f0380
+|-
+| SBEd || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Industrial electrified railway 1.5kVDC || 1 || 5f5f0380
 |-
 | SCA3 || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (750v DC 3rd Rail) construction. || 6 || 42425354 444a5401 4e4d0705 4e4d0920 53554b54 5f5f040c
 |-
@@ -618,6 +660,12 @@
 |-
 | SCAd || [https://bananas.openttd.org/package/newgrf/42425354 SETS: Standard gauge] || 2024-04-21 || Standard Gauge (1.5kv DC Overhead) construction. || 2 || 42425354 5f5f040c
 |-
+| SCCA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Intercity 25kVAC || 1 || 5f5f0380
+|-
+| SCDA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Electrified semi-high-speed 25kVAC || 1 || 5f5f0380
+|-
+| SCDN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Semi-high-speed  || 1 || 5f5f0380
+|-
 | SCEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed siding/branch line, crushed stone ballast, wood/concrete ties, electrified || 1 || 4a560201
 |-
 | SDA3 || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (750v 3rd Rail) construction. || 2 || 4e4d0920 53554b54
@@ -635,6 +683,10 @@
 | SDAZ || [https://bananas.openttd.org/package/newgrf/4e4d0920 NORTH AMERICAN TRACK SET 2] || 2020-09-17 || Laying (CLASS 4) Medium Speed (DUAL SYSTEM) || 1 || 4e4d0920
 |-
 | SDAa || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Trunk Electrified AC 15kV railroad || 1 || 5f5f040c
+|-
+| SDCA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Passenger dedicated 25kVAC || 1 || 5f5f0380
+|-
+| SDDA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Electrified fast 25kVAC || 1 || 5f5f0380
 |-
 | SDEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-high-speed siding, crushed stone ballast, wood/concrete ties, electrified || 1 || 4a560201
 |-
@@ -668,6 +720,8 @@
 |-
 | SEAd || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || High-speed Electrified DC 1.5kV railroad || 1 || 5f5f040c
 |-
+| SECA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || High-speed 25kVAC || 1 || 5f5f0380
+|-
 | SEEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed mainline, gravel/crushed stone ballast, wood/concrete ties || 1 || 4a560201
 |-
 | SEL1 || [https://bananas.openttd.org/package/newgrf/55464951 U&ReRMM 3] || 2026-01-02 || Railway (level 1) (electrified) || 1 || 55464951
@@ -688,6 +742,8 @@
 |-
 | SFAa || [https://bananas.openttd.org/package/newgrf/5f5f040c xUSSR Rails Europa Redux] || 2024-01-25 || Unlimited-speed Electrified AC 15kV railroad || 1 || 5f5f040c
 |-
+| SFCA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || High-speed 25kVAC || 1 || 5f5f0380
+|-
 | SFEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Modern medium-speed mainline, crushed stone ballast, concrete ties, electrified || 1 || 4a560201
 |-
 | SFEN || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Medium-speed mainline, crushed stone ballast, wood/concrete ties || 1 || 4a560201
@@ -697,6 +753,8 @@
 | SGAE || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge (25kv Overhead) construction. || 3 || 4e4d0920 53554b54 595aaa02
 |-
 | SGAN || [https://bananas.openttd.org/package/newgrf/53554b54 Standardised UK Track Set] || 2023-05-04 || Standard Gauge construction. || 3 || 4e4d0920 53554b54 595aaa02
+|-
+| SGCA || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || High-speed 25kVAC || 1 || 5f5f0380
 |-
 | SGEA || [https://bananas.openttd.org/package/newgrf/4a560201 FRISS - Rail Infrastructure] || 2019-10-26 || Modern high-speed mainline, crushed stone ballast, concrete ties, electrified || 1 || 4a560201
 |-
@@ -885,6 +943,8 @@
 | dBAN || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Trunk || 4 || 454e3001 524a451a 55464990 5f5f040c
 |-
 | dBAd || [https://bananas.openttd.org/package/newgrf/454e3001 North Korean Track Set] || 2021-11-13 || Dual Gauge Trunk (Electrified) || 2 || 454e3001 524a451a
+|-
+| dBCN || [https://bananas.openttd.org/package/newgrf/5f5f0380 Chinese Rail] || 2026-11-21 || Dual gauge 1435+1000mm || 1 || 5f5f0380
 |-
 | dCAN || [https://bananas.openttd.org/package/newgrf/524a451a North Korean Track Set reMOD] || 2024-01-09 || Dual Gauge Modern || 1 || 524a451a
 |-

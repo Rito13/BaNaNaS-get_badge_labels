@@ -198,6 +198,8 @@
 |-
 | HYAC || [https://bananas.openttd.org/package/newgrf/4a4b8808 AXIS eXtreme Industry Set] || 2026-02-08 || Hydrochloric Acid || 1 - 4a4b8808: [PieceGoods, LiquidBulk, Non-Potable]" || 1 || 4a4b8808
 |-
+| IMER || [https://bananas.openttd.org/package/newgrf/4d510601 IME Cargoslot] || 2026-11-21 || Prestige Goods || 1 - 4d510601: [Special]" || 1 || 4d510601
+|-
 | INCA || [https://bananas.openttd.org/package/newgrf/43495253 CIRS Community Industry] || 2026-11-15 || Industrial Carbons || 1 - 43495253: [PieceGoods, LiquidBulk, CoveredBulk, PowderBulk, Non-Potable]" || 1 || 43495253
 |-
 | INGA || [https://bananas.openttd.org/package/newgrf/43495253 CIRS Community Industry] || 2026-11-15 || Industrial Gases || 1 - 43495253: [PieceGoods, GasBulk, Non-Potable]" || 1 || 43495253
