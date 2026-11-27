@@ -18,13 +18,15 @@
 | [lanterns](#lanterns) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Lanterns | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | [line](#line) | [JP+ Private Companies](https://bananas.openttd.org/package/newgrf/595aaa01) | 2026-09-27 | Line | [2](https://bananas.openttd.org/?message=GRFs:+595aaa01,+fb300c4b "595aaa01, fb300c4b") |
 | [livery](#livery) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Livery | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+504e53ff,+fb300c4b "43411223, 504e53ff, fb300c4b") |
+| [ml1520_gen](#ml1520_gen) | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Generation | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| [ml1520_role](#ml1520_role) | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Role | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
 | [newgrf](#newgrf) | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-01-04 | AUTO GENERATED CLASS | $\textcolor{red}{\textsf{0}}$ |
 | [operator](#operator) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Operator | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | [platform_colour](#platform_colour) | [Polish-Stations](https://bananas.openttd.org/package/newgrf/50530001) | 2026-02-12 | Colour | [2](https://bananas.openttd.org/?message=GRFs:+50530001,+fb300c4b "50530001, fb300c4b") |
 | [platform_crossing](#platform_crossing) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform crossing | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 | [platform_side](#platform_side) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform side | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
 | [platform_type](#platform_type) | [Romanian stations](https://bananas.openttd.org/package/newgrf/61700101) | 2026-09-01 | Platform type | [2](https://bananas.openttd.org/?message=GRFs:+61700101,+fb300c4b "61700101, fb300c4b") |
-| [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [12](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+504d0101,+504d0201,+504e53ff,+544d0201,+544e0101,+55464951,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 504d0101, 504d0201, 504e53ff, 544d0201, 544e0101, 55464951, 564e0101, 564e2b57, 57465907, fb300c4b") |
+| [power](#power) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Propulsion | [13](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+4d4c3135,+504d0101,+504d0201,+504e53ff,+544d0201,+544e0101,+55464951,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 4d4c3135, 504d0101, 504d0201, 504e53ff, 544d0201, 544e0101, 55464951, 564e0101, 564e2b57, 57465907, fb300c4b") |
 | [railgauge](#railgauge) | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-03-30 | Track Gauge | [3](https://bananas.openttd.org/?message=GRFs:+544e0101,+564e2b57,+fb300c4b "544e0101, 564e2b57, fb300c4b") |
 | [region](#region) | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Region | [3](https://bananas.openttd.org/?message=GRFs:+504e53ff,+564e0101,+fb300c4b "504e53ff, 564e0101, fb300c4b") |
 | [roadtype_flag_no_houses](#roadtype_flag_no_houses) | [U&RaTT 2](https://bananas.openttd.org/package/newgrf/55464950) | 2026-01-02 | no houses | [2](https://bananas.openttd.org/?message=GRFs:+55464950,+fb300c4b "55464950, fb300c4b") |
@@ -1290,6 +1292,45 @@
 | livery/random/1cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on first company colour | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | livery/random/2cc | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Random based on second company colour | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 
+# ml1520_gen
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| ml1520_gen/1 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen 1 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/2 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen 2 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/3 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen 3 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/4 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen 4 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/5 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen 5 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/6 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen 6 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/m1 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen M1 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/m2 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen M2 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_gen/m3 | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gen M3 | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+
+# ml1520_role
+| Label | Introduced by | When | Comment | O. |
+| --- | --- | --- | --- | --- |
+| ml1520_role/box | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Box | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/cement_mineral | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Cement/mineral | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/dmu | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | DMU | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/express | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Express | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/flatbed | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Flatbed | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/food_tank | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Food tank | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/freight | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Freight | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/gas_tank | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gas tank | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/gondola | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Gondola | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/grain | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Grain | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/heavy_freight | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Heavy Freight | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/high_speed_emu | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | High-Speed EMU | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/hopper_dumpcar | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Hopper/dumpcar | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/livestock | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Livestock | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/mail_luggage | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Mail/luggage | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/metro | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Metro | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/passenger | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Passenger | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/refrigerator | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Refrigerator | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/suburban_emu | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Suburban EMU | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/tank | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Tank | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/universal | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Universal | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+| ml1520_role/universal_freight | [Mainline 1520](https://bananas.openttd.org/package/newgrf/4d4c3135) | 2026-11-26 | Universal/Freight | [1](https://bananas.openttd.org/?message=GRFs:+4d4c3135 "4d4c3135") |
+
 # newgrf
 | Label | Introduced by | When | Comment | O. |
 | --- | --- | --- | --- | --- |
@@ -1338,12 +1379,12 @@
 | power/animal | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | Animal | [2](https://bananas.openttd.org/?message=GRFs:+57465907,+fb300c4b "57465907, fb300c4b") |
 | power/battery | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Battery | [7](https://bananas.openttd.org/?message=GRFs:+504e53ff,+544d0201,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "504e53ff, 544d0201, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
 | power/battery_hybrid | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Battery Hybrid | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
-| power/diesel | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel | [10](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+504d0101,+504e53ff,+544d0201,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 504d0101, 504e53ff, 544d0201, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
+| power/diesel | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel | [11](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+4d4c3135,+504d0101,+504e53ff,+544d0201,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 4d4c3135, 504d0101, 504e53ff, 544d0201, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
 | power/diesel/diesel-electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-electric) | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | power/diesel/diesel-hydraulic | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Diesel (Diesel-hydraulic) | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | power/dual | [2cc Narrow Gauge in NML](https://bananas.openttd.org/package/newgrf/544e0101) | 2026-05-05 | Dual-mode | [5](https://bananas.openttd.org/?message=GRFs:+38424253,+544e0101,+564e0101,+564e2b57,+fb300c4b "38424253, 544e0101, 564e0101, 564e2b57, fb300c4b") |
 | power/dual_voltage | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 |  | [1](https://bananas.openttd.org/?message=GRFs:+43411223 "43411223") |
-| power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | [8](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+504e53ff,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 504e53ff, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
+| power/electric | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric | [9](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+4d4c3135,+504e53ff,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 4d4c3135, 504e53ff, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
 | power/electric/ac | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC) | [6](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544e0101,+564e0101,+564e2b57,+fb300c4b "38424253, 504e53ff, 544e0101, 564e0101, 564e2b57, fb300c4b") |
 | power/electric/ac/15kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 15kV) | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
 | power/electric/ac/25kv | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Electric (AC 25kV) | [2](https://bananas.openttd.org/?message=GRFs:+504e53ff,+fb300c4b "504e53ff, fb300c4b") |
@@ -1366,7 +1407,7 @@
 | power/metro | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Metro | [3](https://bananas.openttd.org/?message=GRFs:+43411223,+564e0101,+fb300c4b "43411223, 564e0101, fb300c4b") |
 | power/ohle | [Iron Horse 4 (Trains)](https://bananas.openttd.org/package/newgrf/43411223) | 2026-03-23 | Electric | [2](https://bananas.openttd.org/?message=GRFs:+43411223,+fb300c4b "43411223, fb300c4b") |
 | power/petrol | [Wolfie's Unified UK Trains](https://bananas.openttd.org/package/newgrf/57465907) | 2026-05-24 | Petrol | [2](https://bananas.openttd.org/?message=GRFs:+57465907,+fb300c4b "57465907, fb300c4b") |
-| power/steam | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Steam | [10](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+504d0101,+504e53ff,+544d0201,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 504d0101, 504e53ff, 544d0201, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
+| power/steam | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Steam | [11](https://bananas.openttd.org/?message=GRFs:+38424253,+43411223,+4d4c3135,+504d0101,+504e53ff,+544d0201,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 43411223, 4d4c3135, 504d0101, 504e53ff, 544d0201, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
 | power/third_rail | [U&ReRMM 3](https://bananas.openttd.org/package/newgrf/55464951) | 2026-01-02 | third rail | [3](https://bananas.openttd.org/?message=GRFs:+544d0201,+55464951,+fb300c4b "544d0201, 55464951, fb300c4b") |
 | power/turbine | [OpenTTD default badges](https://github.com/OpenTTD/OpenTTD/pull/13655) | 2025-02-27 | Gas Turbine | [7](https://bananas.openttd.org/?message=GRFs:+38424253,+504e53ff,+544e0101,+564e0101,+564e2b57,+57465907,+fb300c4b "38424253, 504e53ff, 544e0101, 564e0101, 564e2b57, 57465907, fb300c4b") |
 

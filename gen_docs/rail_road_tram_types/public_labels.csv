@@ -145,7 +145,7 @@
 ,"MGLV",TTD,https://www.tt-wiki.net/wiki/Main_Page,1995-11-01,"Maglev tracks",23,"414d6301 44442303 44444401 444a5401 44503000 454e0202 454e1201 4672783a 47385203 4d656fb1 4e475453 4e4d0705 4e4d0920 524a451b 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402"
 ,"MON2","NuTracks",https://bananas.openttd.org/package/newgrf/444a5401,2019-10-17,"Electric accelerated narrow-gauge line construction",1,"444a5401"
 ,"MONO",TTD,https://www.tt-wiki.net/wiki/Main_Page,1995-11-01,"Monorail tracks",22,"414d6301 42450101 44442303 44444401 444a5401 444e0601 44503000 454e1002 454e1201 47385203 4d656fb1 4e4d0705 4e4d0920 52545303 55460101 55464951 55464990 55464991 56420202 595aaa02 6a647207 fbfb0402"
-,"MTRO","North Korean Track Set",https://bananas.openttd.org/package/newgrf/454e3001,2021-11-13,"Standard Gauge Metro (3rd Rail Electrified)",4,"43411223 454e3001 4b494f02 524a451a"
+,"MTRO","North Korean Track Set",https://bananas.openttd.org/package/newgrf/454e3001,2021-11-13,"Standard Gauge Metro (3rd Rail Electrified)",5,"43411223 454e3001 4b494f02 4d4c3135 524a451a"
 ,"NAA3","U&ReRMM 2",https://bananas.openttd.org/package/newgrf/55464990,2023-03-02,"Narrow-gauge railway (3rd rail powered) ",4,"42424e54 55464951 55464990 55464991"
 ,"NAAA","JP+ Tracks",https://bananas.openttd.org/package/newgrf/595aaa02,2026-04-02,"Narrow Gauge Track (AC) (Wooden Ties)",2,"42424e54 595aaa02"
 ,"NAAD","JP+ Tracks",https://bananas.openttd.org/package/newgrf/595aaa02,2026-04-02,"Narrow Gauge Track (DC) (Wooden Ties)",2,"42424e54 595aaa02"

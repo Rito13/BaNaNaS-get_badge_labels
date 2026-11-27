@@ -21024,6 +21024,270 @@ badges:
   - ''
   - 0
   - Random based on second company colour
+  ml1520_gen:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Generation
+  ml1520_gen/1:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen 1
+  ml1520_gen/2:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen 2
+  ml1520_gen/3:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen 3
+  ml1520_gen/4:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen 4
+  ml1520_gen/5:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen 5
+  ml1520_gen/6:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen 6
+  ml1520_gen/m1:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen M1
+  ml1520_gen/m2:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen M2
+  ml1520_gen/m3:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gen M3
+  ml1520_role:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Role
+  ml1520_role/box:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Box
+  ml1520_role/cement_mineral:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Cement/mineral
+  ml1520_role/dmu:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - DMU
+  ml1520_role/express:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Express
+  ml1520_role/flatbed:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Flatbed
+  ml1520_role/food_tank:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Food tank
+  ml1520_role/freight:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Freight
+  ml1520_role/gas_tank:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gas tank
+  ml1520_role/gondola:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Gondola
+  ml1520_role/grain:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Grain
+  ml1520_role/heavy_freight:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Heavy Freight
+  ml1520_role/high_speed_emu:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - High-Speed EMU
+  ml1520_role/hopper_dumpcar:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Hopper/dumpcar
+  ml1520_role/livestock:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Livestock
+  ml1520_role/mail_luggage:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Mail/luggage
+  ml1520_role/metro:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Metro
+  ml1520_role/passenger:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Passenger
+  ml1520_role/refrigerator:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Refrigerator
+  ml1520_role/suburban_emu:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Suburban EMU
+  ml1520_role/tank:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Tank
+  ml1520_role/universal:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Universal
+  ml1520_role/universal_freight:
+  - 1296838965
+  - 2026
+  - 11
+  - 26
+  - ''
+  - 0
+  - Universal/Freight
   newgrf/43411223:
   - 1128337955
   - 2026
